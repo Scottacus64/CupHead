@@ -1,0 +1,71 @@
+events:
+  game_ended: 21
+  game_started: 40
+player:
+  score:
+    average: 530.4761904761905
+    top:
+    - 2970
+    - 1300
+    - 1220
+    - 980
+    - 880
+    - 780
+    - 720
+    - 710
+    - 630
+    - 590
+    total: 21
+shots:
+  soul_L: 212
+  soul_O: 218
+  soul_S: 248
+  soul_U: 214
+switches:
+  s_coin: 20
+  s_dash_L: 0
+  s_dash_R: 0
+  s_dtSling_L: 0
+  s_dtSling_R: 0
+  s_dt_C: 72
+  s_dt_G: 21
+  s_dt_M: 19
+  s_dt_P: 55
+  s_dt_U: 63
+  s_dt_U2: 19
+  s_exit_shooter_lane: 357
+  s_inLane_L: 0
+  s_inLane_R: 0
+  s_kicker: 0
+  s_left_flipper: 151
+  s_midRight: 0
+  s_outLane_L: 0
+  s_outLane_R: 0
+  s_perdition: 0
+  s_playfield: 0
+  s_plunger: 567
+  s_popBumper_1: 464
+  s_popBumper_2: 440
+  s_popBumper_3: 164
+  s_pop_bumper1: 120
+  s_pop_bumper2: 153
+  s_pop_bumper3: 100
+  s_right_flipper: 216
+  s_sling_L: 0
+  s_sling_R: 0
+  s_soul_L: 213
+  s_soul_O: 223
+  s_soul_S: 248
+  s_soul_U: 214
+  s_standUp_1: 0
+  s_standUp_2: 0
+  s_standUp_3: 0
+  s_standUp_R: 0
+  s_star_1: 0
+  s_star_2: 0
+  s_star_3: 0
+  s_start: 68
+  s_tilt: 0
+  s_trough1: 511
+  s_trough2: 72
+  s_trough_jam: 13

@@ -1,0 +1,11 @@
+2020-10-04 09:44:25,087 : kivy : Factory: 184 symbols loaded
+2020-10-04 09:44:25,491 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.1
+2020-10-04 09:44:25,493 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+2020-10-04 09:44:25,607 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-10-04 09:44:25,608 : kivy : Video: Provider: gstplayer
+2020-10-04 09:44:25,747 : kivy : Loading MPF-MC controller
+2020-10-04 09:44:25,756 : YamlMultifileConfigLoader : Machine config file #1: config
+2020-10-04 09:44:25,757 : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\config\config
+2020-10-04 09:44:25,759 : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-10-04 09:44:25,837 : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-10-04 09:44:25,838 : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\config\config.

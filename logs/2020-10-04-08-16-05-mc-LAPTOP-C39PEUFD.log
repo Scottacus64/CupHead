@@ -1,0 +1,23 @@
+2020-10-04 08:16:05,817 : kivy : Factory: 184 symbols loaded
+2020-10-04 08:16:06,139 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.1
+2020-10-04 08:16:06,141 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+2020-10-04 08:16:06,305 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-10-04 08:16:06,306 : kivy : Video: Provider: gstplayer
+2020-10-04 08:16:06,469 : kivy : Loading MPF-MC controller
+2020-10-04 08:16:06,480 : YamlMultifileConfigLoader : Machine config file #1: config
+2020-10-04 08:16:06,481 : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\config\config
+2020-10-04 08:16:06,482 : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-10-04 08:16:06,561 : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-10-04 08:16:06,562 : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\config\config.
+2020-10-04 08:16:06,582 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\config
+2020-10-04 08:16:06,595 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\keyboard.yaml
+2020-10-04 08:16:06,636 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwSwitches.yaml
+2020-10-04 08:16:06,725 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwLights.yaml
+2020-10-04 08:16:06,806 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwCoils.yaml
+2020-10-04 08:16:06,812 : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\1bf5539849bfae2fda5beb863cde560d.mpf_cache
+2020-10-04 08:16:06,813 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7964e52b22911e9b68a8022172b185f3.mpf_cache
+2020-10-04 08:16:06,814 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-04 08:16:06,815 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\b2a05f27b99f0404929b6678617f21a2.mpf_cache
+2020-10-04 08:16:06,816 : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml
+2020-10-04 08:16:06,816 : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml.
+2020-10-04 08:16:06,841 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml

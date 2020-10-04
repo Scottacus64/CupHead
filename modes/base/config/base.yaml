@@ -1,0 +1,153 @@
+#config_version=5
+#Cuphead Base Mode Config
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+sounds:
+  cupMusic1:
+    target: music
+    loop: -1
+    mode_end_action: stop 
+  cupMusic2:
+    target: music
+    loop: -1
+    mode_end_action: stop
+  cupMusic3:
+    target: music
+    loop: -1
+    mode_end_action: stop
+  cupMusic4:
+    target: music
+    loop: -1
+    mode_end_action: stop
+
+sound_pools:
+  poolCupHeadBase:
+    type: random_force_all
+    sounds:
+      - cupMusic1
+      - cupMusic2
+      - cupMusic3
+      - cupMusic4
+
+counters:
+  bonus:
+    count_events: drop_target_bank_cup_bank_down, drop_target_bank_mug_bank_down
+    events_when_hit: bank_done
+    starting_count: 0
+    count_complete_value: 10 
+    direction: up
+    persist_state: false
+    disable_on_complete: true
+
+
+show_player:
+  mode_base_started:
+    base_lighting:
+      speed: 1
+  bank_done{count==1}:
+    1000_on:
+      show_tokens:
+        lights: l_bonus_1000
+  bank_done{count==2}:
+    2000_on:
+      show_tokens:
+        lights: l_bonus_2000
+  bank_done{count==3}:
+    3000_on:
+      show_tokens:
+        lights: l_bonus_3000
+  bank_done{count==4}:
+    4000_on:
+      show_tokens:
+        lights: l_bonus_4000
+  bank_done{count==5}:
+    5000_on:
+      show_tokens:
+        lights: l_bonus_5000
+  bank_done{count==6}:
+    6000_on:
+      show_tokens:
+        lights: l_bonus_6000
+  bank_done{count==7}:
+    7000_on:
+      show_tokens:
+        lights: l_bonus_7000
+  bank_done{count==8}:
+    8000_on:
+      show_tokens:
+        lights: l_bonus_8000
+  bank_done{count==9}:
+    9000_on:
+      show_tokens:
+        lights: l_bonus_9000
+  bank_done{count==10}:
+    10000_on:
+      show_tokens:
+        lights: l_bonus_10000
+
+sound_player:
+  mode_base_started:
+    poolCupHeadBase:
+      loops: -1
+
+
+slide_player:
+  mode_base_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: Player (player)
+        y: 10
+        x: 10
+        font_size: 30
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball) (bonus_multiplier)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+
+variable_player:
+  bonus:
+    int: 1
+    action: set
+  s_popBumper_1_active:
+    score: bonus
+  s_popBumper_2_active:
+    score: 10
+  s_popBumper_3_active:
+    score: 10
+  s_dt_C_active:
+    score: 100
+  s_dt_U_active:
+    score: 100
+  s_dt_P_active:
+    score: 100
+  s_dt_M_active:
+    score: 100
+  s_dt_U2_active:
+    score: 100
+  s_dt_G_active:
+    score: 100
+  drop_target_bank_cup_bank_down:
+    score: 333 
+  drop_target_bank_mug_bank_down:
+    score: 888
+
+event_player:
+
+
+
+
+
+   

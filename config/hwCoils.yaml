@@ -1,0 +1,80 @@
+#config_version=5
+#Cuphead Coils
+
+coils:
+  c_flipper_left_main:
+    number: 1
+    default_pulse_ms: 20
+  c_flipper_left_hold:
+    number: 2 
+    allow_enable: true
+  c_flipper_right_main:
+    number: 3 
+    default_pulse_ms: 20
+  c_flipper_right_hold:
+    number: 4 
+    allow_enable: true
+  c_trough_eject:
+    number: 5
+    default_pulse_ms: 20
+  c_popBumper_1:
+    number: 6
+  c_popBumper_2:
+    number: 7
+  c_popBumper_3:
+    number: 8
+  c_perdition:
+    number: 9
+  c_dash_L:
+    number: 10
+  c_dash_R:
+    number: 11
+  c_sling_L:
+    number: 12
+  c_sling_R:
+    number: 13
+  c_dt_reset_CUP:
+    number: 14
+  c_dt_reset_MUG:
+    number: 15
+
+
+autofire_coils:
+  pop_bumper1:    
+    coil: c_popBumper_1
+    switch: s_popBumper_1
+  pop_bumper2:
+    coil: c_popBumper_2
+    switch: s_popBumper_2
+  pop_bumper3:
+    coil: c_popBumper_3
+    switch: s_popBumper_3
+  sling_L:
+    coil: c_sling_L
+    switch: s_sling_L
+  sling_R:
+    coil: c_sling_R
+    switch: s_sling_R
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough1, s_trough2, s_trough_jam
+    eject_coil: c_trough_eject
+    tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+    debug: true
+  bd_plunger:
+    ball_switches: s_plunger
+    mechanical_eject: true

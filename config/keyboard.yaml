@@ -1,0 +1,38 @@
+#config_version=5
+# Cuphead
+keyboard:
+  z:
+    switch: s_left_flipper
+  '/':
+    switch: s_right_flipper
+  p:
+    switch: s_plunger
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  1:
+    switch: s_trough1
+    toggle: true
+  g:
+    switch: s_start
+  a:
+    switch: s_exit_shooter_lane
+  q:
+    switch: s_popBumper_1
+  w:
+    switch: s_popBumper_2
+  e:
+    switch: s_popBumper_3
+  t:
+    switch: s_tilt
+  c:
+    switch: s_coin
+  s:
+    switch: s_soul_S
+  o:
+    switch: s_soul_O
+  u:
+    switch: s_soul_U
+  l:
+    switch: s_soul_L

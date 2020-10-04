@@ -1,0 +1,7 @@
+#config_version=5
+
+mode_settings:
+  display_delay_ms: 500
+  keep_multiplier: false
+  bonus_entries:
+    - event: 

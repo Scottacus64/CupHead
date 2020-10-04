@@ -1,0 +1,18 @@
+2020-10-04 08:16:48,941 : INFO : root : Loading config.
+2020-10-04 08:16:48,941 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-10-04 08:16:48,941 : WARNING : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\config\config.yaml
+2020-10-04 08:16:48,941 : INFO : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2020-10-04 08:16:49,129 : INFO : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2020-10-04 08:16:49,129 : INFO : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\config\config.yaml.
+2020-10-04 08:16:49,160 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\config.yaml
+2020-10-04 08:16:49,175 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\keyboard.yaml
+2020-10-04 08:16:49,222 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwSwitches.yaml
+2020-10-04 08:16:49,347 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwLights.yaml
+2020-10-04 08:16:49,379 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwCoils.yaml
+2020-10-04 08:16:49,394 : INFO : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\1a0afbd38efada64622f7c1a19dba099.mpf_cache
+2020-10-04 08:16:49,566 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7964e52b22911e9b68a8022172b185f3.mpf_cache
+2020-10-04 08:16:49,566 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-04 08:16:49,566 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\b2a05f27b99f0404929b6678617f21a2.mpf_cache
+2020-10-04 08:16:49,582 : WARNING : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml
+2020-10-04 08:16:49,582 : INFO : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml.
+2020-10-04 08:16:49,613 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\modes\soulLanes\config\soulLanes.yaml

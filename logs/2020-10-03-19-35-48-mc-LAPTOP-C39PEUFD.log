@@ -1,0 +1,80 @@
+2020-10-03 19:35:48,503 : kivy : Factory: 184 symbols loaded
+2020-10-03 19:35:48,765 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.1
+2020-10-03 19:35:48,767 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+2020-10-03 19:35:48,923 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-10-03 19:35:48,924 : kivy : Video: Provider: gstplayer
+2020-10-03 19:35:49,181 : kivy : Loading MPF-MC controller
+2020-10-03 19:35:49,193 : YamlMultifileConfigLoader : Machine config file #1: config
+2020-10-03 19:35:49,194 : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\config\config
+2020-10-03 19:35:49,196 : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-10-03 19:35:49,292 : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-10-03 19:35:49,293 : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\config\config.
+2020-10-03 19:35:49,315 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\config
+2020-10-03 19:35:49,329 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\keyboard.yaml
+2020-10-03 19:35:49,385 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwSwitches.yaml
+2020-10-03 19:35:49,477 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwLights.yaml
+2020-10-03 19:35:49,506 : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\hwCoils.yaml
+2020-10-03 19:35:49,512 : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\1bf5539849bfae2fda5beb863cde560d.mpf_cache
+2020-10-03 19:35:49,513 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7964e52b22911e9b68a8022172b185f3.mpf_cache
+2020-10-03 19:35:49,514 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-03 19:35:49,515 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\b2a05f27b99f0404929b6678617f21a2.mpf_cache
+2020-10-03 19:35:49,516 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\ee661b7bde9ac1aee26ef2e16bd36711.mpf_cache
+2020-10-03 19:35:49,517 : mpfmc : Mission Pinball Framework Media Controller v0.54.0-dev.20
+2020-10-03 19:35:49,517 : mpfmc : Mission Pinball Framework Game Engine v0.54.0-dev.72
+2020-10-03 19:35:49,518 : mpfmc : Machine path: c:\Pinball\Cuphead
+2020-10-03 19:35:49,518 : mpfmc : Starting clock at 60.0Hz
+2020-10-03 19:35:49,546 : kivy : Text: Provider: sdl2
+2020-10-03 19:35:49,642 : kivy : Window: Provider: sdl2
+2020-10-03 19:35:50,651 : kivy : GL: Using the "OpenGL" graphics system
+2020-10-03 19:35:50,655 : kivy : GL: GLEW initialization succeeded
+2020-10-03 19:35:50,655 : kivy : GL: Backend used <glew>
+2020-10-03 19:35:50,656 : kivy : GL: OpenGL version <b'4.5.14568 Compatibility Profile Context 24.20.12050.0'>
+2020-10-03 19:35:50,656 : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2020-10-03 19:35:50,657 : kivy : GL: OpenGL renderer <b'AMD Radeon(TM) R4 Graphics'>
+2020-10-03 19:35:50,657 : kivy : GL: OpenGL parsed version: 4, 5
+2020-10-03 19:35:50,657 : kivy : GL: Shading version <b'4.50'>
+2020-10-03 19:35:50,657 : kivy : GL: Texture max size <16384>
+2020-10-03 19:35:50,657 : kivy : GL: Texture max units <32>
+2020-10-03 19:35:50,700 : kivy : Window: auto add sdl2 input provider
+2020-10-03 19:35:50,701 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2020-10-03 19:35:50,717 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2020-10-03 19:35:51,436 : AudioInterface : Initialized
+2020-10-03 19:35:51,437 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2020-10-03 19:35:51,442 : kivy : Base: Start application main loop
+2020-10-03 19:35:51,444 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2020-10-03 19:35:51,491 : mpfmc : Display: Setting 'window' as default display
+2020-10-03 19:35:51,514 : EventManager : Event: ======'displays_initialized'====== Args={}
+2020-10-03 19:35:51,516 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2020-10-03 19:35:51,517 : EventManager : Event: ======'display_window_ready'====== Args={}
+2020-10-03 19:35:51,538 : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-10-03 19:35:51,548 : EventManager : Event: ======'mc_ready'====== Args={}
+2020-10-03 19:35:51,548 : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-10-03 19:35:51,553 : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-10-03 19:35:51,554 : AssetManager : Registering Asset: cupHighScore, File: cupHighScore.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupHighScore.ogg'}
+2020-10-03 19:35:51,554 : AssetManager : Registering Asset: cupMusic1, File: cupMusic1.ogg, Default Group: default, Final Config: {'load': 'preload', 'target': 'music', 'loop': -1, 'mode_end_action': 'stop', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic1.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic2, File: cupMusic2.ogg, Default Group: default, Final Config: {'load': 'preload', 'target': 'music', 'loop': -1, 'mode_end_action': 'stop', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic2.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic3, File: cupMusic3.ogg, Default Group: default, Final Config: {'load': 'preload', 'target': 'music', 'loop': -1, 'mode_end_action': 'stop', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic3.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic4, File: cupMusic4.ogg, Default Group: default, Final Config: {'load': 'preload', 'target': 'music', 'loop': -1, 'mode_end_action': 'stop', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic4.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic5, File: cupMusic5.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic5.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic6, File: cupMusic6.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic6.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic7, File: cupMusic7.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic7.ogg'}
+2020-10-03 19:35:51,555 : AssetManager : Registering Asset: cupMusic8, File: cupMusic8.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic8.ogg'}
+2020-10-03 19:35:51,556 : AssetManager : Registering Asset: cupMusic9, File: cupMusic9.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\cupMusic9.ogg'}
+2020-10-03 19:35:51,556 : AssetManager : Registering Asset: game_play_1, File: game_play_1.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\base\\sounds\\music\\game_play_1.ogg'}
+2020-10-03 19:35:51,559 : AssetManager : Registering Asset: attract_music, File: attract_music.ogg, Default Group: default, Final Config: {'load': 'preload', 'file': 'c:\\Pinball\\Cuphead\\modes\\attract\\sounds\\music\\attract_music.ogg'}
+2020-10-03 19:35:51,560 : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-10-03 19:35:51,560 : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-10-03 19:35:54,758 : EventManager : Event: ======'loading_assets'====== Args={'total': 12, 'loaded': 1, 'remaining': 11, 'percent': 8}
+2020-10-03 19:35:54,759 : AssetManager : Loading assets: 1/12 (8%)
+2020-10-03 19:35:56,192 : EventManager : Event: ======'loading_assets'====== Args={'total': 12, 'loaded': 5, 'remaining': 7, 'percent': 42}
+2020-10-03 19:35:56,192 : AssetManager : Loading assets: 5/12 (42%)
+2020-10-03 19:35:57,053 : EventManager : Event: ======'loading_assets'====== Args={'total': 12, 'loaded': 7, 'remaining': 5, 'percent': 58}
+2020-10-03 19:35:57,857 : AssetManager : Loading assets: 7/12 (58%)
+2020-10-03 19:36:01,098 : kivy : Base: Leaving application in progress...
+2020-10-03 19:36:01,335 : kivy : WindowSDL: exiting mainloop and closing.
+2020-10-03 19:36:01,375 : mpfmc : Stopping...
+2020-10-03 19:36:01,375 : EventManager : Event: ======'shutdown'====== Args={}
+2020-10-03 19:36:01,375 : mpfmc : Loop rate 0.6 Hz
+2020-10-03 19:36:01,375 : kivy : MC run loop ended.
+2020-10-03 19:36:01,375 : kivy : Stopping child threads... (1 remaining)
+2020-10-03 19:36:02,138 : kivy : All child threads stopped.

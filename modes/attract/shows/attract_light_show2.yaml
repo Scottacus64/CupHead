@@ -1,0 +1,12 @@
+#show_version=5
+#Cuphead attract mode test lighting with gi
+
+- duration: 1
+  lights: 
+    gi: red
+
+- duration: 1
+  lights: 
+    gi: white 
+
+

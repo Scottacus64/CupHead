@@ -1,0 +1,18 @@
+#config_version=5
+#Cuphead Attract Mode
+
+show_player:
+  mode_attract_started:
+    attract_display_loop:
+      speed: 1
+    attract_light_show:
+      speed: 4
+    attract_light_show2:
+      speed: 3
+
+sound_player:
+  mode_attract_started:
+    attract_music:
+      loops: -1
+      mode_end_action: stop
+ 

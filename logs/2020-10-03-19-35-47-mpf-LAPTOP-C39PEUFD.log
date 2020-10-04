@@ -1,0 +1,101 @@
+2020-10-03 19:35:47,424 : INFO : root : Loading config.
+2020-10-03 19:35:47,440 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-10-03 19:35:47,440 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\1a0afbd38efada64622f7c1a19dba099.mpf_cache
+2020-10-03 19:35:47,644 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7964e52b22911e9b68a8022172b185f3.mpf_cache
+2020-10-03 19:35:47,644 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-03 19:35:47,644 : WARNING : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\modes\base\config\base.yaml
+2020-10-03 19:35:47,644 : INFO : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\modes\base\config\base.yaml.
+2020-10-03 19:35:47,706 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\modes\base\config\base.yaml
+2020-10-03 19:35:47,706 : INFO : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\b2a05f27b99f0404929b6678617f21a2.mpf_cache
+2020-10-03 19:35:47,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\ee661b7bde9ac1aee26ef2e16bd36711.mpf_cache
+2020-10-03 19:35:47,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\8b23b77e47e0aafb5c2cd6855492fe09.mpf_cache
+2020-10-03 19:35:47,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\8d4786f117f290f34c6b54fd8b6fe8fe.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\d1f28e307667fe64a15b0a7332832e8a.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4b1cd1ab6685d1ad48e4e22b92633748.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\0e5b9342958db12ded482c5bdee94a50.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\fa3b9c24e757a86afd7ebd54e8356a2f.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4f17c1b7053da1ee6acf2b568ebeb609.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\ccd4282a3141e0878d86657c78349f12.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\17729cd0303cfaced1d4181f3ca2421f.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\47ffaea90c47406003f6ea8ebe74989d.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\6f6af101da615a72df8eebfca5188fca.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\3889d554abdf669f0bcb59dfdb43163f.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\dca7679fbf96e787efc0ee793457f019.mpf_cache
+2020-10-03 19:35:47,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\773981adc2a393ce4661c342531a13c1.mpf_cache
+2020-10-03 19:35:47,737 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\0e7ad57880df273f086bfe63563440af.mpf_cache
+2020-10-03 19:35:47,737 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\14255cf3b2f3681937087b07de526758.mpf_cache
+2020-10-03 19:35:47,737 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\01c6bf43074c3a497e337500f6bac20b.mpf_cache
+2020-10-03 19:35:47,737 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7eeffc9c6f8d1e96b5a9cad923ac520c.mpf_cache
+2020-10-03 19:35:47,737 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.72
+2020-10-03 19:35:47,737 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-10-03-19-35-47-mpf-LAPTOP-C39PEUFD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-10-03 19:35:47,737 : INFO : Machine : MPF path: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-10-03 19:35:47,737 : INFO : Machine : Machine path: c:\Pinball\Cuphead
+2020-10-03 19:35:47,737 : INFO : Machine : Platform: win32
+2020-10-03 19:35:47,737 : INFO : Machine : Python executable location: c:\users\themi\appdata\local\programs\python\python36\python.exe
+2020-10-03 19:35:47,737 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-10-03 19:35:47,737 : INFO : Machine : Initialise MPF.
+2020-10-03 19:35:48,175 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 8110, 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.72', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.72, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-10-03 19:35:48,300 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-10-03 19:35:48,409 : ERROR : ConfigValidator : Your config contains a value for the setting "counters:bonus:player_variable", but this is not a valid setting name.
+2020-10-03 19:35:48,409 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ting name.',)>) at c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:111
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ting name.',)>) at c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:111>
+Traceback (most recent call last):
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 114, in _async_handler_done
+    future.result()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\device_manager.py", line 101, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 89, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 443, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\logic_blocks.py", line 433, in validate_and_parse_config
+    return super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\logic_blocks.py", line 76, in validate_and_parse_config
+    self.config_section, config, self.name, ("device", "logic_blocks_common"))
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 176, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 188, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 355, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "counters:bonus:player_variable", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/dev/logs/CFE-ConfigValidator-2.html)
+2020-10-03 19:35:48,550 : INFO : Machine : Starting the main run loop.
+2020-10-03 19:35:48,565 : INFO : Machine : Shutting down...
+2020-10-03 19:35:48,565 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-10-03 19:35:48,565 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 745, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 114, in _async_handler_done
+    future.result()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\device_manager.py", line 101, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 89, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 443, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\logic_blocks.py", line 433, in validate_and_parse_config
+    return super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\logic_blocks.py", line 76, in validate_and_parse_config
+    self.config_section, config, self.name, ("device", "logic_blocks_common"))
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 176, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 188, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 355, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "counters:bonus:player_variable", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/dev/logs/CFE-ConfigValidator-2.html)
+2020-10-03 19:35:48,565 : INFO : root : MPF run loop ended.

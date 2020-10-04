@@ -1,0 +1,94 @@
+#config_version=5
+#Cuphead Main Config
+
+hardware:
+  platform: smart_virtual
+
+modes:
+  - base  
+  - soulLanes
+
+player_vars:
+  bonus_multiplier:
+    value_type: int
+    initial_value: 1
+  
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger
+
+config:
+  - keyboard.yaml
+  - hwSwitches.yaml
+  - hwLights.yaml
+  - hwCoils.yaml
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL!
+        font_size: 50
+        color: blue
+
+slide_player:
+  init_done: welcome_slide
+
+drop_targets:
+  cup_C:
+    switch: s_dt_C
+  cup_U:
+    switch: s_dt_U
+  cup_P:
+    switch: s_dt_P
+  mug_M:
+    switch: s_dt_M   
+  mug_U:
+    switch: s_dt_U2
+  mug_G:
+    switch: s_dt_G
+ 
+drop_target_banks:
+  cup_bank:
+    drop_targets: cup_C, cup_U, cup_P
+    reset_coils: c_dt_reset_CUP
+    reset_on_complete: 500ms
+    reset_events:
+      - drop_target_bank_cup_bank_down
+      - ball_starting
+      - machine_reset_phase_3
+  mug_bank:
+    drop_targets: mug_M, mug_U, mug_G
+    reset_coils: c_dt_reset_MUG
+    reset_on_complete: 500ms
+    reset_events:
+      - drop_target_bank_mug_bank_down
+      - ball_starting
+      - machine_reset_phase_3
+
+game:
+  balls_per_game: 5
+  max_players: 4
+
+
+#event_player:
+#  ball_starting:
+#    cmd_drop_targets_reset
+#    cmd_flippers_enable
+#    cmd_autofire_coils_enable
+#  tilt:
+#    cmd_flippers_disable
+#    cmd_autofire_coils_disable
+#  ball_ending:
+#    cmd_flippers_disable
+#    cmd_autofire_coils_disable
+
+
+
