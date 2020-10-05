@@ -1,0 +1,64 @@
+2020-10-04 21:55:30,524 : INFO : root : Loading config.
+2020-10-04 21:55:30,524 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-10-04 21:55:30,524 : WARNING : ConfigProcessor : Config file in cache changed: c:\GitHub\Cuphead\config\config.yaml
+2020-10-04 21:55:30,524 : INFO : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2020-10-04 21:55:30,712 : INFO : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2020-10-04 21:55:30,712 : INFO : ConfigProcessor : Loading config from file c:\GitHub\Cuphead\config\config.yaml.
+2020-10-04 21:55:30,743 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\config.yaml
+2020-10-04 21:55:30,759 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\keyboard.yaml
+2020-10-04 21:55:30,821 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwSwitches.yaml
+2020-10-04 21:55:30,931 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwLights.yaml
+2020-10-04 21:55:30,962 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwCoils.yaml
+2020-10-04 21:55:30,962 : INFO : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\2b6ef079982d662fef43bd5e7e2d4708.mpf_cache
+2020-10-04 21:55:31,169 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\89b9c5cb952cce9fc74d723399719cc6.mpf_cache
+2020-10-04 21:55:31,171 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-04 21:55:31,172 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\5820a65357aa32f3082a694bbd0b1b93.mpf_cache
+2020-10-04 21:55:31,174 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2f1df67e0c6599f893aeb5468bc976f9.mpf_cache
+2020-10-04 21:55:31,176 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\893c92602cb79b5461df4ae912d665e0.mpf_cache
+2020-10-04 21:55:31,177 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\15cb35af48ef2b73a1399ecc64f542cf.mpf_cache
+2020-10-04 21:55:31,178 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\8f78dc3447c1c9fe6775dbe5408c12e9.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\459e0fbd95aa261661d4ec522fde7178.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\bc011c11c9e34bbd89eedfa08565ed62.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\6f009ec52b9ccf4b89f291e4051b3241.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\c2ce7139d0aaca9aa552320269b3f50d.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2b7bf9166be80f4b554569a332b23de4.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\c546e3aedc6779039624162d0203f540.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\abdfe7fa7b37a4a193490f565dc0597d.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4342b421d288ce5a4483067739b72cdd.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\368aa16bb3be9e41d99a527245060f83.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\d0e012eb2507157abb0bb72425aaf5b2.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\0f1b51b912b71211c13fe22b9a37b50a.mpf_cache
+2020-10-04 21:55:31,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\10ee2574e78165e598e7a995071a74cc.mpf_cache
+2020-10-04 21:55:31,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\a266cad92e011305e896e67dddfd4a6c.mpf_cache
+2020-10-04 21:55:31,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7ee3e0eba3dedef43a01da4ffa491384.mpf_cache
+2020-10-04 21:55:31,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\13fd6d25ddf06daef684ee2be33938b7.mpf_cache
+2020-10-04 21:55:31,196 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.72
+2020-10-04 21:55:31,196 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-10-04-21-55-30-mpf-LAPTOP-C39PEUFD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-10-04 21:55:31,196 : INFO : Machine : MPF path: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-10-04 21:55:31,196 : INFO : Machine : Machine path: c:\GitHub\Cuphead
+2020-10-04 21:55:31,196 : INFO : Machine : Platform: win32
+2020-10-04 21:55:31,196 : INFO : Machine : Python executable location: c:\users\themi\appdata\local\programs\python\python36\python.exe
+2020-10-04 21:55:31,196 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-10-04 21:55:31,196 : INFO : Machine : Initialise MPF.
+2020-10-04 21:55:31,555 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 8110, 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.72', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.72, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-10-04 21:55:31,664 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-10-04 21:55:31,805 : INFO : EventManager : Event: ======'drop_target_bank_cup_bank_up'====== Args={}
+2020-10-04 21:55:31,805 : INFO : EventManager : Event: ======'drop_target_bank_mug_bank_up'====== Args={}
+2020-10-04 21:55:31,820 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-10-04 21:55:31,820 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>)
+2020-10-04 21:55:31,820 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>)
+2020-10-04 21:55:31,836 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-10-04 21:55:31,836 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-10-04 21:55:40,095 : INFO : Machine : Starting the main run loop.
+2020-10-04 21:55:40,095 : INFO : Machine : Shutting down...
+2020-10-04 21:55:40,095 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-10-04 21:55:40,095 : INFO : root : MPF run loop ended.

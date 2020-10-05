@@ -1,7 +1,0 @@
-2020-10-04 08:28:27,706 : INFO : root : Loading config.
-2020-10-04 08:28:27,721 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2020-10-04 08:28:27,721 : WARNING : ConfigProcessor : Config file in cache changed: c:\Pinball\Cuphead\config\config.yaml
-2020-10-04 08:28:27,721 : INFO : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
-2020-10-04 08:28:27,925 : INFO : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
-2020-10-04 08:28:27,925 : INFO : ConfigProcessor : Loading config from file c:\Pinball\Cuphead\config\config.yaml.
-2020-10-04 08:28:28,003 : INFO : ConfigProcessor : Loading config: c:\Pinball\Cuphead\config\config.yaml

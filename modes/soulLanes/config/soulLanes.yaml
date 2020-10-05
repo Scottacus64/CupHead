@@ -68,7 +68,7 @@ variable_player:
 widgets:
   soul_lanes_banner:
     type: text
-    text: Soul Lanes (soulLanes.counters.soul_complete_count.count)
+    text: Soul Lanes (bonus_multiplier)
     font_size: 25
     color: lime 
     y: 80%

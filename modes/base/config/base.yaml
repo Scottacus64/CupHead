@@ -141,10 +141,23 @@ variable_player:
     score: 100
   drop_target_bank_cup_bank_down:
     score: 333 
+    contracts: 1
   drop_target_bank_mug_bank_down:
     score: 888
+    contracts: 1
 
-event_player:
+widgets:
+  contracts_banner:
+    type: text
+    text: Contracts (contracts)
+    font_size: 25
+    color: red 
+    y: 60%
+
+
+widget_player:
+  mode_soulLanes_started: contracts_banner
+
 
 
 

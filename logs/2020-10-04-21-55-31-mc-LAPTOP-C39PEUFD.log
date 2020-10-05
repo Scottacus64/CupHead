@@ -1,0 +1,104 @@
+2020-10-04 21:55:31,477 : kivy : Factory: 184 symbols loaded
+2020-10-04 21:55:31,903 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.1
+2020-10-04 21:55:31,905 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+2020-10-04 21:55:32,024 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-10-04 21:55:32,025 : kivy : Video: Provider: gstplayer
+2020-10-04 21:55:32,167 : kivy : Loading MPF-MC controller
+2020-10-04 21:55:32,178 : YamlMultifileConfigLoader : Machine config file #1: config
+2020-10-04 21:55:32,178 : ConfigProcessor : Config file in cache changed: c:\GitHub\Cuphead\config\config
+2020-10-04 21:55:32,180 : ConfigProcessor : Loading config from file c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-10-04 21:55:32,261 : ConfigProcessor : Loading config: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-10-04 21:55:32,261 : ConfigProcessor : Loading config from file c:\GitHub\Cuphead\config\config.
+2020-10-04 21:55:32,283 : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\config
+2020-10-04 21:55:32,295 : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\keyboard.yaml
+2020-10-04 21:55:32,340 : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwSwitches.yaml
+2020-10-04 21:55:32,450 : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwLights.yaml
+2020-10-04 21:55:32,475 : ConfigProcessor : Loading config: c:\GitHub\Cuphead\config\hwCoils.yaml
+2020-10-04 21:55:32,481 : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\0cbdbb896bde7c562664fa91ae109528.mpf_cache
+2020-10-04 21:55:32,482 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\89b9c5cb952cce9fc74d723399719cc6.mpf_cache
+2020-10-04 21:55:32,484 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-04 21:55:32,485 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\5820a65357aa32f3082a694bbd0b1b93.mpf_cache
+2020-10-04 21:55:32,486 : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2f1df67e0c6599f893aeb5468bc976f9.mpf_cache
+2020-10-04 21:55:32,487 : mpfmc : Mission Pinball Framework Media Controller v0.54.0-dev.20
+2020-10-04 21:55:32,487 : mpfmc : Mission Pinball Framework Game Engine v0.54.0-dev.72
+2020-10-04 21:55:32,487 : mpfmc : Machine path: c:\GitHub\Cuphead
+2020-10-04 21:55:32,487 : mpfmc : Starting clock at 60.0Hz
+2020-10-04 21:55:32,513 : kivy : Text: Provider: sdl2
+2020-10-04 21:55:32,580 : kivy : Window: Provider: sdl2
+2020-10-04 21:55:33,452 : kivy : GL: Using the "OpenGL" graphics system
+2020-10-04 21:55:33,455 : kivy : GL: GLEW initialization succeeded
+2020-10-04 21:55:33,455 : kivy : GL: Backend used <glew>
+2020-10-04 21:55:33,457 : kivy : GL: OpenGL version <b'4.5.14568 Compatibility Profile Context 24.20.12050.0'>
+2020-10-04 21:55:33,457 : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2020-10-04 21:55:33,458 : kivy : GL: OpenGL renderer <b'AMD Radeon(TM) R4 Graphics'>
+2020-10-04 21:55:33,458 : kivy : GL: OpenGL parsed version: 4, 5
+2020-10-04 21:55:33,458 : kivy : GL: Shading version <b'4.50'>
+2020-10-04 21:55:33,458 : kivy : GL: Texture max size <16384>
+2020-10-04 21:55:33,458 : kivy : GL: Texture max units <32>
+2020-10-04 21:55:33,494 : kivy : Window: auto add sdl2 input provider
+2020-10-04 21:55:33,495 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2020-10-04 21:55:33,510 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2020-10-04 21:55:34,067 : AudioInterface : Initialized
+2020-10-04 21:55:34,067 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2020-10-04 21:55:34,073 : kivy : Base: Start application main loop
+2020-10-04 21:55:34,074 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2020-10-04 21:55:34,121 : mpfmc : Display: Setting 'window' as default display
+2020-10-04 21:55:34,134 : EventManager : Event: ======'displays_initialized'====== Args={}
+2020-10-04 21:55:34,136 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2020-10-04 21:55:34,137 : EventManager : Event: ======'display_window_ready'====== Args={}
+2020-10-04 21:55:34,154 : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-10-04 21:55:34,160 : EventManager : Event: ======'mc_ready'====== Args={}
+2020-10-04 21:55:34,160 : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-10-04 21:55:34,165 : kivy : Base: Leaving application in progress...
+2020-10-04 21:55:34,165 : kivy : Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x000002ECDED055F8>>, priority=1, kwargs={}, key=UUID('bbb9efe4-5b5d-4bf4-8230-466649180144'), condition=None, blocking_facility=None) for event init_phase_2
+Traceback (most recent call last):
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 683, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode_controller.py", line 71, in _load_modes
+    **item.kwargs)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 133, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 105, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 51, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\config_players\widget_player.py", line 113, in _validate_config_item
+    raise AssertionError("Unknown widget {}".format(widget))
+AssertionError: Unknown widget contracts_banner
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 224, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\app.py", line 855, in run
+    runTouchApp()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 747, in mainloop
+    self._mainloop()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 479, in _mainloop
+    EventLoop.idle()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\kivy\clock.py", line 591, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\display.py", line 208, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 348, in displays_initialized
+    self._init()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 393, in _init
+    self.events.process_event_queue()
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 770, in process_event_queue
+    **event[3])
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 729, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 685, in _run_handlers
+    raise Exception("Exception while processing {} for event {}".format(handler, event)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x000002ECDED055F8>>, priority=1, kwargs={}, key=UUID('bbb9efe4-5b5d-4bf4-8230-466649180144'), condition=None, blocking_facility=None) for event init_phase_2
+2020-10-04 21:55:34,182 : kivy : Stopping child threads... (1 remaining)
+2020-10-04 21:55:35,088 : kivy : All child threads stopped.
