@@ -1,0 +1,612 @@
+2020-10-05 09:55:02,247 : INFO : root : Loading config.
+2020-10-05 09:55:02,262 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-10-05 09:55:02,262 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2b6ef079982d662fef43bd5e7e2d4708.mpf_cache
+2020-10-05 09:55:02,435 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\89b9c5cb952cce9fc74d723399719cc6.mpf_cache
+2020-10-05 09:55:02,435 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4fcecb70f81c3c2fefb8e65ae9a0af5f.mpf_cache
+2020-10-05 09:55:02,435 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\5820a65357aa32f3082a694bbd0b1b93.mpf_cache
+2020-10-05 09:55:02,435 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2f1df67e0c6599f893aeb5468bc976f9.mpf_cache
+2020-10-05 09:55:02,435 : WARNING : ConfigProcessor : Config file in cache changed: c:\GitHub\Cuphead\modes\bonusPayout\config\bonusPayout.yaml
+2020-10-05 09:55:02,435 : INFO : ConfigProcessor : Loading config from file c:\GitHub\Cuphead\modes\bonusPayout\config\bonusPayout.yaml.
+2020-10-05 09:55:02,451 : INFO : ConfigProcessor : Loading config: c:\GitHub\Cuphead\modes\bonusPayout\config\bonusPayout.yaml
+2020-10-05 09:55:02,451 : INFO : ConfigProcessor : Config file cache created: C:\Users\themi\AppData\Local\Temp\e4f08e85af4a8c30a7d7240c7a9e2b7d.mpf_cache
+2020-10-05 09:55:02,451 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\893c92602cb79b5461df4ae912d665e0.mpf_cache
+2020-10-05 09:55:02,451 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\15cb35af48ef2b73a1399ecc64f542cf.mpf_cache
+2020-10-05 09:55:02,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\8f78dc3447c1c9fe6775dbe5408c12e9.mpf_cache
+2020-10-05 09:55:02,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\459e0fbd95aa261661d4ec522fde7178.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\bc011c11c9e34bbd89eedfa08565ed62.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\6f009ec52b9ccf4b89f291e4051b3241.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\c2ce7139d0aaca9aa552320269b3f50d.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\2b7bf9166be80f4b554569a332b23de4.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\c546e3aedc6779039624162d0203f540.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\abdfe7fa7b37a4a193490f565dc0597d.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\4342b421d288ce5a4483067739b72cdd.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\368aa16bb3be9e41d99a527245060f83.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\d0e012eb2507157abb0bb72425aaf5b2.mpf_cache
+2020-10-05 09:55:02,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\0f1b51b912b71211c13fe22b9a37b50a.mpf_cache
+2020-10-05 09:55:02,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\10ee2574e78165e598e7a995071a74cc.mpf_cache
+2020-10-05 09:55:02,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\a266cad92e011305e896e67dddfd4a6c.mpf_cache
+2020-10-05 09:55:02,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\7ee3e0eba3dedef43a01da4ffa491384.mpf_cache
+2020-10-05 09:55:02,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\themi\AppData\Local\Temp\13fd6d25ddf06daef684ee2be33938b7.mpf_cache
+2020-10-05 09:55:02,545 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.72
+2020-10-05 09:55:02,545 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-10-05-09-55-02-mpf-LAPTOP-C39PEUFD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-10-05 09:55:02,545 : INFO : Machine : MPF path: c:\users\themi\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-10-05 09:55:02,545 : INFO : Machine : Machine path: c:\GitHub\Cuphead
+2020-10-05 09:55:02,545 : INFO : Machine : Platform: win32
+2020-10-05 09:55:02,545 : INFO : Machine : Python executable location: c:\users\themi\appdata\local\programs\python\python36\python.exe
+2020-10-05 09:55:02,545 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-10-05 09:55:02,545 : INFO : Machine : Initialise MPF.
+2020-10-05 09:55:03,013 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 8110, 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.72', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.72, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-10-05 09:55:03,138 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-10-05 09:55:03,304 : INFO : EventManager : Event: ======'drop_target_bank_cup_bank_up'====== Args={}
+2020-10-05 09:55:03,305 : INFO : EventManager : Event: ======'drop_target_bank_mug_bank_up'====== Args={}
+2020-10-05 09:55:03,308 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-10-05 09:55:03,309 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>)
+2020-10-05 09:55:03,309 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>)
+2020-10-05 09:55:03,326 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-10-05 09:55:03,326 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-10-05 09:55:27,130 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2020-10-05 09:55:27,131 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2020-10-05 09:55:27,148 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.54.0-dev.20', 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,149 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.54.0-dev.20 (config_version=5, BCP v1.1, Requires MPF v0.54.0-dev.68)', 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,154 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,155 : INFO : ball_device.bd_trough : State: idle
+2020-10-05 09:55:27,183 : INFO : ball_device.bd_plunger : State: idle
+2020-10-05 09:55:27,221 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-10-05 09:55:27,235 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-10-05 09:55:27,238 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,239 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,240 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 530.4761904761905, 'top': [2970, 1300, 1220, 980, 880, 780, 720, 710, 630, 590], 'total': 21}, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,241 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_L'====== Args={'value': 238, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,241 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_O'====== Args={'value': 245, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,242 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_S'====== Args={'value': 278, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,243 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_U'====== Args={'value': 240, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,243 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,244 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dash_L'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,245 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dash_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,245 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dtSling_L'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,246 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dtSling_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,247 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_C'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,247 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_G'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,248 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_M'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,249 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_P'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,250 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_U'====== Args={'value': 87, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,251 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_dt_U2'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_exit_shooter_lane'====== Args={'value': 360, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inLane_L'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,253 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inLane_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,254 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,255 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 151, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,256 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_midRight'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outLane_L'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outLane_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_perdition'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_playfield'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,260 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 592, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,261 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popBumper_1'====== Args={'value': 464, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,262 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popBumper_2'====== Args={'value': 440, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,263 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popBumper_3'====== Args={'value': 164, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,264 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper1'====== Args={'value': 120, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,265 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper2'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,265 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper3'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 217, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_L'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_L'====== Args={'value': 239, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_O'====== Args={'value': 250, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_S'====== Args={'value': 278, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_U'====== Args={'value': 240, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,273 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_standUp_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,273 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_standUp_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,274 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_standUp_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,275 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_standUp_R'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,276 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,277 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,278 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,280 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,281 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,282 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 522, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,283 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,284 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2020-10-05 09:55:27,285 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-10-05 09:55:27,312 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2020-10-05 09:55:27,313 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2020-10-05 09:55:27,325 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2020-10-05 09:55:27,330 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2020-10-05 09:55:27,332 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2020-10-05 09:55:27,333 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2020-10-05 09:55:27,333 : INFO : drop_target_bank.cup_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:27,333 : INFO : drop_target_bank.mug_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:27,333 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2020-10-05 09:55:27,334 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2020-10-05 09:55:27,336 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2020-10-05 09:55:27,336 : INFO : Mode.attract : Started. Priority: 10
+2020-10-05 09:55:27,337 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:27,337 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2020-10-05 09:55:27,343 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2020-10-05 09:55:27,394 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:27,395 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-10-05 09:55:27,396 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:27,398 : INFO : Machine : Starting the main run loop.
+2020-10-05 09:55:27,718 : INFO : BcpServer : New client connected.
+2020-10-05 09:55:29,013 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2020-10-05 09:55:29,148 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2020-10-05 09:55:29,150 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2020-10-05 09:55:29,153 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.13999999995576218}
+2020-10-05 09:55:29,155 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.13999999995576218}
+2020-10-05 09:55:29,157 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.13999999995576218}
+2020-10-05 09:55:29,160 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2020-10-05 09:55:29,161 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2020-10-05 09:55:29,162 : INFO : Mode.attract : Stopped.
+2020-10-05 09:55:29,162 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:29,167 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2020-10-05 09:55:29,170 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2020-10-05 09:55:29,172 : INFO : Mode.game : Started. Priority: 20
+2020-10-05 09:55:29,172 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:29,173 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.13999999995576218}
+2020-10-05 09:55:29,275 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2020-10-05 09:55:29,282 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2020-10-05 09:55:29,283 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2020-10-05 09:55:29,284 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2020-10-05 09:55:29,285 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:29,285 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2020-10-05 09:55:29,285 : INFO : Mode.game : Player added successfully. Total players: 1
+2020-10-05 09:55:29,286 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:29,286 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:29,287 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:29,288 : INFO : EventManager : Event: ======'player_contracts'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:29,289 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:29,290 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2020-10-05 09:55:29,337 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:29,341 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-10-05 09:55:29,342 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:29,343 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:29,344 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:29,345 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:29,347 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,368 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,375 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,382 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,383 : INFO : drop_target_bank.cup_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:29,383 : INFO : drop_target_bank.mug_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:29,384 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-10-05 09:55:29,384 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,386 : INFO : EventManager : Event: ======'logicblock_bonus_updated'====== Args={'value': 0, 'enabled': True}
+2020-10-05 09:55:29,386 : INFO : EventManager : Event: ======'logicblock_bonus_updated'====== Args={'value': 0, 'enabled': True}
+2020-10-05 09:55:29,387 : INFO : Mode.base : Started. Priority: 100
+2020-10-05 09:55:29,387 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:29,388 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,390 : INFO : EventManager : Event: ======'mode_soulLanes_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,391 : INFO : EventManager : Event: ======'player_shot_soul_S_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:29,393 : INFO : EventManager : Event: ======'player_shot_soul_O_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:29,394 : INFO : EventManager : Event: ======'player_shot_soul_U_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:29,396 : INFO : EventManager : Event: ======'player_shot_soul_L_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:29,398 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'unlit'}
+2020-10-05 09:55:29,398 : INFO : EventManager : Event: ======'soul_lanes_unlit_complete'====== Args={}
+2020-10-05 09:55:29,404 : INFO : EventManager : Event: ======'mode_soulLanes_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,437 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 1, 'enabled': True}
+2020-10-05 09:55:29,438 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 1, 'enabled': True}
+2020-10-05 09:55:29,439 : INFO : Mode.soulLanes : Started. Priority: 110
+2020-10-05 09:55:29,439 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:29,440 : INFO : EventManager : Event: ======'mode_soulLanes_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 4, 'is_extra_ball': False}
+2020-10-05 09:55:29,440 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-10-05 09:55:29,543 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:29,544 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-10-05 09:55:29,545 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-10-05 09:55:29,611 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-10-05 09:55:29,613 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:29,646 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2020-10-05 09:55:29,647 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2020-10-05 09:55:29,648 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2020-10-05 09:55:29,649 : INFO : ball_device.bd_trough : State: ejecting
+2020-10-05 09:55:29,650 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2020-10-05 09:55:29,651 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2020-10-05 09:55:29,652 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2020-10-05 09:55:29,653 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2020-10-05 09:55:29,653 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2020-10-05 09:55:29,742 : INFO : SwitchController : <<<<<<< 's_plunger' active >>>>>>>
+2020-10-05 09:55:29,744 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 593, 'prev_value': 592, 'change': 1}
+2020-10-05 09:55:29,782 : INFO : ball_device.bd_trough : State: ball_left
+2020-10-05 09:55:29,783 : INFO : ball_device.bd_trough : Ball left
+2020-10-05 09:55:29,783 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2020-10-05 09:55:30,251 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2020-10-05 09:55:30,252 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2020-10-05 09:55:30,253 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2020-10-05 09:55:30,254 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2020-10-05 09:55:30,255 : INFO : ball_device.bd_trough : Got eject confirm
+2020-10-05 09:55:30,255 : INFO : ball_device.bd_trough : Eject successful
+2020-10-05 09:55:30,256 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2020-10-05 09:55:30,257 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2020-10-05 09:55:30,257 : INFO : ball_device.bd_trough : State: idle
+2020-10-05 09:55:30,258 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2020-10-05 09:55:30,259 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2020-10-05 09:55:30,260 : INFO : ball_device.bd_plunger : State: ejecting
+2020-10-05 09:55:30,261 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2020-10-05 09:55:30,261 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2020-10-05 09:55:30,264 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2020-10-05 09:55:31,541 : INFO : SwitchController : <<<<<<< 's_soul_S' active >>>>>>>
+2020-10-05 09:55:31,541 : INFO : EventManager : Event: ======'s_soul_S_active'====== Args={}
+2020-10-05 09:55:31,542 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_S'====== Args={'value': 279, 'prev_value': 278, 'change': 1}
+2020-10-05 09:55:31,544 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:31,550 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:31,551 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_S'====== Args={'value': 279, 'prev_value': 278, 'change': 1}
+2020-10-05 09:55:31,560 : INFO : EventManager : Event: ======'soul_S_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:31,561 : INFO : EventManager : Event: ======'soul_S_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:31,561 : INFO : EventManager : Event: ======'soul_S_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:31,561 : INFO : EventManager : Event: ======'soul_S_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:31,562 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 10, 'prev_value': 0, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:31,563 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:31,564 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:31,730 : INFO : SwitchController : <<<<<<< 's_soul_S' inactive >>>>>>>
+2020-10-05 09:55:32,440 : INFO : SwitchController : <<<<<<< 's_soul_O' active >>>>>>>
+2020-10-05 09:55:32,440 : INFO : EventManager : Event: ======'s_soul_O_active'====== Args={}
+2020-10-05 09:55:32,441 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_O'====== Args={'value': 251, 'prev_value': 250, 'change': 1}
+2020-10-05 09:55:32,443 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:32,443 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:32,445 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_O'====== Args={'value': 246, 'prev_value': 245, 'change': 1}
+2020-10-05 09:55:32,447 : INFO : EventManager : Event: ======'soul_O_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,447 : INFO : EventManager : Event: ======'soul_O_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,448 : INFO : EventManager : Event: ======'soul_O_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,448 : INFO : EventManager : Event: ======'soul_O_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,449 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 20, 'prev_value': 10, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:32,450 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:32,450 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:32,580 : INFO : SwitchController : <<<<<<< 's_soul_O' inactive >>>>>>>
+2020-10-05 09:55:32,965 : INFO : SwitchController : <<<<<<< 's_soul_U' active >>>>>>>
+2020-10-05 09:55:32,966 : INFO : EventManager : Event: ======'s_soul_U_active'====== Args={}
+2020-10-05 09:55:32,966 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_U'====== Args={'value': 241, 'prev_value': 240, 'change': 1}
+2020-10-05 09:55:32,968 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:32,969 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:32,972 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_U'====== Args={'value': 241, 'prev_value': 240, 'change': 1}
+2020-10-05 09:55:32,973 : INFO : EventManager : Event: ======'soul_U_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,974 : INFO : EventManager : Event: ======'soul_U_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,974 : INFO : EventManager : Event: ======'soul_U_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,974 : INFO : EventManager : Event: ======'soul_U_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:32,975 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 30, 'prev_value': 20, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:32,976 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:32,977 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:33,132 : INFO : SwitchController : <<<<<<< 's_soul_U' inactive >>>>>>>
+2020-10-05 09:55:33,957 : INFO : SwitchController : <<<<<<< 's_soul_L' active >>>>>>>
+2020-10-05 09:55:33,957 : INFO : EventManager : Event: ======'s_soul_L_active'====== Args={}
+2020-10-05 09:55:33,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_L'====== Args={'value': 240, 'prev_value': 239, 'change': 1}
+2020-10-05 09:55:33,960 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:33,961 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:33,962 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_L'====== Args={'value': 239, 'prev_value': 238, 'change': 1}
+2020-10-05 09:55:33,962 : INFO : EventManager : Event: ======'soul_L_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:33,963 : INFO : EventManager : Event: ======'soul_L_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:33,963 : INFO : EventManager : Event: ======'soul_L_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:33,963 : INFO : EventManager : Event: ======'soul_L_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:33,963 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 40, 'prev_value': 30, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:33,964 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'lit'}
+2020-10-05 09:55:33,964 : INFO : EventManager : Event: ======'soul_lanes_lit_complete'====== Args={}
+2020-10-05 09:55:33,965 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:33,965 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:33,966 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 2, 'enabled': True}
+2020-10-05 09:55:33,966 : INFO : EventManager : Event: ======'soul_lanes_done'====== Args={'count': 2}
+2020-10-05 09:55:33,967 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:34,111 : INFO : SwitchController : <<<<<<< 's_soul_L' inactive >>>>>>>
+2020-10-05 09:55:34,973 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:34,974 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:34,975 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:34,976 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:35,793 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2020-10-05 09:55:35,793 : INFO : EventManager : Event: ======'s_trough1_active'====== Args={}
+2020-10-05 09:55:35,793 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 523, 'prev_value': 522, 'change': 1}
+2020-10-05 09:55:35,794 : INFO : EventManager : Event: ======'mode_bonusPayout_will_start'====== Args={}
+2020-10-05 09:55:35,795 : INFO : Timer.bonus_countdown : Starting Timer.
+2020-10-05 09:55:35,796 : INFO : EventManager : Event: ======'timer_bonus_countdown_started'====== Args={'ticks': 0, 'ticks_remaining': 3}
+2020-10-05 09:55:35,796 : INFO : EventManager : Event: ======'timer_bonus_countdown_tick'====== Args={'ticks': 0, 'ticks_remaining': 3}
+2020-10-05 09:55:35,797 : INFO : EventManager : Event: ======'mode_bonusPayout_starting'====== Args={}
+2020-10-05 09:55:35,798 : INFO : Mode.bonusPayout : Started. Priority: 140
+2020-10-05 09:55:35,798 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:35,798 : INFO : EventManager : Event: ======'mode_bonusPayout_started'====== Args={}
+2020-10-05 09:55:36,284 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2020-10-05 09:55:36,284 : INFO : ball_device.bd_trough : Received unexpected ball
+2020-10-05 09:55:36,284 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-10-05 09:55:36,285 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-10-05 09:55:36,286 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:36,287 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2020-10-05 09:55:36,288 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-10-05 09:55:36,288 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2020-10-05 09:55:36,289 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 3
+2020-10-05 09:55:36,289 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2020-10-05 09:55:36,289 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2020-10-05 09:55:36,290 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2020-10-05 09:55:36,291 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2020-10-05 09:55:36,292 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-10-05 09:55:36,293 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2020-10-05 09:55:36,295 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2020-10-05 09:55:36,296 : INFO : EventManager : Event: ======'mode_bonusPayout_will_stop'====== Args={}
+2020-10-05 09:55:36,296 : INFO : EventManager : Event: ======'mode_bonusPayout_stopping'====== Args={}
+2020-10-05 09:55:36,296 : INFO : EventManager : Event: ======'mode_soulLanes_will_stop'====== Args={}
+2020-10-05 09:55:36,297 : INFO : EventManager : Event: ======'mode_soulLanes_stopping'====== Args={}
+2020-10-05 09:55:36,297 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2020-10-05 09:55:36,297 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2020-10-05 09:55:36,298 : INFO : Mode.base : Stopped.
+2020-10-05 09:55:36,298 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:36,300 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2020-10-05 09:55:36,301 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2020-10-05 09:55:36,302 : INFO : Mode.soulLanes : Stopped.
+2020-10-05 09:55:36,302 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:36,303 : INFO : EventManager : Event: ======'mode_soulLanes_stopped'====== Args={}
+2020-10-05 09:55:36,304 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'soulLanes'}
+2020-10-05 09:55:36,305 : INFO : Mode.bonusPayout : Stopped.
+2020-10-05 09:55:36,306 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:36,306 : INFO : EventManager : Event: ======'mode_bonusPayout_stopped'====== Args={}
+2020-10-05 09:55:36,307 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bonusPayout'}
+2020-10-05 09:55:36,307 : INFO : Timer.bonus_countdown : Stopping Timer
+2020-10-05 09:55:36,308 : INFO : EventManager : Event: ======'timer_bonus_countdown_stopped'====== Args={'ticks': 0, 'ticks_remaining': 3}
+2020-10-05 09:55:36,394 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2020-10-05 09:55:36,461 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2020-10-05 09:55:36,462 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:36,463 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:37,253 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:39,075 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:39,670 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:39,672 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:39,673 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:39,674 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-10-05 09:55:39,676 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,710 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,712 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,717 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,721 : INFO : drop_target_bank.cup_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:39,721 : INFO : drop_target_bank.mug_bank : All targets are already up. Will not reset bank.
+2020-10-05 09:55:39,722 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-10-05 09:55:39,722 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,724 : INFO : EventManager : Event: ======'logicblock_bonus_updated'====== Args={'value': 0, 'enabled': True}
+2020-10-05 09:55:39,724 : INFO : EventManager : Event: ======'logicblock_bonus_updated'====== Args={'value': 0, 'enabled': True}
+2020-10-05 09:55:39,725 : INFO : Mode.base : Started. Priority: 100
+2020-10-05 09:55:39,725 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:39,726 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,727 : INFO : EventManager : Event: ======'mode_soulLanes_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,729 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'unlit'}
+2020-10-05 09:55:39,730 : INFO : EventManager : Event: ======'soul_lanes_unlit_complete'====== Args={}
+2020-10-05 09:55:39,735 : INFO : EventManager : Event: ======'mode_soulLanes_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,748 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 1, 'enabled': True}
+2020-10-05 09:55:39,749 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 1, 'enabled': True}
+2020-10-05 09:55:39,749 : INFO : Mode.soulLanes : Started. Priority: 110
+2020-10-05 09:55:39,749 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:39,750 : INFO : EventManager : Event: ======'mode_soulLanes_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 3, 'is_extra_ball': False}
+2020-10-05 09:55:39,751 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-10-05 09:55:39,837 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:39,838 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-10-05 09:55:39,840 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-10-05 09:55:39,928 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-10-05 09:55:39,929 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-10-05 09:55:39,931 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2020-10-05 09:55:39,932 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2020-10-05 09:55:48,001 : INFO : SwitchController : <<<<<<< 's_soul_S' active >>>>>>>
+2020-10-05 09:55:48,001 : INFO : EventManager : Event: ======'s_soul_S_active'====== Args={}
+2020-10-05 09:55:48,002 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_S'====== Args={'value': 280, 'prev_value': 279, 'change': 1}
+2020-10-05 09:55:48,003 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:48,014 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:48,015 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_S'====== Args={'value': 280, 'prev_value': 279, 'change': 1}
+2020-10-05 09:55:48,016 : INFO : EventManager : Event: ======'soul_S_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,017 : INFO : EventManager : Event: ======'soul_S_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,017 : INFO : EventManager : Event: ======'soul_S_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,018 : INFO : EventManager : Event: ======'soul_S_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,018 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 50, 'prev_value': 40, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:48,019 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:48,020 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:48,203 : INFO : SwitchController : <<<<<<< 's_soul_S' inactive >>>>>>>
+2020-10-05 09:55:48,721 : INFO : SwitchController : <<<<<<< 's_soul_O' active >>>>>>>
+2020-10-05 09:55:48,721 : INFO : EventManager : Event: ======'s_soul_O_active'====== Args={}
+2020-10-05 09:55:48,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_O'====== Args={'value': 252, 'prev_value': 251, 'change': 1}
+2020-10-05 09:55:48,724 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:48,725 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:48,726 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_O'====== Args={'value': 247, 'prev_value': 246, 'change': 1}
+2020-10-05 09:55:48,727 : INFO : EventManager : Event: ======'soul_O_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,728 : INFO : EventManager : Event: ======'soul_O_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,729 : INFO : EventManager : Event: ======'soul_O_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,729 : INFO : EventManager : Event: ======'soul_O_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,730 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 60, 'prev_value': 50, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:48,731 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:48,731 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:48,920 : INFO : SwitchController : <<<<<<< 's_soul_O' inactive >>>>>>>
+2020-10-05 09:55:48,956 : INFO : SwitchController : <<<<<<< 's_soul_U' active >>>>>>>
+2020-10-05 09:55:48,957 : INFO : EventManager : Event: ======'s_soul_U_active'====== Args={}
+2020-10-05 09:55:48,957 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_U'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2020-10-05 09:55:48,959 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:48,960 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:48,962 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_U'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2020-10-05 09:55:48,963 : INFO : EventManager : Event: ======'soul_U_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,963 : INFO : EventManager : Event: ======'soul_U_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,964 : INFO : EventManager : Event: ======'soul_U_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,964 : INFO : EventManager : Event: ======'soul_U_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:48,966 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 70, 'prev_value': 60, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:48,967 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:48,968 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:49,068 : INFO : SwitchController : <<<<<<< 's_soul_U' inactive >>>>>>>
+2020-10-05 09:55:49,780 : INFO : SwitchController : <<<<<<< 's_soul_L' active >>>>>>>
+2020-10-05 09:55:49,781 : INFO : EventManager : Event: ======'s_soul_L_active'====== Args={}
+2020-10-05 09:55:49,781 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_L'====== Args={'value': 241, 'prev_value': 240, 'change': 1}
+2020-10-05 09:55:49,783 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:49,784 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:49,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_L'====== Args={'value': 240, 'prev_value': 239, 'change': 1}
+2020-10-05 09:55:49,787 : INFO : EventManager : Event: ======'soul_L_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:49,787 : INFO : EventManager : Event: ======'soul_L_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:49,788 : INFO : EventManager : Event: ======'soul_L_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:49,789 : INFO : EventManager : Event: ======'soul_L_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:49,789 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 80, 'prev_value': 70, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:49,790 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'lit'}
+2020-10-05 09:55:49,791 : INFO : EventManager : Event: ======'soul_lanes_lit_complete'====== Args={}
+2020-10-05 09:55:49,792 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:49,792 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:49,793 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 2, 'enabled': True}
+2020-10-05 09:55:49,793 : INFO : EventManager : Event: ======'soul_lanes_done'====== Args={'count': 2}
+2020-10-05 09:55:49,794 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:50,012 : INFO : SwitchController : <<<<<<< 's_soul_L' inactive >>>>>>>
+2020-10-05 09:55:50,786 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:50,787 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:50,789 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:50,791 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:51,486 : INFO : SwitchController : <<<<<<< 's_soul_S' active >>>>>>>
+2020-10-05 09:55:51,486 : INFO : EventManager : Event: ======'s_soul_S_active'====== Args={}
+2020-10-05 09:55:51,487 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_S'====== Args={'value': 281, 'prev_value': 280, 'change': 1}
+2020-10-05 09:55:51,489 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:51,490 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:51,506 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_S'====== Args={'value': 281, 'prev_value': 280, 'change': 1}
+2020-10-05 09:55:51,507 : INFO : EventManager : Event: ======'soul_S_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:51,508 : INFO : EventManager : Event: ======'soul_S_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:51,508 : INFO : EventManager : Event: ======'soul_S_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:51,509 : INFO : EventManager : Event: ======'soul_S_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:51,509 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 90, 'prev_value': 80, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:51,510 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:51,510 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:51,744 : INFO : SwitchController : <<<<<<< 's_soul_S' inactive >>>>>>>
+2020-10-05 09:55:52,051 : INFO : SwitchController : <<<<<<< 's_soul_O' active >>>>>>>
+2020-10-05 09:55:52,051 : INFO : EventManager : Event: ======'s_soul_O_active'====== Args={}
+2020-10-05 09:55:52,051 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_O'====== Args={'value': 253, 'prev_value': 252, 'change': 1}
+2020-10-05 09:55:52,053 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:52,053 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:52,055 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_O'====== Args={'value': 248, 'prev_value': 247, 'change': 1}
+2020-10-05 09:55:52,056 : INFO : EventManager : Event: ======'soul_O_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,057 : INFO : EventManager : Event: ======'soul_O_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,057 : INFO : EventManager : Event: ======'soul_O_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,057 : INFO : EventManager : Event: ======'soul_O_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,058 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 90, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:52,059 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:52,059 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:52,228 : INFO : SwitchController : <<<<<<< 's_soul_O' inactive >>>>>>>
+2020-10-05 09:55:52,541 : INFO : SwitchController : <<<<<<< 's_soul_U' active >>>>>>>
+2020-10-05 09:55:52,541 : INFO : EventManager : Event: ======'s_soul_U_active'====== Args={}
+2020-10-05 09:55:52,542 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_U'====== Args={'value': 243, 'prev_value': 242, 'change': 1}
+2020-10-05 09:55:52,543 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:52,544 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:52,546 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_U'====== Args={'value': 243, 'prev_value': 242, 'change': 1}
+2020-10-05 09:55:52,547 : INFO : EventManager : Event: ======'soul_U_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,548 : INFO : EventManager : Event: ======'soul_U_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,548 : INFO : EventManager : Event: ======'soul_U_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,549 : INFO : EventManager : Event: ======'soul_U_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:52,549 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 110, 'prev_value': 100, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:52,550 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:52,550 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:52,720 : INFO : SwitchController : <<<<<<< 's_soul_U' inactive >>>>>>>
+2020-10-05 09:55:53,015 : INFO : SwitchController : <<<<<<< 's_soul_L' active >>>>>>>
+2020-10-05 09:55:53,016 : INFO : EventManager : Event: ======'s_soul_L_active'====== Args={}
+2020-10-05 09:55:53,017 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_L'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2020-10-05 09:55:53,018 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:55:53,019 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:53,021 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_L'====== Args={'value': 241, 'prev_value': 240, 'change': 1}
+2020-10-05 09:55:53,022 : INFO : EventManager : Event: ======'soul_L_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:53,023 : INFO : EventManager : Event: ======'soul_L_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:53,023 : INFO : EventManager : Event: ======'soul_L_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:53,024 : INFO : EventManager : Event: ======'soul_L_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:55:53,025 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 120, 'prev_value': 110, 'change': 10, 'player_num': 1}
+2020-10-05 09:55:53,026 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'lit'}
+2020-10-05 09:55:53,026 : INFO : EventManager : Event: ======'soul_lanes_lit_complete'====== Args={}
+2020-10-05 09:55:53,027 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:55:53,027 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:55:53,028 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1120, 'prev_value': 120, 'change': 1000, 'player_num': 1}
+2020-10-05 09:55:53,029 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 3, 'enabled': True}
+2020-10-05 09:55:53,030 : INFO : EventManager : Event: ======'soul_lanes_done'====== Args={'count': 3}
+2020-10-05 09:55:53,032 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:53,281 : INFO : SwitchController : <<<<<<< 's_soul_L' inactive >>>>>>>
+2020-10-05 09:55:54,047 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:54,049 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:54,050 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:54,052 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:55:55,343 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2020-10-05 09:55:57,772 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2020-10-05 09:55:57,772 : INFO : EventManager : Event: ======'s_trough1_active'====== Args={}
+2020-10-05 09:55:57,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 524, 'prev_value': 523, 'change': 1}
+2020-10-05 09:55:57,784 : INFO : EventManager : Event: ======'mode_bonusPayout_will_start'====== Args={}
+2020-10-05 09:55:57,789 : INFO : EventManager : Event: ======'player_bonusPayout_bonus_countdown_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-10-05 09:55:57,789 : INFO : Timer.bonus_countdown : Starting Timer.
+2020-10-05 09:55:57,790 : INFO : EventManager : Event: ======'timer_bonus_countdown_started'====== Args={'ticks': 0, 'ticks_remaining': 3}
+2020-10-05 09:55:57,791 : INFO : EventManager : Event: ======'timer_bonus_countdown_tick'====== Args={'ticks': 0, 'ticks_remaining': 3}
+2020-10-05 09:55:57,792 : INFO : EventManager : Event: ======'mode_bonusPayout_starting'====== Args={}
+2020-10-05 09:55:57,793 : INFO : Mode.bonusPayout : Started. Priority: 140
+2020-10-05 09:55:57,793 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2020-10-05 09:55:57,793 : INFO : EventManager : Event: ======'mode_bonusPayout_started'====== Args={}
+2020-10-05 09:55:58,787 : INFO : EventManager : Event: ======'player_bonusPayout_bonus_countdown_tick'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:58,788 : INFO : EventManager : Event: ======'timer_bonus_countdown_tick'====== Args={'ticks': 1, 'ticks_remaining': 2}
+2020-10-05 09:55:59,788 : INFO : EventManager : Event: ======'player_bonusPayout_bonus_countdown_tick'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2020-10-05 09:55:59,789 : INFO : EventManager : Event: ======'timer_bonus_countdown_tick'====== Args={'ticks': 2, 'ticks_remaining': 1}
+2020-10-05 09:56:00,783 : INFO : EventManager : Event: ======'player_bonusPayout_bonus_countdown_tick'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:00,784 : INFO : Timer.bonus_countdown : Timer Complete
+2020-10-05 09:56:00,784 : INFO : Timer.bonus_countdown : Stopping Timer
+2020-10-05 09:56:00,785 : INFO : EventManager : Event: ======'timer_bonus_countdown_stopped'====== Args={'ticks': 3, 'ticks_remaining': 1}
+2020-10-05 09:56:00,785 : INFO : EventManager : Event: ======'timer_bonus_countdown_complete'====== Args={'ticks': 3, 'ticks_remaining': 1}
+2020-10-05 09:56:08,230 : INFO : SwitchController : <<<<<<< 's_soul_S' active >>>>>>>
+2020-10-05 09:56:08,231 : INFO : EventManager : Event: ======'s_soul_S_active'====== Args={}
+2020-10-05 09:56:08,232 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_S'====== Args={'value': 282, 'prev_value': 281, 'change': 1}
+2020-10-05 09:56:08,233 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:56:08,240 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:08,249 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_S'====== Args={'value': 282, 'prev_value': 281, 'change': 1}
+2020-10-05 09:56:08,250 : INFO : EventManager : Event: ======'soul_S_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:08,251 : INFO : EventManager : Event: ======'soul_S_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:08,252 : INFO : EventManager : Event: ======'soul_S_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:08,252 : INFO : EventManager : Event: ======'soul_S_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:08,253 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1130, 'prev_value': 1120, 'change': 10, 'player_num': 1}
+2020-10-05 09:56:08,254 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:56:08,254 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:56:08,428 : INFO : SwitchController : <<<<<<< 's_soul_S' inactive >>>>>>>
+2020-10-05 09:56:09,875 : INFO : SwitchController : <<<<<<< 's_soul_O' active >>>>>>>
+2020-10-05 09:56:09,875 : INFO : EventManager : Event: ======'s_soul_O_active'====== Args={}
+2020-10-05 09:56:09,876 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_O'====== Args={'value': 254, 'prev_value': 253, 'change': 1}
+2020-10-05 09:56:09,878 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:56:09,879 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:09,881 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_O'====== Args={'value': 249, 'prev_value': 248, 'change': 1}
+2020-10-05 09:56:09,882 : INFO : EventManager : Event: ======'soul_O_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:09,882 : INFO : EventManager : Event: ======'soul_O_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:09,883 : INFO : EventManager : Event: ======'soul_O_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:09,883 : INFO : EventManager : Event: ======'soul_O_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:09,884 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1140, 'prev_value': 1130, 'change': 10, 'player_num': 1}
+2020-10-05 09:56:09,885 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:56:09,886 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:56:10,041 : INFO : SwitchController : <<<<<<< 's_soul_O' inactive >>>>>>>
+2020-10-05 09:56:10,223 : INFO : SwitchController : <<<<<<< 's_soul_U' active >>>>>>>
+2020-10-05 09:56:10,223 : INFO : EventManager : Event: ======'s_soul_U_active'====== Args={}
+2020-10-05 09:56:10,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_U'====== Args={'value': 244, 'prev_value': 243, 'change': 1}
+2020-10-05 09:56:10,226 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:56:10,227 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:10,229 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_U'====== Args={'value': 244, 'prev_value': 243, 'change': 1}
+2020-10-05 09:56:10,230 : INFO : EventManager : Event: ======'soul_U_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,231 : INFO : EventManager : Event: ======'soul_U_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,231 : INFO : EventManager : Event: ======'soul_U_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,232 : INFO : EventManager : Event: ======'soul_U_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,232 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1150, 'prev_value': 1140, 'change': 10, 'player_num': 1}
+2020-10-05 09:56:10,233 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:56:10,234 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:56:10,390 : INFO : SwitchController : <<<<<<< 's_soul_U' inactive >>>>>>>
+2020-10-05 09:56:10,644 : INFO : SwitchController : <<<<<<< 's_soul_L' active >>>>>>>
+2020-10-05 09:56:10,644 : INFO : EventManager : Event: ======'s_soul_L_active'====== Args={}
+2020-10-05 09:56:10,645 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_soul_L'====== Args={'value': 243, 'prev_value': 242, 'change': 1}
+2020-10-05 09:56:10,647 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-10-05 09:56:10,647 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:10,649 : INFO : EventManager : Event: ======'machine_var_audits_shots_soul_L'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2020-10-05 09:56:10,650 : INFO : EventManager : Event: ======'soul_L_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,651 : INFO : EventManager : Event: ======'soul_L_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,651 : INFO : EventManager : Event: ======'soul_L_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,652 : INFO : EventManager : Event: ======'soul_L_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2020-10-05 09:56:10,652 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1160, 'prev_value': 1150, 'change': 10, 'player_num': 1}
+2020-10-05 09:56:10,653 : INFO : EventManager : Event: ======'soul_lanes_complete'====== Args={'state': 'lit'}
+2020-10-05 09:56:10,654 : INFO : EventManager : Event: ======'soul_lanes_lit_complete'====== Args={}
+2020-10-05 09:56:10,654 : INFO : EventManager : Event: ======'soul_lanes_hit'====== Args={}
+2020-10-05 09:56:10,655 : INFO : EventManager : Event: ======'soul_lanes_unlit_hit'====== Args={}
+2020-10-05 09:56:10,656 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 3160, 'prev_value': 1160, 'change': 2000, 'player_num': 1}
+2020-10-05 09:56:10,657 : INFO : EventManager : Event: ======'logicblock_contarct_counter_updated'====== Args={'value': 4, 'enabled': True}
+2020-10-05 09:56:10,657 : INFO : EventManager : Event: ======'soul_lanes_done'====== Args={'count': 4}
+2020-10-05 09:56:10,659 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2020-10-05 09:56:11,215 : INFO : SwitchController : <<<<<<< 's_soul_L' inactive >>>>>>>
+2020-10-05 09:56:11,669 : INFO : EventManager : Event: ======'player_shot_soul_S'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:56:11,671 : INFO : EventManager : Event: ======'player_shot_soul_O'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:56:11,672 : INFO : EventManager : Event: ======'player_shot_soul_U'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:56:11,674 : INFO : EventManager : Event: ======'player_shot_soul_L'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2020-10-05 09:56:16,200 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2020-10-05 09:56:18,730 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2020-10-05 09:56:18,730 : INFO : EventManager : Event: ======'s_trough1_active'====== Args={}
+2020-10-05 09:56:18,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 525, 'prev_value': 524, 'change': 1}
+2020-10-05 09:56:23,697 : INFO : Machine : Shutting down...
+2020-10-05 09:56:23,697 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-10-05 09:56:23,697 : INFO : root : MPF run loop ended.

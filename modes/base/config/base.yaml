@@ -42,7 +42,6 @@ counters:
     persist_state: false
     disable_on_complete: true
 
-
 show_player:
   mode_base_started:
     base_lighting:
@@ -139,11 +138,9 @@ variable_player:
     score: 100
   s_dt_G_active:
     score: 100
-  drop_target_bank_cup_bank_down:
-    score: 333 
+  drop_target_bank_cup_bank_down: 
     contracts: 1
   drop_target_bank_mug_bank_down:
-    score: 888
     contracts: 1
   mode_base_started:
     contracts:

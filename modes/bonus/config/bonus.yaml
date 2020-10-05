@@ -6,9 +6,12 @@
 #  bonus_entries:
 #    - event: 
 
-mode:
-  start_events: s_trough1_active
-  priority: 140
+mode_settings:
+  bonus_entries:
+    - event: bonusPayout
+      score: 1000 * (current_player.bonus_multiplier + 1)
+      player_score_entry: current_player.contracts 
+
 
 widgets:
   bonusPayout_banner:
@@ -17,7 +20,6 @@ widgets:
     font_size: 25
     color: brown 
     y: 75%
-
 
 widget_player:
   mode_bonusPayout_started: bonusPayout_banner
