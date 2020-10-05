@@ -12,6 +12,9 @@ player_vars:
   bonus_multiplier:
     value_type: int
     initial_value: 1
+  contracts:
+    value_type: int
+    initial_value: 0
   
 
 playfields:
