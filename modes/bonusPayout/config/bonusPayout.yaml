@@ -1,0 +1,23 @@
+#config_version=5
+
+#mode_settings:
+#  display_delay_ms: 500
+#  keep_multiplier: false
+#  bonus_entries:
+#    - event: 
+
+mode:
+  start_events: s_trough1_active
+  priority: 140
+
+widgets:
+  bonusPayout_banner:
+    type: text
+    text: Bonus Payout (contracts)
+    font_size: 25
+    color: brown 
+    y: 75%
+
+
+widget_player:
+  mode_bonusPayout_started: bonusPayout_banner
