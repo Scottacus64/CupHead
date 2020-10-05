@@ -110,7 +110,7 @@ slide_player:
         anchor_x: left
         anchor_y: bottom
       - type: text
-        text: BALL (ball) (bonus_multiplier)
+        text: BALL (ball)
         y: 10
         x: right-10
         anchor_x: right
@@ -145,6 +145,10 @@ variable_player:
   drop_target_bank_mug_bank_down:
     score: 888
     contracts: 1
+  mode_base_started:
+    contracts:
+      int: 0
+      action: set
 
 widgets:
   contracts_banner:

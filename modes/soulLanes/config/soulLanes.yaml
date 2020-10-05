@@ -64,6 +64,10 @@ variable_player:
     score: 10
   s_soul_L_active:
     score: 10
+  mode_soulLanes_started:
+    bonus_multiplier:
+      int: 0
+      action: set
 
 widgets:
   soul_lanes_banner:

@@ -3,6 +3,5 @@
 
 - duration: 1
   lights: 
-    l_bonus_1000: off
     l_bonus_2000: off
     l_bonus_3000: white
