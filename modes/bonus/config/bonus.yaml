@@ -12,16 +12,29 @@ mode_settings:
       score: 1000 * (current_player.bonus_multiplier + 1) 
       player_score_entry: current_player.contracts
 
-#timers:
-#  bonusLight:
-#    start_value: 3
-#    end_value: 0 
-#    direction: down
-#    tick_interval: 500ms
-#    debug: true
-#    control_events:
-#      - action: start
-#        event: mode_bonus_started
+timers:
+  bonusCountDown:
+    start_value: 3
+    end_value: 0 
+    direction: down
+    tick_interval: 500ms
+    debug: true
+    control_events:
+      - action: start
+        event: mode_bonus_started
+      - action: stop
+        event: bonusDone
+
+event_player:
+  timer_bonusCountDown{current_player.contracts==0}:
+    - bonusDone
+
+variable_player:
+  timer_bonusCountDown{current_player.contracts>0}:
+    contracts: -1
+
+
+  
 
 #counters:
 #  bonusStep:
