@@ -17,7 +17,7 @@ timers:
     start_value: current_player.contracts
     end_value: 0 
     direction: down
-    tick_interval: 1S
+    tick_interval: 2S
     debug: true
     control_events:
       - action: start
@@ -26,10 +26,11 @@ timers:
         event: bonusDone
 
 event_player:
-  timer_bonusCountDown{current_player.contracts==0}:
+  timer_bonusCountDown-tick{current_player.contracts==0}:
     - bonusDone
-  timer_bonusCountDown{current_player.contracts>0}:
+  timer_bonusCountDown_tick{current_player.contracts>0}:
     - bonusPayout
+    - light_done
 
 variable_player:
   timer_bonusCountDown_tick{current_player.contracts>0}:
@@ -47,50 +48,50 @@ variable_player:
 #    persist_state: false
 #    disable_on_complete: true
 
-#show_player:
+show_player:
 #  mode_bonus_started:
 #    bonus_lighting:
 #      speed: 1
-#  light_done{count==1}:
-#    1000_off:
-#      show_tokens:
-#        lights: l_bonus_1000
-#  light_done{count==2}:
-#    2000_off:
-#      show_tokens:
-#        lights: l_bonus_2000
-#  light_done{count==3}:
-#    3000_off:
-#      show_tokens:
-#        lights: l_bonus_3000
-#  light_done{count==4}:
-#    4000_off:
-#      show_tokens:
-#        lights: l_bonus_4000
-#  light_done{count==5}:
-#    5000_off:
-#      show_tokens:
-#        lights: l_bonus_5000
-#  light_done{count==6}:
-#    6000_off:
-#      show_tokens:
-#        lights: l_bonus_6000
-#  light_done{count==7}:
-#    7000_off:
-#      show_tokens:
-#        lights: l_bonus_7000
-#  light_done{count==8}:
-#    8000_off:
-#      show_tokens:
-#        lights: l_bonus_8000
-#  light_done{count==9}:
-#    9000_off:
-#      show_tokens:
-#        lights: l_bonus_9000
-#  light_done{count==10}:
-#    10000_off:
-#      show_tokens:
-#        lights: l_bonus_10000
+  light_done{current_player.contracts==0}:
+    1000_off:
+      show_tokens:
+        lights: l_bonus_1000
+  light_done{current_player.contracts==1}:
+    2000_off:
+      show_tokens:
+        lights: l_bonus_2000
+  light_done{current_player.contracts==2}:
+    3000_off:
+      show_tokens:
+        lights: l_bonus_3000
+  light_done{current_player.contracts==3}:
+    4000_off:
+      show_tokens:
+        lights: l_bonus_4000
+  light_done{current_player.contracts==4}:
+    5000_off:
+      show_tokens:
+        lights: l_bonus_5000
+  light_done{current_player.contracts==5}:
+    6000_off:
+      show_tokens:
+        lights: l_bonus_6000
+  light_done{current_player.contracts==6}:
+    7000_off:
+      show_tokens:
+        lights: l_bonus_7000
+  light_done{current_player.contracts==7}:
+    8000_off:
+      show_tokens:
+        lights: l_bonus_8000
+  light_done{current_player.contracts==8}:
+    9000_off:
+      show_tokens:
+        lights: l_bonus_9000
+  light_done{current_player.contracts==9}:
+    10000_off:
+      show_tokens:
+        lights: l_bonus_10000
 
 #slide_player:
 #  mode_bonus_started:
