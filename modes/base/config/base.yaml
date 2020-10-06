@@ -115,6 +115,11 @@ slide_player:
         anchor_x: right
         anchor_y: bottom
         font_size: 50
+      - type: text
+        text: Contracts (contracts)
+        font_size: 25
+        color: red 
+        y: 60%
 
 variable_player:
   bonus:
@@ -147,17 +152,13 @@ variable_player:
       int: 0
       action: set
 
-widgets:
-  contracts_banner:
-    type: text
-    text: Contracts (contracts)
-    font_size: 25
-    color: red 
-    y: 60%
+#widgets:
+#  contracts_banner:
 
 
-widget_player:
-  mode_soulLanes_started: contracts_banner
+
+#widget_player:
+#  mode_soulLanes_started: contracts_banner
 
 
 

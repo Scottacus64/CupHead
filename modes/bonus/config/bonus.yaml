@@ -9,15 +9,15 @@
 mode_settings:
   bonus_entries:
     - event: bonusPayout
-      score: 1000 * (current_player.bonus_multiplier + 1) 
+      score: 0 #1000 * (current_player.bonus_multiplier + 1) 
       player_score_entry: current_player.contracts
 
 timers:
   bonusCountDown:
-    start_value: 3
+    start_value: current_player.contracts
     end_value: 0 
     direction: down
-    tick_interval: 500ms
+    tick_interval: 1S
     debug: true
     control_events:
       - action: start
@@ -28,13 +28,14 @@ timers:
 event_player:
   timer_bonusCountDown{current_player.contracts==0}:
     - bonusDone
+  timer_bonusCountDown{current_player.contracts>0}:
+    - bonusPayout
 
 variable_player:
-  timer_bonusCountDown{current_player.contracts>0}:
+  timer_bonusCountDown_tick{current_player.contracts>0}:
     contracts: -1
+    score: 1000 * (current_player.bonus_multiplier + 1)
 
-
-  
 
 #counters:
 #  bonusStep:
@@ -91,14 +92,15 @@ variable_player:
 #      show_tokens:
 #        lights: l_bonus_10000
 
+#slide_player:
+#  mode_bonus_started:
+#  bonusPayout: bonusPayout_slide
 
-widgets:
-  bonusPayout_banner:
-    type: text
-    text: Bonus Payout (contracts)
-    font_size: 25
-    color: brown 
-    y: 75%
 
-widget_player:
-  mode_bonus_started: bonusPayout_banner
+#slides:
+#  bonusPayout_slide:
+#    type: text
+#    text: Bonus Payout (contracts)
+#    font_size: 25
+#    color: blue 
+#    y: 75%
