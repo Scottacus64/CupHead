@@ -96,7 +96,7 @@ lights:
   l_gi24:
     number: 24
     type: grb
-    tags: gi   
+    tags: gi
   l_gi25:
     number: 25
     type: grb
@@ -128,7 +128,7 @@ lights:
   l_soul_S:
     number: 32
     type: grb
-    tags: soul_lanes 
+    tags: soul_lanes
   l_soul_O:
     number: 33
     type: grb
@@ -136,7 +136,7 @@ lights:
   l_soul_U:
     number: 34
     type: grb
-    tags: soul_lanes 
+    tags: soul_lanes
   l_soul_L:
     number: 35
     type: grb
@@ -144,11 +144,11 @@ lights:
   l_Lane_L_1:
     number: 36
     type: grb
-    tags: lane_L 
+    tags: lane_L
   l_lane_L_2:
     number: 37
     type: grb
-    tags: lane_L 
+    tags: lane_L
   l_lane_L_3:
     number: 38
     type: grb
@@ -156,19 +156,19 @@ lights:
   l_lane_L_4:
     number: 39
     type: grb
-    tags: lane_L 
+    tags: lane_L
   l_lane_L_5:
     number: 40
     type: grb
-    tags: lane_L 
+    tags: lane_L
   l_lane_L_6:
     number: 41
     type: grb
-    tags: lane_L 
+    tags: lane_L
   l_standUp_1:
     number: 42
     type: grb
-    tags: standUp 
+    tags: standUp
   l_standUp_2:
     number: 43
     type: grb
@@ -176,43 +176,43 @@ lights:
   l_standUp_3:
     number: 44
     type: grb
-    tags: standUp 
+    tags: standUp
   l_star_1:
     number: 45
     type: grb
-    tags: star 
+    tags: star
   l_star_2:
     number: 46
     type: grb
-    tags: star 
+    tags: star
   l_star_3:
     number: 47
     type: grb
-    tags: star 
+    tags: star
   l_popBumper_1:
     number: 48
     type: grb
-    tags: popBumper 
+    tags: popBumper
   l_popBumper_2:
     number: 49
     type: grb
-    tags: popBumper 
+    tags: popBumper
   l_popBumper_3:
     number: 50
     type: grb
     tags: popBumper
   l_perdition_1:
-    number: 51 
+    number: 51
     type: grb
-    tags: perdition 
+    tags: perdition
   l_perdition_2:
-    number: 52 
+    number: 52
     type: grb
-    tags: Pperdition 
+    tags: Pperdition
   l_perdition_3:
-    number: 53 
+    number: 53
     type: grb
-    tags: perdition 
+    tags: perdition
   l_special7:
     number: 54
     type: grb
@@ -227,39 +227,39 @@ lights:
   l_bonus_1000:
     number: 57
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_2000:
     number: 58
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_3000:
     number: 59
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_4000:
     number: 60
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_5000:
     number: 61
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_6000:
     number: 62
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_7000:
     number: 63
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_8000:
     number: 64
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_9000:
     number: 65
     type: grb
-    tags: bonus 
+    tags: bonus
   l_bonus_10000:
     number: 66
     type: grb
@@ -292,3 +292,5 @@ lights:
     number: 74
   l_4x:
     number: 75
+  l_ExtraBall:
+    number: 76
