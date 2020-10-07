@@ -55,16 +55,16 @@ switches:
     number: 14
     tags: inLanesSw
   s_standUp_1:
-    number: 15  
-    tags: standUp_LSw 
+    number: 15
+    tags: standUp_LSw
   s_standUp_2:
-    number: 16  
+    number: 16
     tags: standUp_LSw
   s_standUp_3:
-    number: 17  
+    number: 17
     tags: standUp_LSw
   s_standUp_R:
-    number: 18  
+    number: 18
   s_star_1:
     number: 19
     tags: starSw
@@ -81,22 +81,22 @@ switches:
     tags: playfield_active
   s_dt_C:
     number: 24
-    tags: dtSw 
+    tags: dtSw
   s_dt_U:
     number: 25
-    tags: dtSw 
+    tags: dtSw
   s_dt_P:
     number: 26
-    tags: dtSw 
+    tags: dtSw
   s_dt_M:
     number: 27
-    tags: dtSw 
+    tags: dtSw
   s_dt_U2:
     number: 28
     tags: dtSw
   s_dt_G:
     number: 29
-    tags: dtSw 
+    tags: dtSw
   s_dtSling_L:
     number: 30
     tags: dtSlingSw
@@ -133,3 +133,5 @@ switches:
     number: 41
   s_coin:
     number: 42
+  s_perdition_kicker:
+    number: 43
