@@ -26,10 +26,14 @@ accruals:
       - standUp3_hit
     events_when_complete:
       - standUps_complete
-      - start_mode_dashLit
+      - start_dashLit
 
 show_player:
   standUps_complete:
     dashOn:
+      show_tokens:
+        lights: dash
+  dash_complete:
+    dashOff:
       show_tokens:
         lights: dash

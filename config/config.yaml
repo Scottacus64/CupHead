@@ -9,6 +9,7 @@ modes:
   - soulLanes
   - bonus
   - standUps
+  - dashLit
 
 player_vars:
   bonus_multiplier:
