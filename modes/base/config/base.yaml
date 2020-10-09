@@ -81,6 +81,9 @@ sound_player:
   mode_base_started:
     poolCupHeadBase:
       loops: -1
+  ball_ending:
+    poolCupHeadBase:
+      action: stop
 
 slide_player:
   mode_base_started:
@@ -140,6 +143,31 @@ variable_player:
     contracts:
       int: 0
       action: set
+  s_midRight_active:
+    score: 50
+  s_perdition_active:
+    score: 100
+  s_dtSling_L_active:
+    score: 10
+  s_dtSling_R_active:
+    score: 10
+  s_sling_L_active:
+    score: 10
+  s_sling_R_active:
+    score: 10
+  s_standUp_1_active:
+    score: 10
+  s_standUp_2_active:
+    score: 10
+  s_standUp_3_active:
+    score: 10
+  s_standUp_R_active:
+    score: 1000
+  s_dash_L_active:
+    score: 50
+  s_dash_R_active:
+    score: 50
+
 
 #widgets:
 #  contracts_banner:

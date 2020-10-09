@@ -135,3 +135,5 @@ switches:
     number: 42
   s_perdition_kicker:
     number: 43
+  s_spinner:
+    number: 44

@@ -5,9 +5,10 @@ hardware:
   platform: smart_virtual
 
 modes:
-  - base  
+  - base
   - soulLanes
   - bonus
+  - standUps
 
 player_vars:
   bonus_multiplier:
@@ -16,7 +17,7 @@ player_vars:
   contracts:
     value_type: int
     initial_value: 0
-  
+
 
 playfields:
   playfield:
@@ -53,12 +54,12 @@ drop_targets:
   cup_P:
     switch: s_dt_P
   mug_M:
-    switch: s_dt_M   
+    switch: s_dt_M
   mug_U:
     switch: s_dt_U2
   mug_G:
     switch: s_dt_G
- 
+
 drop_target_banks:
   cup_bank:
     drop_targets: cup_C, cup_U, cup_P
@@ -93,6 +94,3 @@ game:
 #  ball_ending:
 #    cmd_flippers_disable
 #    cmd_autofire_coils_disable
-
-
-

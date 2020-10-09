@@ -1,0 +1,10 @@
+#config_version=5
+mode:
+  start_events: start_mode_dashLit
+  priority: 130
+
+variable_player:
+  s_dash_L_active:
+    score: 500
+  s_dash_R_active:
+    score: 500

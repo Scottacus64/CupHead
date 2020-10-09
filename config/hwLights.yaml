@@ -216,11 +216,11 @@ lights:
   l_special7:
     number: 54
     type: grb
-  l_ dashL:
+  l_dash_L:
     number: 55
     type: grb
     tags: dash
-  l_ dashR:
+  l_dash_R:
     number: 56
     type: grb
     tags: dash
@@ -267,19 +267,19 @@ lights:
   l_outLane_L:
     number: 67
     type: grb
-    tags: bottomLanes
+    tags: outLanes
   l_inlane_L:
     number: 68
     type: grb
-    tags: bottomLanes
+    tags: inLanes
   l_outLane_R:
     number: 69
     type: grb
-    tags: bottomLanes
+    tags: outLanes
   l_inlane_R:
     number: 70
     type: grb
-    tags: bottomLanes
+    tags: inLanes
   l_shootAgain:
     number: 71
     type: grb
@@ -292,5 +292,5 @@ lights:
     number: 74
   l_4x:
     number: 75
-  l_ExtraBall:
+  l_extraBall:
     number: 76

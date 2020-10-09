@@ -1,0 +1,35 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+  priority: 120
+
+shots:
+  standUp1:
+    switch: s_standUp_1
+    show_tokens:
+      light: l_standUp_1
+  standUp2:
+    switch: s_standUp_2
+    show_tokens:
+      light: l_standUp_2
+  standUp3:
+    switch: s_standUp_3
+    show_tokens:
+      light: l_standUp_3
+
+accruals:
+  standUp_block:
+    events:
+      - standUp1_hit
+      - standUp2_hit
+      - standUp3_hit
+    events_when_complete:
+      - standUps_complete
+      - start_mode_dashLit
+
+show_player:
+  standUps_complete:
+    dashOn:
+      show_tokens:
+        lights: dash

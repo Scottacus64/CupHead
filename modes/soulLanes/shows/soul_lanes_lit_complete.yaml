@@ -2,7 +2,7 @@
 #Cuphead SoulLights mode lighting effects
 
 - duration: 1
-  lights: 
+  lights:
     l_soul_S: white
     l_soul_O: white
     l_soul_U: white

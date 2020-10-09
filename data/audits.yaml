@@ -17,14 +17,18 @@ player:
     - 590
     total: 21
 shots:
-  soul_L: 383
-  soul_O: 389
-  soul_S: 426
-  soul_U: 386
+  soul_L: 386
+  soul_O: 392
+  soul_S: 429
+  soul_U: 389
+  standUp1: 27
+  standUp2: 32
+  standUp3: 30
+  standUpR: 3
 switches:
   s_coin: 21
-  s_dash_L: 0
-  s_dash_R: 0
+  s_dash_L: 45
+  s_dash_R: 8
   s_dtSling_L: 1
   s_dtSling_R: 0
   s_dt_C: 344
@@ -33,7 +37,7 @@ switches:
   s_dt_P: 320
   s_dt_U: 332
   s_dt_U2: 62
-  s_exit_shooter_lane: 448
+  s_exit_shooter_lane: 468
   s_inLane_L: 0
   s_inLane_R: 0
   s_kicker: 1
@@ -42,30 +46,32 @@ switches:
   s_outLane_L: 0
   s_outLane_R: 0
   s_perdition: 0
+  s_perdition_kicker: 0
   s_playfield: 0
-  s_plunger: 730
+  s_plunger: 761
   s_popBumper_1: 567
-  s_popBumper_2: 493
-  s_popBumper_3: 223
+  s_popBumper_2: 496
+  s_popBumper_3: 225
   s_pop_bumper1: 120
   s_pop_bumper2: 153
   s_pop_bumper3: 100
   s_right_flipper: 224
   s_sling_L: 0
   s_sling_R: 0
-  s_soul_L: 384
-  s_soul_O: 394
-  s_soul_S: 426
-  s_soul_U: 386
-  s_standUp_1: 1
-  s_standUp_2: 1
-  s_standUp_3: 1
-  s_standUp_R: 0
+  s_soul_L: 387
+  s_soul_O: 397
+  s_soul_S: 429
+  s_soul_U: 389
+  s_spinner: 0
+  s_standUp_1: 29
+  s_standUp_2: 33
+  s_standUp_3: 31
+  s_standUp_R: 10
   s_star_1: 0
   s_star_2: 0
   s_star_3: 0
-  s_start: 69
+  s_start: 70
   s_tilt: 0
-  s_trough1: 633
+  s_trough1: 646
   s_trough2: 72
   s_trough_jam: 13

@@ -1,0 +1,7 @@
+#show_version=5
+#Cuphead StandUpsR mode lighting effects
+
+- duration: 1
+  lights:
+    l_dash_L: green
+    l_dash_R: green
