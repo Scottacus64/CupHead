@@ -3,10 +3,24 @@ mode:
   start_events: start_dashLit
   priority: 130
 
+shots:
+  dash_L:
+    switch: s_dash_L
+  dash_R:
+    switch: s_dash_R
+
+shot_groups:
+  dash_lit:
+    shots: dash_L, dash_R
+    reset_events:
+      dash_collect
+
 variable_player:
-  s_dash_L_active:
+  dash_collect:
     score: 500
-    event: dash_complete
-  s_dash_R_active:
-    score: 500
-    event: dash_complete
+
+show_player:
+  dash_collect:
+    dashOff:
+      show_tokens:
+        lights: dash

@@ -33,7 +33,7 @@ show_player:
     dashOn:
       show_tokens:
         lights: dash
-  dash_complete:
+  dash_collect:
     dashOff:
       show_tokens:
         lights: dash

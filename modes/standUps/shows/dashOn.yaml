@@ -5,3 +5,6 @@
   lights:
     l_dash_L: green
     l_dash_R: green
+    l_standUp_1: off
+    l_standUp_2: off
+    l_standUp_3: off
