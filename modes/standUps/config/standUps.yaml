@@ -27,13 +27,10 @@ accruals:
     events_when_complete:
       - standUps_complete
       - start_dashLit
+    reset_on_complete: true
 
 show_player:
   standUps_complete:
     dashOn:
-      show_tokens:
-        lights: dash
-  dash_collect:
-    dashOff:
       show_tokens:
         lights: dash

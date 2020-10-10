@@ -1,6 +1,7 @@
 #config_version=5
 mode:
   start_events: start_dashLit
+  stop_events: dash_complete
   priority: 130
 
 shots:
@@ -9,15 +10,17 @@ shots:
   dash_R:
     switch: s_dash_R
 
-shot_groups:
-  dash_lit:
-    shots: dash_L, dash_R
-    reset_events:
-      dash_complete
-
 variable_player:
-  dash_complete:
-    score: 500
+  dash_L_hit:
+    score: 450
+  dash_R_hit:
+    score: 450
+
+event_player:
+  dash_L_hit:
+    dash_complete
+  dash_R_hit:
+    dash_complete
 
 show_player:
   dash_complete:
