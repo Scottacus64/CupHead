@@ -13,14 +13,14 @@ shot_groups:
   dash_lit:
     shots: dash_L, dash_R
     reset_events:
-      dash_collect
+      dash_complete
 
 variable_player:
-  dash_collect:
+  dash_complete:
     score: 500
 
 show_player:
-  dash_collect:
+  dash_complete:
     dashOff:
       show_tokens:
         lights: dash
