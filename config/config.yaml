@@ -4,14 +4,14 @@
 hardware:
   platform: smart_virtual
 
-modes:
+modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
   - soulLanes
   - bonus
   - standUps
   - dashLit
 
-player_vars:
+player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:
     value_type: int
     initial_value: 1
@@ -25,7 +25,7 @@ playfields:
     tags: default
     default_source_device: bd_plunger
 
-config:
+config: # for a cleaner config file these have all been spit out to their own files
   - keyboard.yaml
   - hwSwitches.yaml
   - hwLights.yaml
@@ -47,7 +47,7 @@ slides:
 slide_player:
   init_done: welcome_slide
 
-drop_targets:
+drop_targets: # this configs each switch to a drop target
   cup_C:
     switch: s_dt_C
   cup_U:
@@ -61,7 +61,7 @@ drop_targets:
   mug_G:
     switch: s_dt_G
 
-drop_target_banks:
+drop_target_banks: # this assigns the drop targets to their banks and sets parameters
   cup_bank:
     drop_targets: cup_C, cup_U, cup_P
     reset_coils: c_dt_reset_CUP

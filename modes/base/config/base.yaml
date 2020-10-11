@@ -3,9 +3,9 @@
 
 mode:
   start_events: ball_starting
-  priority: 100
+  priority: 100 # lowest pririty so other modes can take over
 
-sounds:
+sounds: # difines that four songs that can be played during a ball
   cupMusic1:
     target: music
     loop: -1
@@ -25,7 +25,7 @@ sounds:
 
 sound_pools:
   poolCupHeadBase:
-    type: random_force_all
+    type: random_force_all # play a random song but don't play one a second time until all have been played
     sounds:
       - cupMusic1
       - cupMusic2
@@ -34,19 +34,19 @@ sound_pools:
 
 counters:
   bonus:
-    count_events: drop_target_bank_cup_bank_down, drop_target_bank_mug_bank_down
-    events_when_hit: bank_done
+    count_events: drop_target_bank_cup_bank_down, drop_target_bank_mug_bank_down # each bank gets its own counter
+    events_when_hit: bank_done # when each back is done the event "bank_done" is posted
     starting_count: 0
-    count_complete_value: 10
+    count_complete_value: 10 # set to 10 becasue there are 10 bonus lights
     direction: up
-    persist_state: false
-    disable_on_complete: true
+    persist_state: false # does not keep its value from ball to ball
+    disable_on_complete: true # once all ten bonus lights are lit, stop the counter
 
 show_player:
-  mode_base_started:
+  mode_base_started: # these light the 10 soul contract bonus lights
     base_lighting:
       speed: 1
-  bank_done{count==1}:
+  bank_done{count==1}: # if bank_done is posted and the count value is 1 then run the show 1000_on
     1000_on:
       show_tokens:
   bank_done{count==2}:
@@ -78,12 +78,12 @@ show_player:
       show_tokens:
 
 sound_player:
-  mode_base_started:
+  mode_base_started: # when the mode starts...
+    poolCupHeadBase: # select a song from the pool..
+      loops: -1 # and loop it indefinitely
+  drain_hit : # when the ball drains...
     poolCupHeadBase:
-      loops: -1
-  ball_ending:
-    poolCupHeadBase:
-      action: stop
+      action: stop # stop playing the music
 
 slide_player:
   mode_base_started:
@@ -113,16 +113,20 @@ slide_player:
         color: red
         y: 60%
 
+shots:
+  drain_hit:
+    switch: s_trough1
+
 variable_player:
   bonus:
     int: 1
     action: set
   s_popBumper_1_active:
-    score: bonus
+    score: 100
   s_popBumper_2_active:
-    score: 10
+    score: 100
   s_popBumper_3_active:
-    score: 10
+    score: 100
   s_dt_C_active:
     score: 100
   s_dt_U_active:
@@ -135,14 +139,14 @@ variable_player:
     score: 100
   s_dt_G_active:
     score: 100
-  drop_target_bank_cup_bank_down:
-    contracts: 1
+  drop_target_bank_cup_bank_down: # if the bank is dropped...
+    contracts: 1 # increment the counter contracts by one
   drop_target_bank_mug_bank_down:
     contracts: 1
-  mode_base_started:
+  mode_base_started: # when the mode starts...
     contracts:
-      int: 0
-      action: set
+      int: 0 # put 0...
+      action: set # into contracts
   s_midRight_active:
     score: 50
   s_perdition_active:
@@ -163,12 +167,3 @@ variable_player:
     score: 10
   s_standUp_R_active:
     score: 1000
-
-
-#widgets:
-#  contracts_banner:
-
-
-
-#widget_player:
-#  mode_soulLanes_started: contracts_banner

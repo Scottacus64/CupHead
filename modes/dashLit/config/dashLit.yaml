@@ -12,9 +12,7 @@ shots:
 
 variable_player:
   dash_L_hit:
-    score:
-      int: 500
-      block: true
+    score: 500
   dash_R_hit:
     score: 500
 

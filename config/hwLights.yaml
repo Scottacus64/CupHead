@@ -294,3 +294,6 @@ lights:
     number: 75
   l_extraBall:
     number: 76
+  l_dice:
+    number: 77
+    
