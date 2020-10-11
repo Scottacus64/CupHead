@@ -41,41 +41,35 @@ counters:
     direction: up
     persist_state: false # does not keep its value from ball to ball
     disable_on_complete: true # once all ten bonus lights are lit, stop the counter
+  spinner_rotations:
+    count_events: s_spinner_active
+    count_complete_value: 7
+    starting_count: 0
+    direction: up
+    persist_state: false
+    events_when_hit: advance_lane
+    reset_on_complete: true
+    disable_on_complete: false
 
 show_player:
-  mode_base_started: # these light the 10 soul contract bonus lights
-    base_lighting:
-      speed: 1
-  bank_done{count==1}: # if bank_done is posted and the count value is 1 then run the show 1000_on
-    1000_on:
-      show_tokens:
-  bank_done{count==2}:
-    2000_on:
-      show_tokens:
-  bank_done{count==3}:
-    3000_on:
-      show_tokens:
-  bank_done{count==4}:
-    4000_on:
-      show_tokens:
-  bank_done{count==5}:
-    5000_on:
-      show_tokens:
-  bank_done{count==6}:
-    6000_on:
-      show_tokens:
-  bank_done{count==7}:
-    7000_on:
-      show_tokens:
-  bank_done{count==8}:
-    8000_on:
-      show_tokens:
-  bank_done{count==9}:
-    9000_on:
-      show_tokens:
-  bank_done{count==10}:
-    10000_on:
-      show_tokens:
+  mode_base_started: base_lighting 
+  advance_lane{count==1}: 1_on
+  advance_lane{count==2}: 2_on
+  advance_lane{count==3}: 3_on
+  advance_lane{count==4}: 4_on
+  advance_lane{count==5}: 5_on
+  advance_lane{count==6}: 6_on
+  advance_lane{count==7}: 7_on
+  bank_done{count==1}: 1000_on # if bank_done is posted and the count value is 1 then run the show 1000_on
+  bank_done{count==2}: 2000_on
+  bank_done{count==3}: 3000_on
+  bank_done{count==4}: 4000_on
+  bank_done{count==5}: 5000_on
+  bank_done{count==6}: 6000_on
+  bank_done{count==7}: 7000_on
+  bank_done{count==8}: 8000_on
+  bank_done{count==9}: 9000_on
+  bank_done{count==10}: 10000_on
 
 sound_player:
   mode_base_started: # when the mode starts...
@@ -167,3 +161,6 @@ variable_player:
     score: 10
   s_standUp_R_active:
     score: 1000
+  s_spinner_active:
+    spinner_rotations: 1
+    score: 10

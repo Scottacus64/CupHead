@@ -2,5 +2,5 @@
 #Cuphead base mode lighting effects
 
 - duration: 1
-  lights: 
+  lights:
     gi: white

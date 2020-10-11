@@ -141,7 +141,7 @@ lights:
     number: 35
     type: grb
     tags: soul_lanes
-  l_Lane_L_1:
+  l_lane_L_1:
     number: 36
     type: grb
     tags: lane_L
@@ -296,4 +296,3 @@ lights:
     number: 76
   l_dice:
     number: 77
-    
