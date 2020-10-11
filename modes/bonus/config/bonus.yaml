@@ -1,23 +1,20 @@
 #config_version=5
 
-#mode_settings:
-#  display_delay_ms: 500
-#  keep_multiplier: false
-#  bonus_entries:
-#    - event: 
+mode:
+  stop_events: bonusDone
 
 mode_settings:
   bonus_entries:
     - event: bonusPayout
-      score: 0 #1000 * (current_player.bonus_multiplier + 1) 
+      score: 0 #1000 * (current_player.bonus_multiplier + 1)
       player_score_entry: current_player.contracts
 
 timers:
   bonusCountDown:
     start_value: current_player.contracts
-    end_value: 0 
+    end_value: 0
     direction: down
-    tick_interval: 2S
+    tick_interval: 500ms
     debug: true
     control_events:
       - action: start
@@ -43,7 +40,7 @@ variable_player:
 #    count_events: s_popBumper_1_active
 #    events_when_hit: light_done
 #    starting_count: 3
-#    count_complete_value: 0 
+#    count_complete_value: 0
 #    direction: down
 #    persist_state: false
 #    disable_on_complete: true
@@ -103,5 +100,5 @@ show_player:
 #    type: text
 #    text: Bonus Payout (contracts)
 #    font_size: 25
-#    color: blue 
+#    color: blue
 #    y: 75%

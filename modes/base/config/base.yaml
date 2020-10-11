@@ -163,10 +163,6 @@ variable_player:
     score: 10
   s_standUp_R_active:
     score: 1000
-  s_dash_L_active:
-    score: 50
-  s_dash_R_active:
-    score: 50
 
 
 #widgets:

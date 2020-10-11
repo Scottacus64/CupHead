@@ -1,22 +1,22 @@
 #config_version=5
 
 mode:
-  start_events: ball_started
+  start_events:
+    - ball_started
+    - dash_complete
   priority: 120
+  stop_events: mode_dashLit_started
 
 shots:
   standUp1:
     switch: s_standUp_1
     show_tokens:
-      light: l_standUp_1
   standUp2:
     switch: s_standUp_2
     show_tokens:
-      light: l_standUp_2
   standUp3:
     switch: s_standUp_3
     show_tokens:
-      light: l_standUp_3
 
 accruals:
   standUp_block:
@@ -27,10 +27,26 @@ accruals:
     events_when_complete:
       - standUps_complete
       - start_dashLit
-    reset_on_complete: true
+
+light_player:
+  standUp1_hit:
+    l_standUp_1:
+      color: green
+  standUp2_hit:
+    l_standUp_2:
+      color: green
+  standUp3_hit:
+    l_standUp_3:
+      color: green
+
+variable_player:
+  s_dash_L_active:
+    score: 50
+  s_dash_R_active:
+    score: 50
 
 show_player:
-  standUps_complete:
-    dashOn:
-      show_tokens:
-        lights: dash
+    mose_standUps_started:
+      dashOff:
+        show_tokens:
+          lights: dash

@@ -12,9 +12,11 @@ shots:
 
 variable_player:
   dash_L_hit:
-    score: 450
+    score:
+      int: 500
+      block: true
   dash_R_hit:
-    score: 450
+    score: 500
 
 event_player:
   dash_L_hit:
@@ -23,7 +25,7 @@ event_player:
     dash_complete
 
 show_player:
-  dash_complete:
-    dashOff:
+  mode_dashLit_started:
+    dashOn:
       show_tokens:
         lights: dash

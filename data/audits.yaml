@@ -1,28 +1,28 @@
 events: {}
 player: {}
 shots:
-  dash_L: 59
+  dash_L: 76
   dash_R: 7
-  soul_L: 5
-  soul_O: 5
-  soul_S: 5
-  soul_U: 5
-  standUp1: 39
-  standUp2: 39
-  standUp3: 62
+  soul_L: 10
+  soul_O: 10
+  soul_S: 11
+  soul_U: 10
+  standUp1: 63
+  standUp2: 64
+  standUp3: 83
 switches:
   s_coin: 0
-  s_dash_L: 125
+  s_dash_L: 171
   s_dash_R: 16
-  s_dtSling_L: 0
+  s_dtSling_L: 1
   s_dtSling_R: 0
-  s_dt_C: 2
-  s_dt_G: 0
-  s_dt_M: 0
-  s_dt_P: 2
-  s_dt_U: 2
-  s_dt_U2: 0
-  s_exit_shooter_lane: 26
+  s_dt_C: 30
+  s_dt_G: 8
+  s_dt_M: 6
+  s_dt_P: 24
+  s_dt_U: 31
+  s_dt_U2: 10
+  s_exit_shooter_lane: 34
   s_inLane_L: 0
   s_inLane_R: 0
   s_kicker: 0
@@ -32,27 +32,27 @@ switches:
   s_outLane_R: 0
   s_perdition: 0
   s_perdition_kicker: 0
-  s_plunger: 41
+  s_plunger: 58
   s_popBumper_1: 0
-  s_popBumper_2: 22
+  s_popBumper_2: 39
   s_popBumper_3: 0
   s_right_flipper: 0
   s_sling_L: 0
   s_sling_R: 0
-  s_soul_L: 5
-  s_soul_O: 5
-  s_soul_S: 5
-  s_soul_U: 5
+  s_soul_L: 10
+  s_soul_O: 10
+  s_soul_S: 11
+  s_soul_U: 10
   s_spinner: 0
-  s_standUp_1: 39
-  s_standUp_2: 39
-  s_standUp_3: 62
+  s_standUp_1: 66
+  s_standUp_2: 67
+  s_standUp_3: 87
   s_standUp_R: 0
   s_star_1: 0
   s_star_2: 0
   s_star_3: 0
   s_start: 0
   s_tilt: 0
-  s_trough1: 8
+  s_trough1: 12
   s_trough2: 0
   s_trough_jam: 0
