@@ -52,14 +52,28 @@ counters:
     disable_on_complete: false
 
 show_player:
-  mode_base_started: base_lighting 
-  advance_lane{count==1}: 1_on
-  advance_lane{count==2}: 2_on
-  advance_lane{count==3}: 3_on
-  advance_lane{count==4}: 4_on
-  advance_lane{count==5}: 5_on
-  advance_lane{count==6}: 6_on
-  advance_lane{count==7}: 7_on
+  mode_base_started: base_lighting
+  advance_lane{count==1}:
+    1_on: play
+    7_on: stop
+  advance_lane{count==2}:
+    2_on: play
+    1_on: stop
+  advance_lane{count==3}:
+    3_on: play
+    2_on: stop
+  advance_lane{count==4}:
+    4_on: play
+    3_on: stop
+  advance_lane{count==5}:
+    5_on: play
+    4_on: stop
+  advance_lane{count==6}:
+    6_on: play
+    5_on: stop
+  advance_lane{count==7}:
+    7_on: play
+    6_on: stop
   bank_done{count==1}: 1000_on # if bank_done is posted and the count value is 1 then run the show 1000_on
   bank_done{count==2}: 2000_on
   bank_done{count==3}: 3000_on

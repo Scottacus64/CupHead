@@ -23,7 +23,7 @@ switches:
   s_dt_P: 41
   s_dt_U: 50
   s_dt_U2: 16
-  s_exit_shooter_lane: 49
+  s_exit_shooter_lane: 51
   s_inLane_L: 2
   s_inLane_R: 0
   s_kicker: 0
@@ -33,7 +33,7 @@ switches:
   s_outLane_R: 0
   s_perdition: 0
   s_perdition_kicker: 0
-  s_plunger: 82
+  s_plunger: 86
   s_popBumper_1: 7
   s_popBumper_2: 40
   s_popBumper_3: 9
@@ -44,7 +44,7 @@ switches:
   s_soul_O: 14
   s_soul_S: 15
   s_soul_U: 14
-  s_spinner: 183
+  s_spinner: 221
   s_standUp_1: 71
   s_standUp_2: 73
   s_standUp_3: 93
