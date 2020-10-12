@@ -46,10 +46,21 @@ counters:
     count_complete_value: 7
     starting_count: 0
     direction: up
-    persist_state: false
+    persist_state: true
     events_when_hit: advance_lane
     reset_on_complete: true
     disable_on_complete: false
+
+timers:
+  spinner_timer:
+    direction: down
+    start_value: 5
+    end_value: 0
+    tick_interval: 500ms
+    debug: true
+    control_events:
+      - action: restart
+        event: s_spinner_active
 
 show_player:
   mode_base_started: base_lighting
@@ -178,3 +189,23 @@ variable_player:
   s_spinner_active:
     spinner_rotations: 1
     score: 10
+  advance_lane{count==1}:
+    dice_pips: 1
+  advance_lane{count==2}:
+    dice_pips: 1
+  advance_lane{count==3}:
+    dice_pips: 1
+  advance_lane{count==4}:
+    dice_pips: 1
+  advance_lane{count==5}:
+    dice_pips: 1
+  advance_lane{count==6}:
+    dice_pips: 1
+  advance_lane{count==7}:
+    dice_pips:
+      int: 7
+      action: set
+
+
+  timer_spinner_timer_complete{current_player.dice_pips==7}:
+    score: 1
