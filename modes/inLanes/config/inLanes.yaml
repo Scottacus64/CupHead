@@ -1,0 +1,40 @@
+#config_version=5
+
+mode:
+  start_events:
+    leftStars_lit_complete
+  priority: 150
+  stop_events:
+    ball_drain
+
+shots:
+  inLaneL:
+    switch: s_inLane_L
+    show_tokens:
+      light: l_inLane_L
+    profile: inLanes
+  inLaneR:
+    switch: s_inLane_R
+    show_tokens:
+      light: l_inLane_R
+    profile: inLanes
+
+shot_groups:
+  inLanes:
+    shots: inLaneL, inLaneR
+    reset_events: mode_inLanes_end
+
+shot_profiles:
+  inLanes:
+    states:
+      - name: lit
+        show: on
+      - name: unlit
+        show: off
+    loop: false
+
+variable_player:
+  inLaneL_lit_hit:
+    score: 450
+  inLaneR_lit_hit:
+    score: 450

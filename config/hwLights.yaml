@@ -268,7 +268,7 @@ lights:
     number: 67
     type: grb
     tags: outLanes
-  l_inlane_L:
+  l_inLane_L:
     number: 68
     type: grb
     tags: inLanes
@@ -276,7 +276,7 @@ lights:
     number: 69
     type: grb
     tags: outLanes
-  l_inlane_R:
+  l_inLane_R:
     number: 70
     type: grb
     tags: inLanes

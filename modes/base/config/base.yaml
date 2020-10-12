@@ -135,6 +135,17 @@ slide_player:
 shots:
   knock_out:
     switch: s_standUp_R
+  star1:
+    switch: s_star_1
+  star2:
+    switch: s_star_2
+  star3:
+    switch: s_star_3
+
+shot_groups:
+  leftStars:
+    shots: star1, star2
+    reset_events: ball_drain
 
 variable_player:
   bonus:
@@ -185,7 +196,7 @@ variable_player:
   s_standUp_3_active:
     score: 10
   knock_out_hit:
-    score: 1000
+    score: 500
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
     score: 10 # score 10 points per spinner spin
@@ -197,9 +208,17 @@ variable_player:
       action: set
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1 #then payout
-  s_star_1_active:
+  star1_hit:
     score: 50
-  s_star_2_active:
+  star2_hit:
     score: 50
-  s_star_3_active:
+  star3_hit:
     score: 50
+  s_inLane_L_active:
+    score: 50
+  s_inLane_R_active:
+    score: 50
+  s_outLane_L_active:
+    score: 100
+  s_outLane_R_active:
+    score: 100
