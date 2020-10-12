@@ -1,0 +1,17 @@
+#show_version=5
+
+- duration: 200ms
+  lights:
+    l_star_1: cornsilk
+    l_star_2: coral
+    l_star_3: red
+- duration: 200ms
+  lights:
+    l_star_1: coral
+    l_star_2: red
+    l_star_3: cornsilk
+- duration: 200ms
+  lights:
+    l_star_1: red
+    l_star_2: cornsilk
+    l_star_3: coral

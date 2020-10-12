@@ -133,8 +133,8 @@ slide_player:
         y: 60%
 
 shots:
-  drain_hit:
-    switch: s_trough1
+  knock_out:
+    switch: s_standUp_R
 
 variable_player:
   bonus:
@@ -184,28 +184,22 @@ variable_player:
     score: 10
   s_standUp_3_active:
     score: 10
-  s_standUp_R_active:
+  knock_out_hit:
     score: 1000
-  s_spinner_active:
-    spinner_rotations: 1
-    score: 10
-  advance_lane{count==1}:
-    dice_pips: 1
-  advance_lane{count==2}:
-    dice_pips: 1
-  advance_lane{count==3}:
-    dice_pips: 1
-  advance_lane{count==4}:
-    dice_pips: 1
-  advance_lane{count==5}:
-    dice_pips: 1
-  advance_lane{count==6}:
-    dice_pips: 1
-  advance_lane{count==7}:
-    dice_pips:
-      int: 7
+  s_spinner_active: # if the spinner switch is active...
+    spinner_rotations: 1 # add one to the player variable spinner_rotations and..
+    score: 10 # score 10 points per spinner spin
+  advance_lane{count<7}: # if the advance_lane counter is less than 7..
+    dice_pips: 1 #advance the player variable dice_pips by one so that it is not "7"
+  advance_lane{count==7}: # if the advance_lane counter is 7 then set the..
+    dice_pips: # player variable dice_pips to...
+      int: 7 # equal 7
       action: set
-
-
-  timer_spinner_timer_complete{current_player.dice_pips==7}:
-    score: 1
+  timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
+    score: 1 #then payout
+  s_star_1_active:
+    score: 50
+  s_star_2_active:
+    score: 50
+  s_star_3_active:
+    score: 50

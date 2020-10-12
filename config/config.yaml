@@ -10,6 +10,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - bonus
   - standUps
   - dashLit
+  - knockOut
 
 player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:
