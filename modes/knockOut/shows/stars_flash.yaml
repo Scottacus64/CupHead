@@ -10,13 +10,3 @@
     l_star_1: off
     l_star_2: off
     l_star_3: off
-- duration: 250ms
-  lights:
-    l_star_1: red
-    l_star_2: red
-    l_star_3: red
-- duration: 250ms
-  lights:
-    l_star_1: off
-    l_star_2: off
-    l_star_3: off

@@ -1,0 +1,37 @@
+#config_version=5
+mode:
+  start_events: drop_target_bank_cup_bank_down
+  stop_events: timer_cupSlingHurryUp_timer_complete
+  priority: 160
+
+timers:
+  cupSling_timer:
+    direction: up
+    start_value: 0
+    end_value: 5
+    tick_interval: 1S
+    debug: true
+    control_events:
+      - action: start
+        event: mode_cupSling_started
+  cupSlingHurryUp_timer:
+    direction: up
+    start_value: 0
+    end_value: 5
+    tick_interval: 1S
+    debug: true
+    control_events:
+      - action: start
+        event: timer_cupSling_timer_complete
+
+variable_player:
+  s_sling_L_active:
+    score:
+      int: 100
+      block: true
+
+show_player:
+  mode_cupSling_started: cupSlingOn
+  timer_cupSling_timer_complete:
+    cupSlingOn: stop
+    cupFlash: play

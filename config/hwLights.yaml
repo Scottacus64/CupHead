@@ -296,3 +296,8 @@ lights:
     number: 76
   l_dice:
     number: 77
+  l_cup_sling:
+    number: 78
+  l_mug_sling:
+    number: 79
+    

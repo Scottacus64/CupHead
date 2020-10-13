@@ -23,15 +23,15 @@ switches:
   s_coin: 0
   s_dash_L: 196
   s_dash_R: 17
-  s_dtSling_L: 1
-  s_dtSling_R: 0
-  s_dt_C: 54
-  s_dt_G: 15
-  s_dt_M: 19
-  s_dt_P: 44
-  s_dt_U: 55
-  s_dt_U2: 18
-  s_exit_shooter_lane: 112
+  s_dtSling_L: 5
+  s_dtSling_R: 2
+  s_dt_C: 65
+  s_dt_G: 18
+  s_dt_M: 22
+  s_dt_P: 58
+  s_dt_U: 67
+  s_dt_U2: 21
+  s_exit_shooter_lane: 117
   s_inLane_L: 38
   s_inLane_R: 32
   s_kicker: 0
@@ -41,13 +41,13 @@ switches:
   s_outLane_R: 55
   s_perdition: 0
   s_perdition_kicker: 0
-  s_plunger: 204
+  s_plunger: 213
   s_popBumper_1: 7
   s_popBumper_2: 40
   s_popBumper_3: 9
   s_right_flipper: 2
-  s_sling_L: 0
-  s_sling_R: 0
+  s_sling_L: 13
+  s_sling_R: 14
   s_soul_L: 16
   s_soul_O: 17
   s_soul_S: 18
@@ -60,7 +60,7 @@ switches:
   s_star_1: 51
   s_star_2: 48
   s_star_3: 65
-  s_start: 2
+  s_start: 3
   s_tilt: 0
   s_trough1: 27
   s_trough2: 0
