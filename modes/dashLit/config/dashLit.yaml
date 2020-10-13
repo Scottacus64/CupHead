@@ -27,3 +27,8 @@ show_player:
     dashOn:
       show_tokens:
         lights: dash
+    flash_green:
+      loops: 4
+      speed: 6
+      show_tokens:
+        lights: standUp

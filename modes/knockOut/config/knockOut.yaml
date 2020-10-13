@@ -3,25 +3,27 @@
 mode:
   start_events: knock_out_hit
   priority: 140
-  stop_events: timer_knockOut_timer_complete
+  stop_events: timer_knockOutHurryUp_timer_complete
 
 timers:
   knockOut_timer:
     direction: up
     start_value: 0
-    end_value: 15
+    end_value: 10
     tick_interval: 1S
     debug: true
     control_events:
-      - action: restart
-        event: knock_out_hit
-      - action: restart
-        event: leftStars_lit_complete
-      - action: restart
-        event: star3_hit
       - action: start
         event: mode_knockOut_started
-
+  knockOutHurryUp_timer:
+    direction: up
+    start_value: 0
+    end_value: 5
+    tick_interval: 1S
+    debug: true
+    control_events:
+      - action: start
+        event: timer_knockOut_timer_complete
 
 variable_player:
   s_star_1_active:
@@ -52,3 +54,6 @@ shot_groups:
 
 show_player:
   mode_knockOut_started: stars
+  timer_knockOut_timer_complete:
+    stars_flash: play
+    stars: stop 
