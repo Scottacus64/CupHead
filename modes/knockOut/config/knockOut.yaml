@@ -3,6 +3,25 @@
 mode:
   start_events: knock_out_hit
   priority: 140
+  stop_events: timer_knockOut_timer_complete
+
+timers:
+  knockOut_timer:
+    direction: up
+    start_value: 0
+    end_value: 15
+    tick_interval: 1S
+    debug: true
+    control_events:
+      - action: restart
+        event: knock_out_hit
+      - action: restart
+        event: leftStars_lit_complete
+      - action: restart
+        event: star3_hit
+      - action: start
+        event: mode_knockOut_started
+
 
 variable_player:
   s_star_1_active:
@@ -17,6 +36,19 @@ variable_player:
     score:
       int: 500
       block: true
+
+shots:
+  star1:
+    switch: s_star_1
+  star2:
+    switch: s_star_2
+  star3:
+    switch: s_star_3
+
+shot_groups:
+  leftStars:
+    shots: star1, star2
+    reset_events: ball_drain
 
 show_player:
   mode_knockOut_started: stars
