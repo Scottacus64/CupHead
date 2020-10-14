@@ -211,3 +211,5 @@ variable_player:
     score: 100
   s_outLane_R_active:
     score: 100
+  s_kicker_active:
+    score: 1000+(1000*current_player.perdition_value)
