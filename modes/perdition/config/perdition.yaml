@@ -1,9 +1,10 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting
+  start_events: ball_starting, multiball_perdition_multiball_ball_lost
   priority: 110
-  stop_events: ball_drain
+  stop_events: ball_drain, devil_bumper_hit
+
 
 counters:
   perdition_entry:

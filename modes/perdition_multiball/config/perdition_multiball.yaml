@@ -1,0 +1,22 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting, multiball_perdition_multiball_ball_lost
+  stop_events: devil_bumper_hit
+  priority: 200
+  restart_on_next_ball: true
+
+multiball_locks:
+  perdition_lock:
+    enable_events: advance_perdition{count==3}
+    balls_to_lock: 1
+    lock_devices: bd_perdition_kicker
+
+multiballs:
+  perdition_multiball:
+    ball_count: 2
+    ball_locks: bd_perdition_kicker
+    start_events: devil_bumper_hit
+
+show_player:
+  advance_perdition{count==3}: perdition_multiball_lights

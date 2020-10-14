@@ -1,0 +1,8 @@
+#show_version=5
+
+- duration: 500ms
+  lights:
+    l_popBumper_3: red
+- duration: 500ms
+  lights:
+    l_popBumper_3: white
