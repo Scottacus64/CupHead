@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost
-  priority: 110
+  priority: 210
   stop_events: ball_drain, devil_bumper_hit
 
 
@@ -25,6 +25,9 @@ show_player:
 variable_player:
   s_perdition_kicker_active:
     score: 100
+  advance_perdition{current_player.perdition_value==3}:
+    perdition_value:
+      int: 1
   advance_perdition{current_player.perdition_value==2}:
     perdition_value: 1
   advance_perdition{current_player.perdition_value==1}:

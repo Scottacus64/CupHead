@@ -3,7 +3,7 @@ player: {}
 shots:
   dash_L: 90
   dash_R: 7
-  devil_bumper: 44
+  devil_bumper: 53
   drain_hit: 9
   inLaneL: 32
   inLaneR: 28
@@ -41,11 +41,11 @@ switches:
   s_outLane_L: 63
   s_outLane_R: 55
   s_perdition: 1
-  s_perdition_kicker: 252
-  s_plunger: 332
+  s_perdition_kicker: 294
+  s_plunger: 358
   s_popBumper_1: 8
   s_popBumper_2: 47
-  s_popBumper_3: 82
+  s_popBumper_3: 96
   s_right_flipper: 2
   s_sling_L: 15
   s_sling_R: 27
@@ -63,6 +63,6 @@ switches:
   s_star_3: 65
   s_start: 4
   s_tilt: 0
-  s_trough1: 59
-  s_trough2: 25
+  s_trough1: 64
+  s_trough2: 36
   s_trough_jam: 2

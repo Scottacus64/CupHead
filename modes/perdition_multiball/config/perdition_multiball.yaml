@@ -1,16 +1,17 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting, multiball_perdition_multiball_ball_lost
-  stop_events: devil_bumper_hit
+  start_events: ball_starting, multiball_perdition_multiball_ball_lost # this will allow a second multiball opportunity after a ball drains
+  stop_events: devil_bumper_hit, player_turn_ended
   priority: 200
   restart_on_next_ball: true
 
 multiball_locks:
   perdition_lock:
-    enable_events: advance_perdition{count==3}
+    enable_events: advance_perdition{count==3} # counter for three entries to saucer
     balls_to_lock: 1
-    lock_devices: bd_perdition_kicker
+    lock_devices: bd_perdition_kicker # saucer in perdition lane
+    reset_count_for_current_player_events: multiball_perdition_multiball_ended
 
 multiballs:
   perdition_multiball:
@@ -19,4 +20,4 @@ multiballs:
     start_events: devil_bumper_hit
 
 show_player:
-  advance_perdition{count==3}: perdition_multiball_lights
+  advance_perdition{count==3}: perdition_multiball_lights # light show for multiball
