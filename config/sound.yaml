@@ -1,0 +1,180 @@
+#config_version=5
+
+sound_system:
+    master_volume: 0.75
+    tracks:
+       music:
+          type: standard
+          simultaneous_sounds: 1
+          volume: 0.5
+       voice:
+          type: standard
+          simultaneous_sounds: 1
+          volume: 0.7
+       sfx:
+          type: standard
+          simultaneous_sounds: 8
+          volume: 0.4
+
+sounds:
+  attract:
+    file: attract_music.wav
+    track: music
+    volume: .5
+    fade_out: 1S
+  base1:
+    file: cupMusic1.wav
+    track: music
+    volume: .5
+    fade_out: 1S
+  base2:
+    file: cupMusic2.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base3:
+    file: cupMusic3.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base4:
+    file: cupMusic4.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base5:
+    file: cupMusic5.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base6:
+    file: cupMusic6.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base7:
+    file: cupMusic7.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base8:
+    file: cupMusic8.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base9:
+    file: cupMusic9.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  base10:
+    file: cupMusic10.wav
+    track: music
+    volume: .75
+    fade_out: 1S
+  highScore:
+    file: cupHighScore.wav
+    track: music
+    volume: .75
+  callOut1:
+    file: CHballstart1.wav
+    track: voice
+    volume: .75
+    ducking:
+      target: music
+      delay: 0
+      attack: 0.3 sec
+      attenuation: -18db
+      release_point: 2.0 sec
+      release: 1.0 sec
+  callOut2:
+    file: CHballstart2.wav
+    track: voice
+    volume: .75
+    ducking:
+      target: music
+      delay: 0
+      attack: 0.3 sec
+      attenuation: -18db
+      release_point: 2.0 sec
+      release: 1.0 sec
+  callOut3:
+    file: CHballstart3.wav
+    track: voice
+    volume: .75
+    ducking:
+      target: music
+      delay: 0
+      attack: 0.3 sec
+      attenuation: -18db
+      release_point: 2.0 sec
+      release: 1.0 sec
+  callOut4:
+    file: CHballstart4.wav
+    track: voice
+    volume: .75
+    ducking:
+      target: music
+      delay: 0
+      attack: 0.3 sec
+      attenuation: -18db
+      release_point: 2.0 sec
+      release: 1.0 sec
+  soulLaneSound:
+    file: CHBounce.wav
+    track: sfx
+    volume: .75
+  soulComplete:
+    file: CHSoulComplete.wav
+    track: sfx
+    volume: 75
+  drainHit:
+    file: CHDrain.wav
+    track: sfx
+    volume: .75
+  inLanes:
+    file: CHInlanes.wav
+    track: sfx
+    volume: .75
+  inLanesLit:
+    file: CHOoga.wav
+    track: sfx
+    volume: .75
+
+sound_pools:
+  poolCupHeadBase:
+    type: random_force_all # play a random song but don't play one a second time until all have been played
+    track: music
+    sounds:
+      - base1
+      - base2
+      - base3
+      - base4
+      - base5
+      - base6
+      - base7
+      - base8
+      - base9
+      - base10
+  startCallOuts:
+    type: random_force_all
+    track: voice
+    sounds:
+      - callOut1
+      - callOut2
+      - callOut3
+      - callOut4
+
+
+
+
+#assets:
+#    sounds:
+#        default:
+#            load: on_demand
+#        music:
+#            track: music
+#        sfx:
+#            track: sfx
+#        voice:
+#            track: voice

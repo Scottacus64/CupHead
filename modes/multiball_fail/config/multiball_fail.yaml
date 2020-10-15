@@ -1,0 +1,26 @@
+#config_version=5
+
+mode:
+  start_events: mode_multiball_ready_started   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
+  stop_events: devil_bumper_hit, ball_ended   # end if mutiball is achieved or 2nd ball drained
+
+queue_relay_player:
+  ball_ending:     # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
+    post: eject_bd_perdition_kicker    # eject the captured ball and...
+    wait_for: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls==2}    # wait for it to drain
+
+
+
+#mode:
+#  start_events: mode_multiball_ready_started # a mode that gets the machine ready to payout multiball if the devil bumper is hit
+#  stop_events: devil_bumper_hit, ball_ending{device.ball_devices.bd_trough.balls==2} # end if mutiball is achieved or 2nd ball drained
+
+#queue_event_player:
+#  balldevice_bd_trough_ball_entered:  # if a ball hits the trough...
+#    queue_event: mb_fail   # post "mb_fail" as a queue event
+#    events_when_finished: ball_drain  #not sure what to set here?
+
+#queue_relay_player:
+#  mb_fail:   # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
+#    post: eject_bd_perdition_kicker  # eject the captured ball and...
+#    wait_for: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls==2} # wait for it to drain

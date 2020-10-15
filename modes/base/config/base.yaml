@@ -5,33 +5,6 @@ mode:
   start_events: ball_starting
   priority: 100 # lowest pririty so other modes can take over
 
-sounds: # difines that four songs that can be played during a ball
-  cupMusic1:
-    target: music
-    loop: -1
-    mode_end_action: stop
-  cupMusic2:
-    target: music
-    loop: -1
-    mode_end_action: stop
-  cupMusic3:
-    target: music
-    loop: -1
-    mode_end_action: stop
-  cupMusic4:
-    target: music
-    loop: -1
-    mode_end_action: stop
-
-sound_pools:
-  poolCupHeadBase:
-    type: random_force_all # play a random song but don't play one a second time until all have been played
-    sounds:
-      - cupMusic1
-      - cupMusic2
-      - cupMusic3
-      - cupMusic4
-
 counters:
   bonus:
     count_events: drop_target_bank_cup_bank_down, drop_target_bank_mug_bank_down # each bank gets its own counter
@@ -100,9 +73,12 @@ sound_player:
   mode_base_started: # when the mode starts...
     poolCupHeadBase: # select a song from the pool..
       loops: -1 # and loop it indefinitely
-  ball_drain : # when the ball drains...
+  ball_drain{game.balls_in_play==1} : # when the ball drains...
     poolCupHeadBase:
       action: stop # stop playing the music
+  ball_drain: drainHit
+  s_inLane_L_active: inLanes
+  s_inLane_R_active: inLanes
 
 slide_player:
   mode_base_started:

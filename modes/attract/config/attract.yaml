@@ -12,6 +12,7 @@ show_player:
 
 sound_player: # plays the attract music
   mode_attract_started:
-    attract_music:
+    attract:
       loops: -1 # loops the music indefintiely
       mode_end_action: stop
+  request_to_start_game: startCallOuts

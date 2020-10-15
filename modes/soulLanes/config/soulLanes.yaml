@@ -67,6 +67,13 @@ variable_player:
       int: 0
       action: set
 
+sound_player:
+    s_soul_S_active: soulLaneSound
+    s_soul_O_active: soulLaneSound
+    s_soul_U_active: soulLaneSound
+    s_soul_L_active: soulLaneSound
+    soul_lanes_complete: soulComplete
+
 widgets:
   soul_lanes_banner:
     type: text

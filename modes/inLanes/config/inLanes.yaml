@@ -5,7 +5,7 @@ mode:
     leftStars_lit_complete
   priority: 150
   stop_events:
-    ball_drain
+    mode_inLanes_end
 
 shots:
   inLaneL:
@@ -38,3 +38,6 @@ variable_player:
     score: 450
   inLaneR_lit_hit:
     score: 450
+
+sound_player:
+  inLanes_lit_hit: inLanesLit

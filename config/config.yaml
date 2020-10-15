@@ -17,7 +17,8 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - mugSling
   - perdition
   - perdition_multiball
-  - multiball_ready 
+  - multiball_ready
+  - multiball_fail
 
 player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:
@@ -43,6 +44,7 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - hwSwitches.yaml
   - hwLights.yaml
   - hwCoils.yaml
+  - sound.yaml
 
 displays:
   window:
