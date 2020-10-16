@@ -177,8 +177,6 @@ variable_player:
     score: 50
   s_star_2_active:
     score: 50
-  s_star_3_active:
-    score: 50
   s_inLane_L_active:
     score: 50
   s_inLane_R_active:
