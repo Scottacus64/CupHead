@@ -94,6 +94,7 @@ ball_devices:
     eject_coil: c_perdition_kicker
     eject_targets: playfield
     eject_timeouts: 1S
+    eject_events: eject_bd_perdition_kicker
   bd_dash_L:
     ball_switches: s_dash_L
     eject_coil: c_dash_L
