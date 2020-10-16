@@ -131,6 +131,7 @@ switches:
     tags: bottomLanesSw
   s_tilt:
     number: 41
+    tags: tilt
   s_coin:
     number: 42
   s_perdition_kicker:
