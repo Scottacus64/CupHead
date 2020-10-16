@@ -42,10 +42,10 @@ switches:
   s_outLane_R: 62
   s_perdition: 1
   s_perdition_kicker: 458
-  s_plunger: 556
+  s_plunger: 562
   s_popBumper_1: 35
   s_popBumper_2: 100
-  s_popBumper_3: 150
+  s_popBumper_3: 157
   s_right_flipper: 8
   s_sling_L: 45
   s_sling_R: 65
@@ -62,7 +62,7 @@ switches:
   s_star_2: 77
   s_star_3: 75
   s_start: 8
-  s_tilt: 34
-  s_trough1: 128
+  s_tilt: 38
+  s_trough1: 129
   s_trough2: 84
   s_trough_jam: 2
