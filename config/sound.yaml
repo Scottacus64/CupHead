@@ -144,6 +144,70 @@ sounds:
     file: CHdashKickers.wav
     track: sfx
     volume: 1
+  outLanes:
+    file: CHOutlanes.wav
+    track: sfx
+    volume: .75
+  soul1:
+    file: SoulMusic1.wav
+    track: sfx
+    volume: .75
+  soul2:
+    file: SoulMusic2.wav
+    track: sfx
+    volume: .75
+  soul3:
+    file: SoulMusic3.wav
+    track: sfx
+    volume: .75
+  soul4:
+    file: SoulMusic4.wav
+    track: sfx
+    volume: .75
+  soul5:
+    file: SoulMusic5.wav
+    track: sfx
+    volume: .75
+  soul6:
+    file: SoulMusic6.wav
+    track: sfx
+    volume: .75
+  soul7:
+    file: SoulMusic7.wav
+    track: sfx
+    volume: .75
+  soul8:
+    file: SoulMusic8.wav
+    track: sfx
+    volume: .75
+  soul9:
+    file: SoulMusic9.wav
+    track: sfx
+    volume: .75
+  soul10:
+    file: SoulMusic10.wav
+    track: sfx
+    volume: .75
+  standUps:
+    file: CHStandups.wav
+    track: sfx
+    volume: .75
+  dashLitStarted:
+    file: CHDashLitStarted.wav
+    track: sfx
+    volume: .75
+  roll7:
+    file: CHRoll7.wav
+    track: sfx
+    volume: .75
+  spin:
+    file: CHspin.wav
+    track: sfx
+    volume: .75
+  perditionkicker:
+    file: CHPerditionkicker.wav
+    track: sfx
+    volume: .75
 
 sound_pools:
   poolCupHeadBase:

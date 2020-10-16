@@ -54,3 +54,6 @@ show_player:
 sound_player:
   s_dash_L_active: dashKick
   s_dash_R_active: dashKick
+  standUp1_hit: standUps
+  standUp2_hit: standUps
+  standUp3_hit: standUps 

@@ -79,6 +79,21 @@ sound_player:
   ball_drain: drainHit
   s_inLane_L_active: inLanes
   s_inLane_R_active: inLanes
+  s_outLane_L_active: outLanes
+  s_outLane_R_active: outLanes
+  bank_done{count==1}: soul1
+  bank_done{count==2}: soul2
+  bank_done{count==3}: soul3
+  bank_done{count==4}: soul4
+  bank_done{count==5}: soul5
+  bank_done{count==6}: soul6
+  bank_done{count==7}: soul7
+  bank_done{count==8}: soul8
+  bank_done{count==9}: soul9
+  bank_done{count==10}: soul10
+  mode_dashLit_started: dashLitStarted
+  timer_spinner_timer_complete{current_player.dice_pips==7}: roll7
+  advance_lane: spin
 
 slide_player:
   mode_base_started:
