@@ -3,7 +3,7 @@
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost
   priority: 210
-  stop_events: ball_drain, devil_bumper_hit
+  stop_events: devil_bumper_hit, ball_ended
 
 
 counters:

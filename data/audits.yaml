@@ -1,9 +1,9 @@
 events: {}
 player: {}
 shots:
-  dash_L: 91
-  dash_R: 7
-  devil_bumper: 64
+  dash_L: 96
+  dash_R: 8
+  devil_bumper: 66
   drain_hit: 9
   inLaneL: 76
   inLaneR: 69
@@ -14,16 +14,16 @@ shots:
   soul_O: 26
   soul_S: 29
   soul_U: 25
-  standUp1: 83
-  standUp2: 84
-  standUp3: 104
+  standUp1: 89
+  standUp2: 90
+  standUp3: 110
   star1: 61
   star2: 62
   star3: 57
 switches:
   s_coin: 0
-  s_dash_L: 213
-  s_dash_R: 22
+  s_dash_L: 226
+  s_dash_R: 29
   s_dtSling_L: 5
   s_dtSling_R: 3
   s_dt_C: 89
@@ -41,11 +41,11 @@ switches:
   s_outLane_L: 65
   s_outLane_R: 56
   s_perdition: 1
-  s_perdition_kicker: 379
-  s_plunger: 484
+  s_perdition_kicker: 397
+  s_plunger: 498
   s_popBumper_1: 10
   s_popBumper_2: 65
-  s_popBumper_3: 107
+  s_popBumper_3: 109
   s_right_flipper: 8
   s_sling_L: 19
   s_sling_R: 54
@@ -54,15 +54,15 @@ switches:
   s_soul_S: 29
   s_soul_U: 25
   s_spinner: 514
-  s_standUp_1: 87
-  s_standUp_2: 88
-  s_standUp_3: 108
+  s_standUp_1: 93
+  s_standUp_2: 94
+  s_standUp_3: 114
   s_standUp_R: 87
   s_star_1: 75
   s_star_2: 75
   s_star_3: 73
   s_start: 8
   s_tilt: 0
-  s_trough1: 109
-  s_trough2: 65
+  s_trough1: 110
+  s_trough2: 70
   s_trough_jam: 2

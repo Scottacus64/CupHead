@@ -4,6 +4,7 @@ mode:
   start_events: mode_multiball_ready_started   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
   stop_events: devil_bumper_hit, ball_ended   # end if mutiball is achieved or 2nd ball drained
 
+
 queue_relay_player:
   ball_ending:     # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
     post: eject_bd_perdition_kicker    # eject the captured ball and...

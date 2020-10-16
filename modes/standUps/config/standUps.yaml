@@ -50,3 +50,7 @@ show_player:
       dashOff:
         show_tokens:
           lights: dash
+
+sound_player:
+  s_dash_L_active: dashKick
+  s_dash_R_active: dashKick

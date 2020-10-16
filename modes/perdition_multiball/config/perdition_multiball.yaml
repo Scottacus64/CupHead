@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost # this will allow a second multiball opportunity after a ball drains
-  stop_events: devil_bumper_hit, player_turn_ended
+  stop_events: devil_bumper_hit, ball_ended
   priority: 200
   restart_on_next_ball: true
 

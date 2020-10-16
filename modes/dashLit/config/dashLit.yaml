@@ -32,3 +32,7 @@ show_player:
       speed: 6
       show_tokens:
         lights: standUp
+
+sound_player:
+  dash_L_hit: dashLit
+  dash_R_hit: dashLit

@@ -136,10 +136,14 @@ sounds:
     file: CHInlanes.wav
     track: sfx
     volume: .75
-  inLanesLit:
+  dashLit:
     file: CHOoga.wav
     track: sfx
     volume: .75
+  dashKick:
+    file: CHdashKickers.wav
+    track: sfx
+    volume: 1
 
 sound_pools:
   poolCupHeadBase:
