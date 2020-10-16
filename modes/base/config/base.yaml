@@ -4,6 +4,7 @@
 mode:
   start_events: ball_starting
   priority: 100 # lowest pririty so other modes can take over
+#  stop_events: ball_will_end
 
 counters:
   bonus:
