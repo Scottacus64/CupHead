@@ -208,6 +208,29 @@ sounds:
     file: CHPerditionkicker.wav
     track: sfx
     volume: .75
+  knockOut:
+    file: CHknockOut.wav
+    track: sfx
+    volume: .75
+  perdition:
+    file: perdition.wav
+    track: sfx
+    volume: .75
+  perditionLock:
+    file: devilShort.wav
+    track: sfx
+    volume: .75
+  perditionKick:
+    file: CHPerditionRelease.wav
+    track: sfx
+    volume: .75
+    ducking:
+      target: music
+      delay: 0
+      attack: 0.3 sec
+      attenuation: -18db
+      release_point: 2.0 sec
+      release: 1.0 sec
 
 sound_pools:
   poolCupHeadBase:

@@ -34,3 +34,8 @@ variable_player:
     perdition_value: 1
   advance_perdition{current_player.perdition_value==0}:
     perdition_value: 1
+
+sound_player:
+  advance_perdition{count==1}: perdition
+  advance_perdition{count==2}: perdition
+  advance_perdition{count==3}: perditionLock 

@@ -21,3 +21,6 @@ multiballs:
 
 show_player:
   advance_perdition{count==3}: perdition_multiball_lights # light show for multiball
+
+sound_player:
+  devil_bumper_hit: perditionKick

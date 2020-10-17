@@ -37,14 +37,14 @@ slides:
   tbh_tilt_warning:
     widgets:
       - type: text
-        text: DANGER
+        text: YIKES!
         color: red
         font_size: 100
     expire: 2s
   tbh_tilt_warning_2:
     widgets:
       - type: text
-        text: DANGER ** DANGER
+        text: YIKES!
         color: red
         font_size: 100
     expire: 2s

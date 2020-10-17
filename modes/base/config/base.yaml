@@ -95,6 +95,7 @@ sound_player:
   mode_dashLit_started: dashLitStarted
   timer_spinner_timer_complete{current_player.dice_pips==7}: roll7
   advance_lane: spin
+  knock_out_hit: knockOut
 
 slide_player:
   mode_base_started:
