@@ -96,6 +96,9 @@ sound_player:
   timer_spinner_timer_complete{current_player.dice_pips==7}: roll7
   advance_lane: spin
   knock_out_hit: knockOut
+  sw_dtSw_active: dropTarget
+  s_kicker_active: kicker
+  sw_dtSlingSw_active: dtSling
 
 slide_player:
   mode_base_started:

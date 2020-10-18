@@ -231,6 +231,18 @@ sounds:
       attenuation: -18db
       release_point: 2.0 sec
       release: 1.0 sec
+  dropTarget:
+    file: CHdt.wav
+    track: sfx
+    volume: .75
+  dtSling:
+    file: CHdtSling.wav
+    track: sfx
+    volume: .75
+  kicker:
+    file: CHkicker.wav
+    track: sfx
+    volume: .75
 
 sound_pools:
   poolCupHeadBase:
