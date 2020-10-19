@@ -15,6 +15,7 @@ lights:
     type: grb
     tags: gi
   l_gi4:
+    numner: 4
     type: grb
     tags: gi
   l_gi5:
@@ -300,4 +301,3 @@ lights:
     number: 78
   l_mug_sling:
     number: 79
-    
