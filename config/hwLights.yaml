@@ -4,300 +4,387 @@
 lights:
   l_gi1:
     number: 1
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
+    default_on_color: white
   l_gi2:
     number: 2
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi3:
     number: 3
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi4:
-    numner: 4
-    type: grb
+    number: 4
+#    type: grb
+    subtype: led
     tags: gi
   l_gi5:
     number: 5
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi6:
     number: 6
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi7:
     number: 7
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi8:
     number: 8
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi9:
     number: 9
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi10:
     number: 10
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi11:
     number: 11
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi12:
     number: 12
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi13:
     number: 13
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi14:
     number: 14
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi15:
     number: 15
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi16:
     number: 16
-    type: grb
+  #  type: grb
+    subtype: led
     tags: gi
   l_gi17:
     number: 17
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi18:
     number: 18
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi19:
     number: 19
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi20:
     number: 20
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi21:
     number: 21
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi22:
     number: 22
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi23:
     number: 23
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi24:
     number: 24
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi25:
     number: 25
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi26:
     number: 26
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi27:
     number: 27
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi28:
     number: 28
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi29:
     number: 29
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi30:
     number: 30
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_gi31:
     number: 31
-    type: grb
+#    type: grb
+    subtype: led
     tags: gi
   l_soul_S:
     number: 32
-    type: grb
+#    type: grb
+    subtype: led
     tags: soul_lanes
   l_soul_O:
     number: 33
-    type: grb
+#    type: grb
+    subtype: led
     tags: soul_lanes
   l_soul_U:
     number: 34
-    type: grb
+#    type: grb
+    subtype: led
     tags: soul_lanes
   l_soul_L:
     number: 35
-    type: grb
+#    type: grb
+    subtype: led
     tags: soul_lanes
   l_lane_L_1:
     number: 36
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_lane_L_2:
     number: 37
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_lane_L_3:
     number: 38
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_lane_L_4:
     number: 39
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_lane_L_5:
     number: 40
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_lane_L_6:
     number: 41
-    type: grb
+#    type: grb
+    subtype: led
     tags: lane_L
   l_standUp_1:
     number: 42
-    type: grb
+#    type: grb
+    subtype: led
     tags: standUp
   l_standUp_2:
     number: 43
-    type: grb
+#    type: grb
+    subtype: led
     tags: standUp
   l_standUp_3:
     number: 44
-    type: grb
+#    type: grb
+    subtype: led
     tags: standUp
   l_star_1:
     number: 45
-    type: grb
+#    type: grb
+    subtype: led
     tags: star
   l_star_2:
     number: 46
-    type: grb
+#    type: grb
+    subtype: led
     tags: star
   l_star_3:
     number: 47
-    type: grb
+#    type: grb
+    subtype: led
     tags: star
   l_popBumper_1:
     number: 48
-    type: grb
+#    type: grb
+    subtype: led
     tags: popBumper
   l_popBumper_2:
     number: 49
-    type: grb
+#    type: grb
+    subtype: led
     tags: popBumper
   l_popBumper_3:
     number: 50
-    type: grb
+#    type: grb
+    subtype: led
     tags: popBumper
   l_perdition_1:
     number: 51
-    type: grb
+#    type: grb
+    subtype: led
     tags: perdition
   l_perdition_2:
     number: 52
-    type: grb
+#    type: grb
+    subtype: led
     tags: Pperdition
   l_perdition_3:
     number: 53
-    type: grb
+#    type: grb
+    subtype: led
     tags: perdition
   l_special7:
     number: 54
-    type: grb
+#    type: grb
+    subtype: led
   l_dash_L:
     number: 55
-    type: grb
+#    type: grb
+    subtype: led
     tags: dash
   l_dash_R:
     number: 56
-    type: grb
+#    type: grb
+    subtype: led
     tags: dash
   l_bonus_1000:
     number: 57
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_2000:
     number: 58
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_3000:
     number: 59
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_4000:
     number: 60
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_5000:
     number: 61
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_6000:
     number: 62
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_7000:
     number: 63
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_8000:
     number: 64
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_9000:
     number: 65
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_bonus_10000:
     number: 66
-    type: grb
+#    type: grb
+    subtype: led
     tags: bonus
   l_outLane_L:
     number: 67
-    type: grb
+#    type: grb
+    subtype: led
     tags: outLanes
   l_inLane_L:
     number: 68
-    type: grb
+#    type: grb
+    subtype: led
     tags: inLanes
   l_outLane_R:
     number: 69
-    type: grb
+#    type: grb
+    subtype: led
     tags: outLanes
   l_inLane_R:
     number: 70
-    type: grb
+#    type: grb
+    subtype: led
     tags: inLanes
   l_shootAgain:
     number: 71
-    type: grb
+#    type: grb
+    subtype: led
   l_blueShooter:
     number: 72
-    type: grb
+#    type: grb
+    subtype: led
   l_2x:
     number: 73
+#    type: grb
+    subtype: led
   l_3x:
     number: 74
+#    type: grb
+    subtype: led
   l_4x:
     number: 75
+#    type: grb
+    subtype: led
   l_extraBall:
     number: 76
+#    type: grb
+    subtype: led
   l_dice:
     number: 77
+#    type: grb
+    subtype: led
   l_cup_sling:
     number: 78
+#    type: grb
+    subtype: led
   l_mug_sling:
     number: 79
+#    type: grb
+    subtype: led

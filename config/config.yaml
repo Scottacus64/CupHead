@@ -1,8 +1,9 @@
 #config_version=5
 #Cuphead Main Config
 
+
 hardware:
-  platform: smart_virtual
+    platform: virtual_pinball
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -19,7 +20,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - perdition_multiball
   - multiball_ready
   - multiball_fail
-  - tilt 
+  - tilt
 
 player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:

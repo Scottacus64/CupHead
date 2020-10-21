@@ -11,10 +11,10 @@ keyboard:
   2:
     switch: s_trough2
     toggle: true
-  1:
+  9:
     switch: s_trough1
     toggle: true
-  g:
+  1:
     switch: s_start
   a:
     switch: s_exit_shooter_lane

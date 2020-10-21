@@ -36,7 +36,7 @@ switches:
   s_inLane_L: 112
   s_inLane_R: 113
   s_kicker: 72
-  s_left_flipper: 8
+  s_left_flipper: 14
   s_midRight: 4
   s_outLane_L: 73
   s_outLane_R: 64
@@ -46,7 +46,7 @@ switches:
   s_popBumper_1: 35
   s_popBumper_2: 100
   s_popBumper_3: 167
-  s_right_flipper: 8
+  s_right_flipper: 17
   s_sling_L: 46
   s_sling_R: 65
   s_soul_L: 33
@@ -61,8 +61,8 @@ switches:
   s_star_1: 78
   s_star_2: 78
   s_star_3: 76
-  s_start: 8
+  s_start: 21
   s_tilt: 41
   s_trough1: 133
-  s_trough2: 86
+  s_trough2: 87
   s_trough_jam: 2
