@@ -49,46 +49,16 @@ show_player:
 #  mode_bonus_started:
 #    bonus_lighting:
 #      speed: 1
-  light_done{current_player.contracts==0}: # use the value of light_done to drive the shows
-    1000_off:
-      show_tokens:
-        lights: l_bonus_1000
-  light_done{current_player.contracts==1}:
-    2000_off:
-      show_tokens:
-        lights: l_bonus_2000
-  light_done{current_player.contracts==2}:
-    3000_off:
-      show_tokens:
-        lights: l_bonus_3000
-  light_done{current_player.contracts==3}:
-    4000_off:
-      show_tokens:
-        lights: l_bonus_4000
-  light_done{current_player.contracts==4}:
-    5000_off:
-      show_tokens:
-        lights: l_bonus_5000
-  light_done{current_player.contracts==5}:
-    6000_off:
-      show_tokens:
-        lights: l_bonus_6000
-  light_done{current_player.contracts==6}:
-    7000_off:
-      show_tokens:
-        lights: l_bonus_7000
-  light_done{current_player.contracts==7}:
-    8000_off:
-      show_tokens:
-        lights: l_bonus_8000
-  light_done{current_player.contracts==8}:
-    9000_off:
-      show_tokens:
-        lights: l_bonus_9000
-  light_done{current_player.contracts==9}:
-    10000_off:
-      show_tokens:
-        lights: l_bonus_10000
+  light_done{current_player.contracts==0}: 1000_off # use the value of light_done to drive the shows
+  light_done{current_player.contracts==1}: 2000_off
+  light_done{current_player.contracts==2}: 3000_off
+  light_done{current_player.contracts==3}: 4000_off
+  light_done{current_player.contracts==4}: 5000_off
+  light_done{current_player.contracts==5}: 6000_off
+  light_done{current_player.contracts==6}: 7000_off
+  light_done{current_player.contracts==7}: 8000_off
+  light_done{current_player.contracts==8}: 9000_off
+  light_done{current_player.contracts==9}: 10000_off
 
 #slide_player:
 #  mode_bonus_started:

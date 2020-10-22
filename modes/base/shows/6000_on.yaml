@@ -1,7 +1,7 @@
 #show_version=5
 #Cuphead SoulLights mode lighting effects
 
-- duration: 1
-  lights: 
+- duration: 500ms
+  lights:
     l_bonus_5000: off
     l_bonus_6000: white
