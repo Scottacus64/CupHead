@@ -2,7 +2,7 @@
 
 - duration: 250ms
   lights:
-    l_mug_sling: blue
+    l_mug_sling: on
 - duration: 250ms
   lights:
     l_mug_sling: off

@@ -1,7 +1,7 @@
 #config_version=5
 
 mode:
-  stop_events: bonusDone
+  stop_events: bonusDone # end when the last bonus is paid out
 
 mode_settings:
   bonus_entries:
@@ -11,23 +11,23 @@ mode_settings:
 
 timers:
   bonusCountDown:
-    start_value: current_player.contracts
-    end_value: 0
-    direction: down
-    tick_interval: 500ms
+    start_value: current_player.contracts # start with the current number of contracts collected and ...
+    end_value: 0 # end at zero while ...
+    direction: down # counting down at a ...
+    tick_interval: 500ms # rate of once every half second
     debug: true
     control_events:
-      - action: start
-        event: mode_bonus_started
-      - action: stop
-        event: bonusDone
+      - action: start # start when ...
+        event: mode_bonus_started # the mode begins and ...
+      - action: stop # stop when ...
+        event: bonusDone # the mode is done
 
 event_player:
-  timer_bonusCountDown-tick{current_player.contracts==0}:
-    - bonusDone
-  timer_bonusCountDown_tick{current_player.contracts>0}:
-    - bonusPayout
-    - light_done
+  timer_bonusCountDown-tick{current_player.contracts==0}: # if the current player's contract value is zero ...
+    - bonusDone # post the event bonusDone
+  timer_bonusCountDown_tick{current_player.contracts>0}: # if the current player's contract value is greater than zero ...
+    - bonusPayout # pay out and...
+    - light_done  # post the event light_done
 
 variable_player:
   timer_bonusCountDown_tick{current_player.contracts>0}:
@@ -49,7 +49,7 @@ show_player:
 #  mode_bonus_started:
 #    bonus_lighting:
 #      speed: 1
-  light_done{current_player.contracts==0}:
+  light_done{current_player.contracts==0}: # use the value of light_done to drive the shows
     1000_off:
       show_tokens:
         lights: l_bonus_1000

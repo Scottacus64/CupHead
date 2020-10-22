@@ -2,4 +2,5 @@
 
 - duration: 1
   lights:
+    l_perdition_1: on
     l_perdition_2: on

@@ -79,13 +79,13 @@ ball_devices:
     tags: trough, home, drain
     jam_switch: s_trough_jam
     eject_coil_jam_pulse: 15ms
-    eject_targets: bd_plunger
+    eject_targets: playfield
     entrance_count_delay: 300ms
     debug: true
-  bd_plunger:
-    ball_switches: s_plunger
-    entrance_count_delay: 300ms
-    mechanical_eject: true
+  #bd_plunger:
+  #  ball_switches: s_plunger
+  #  entrance_count_delay: 300ms
+  #  mechanical_eject: true
   bd_kicker:
     ball_switches: s_kicker
     eject_coil: c_kicker

@@ -42,7 +42,7 @@ player_vars: #these are player variables that can be seen by all modes
 playfields:
   playfield:
     tags: default
-    default_source_device: bd_plunger
+    default_source_device: bd_trough # bd_plunger
 
 config: # for a cleaner config file these have all been spit out to their own files
   - keyboard.yaml

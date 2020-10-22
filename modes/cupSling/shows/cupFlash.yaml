@@ -2,7 +2,7 @@
 
 - duration: 250ms
   lights:
-    l_cup_sling: red
+    l_cup_sling: on
 - duration: 250ms
   lights:
     l_cup_sling: off

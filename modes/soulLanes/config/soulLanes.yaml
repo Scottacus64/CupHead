@@ -2,13 +2,13 @@
 #Cuphead SOUL light mode
 
 mode:
-  start_events: ball_started
+  start_events: ball_started  #runs along side base mode
   priority: 110
 
 counters:
   contarct_counter:
     count_events: soul_lanes_complete
-    events_when_hit: soul_lanes_done
+    events_when_hit: soul_lanes_done # when the lanes are complete this goes up by one
     starting_count: 1
     direction: up
     persist_state: false
@@ -31,13 +31,13 @@ shots:
     show_tokens:
       light: l_soul_L
 
-shot_groups:
-  soul_lanes:
-    shots: soul_S, soul_O, soul_U, soul_L
-    rotate_left_events: s_left_flipper_active
-    rotate_right_events: s_right_flipper_active
+shot_groups:  # the shot group...
+  soul_lanes:  #  sould_lanes...
+    shots: soul_S, soul_O, soul_U, soul_L  # consits of these shots and are ...
+    rotate_left_events: s_left_flipper_active # rotated left with the left flipper and ...
+    rotate_right_events: s_right_flipper_active # right with the right flipper
     reset_events:
-      soul_lanes_lit_complete: 1s
+      soul_lanes_lit_complete: 1s # this resests on the event soul_lanes_complete which means each shot has been hit
 
 variable_player:
   mode_soulLights_started:
