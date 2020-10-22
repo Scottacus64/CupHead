@@ -7,7 +7,7 @@ shots:
   drain_hit: 9
   inLaneL: 80
   inLaneR: 85
-  knock_out: 107
+  knock_out: 108
   outLaneL: 57
   outLaneR: 44
   soul_L: 63
@@ -29,24 +29,24 @@ switches:
   s_dt_C: 148
   s_dt_G: 42
   s_dt_M: 45
-  s_dt_P: 126
+  s_dt_P: 127
   s_dt_U: 153
   s_dt_U2: 44
-  s_exit_shooter_lane: 281
+  s_exit_shooter_lane: 287
   s_inLane_L: 112
   s_inLane_R: 130
-  s_kicker: 88
-  s_left_flipper: 335
+  s_kicker: 92
+  s_left_flipper: 339
   s_midRight: 11
   s_outLane_L: 79
   s_outLane_R: 69
   s_perdition: 1
-  s_perdition_kicker: 504
-  s_plunger: 635
+  s_perdition_kicker: 507
+  s_plunger: 638
   s_popBumper_1: 119
-  s_popBumper_2: 212
+  s_popBumper_2: 215
   s_popBumper_3: 347
-  s_right_flipper: 321
+  s_right_flipper: 327
   s_sling_L: 75
   s_sling_R: 85
   s_soul_L: 63
@@ -57,12 +57,12 @@ switches:
   s_standUp_1: 110
   s_standUp_2: 115
   s_standUp_3: 143
-  s_standUp_R: 109
+  s_standUp_R: 110
   s_star_1: 107
   s_star_2: 124
-  s_star_3: 131
+  s_star_3: 133
   s_start: 41
   s_tilt: 41
-  s_trough1: 242
-  s_trough2: 194
+  s_trough1: 244
+  s_trough2: 195
   s_trough_jam: 2
