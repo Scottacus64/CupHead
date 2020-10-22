@@ -2,7 +2,7 @@
 
 mode:
   start_events:
-    leftStars_lit_complete # if the left stars are lit start this mode
+    leftStars_complete # if the left stars are lit start this mode
   priority: 150
   stop_events:
     mode_inLanes_end # end this mode when both lanes have been lit and hit

@@ -2,6 +2,9 @@
 #Cuphead Main Config
 
 
+#hardware:
+#  platform: smart_virtual
+
 hardware:
     platform: virtual_pinball
 

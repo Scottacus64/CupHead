@@ -3,46 +3,46 @@
 
 coils:
   c_flipper_left_main:
-    number: 1
+    number: coil1
     default_pulse_ms: 20
   c_flipper_left_hold:
-    number: 2
+    number: coil2
     allow_enable: true
   c_flipper_right_main:
-    number: 3
+    number: coil3
     default_pulse_ms: 20
   c_flipper_right_hold:
-    number: 4
+    number: coil4
     allow_enable: true
   c_trough_eject:
-    number: 5
+    number: coil5
     default_pulse_ms: 20
   c_popBumper_1:
-    number: 6
+    number: coil6
   c_popBumper_2:
-    number: 7
+    number: coil7
   c_popBumper_3:
-    number: 8
+    number: coil8
   c_perdition:
-    number: 9
+    number: coil9
   c_dash_L:
-    number: 10
+    number: coil10
   c_dash_R:
-    number: 11
+    number: coil11
   c_sling_L:
-    number: 12
+    number: coil12
   c_sling_R:
-    number: 13
+    number: coil13
   c_dt_reset_CUP:
-    number: 14
+    number: coil14
   c_dt_reset_MUG:
-    number: 15
+    number: coil15
   c_kicker:
-    number: 16
+    number: coil16
   c_perdition_kicker:
-    number: 17
+    number: coil17
   c_perdition_post:
-    number: 18
+    number: coil18
 
 
 autofire_coils:
@@ -80,9 +80,11 @@ ball_devices:
     jam_switch: s_trough_jam
     eject_coil_jam_pulse: 15ms
     eject_targets: bd_plunger
+    entrance_count_delay: 300ms
     debug: true
   bd_plunger:
     ball_switches: s_plunger
+    entrance_count_delay: 300ms
     mechanical_eject: true
   bd_kicker:
     ball_switches: s_kicker

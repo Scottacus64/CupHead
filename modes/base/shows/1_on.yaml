@@ -3,5 +3,5 @@
 
 - duration: 1
   lights:
-    l_lane_L_1: white
+    l_lane_L_1: on
     l_dice: off

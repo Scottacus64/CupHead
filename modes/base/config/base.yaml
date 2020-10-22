@@ -99,6 +99,9 @@ sound_player:
   sw_dtSw_active: dropTarget
   s_kicker_active: kicker
   sw_dtSlingSw_active: dtSling
+  s_star_1_active: stars
+  s_star_2_active: stars
+  s_star_3_active: stars
 
 slide_player:
   mode_base_started:
@@ -184,7 +187,7 @@ variable_player:
     score: 500
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
-    score: 10 # score 10 points per spinner spin
+    score: 1 # score 10 points per spinner spin
   advance_lane{count<7}: # if the advance_lane counter is less than 7..
     dice_pips: 1 #advance the player variable dice_pips by one so that it is not "7"
   advance_lane{count==7}: # if the advance_lane counter is 7 then set the..
@@ -196,6 +199,8 @@ variable_player:
   s_star_1_active:
     score: 50
   s_star_2_active:
+    score: 50
+  s_star_3_active:
     score: 50
   s_inLane_L_active:
     score: 50

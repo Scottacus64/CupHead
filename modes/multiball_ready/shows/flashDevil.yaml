@@ -2,7 +2,7 @@
 
 - duration: 500ms
   lights:
-    l_popBumper_3: red
+    l_popBumper_3: on
 - duration: 500ms
   lights:
-    l_popBumper_3: white
+    l_popBumper_3: off

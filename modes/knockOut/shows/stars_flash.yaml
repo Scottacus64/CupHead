@@ -2,9 +2,9 @@
 
 - duration: 250ms
   lights:
-    l_star_1: red
-    l_star_2: red
-    l_star_3: red
+    l_star_1: on
+    l_star_2: on
+    l_star_3: on
 - duration: 250ms
   lights:
     l_star_1: off

@@ -32,6 +32,7 @@ switches:
     tags: start
   s_exit_shooter_lane:
     number: 7
+    type: 'NC'
     tags: playfield_active
   s_popBumper_1:
     number: 8

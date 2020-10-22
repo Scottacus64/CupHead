@@ -55,13 +55,13 @@ variable_player:
   soul_lanes_complete:
     score: 1000
   s_soul_S_active:
-    score: 10
+    score: 100
   s_soul_O_active:
-    score: 10
+    score: 100
   s_soul_U_active:
-    score: 10
+    score: 100
   s_soul_L_active:
-    score: 10
+    score: 100
   mode_soulLanes_started:
     bonus_multiplier:
       int: 0

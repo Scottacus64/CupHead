@@ -1,68 +1,68 @@
 events: {}
 player: {}
 shots:
-  dash_L: 100
+  dash_L: 104
   dash_R: 8
-  devil_bumper: 76
+  devil_bumper: 81
   drain_hit: 9
   inLaneL: 80
-  inLaneR: 76
-  knock_out: 92
-  outLaneL: 52
-  outLaneR: 41
-  soul_L: 33
-  soul_O: 30
-  soul_S: 33
-  soul_U: 27
-  standUp1: 95
-  standUp2: 97
-  standUp3: 124
-  star1: 64
-  star2: 65
-  star3: 60
+  inLaneR: 85
+  knock_out: 107
+  outLaneL: 57
+  outLaneR: 44
+  soul_L: 63
+  soul_O: 54
+  soul_S: 64
+  soul_U: 50
+  standUp1: 105
+  standUp2: 109
+  standUp3: 136
+  star1: 70
+  star2: 69
+  star3: 76
 switches:
   s_coin: 0
-  s_dash_L: 234
-  s_dash_R: 29
-  s_dtSling_L: 19
-  s_dtSling_R: 9
-  s_dt_C: 113
-  s_dt_G: 29
-  s_dt_M: 31
-  s_dt_P: 101
-  s_dt_U: 119
-  s_dt_U2: 34
-  s_exit_shooter_lane: 151
+  s_dash_L: 254
+  s_dash_R: 42
+  s_dtSling_L: 38
+  s_dtSling_R: 13
+  s_dt_C: 148
+  s_dt_G: 42
+  s_dt_M: 45
+  s_dt_P: 126
+  s_dt_U: 153
+  s_dt_U2: 44
+  s_exit_shooter_lane: 281
   s_inLane_L: 112
-  s_inLane_R: 113
-  s_kicker: 72
-  s_left_flipper: 14
-  s_midRight: 4
-  s_outLane_L: 73
-  s_outLane_R: 64
+  s_inLane_R: 130
+  s_kicker: 88
+  s_left_flipper: 335
+  s_midRight: 11
+  s_outLane_L: 79
+  s_outLane_R: 69
   s_perdition: 1
-  s_perdition_kicker: 473
-  s_plunger: 579
-  s_popBumper_1: 35
-  s_popBumper_2: 100
-  s_popBumper_3: 167
-  s_right_flipper: 17
-  s_sling_L: 46
-  s_sling_R: 65
-  s_soul_L: 33
-  s_soul_O: 30
-  s_soul_S: 33
-  s_soul_U: 27
-  s_spinner: 681
-  s_standUp_1: 100
-  s_standUp_2: 103
-  s_standUp_3: 131
-  s_standUp_R: 94
-  s_star_1: 78
-  s_star_2: 78
-  s_star_3: 76
-  s_start: 21
+  s_perdition_kicker: 504
+  s_plunger: 635
+  s_popBumper_1: 119
+  s_popBumper_2: 212
+  s_popBumper_3: 347
+  s_right_flipper: 321
+  s_sling_L: 75
+  s_sling_R: 85
+  s_soul_L: 63
+  s_soul_O: 54
+  s_soul_S: 64
+  s_soul_U: 50
+  s_spinner: 775
+  s_standUp_1: 110
+  s_standUp_2: 115
+  s_standUp_3: 143
+  s_standUp_R: 109
+  s_star_1: 107
+  s_star_2: 124
+  s_star_3: 131
+  s_start: 41
   s_tilt: 41
-  s_trough1: 133
-  s_trough2: 87
+  s_trough1: 242
+  s_trough2: 194
   s_trough_jam: 2

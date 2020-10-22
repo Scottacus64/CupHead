@@ -243,6 +243,10 @@ sounds:
     file: CHkicker.wav
     track: sfx
     volume: .75
+  stars:
+    file: CHStar.wav
+    track: sfx
+    volume: .75
 
 sound_pools:
   poolCupHeadBase:

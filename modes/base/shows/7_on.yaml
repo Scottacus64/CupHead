@@ -4,4 +4,4 @@
 - duration: 1
   lights:
     l_lane_L_6: off
-    l_dice: purple
+    l_dice: on

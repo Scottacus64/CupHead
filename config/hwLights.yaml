@@ -7,7 +7,6 @@ lights:
 #    type: grb
     subtype: led
     tags: gi
-    default_on_color: white
   l_gi2:
     number: 2
 #    type: grb
