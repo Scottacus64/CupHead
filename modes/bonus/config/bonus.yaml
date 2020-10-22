@@ -4,6 +4,7 @@ mode:
   stop_events: bonusDone # end when the last bonus is paid out
 
 mode_settings:
+  display_delay_ms: 1100ms
   bonus_entries:
     - event: bonusPayout
       score: 0 #1000 * (current_player.bonus_multiplier + 1)
@@ -35,20 +36,7 @@ variable_player:
     score: 1000 * (current_player.bonus_multiplier + 1)
 
 
-#counters:
-#  bonusStep:
-#    count_events: s_popBumper_1_active
-#    events_when_hit: light_done
-#    starting_count: 3
-#    count_complete_value: 0
-#    direction: down
-#    persist_state: false
-#    disable_on_complete: true
-
 show_player:
-#  mode_bonus_started:
-#    bonus_lighting:
-#      speed: 1
   light_done{current_player.contracts==0}: 1000_off # use the value of light_done to drive the shows
   light_done{current_player.contracts==1}: 2000_off
   light_done{current_player.contracts==2}: 3000_off
