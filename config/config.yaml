@@ -24,6 +24,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - multiball_ready
   - multiball_fail
   - tilt
+  - extraBall
 
 player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:

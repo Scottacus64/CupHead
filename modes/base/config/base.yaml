@@ -166,7 +166,7 @@ variable_player:
   s_outLane_R_active:
     score: 100
   s_kicker_active:
-    score: 1000+(1000*perdition_value)
+    score: 1000  #+(1000*perdition_value)
 
 sound_player:
   mode_base_started: # when the mode starts...
