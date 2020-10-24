@@ -3,46 +3,52 @@
 
 coils:
   c_flipper_left_main:
-    number: coil1
+    number: coil_1
     default_pulse_ms: 20
   c_flipper_left_hold:
-    number: coil2
+    number: coil_2
     allow_enable: true
   c_flipper_right_main:
-    number: coil3
+    number: coil_3
     default_pulse_ms: 20
   c_flipper_right_hold:
-    number: coil4
+    number: coil_4
     allow_enable: true
   c_trough_eject:
-    number: coil5
+    number: coil_5
     default_pulse_ms: 20
   c_popBumper_1:
-    number: coil6
+    number: coil_6
   c_popBumper_2:
-    number: coil7
+    number: coil_7
   c_popBumper_3:
-    number: coil8
-  c_perdition:
-    number: coil9
+    number: coil_8
+#  c_perdition:
+#    number: coil9
   c_dash_L:
-    number: coil10
+    number: coil_10
   c_dash_R:
-    number: coil11
+    number: coil_11
   c_sling_L:
-    number: coil12
+    number: coil_12
   c_sling_R:
-    number: coil13
+    number: coil_13
   c_dt_reset_CUP:
-    number: coil14
+    number: coil_14
+    default_pulse_ms: 100  # 60 will work
   c_dt_reset_MUG:
-    number: coil15
+    number: coil_15
+    default_pulse_ms: 100  # 60 will work
   c_kicker:
-    number: coil16
+    number: coil_16
   c_perdition_kicker:
-    number: coil17
-  c_perdition_post:
-    number: coil18
+    number: coil_17
+  c_perdition_post_up:
+    number: coil_18
+    default_pulse_ms: 100
+  c_perdition_post_down:
+    number: coil_19
+    default_pulse_ms: 100
 
 
 autofire_coils:
@@ -61,6 +67,7 @@ autofire_coils:
   sling_R:
     coil: c_sling_R
     switch: s_sling_R
+
 
 flippers:
   left_flipper:

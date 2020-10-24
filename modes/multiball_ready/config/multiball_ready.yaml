@@ -1,13 +1,25 @@
 #config_version=5
 
 mode:
-  start_events: advance_perdition{count==3} #if the perdtion count gets to three then the ball is locked
-  stop_events: devil_bumper_hit
+  start_events: advance_perdition{count==5} #if the perdtion count gets to three then the ball is locked
+  stop_events: timer_devil_bumper_timer_complete
   priority: 170
 
 shots:
   devil_bumper: #this creates a new shot that can be monitored to determine if multiball should start
     switch: s_popBumper_3
+    restart_events: timer_devil_bumper_timer_complete
 
 show_player:
   mode_multiball_ready_started: flashDevil # this flashes the "devil bumper" to alert the player that this is the shot to start mb
+
+timers:
+  devil_bumper_timer:
+    direction: down
+    start_value: 2
+    end_value: 0
+    tick_interval: 250ms
+    debug: true
+    control_events:
+      - action: restart
+        event: devil_bumper_hit

@@ -35,6 +35,15 @@ timers:
     control_events:
       - action: restart
         event: s_spinner_active
+  perditionPost_timer:
+    direction: down
+    start_value: 3
+    end_value: 0
+    tick_interval: 500ms
+    debug: true
+    control_events:
+      - action: start
+        event: devil_bumper_hit
 
 show_player:
   mode_base_started: base_lighting
@@ -73,6 +82,13 @@ show_player:
 shots:
   knock_out:
     switch: s_standUp_R
+
+coil_player:
+  ball_ended: c_perdition_post_down
+  devil_bumper_hit: c_perdition_post_down
+  timer_perditionPost_timer{ticks==2}: c_perdition_post_up
+  (perdition_value==3): c_perdition_post_up
+
 
 variable_player:
   bonus:
@@ -150,7 +166,7 @@ variable_player:
   s_outLane_R_active:
     score: 100
   s_kicker_active:
-    score: 1000+(1000*current_player.perdition_value)
+    score: 1000+(1000*perdition_value)
 
 sound_player:
   mode_base_started: # when the mode starts...

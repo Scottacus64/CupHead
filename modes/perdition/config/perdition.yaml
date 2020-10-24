@@ -3,12 +3,12 @@
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost # starts along side basae mode
   priority: 210
-  stop_events: devil_bumper_hit, ball_ended #ends on ball drained or multiball achieved (devil bumper)
+  stop_events: ball_ended, devil_bumper_hit #ends on ball drained or multiball achieved (devil bumper)
 
 counters:
   perdition_entry:
-    count_events: s_perdition_kicker_active # increments every time the perdition kicker fires and ...
-    count_complete_value: 3 # is complete after three entries into berdition and ...
+    count_events: s_perdition_lane_active # increments every time the perdition kicker fires and ...
+    count_complete_value: 6 # is complete after three entries into berdition and ...
     starting_count: 0 # startes at zero
     direction: up #  It counts up and ...
     persist_state: true # keeps it's count from ball to ball
@@ -18,12 +18,12 @@ counters:
 
 show_player:
   advance_perdition{count==1}: perdition1on # first time show this
-  advance_perdition{count==2}: perdition2on
-  advance_perdition{count==3}: perdition3on
+  advance_perdition{count==3}: perdition2on
+  advance_perdition{count==5}: perdition3on
 
 shots:
   perdition_lane:
-    switch: s_perdition_kicker
+    switch: s_perdition_lane
     profile: perdition_lane_profile
 
 shot_profiles:
@@ -33,24 +33,31 @@ shot_profiles:
         show: perdition0
       - name: firstEntry
         show: perdition1on
+      - name: firstExit
+        show: perdition1on
       - name: secondEntry
+        show: perdition2on
+      - name: secondExit
         show: perdition2on
       - name: thirdEntry
         show: perdition3on
+    loop: True
 
 variable_player:
   s_perdition_kicker_active:
     score: 100
-  advance_perdition{current_player.perdition_value==0}: # Upon the event "advance_perdition" if the player's perdition value is 0 then ...
-    perdition_value: 1 # increment it by one
-  advance_perdition{current_player.perdition_value==1}:
+  advance_perdition{count==1}: # Upon the event "advance_perdition" if the player's perdition value is 0 then ...
     perdition_value: 1
-  advance_perdition{current_player.perdition_value==2}:
+  advance_perdition{count==3}:
     perdition_value: 1
-  advance_perdition{current_player.perdition_value==3}:
+  advance_perdition{count==5}:
     perdition_value: 1
+  advance_perdition{count==6}:
+    perdition_value:
+      int: 0
+      action: set
 
 sound_player:
   advance_perdition{count==1}: perdition
-  advance_perdition{count==2}: perdition
-  advance_perdition{count==3}: perditionLock
+  advance_perdition{count==3}: perdition
+  advance_perdition{count==5}: perditionLock

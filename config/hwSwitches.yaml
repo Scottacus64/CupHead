@@ -139,3 +139,5 @@ switches:
     number: 43
   s_spinner:
     number: 44
+  s_perdition_lane:
+    number: 45
