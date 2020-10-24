@@ -3,7 +3,7 @@
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost # starts along side basae mode
   priority: 210
-  stop_events: ball_ended, devil_bumper_hit #ends on ball drained or multiball achieved (devil bumper)
+  stop_events: ball_ended, advance_perdition{count==6} #ends on ball drained or multiball achieved (devil bumper)
 
 counters:
   perdition_entry:
@@ -19,7 +19,21 @@ counters:
 show_player:
   advance_perdition{count==1}: perdition1on # first time show this
   advance_perdition{count==3}: perdition2on
-  advance_perdition{count==5}: perdition3on
+  advance_perdition{count==5}: perdition3on, flashDevil
+
+sequences:
+  multiballReady:
+    events:
+      - advance_perdition{count==5}
+      - s_perdition_kicker_active
+    events_when_complete: mbReady
+    reset_on_complete: True
+  startMB:
+    events:
+      - advance_perdition{count==5}
+      - s_popBumper_3_active
+    events_when_complete: startMBPost
+    reset_on_complete: True
 
 shots:
   perdition_lane:

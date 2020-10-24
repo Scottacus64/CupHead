@@ -3,68 +3,68 @@ player: {}
 shots:
   dash_L: 104
   dash_R: 8
-  devil_bumper: 120
+  devil_bumper: 123
   drain_hit: 9
   inLaneL: 80
-  inLaneR: 85
-  knock_out: 122
-  outLaneL: 57
-  outLaneR: 44
-  perdition_lane: 266
-  soul_L: 93
-  soul_O: 70
+  inLaneR: 86
+  knock_out: 127
+  outLaneL: 58
+  outLaneR: 45
+  perdition_lane: 379
+  soul_L: 98
+  soul_O: 73
   soul_S: 71
-  soul_U: 86
-  standUp1: 106
-  standUp2: 116
+  soul_U: 97
+  standUp1: 108
+  standUp2: 117
   standUp3: 136
   star1: 71
   star2: 71
-  star3: 87
+  star3: 93
 switches:
   s_coin: 0
-  s_dash_L: 269
+  s_dash_L: 270
   s_dash_R: 49
   s_dtSling_L: 52
-  s_dtSling_R: 25
-  s_dt_C: 201
-  s_dt_G: 85
-  s_dt_M: 104
-  s_dt_P: 182
-  s_dt_U: 209
-  s_dt_U2: 97
+  s_dtSling_R: 26
+  s_dt_C: 204
+  s_dt_G: 88
+  s_dt_M: 107
+  s_dt_P: 185
+  s_dt_U: 213
+  s_dt_U2: 101
   s_exit_shooter_lane: 449
   s_inLane_L: 112
-  s_inLane_R: 134
-  s_kicker: 172
-  s_left_flipper: 442
-  s_midRight: 38
-  s_outLane_L: 79
-  s_outLane_R: 71
+  s_inLane_R: 138
+  s_kicker: 177
+  s_left_flipper: 514
+  s_midRight: 50
+  s_outLane_L: 82
+  s_outLane_R: 74
   s_perdition: 1
-  s_perdition_kicker: 679
-  s_perdition_lane: 257
-  s_plunger: 842
-  s_popBumper_1: 209
-  s_popBumper_2: 492
-  s_popBumper_3: 521
-  s_right_flipper: 424
-  s_sling_L: 120
-  s_sling_R: 101
-  s_soul_L: 93
-  s_soul_O: 70
+  s_perdition_kicker: 742
+  s_perdition_lane: 379
+  s_plunger: 880
+  s_popBumper_1: 234
+  s_popBumper_2: 601
+  s_popBumper_3: 608
+  s_right_flipper: 529
+  s_sling_L: 130
+  s_sling_R: 108
+  s_soul_L: 98
+  s_soul_O: 73
   s_soul_S: 71
-  s_soul_U: 86
-  s_spinner: 786
-  s_standUp_1: 111
-  s_standUp_2: 122
+  s_soul_U: 97
+  s_spinner: 796
+  s_standUp_1: 113
+  s_standUp_2: 123
   s_standUp_3: 143
-  s_standUp_R: 124
-  s_star_1: 117
-  s_star_2: 135
-  s_star_3: 215
+  s_standUp_R: 129
+  s_star_1: 118
+  s_star_2: 136
+  s_star_3: 238
   s_start: 55
   s_tilt: 41
-  s_trough1: 429
-  s_trough2: 277
+  s_trough1: 458
+  s_trough2: 295
   s_trough_jam: 2
