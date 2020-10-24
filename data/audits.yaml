@@ -33,10 +33,10 @@ switches:
   s_dt_P: 175
   s_dt_U: 202
   s_dt_U2: 76
-  s_exit_shooter_lane: 443
+  s_exit_shooter_lane: 449
   s_inLane_L: 112
   s_inLane_R: 134
-  s_kicker: 124
+  s_kicker: 157
   s_left_flipper: 442
   s_midRight: 37
   s_outLane_L: 79
@@ -44,8 +44,8 @@ switches:
   s_perdition: 1
   s_perdition_kicker: 679
   s_perdition_lane: 257
-  s_plunger: 799
-  s_popBumper_1: 177
+  s_plunger: 823
+  s_popBumper_1: 181
   s_popBumper_2: 484
   s_popBumper_3: 505
   s_right_flipper: 424
@@ -65,6 +65,6 @@ switches:
   s_star_3: 210
   s_start: 55
   s_tilt: 41
-  s_trough1: 387
+  s_trough1: 411
   s_trough2: 274
   s_trough_jam: 2
