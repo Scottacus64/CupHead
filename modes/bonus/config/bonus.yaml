@@ -35,6 +35,8 @@ variable_player:
     contracts: -1
     score: 1000 * (current_player.bonus_multiplier + 1)
 
+sound_player:
+  timer_bonusCountDown_tick: bonusPayout
 
 show_player:
   light_done{current_player.contracts==0}: 1000_off # use the value of light_done to drive the shows

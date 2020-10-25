@@ -255,6 +255,10 @@ sounds:
     file: CH7Special.wav
     track: sfx
     volume: .75
+  bonusPayout:
+    file: CHBonus.wav
+    track: sfx
+    volume: .75
 
 sound_pools:
   poolCupHeadBase:
