@@ -1,8 +1,7 @@
 #config_version=5
 
 mode:
-  start_events:
-    star3_hit
+  start_events: rightStar_complete
   priority: 150
   stop_events: ball_drain, outLanes_complete
 

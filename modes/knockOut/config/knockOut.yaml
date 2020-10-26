@@ -26,27 +26,39 @@ timers:
         event: timer_knockOut_timer_complete
 
 variable_player:
-  star_1_hit:
+  s_star_1_active:
     score: 450
-  star_2_hit:
+  s_star_2_active:
     score: 450
-  star_3_hit:
+  s_star_3_active:
     score: 450
 
-shots: #these shots are only defined for this mode
-  star1:
-    switch: s_star_1
-  star2:
-    switch: s_star_2
-  star3: #the outlane mode is started by star3_hit
-    switch: s_star_3
 
-shot_groups:
-   leftStars: #if left stars is completed then the inlane mode starts
-    shots: star1, star2
-    reset_events: ball_drain
-    enable_events: knock_out_hit
-    disable_events: timer_knockOutHurryUp_timer_complete
+sequences:
+  laneUp:
+    events:
+      - s_star_1_active
+      - s_star_2_active
+    events_when_complete: leftStars_complete
+    reset_on_complete: True
+  laneDown:
+    events:
+      - s_star_2_active
+      - s_star_1_active
+    events_when_complete: leftStars_complete
+    reset_on_complete: True
+  rightUpDown:
+    events:
+      - s_star_3_active
+    events_when_complete: rightStar_complete
+    reset_on_complete: True
+
+#shot_groups:
+#   leftStars: #if left stars is completed then the inlane mode starts
+#    shots: star1, star2
+#    reset_events: ball_drain
+#    enable_events: knock_out_hit
+#    disable_events: timer_knockOutHurryUp_timer_complete
 
 show_player:
   mode_knockOut_started: stars
