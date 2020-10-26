@@ -26,11 +26,11 @@ timers:
         event: timer_knockOut_timer_complete
 
 variable_player:
-  s_star_1_active:
+  star_1_hit:
     score: 450
-  s_star_2_active:
+  star_2_hit:
     score: 450
-  s_star_3_active:
+  star_3_hit:
     score: 450
 
 shots: #these shots are only defined for this mode

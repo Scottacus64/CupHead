@@ -3,20 +3,19 @@
 mode:
   start_events:
     - ball_started
-    - dash_complete
+#    - dash_complete
   priority: 120
-  stop_events: mode_dashLit_started
+  stop_events:
+#    - mode_dashLit_started
+    - ball_drain
 
 shots:
   standUp1:
     switch: s_standUp_1
-    show_tokens:
   standUp2:
     switch: s_standUp_2
-    show_tokens:
   standUp3:
     switch: s_standUp_3
-    show_tokens:
 
 accruals:
   standUp_block:
@@ -27,6 +26,8 @@ accruals:
     events_when_complete:
       - standUps_complete
       - start_dashLit
+#    reset_when_complete: True
+    disable_on_complete: False
 
 light_player:
   standUp1_hit:
@@ -44,6 +45,12 @@ variable_player:
     score: 50
   s_dash_R_active:
     score: 50
+  standUp_1_hit:
+    score: 10
+  standUp_2_hit:
+    score: 10
+  standUp_3_hit:
+    score: 10
 
 show_player:
     mose_standUps_started:
@@ -56,4 +63,4 @@ sound_player:
   s_dash_R_active: dashKick
   standUp1_hit: standUps
   standUp2_hit: standUps
-  standUp3_hit: standUps 
+  standUp3_hit: standUps

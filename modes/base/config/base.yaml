@@ -132,12 +132,6 @@ variable_player:
     score: 10
   s_sling_R_active:
     score: 10
-  s_standUp_1_active:
-    score: 10
-  s_standUp_2_active:
-    score: 10
-  s_standUp_3_active:
-    score: 10
   knock_out_hit:
     score: 500
   s_spinner_active: # if the spinner switch is active...
@@ -167,6 +161,7 @@ variable_player:
     score: 100
   s_kicker_active:
     score: 1000  #+(1000*perdition_value)
+
 
 sound_player:
   mode_base_started: # when the mode starts...
