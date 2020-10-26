@@ -42,9 +42,11 @@ shots: #these shots are only defined for this mode
     switch: s_star_3
 
 shot_groups:
-  leftStars: #if left stars is completed then the inlane mode starts
+   leftStars: #if left stars is completed then the inlane mode starts
     shots: star1, star2
     reset_events: ball_drain
+    enable_events: knock_out_hit
+    disable_events: timer_knockOutHurryUp_timer_complete
 
 show_player:
   mode_knockOut_started: stars
