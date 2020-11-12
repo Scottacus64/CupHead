@@ -1,12 +1,10 @@
 #config_version=5
 #Cuphead Main Config
 
-
-#hardware:
-#  platform: smart_virtual
-
 hardware:
-    platform: virtual_pinball
+#    platform: virtual_pinball
+    platform: smart_virtual
+
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -102,6 +100,13 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
 game:
   balls_per_game: 5
   max_players: 4
+
+
+#videos:
+#    CHvideo:
+#    width: 100
+#    height: 70
+#    file: CHvideo.mp4
 
 
 #event_player:

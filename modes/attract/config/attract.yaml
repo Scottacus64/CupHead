@@ -1,14 +1,14 @@
 #config_version=5
 #Cuphead Attract Mode
 
-show_player:
-  mode_attract_started:
-    attract_display_loop:
-      speed: 1
-    attract_light_show: # just to show that two light shows can be called and run together
-      speed: 4
-    attract_light_show2:
-      speed: 3
+#show_player:
+#  mode_attract_started:
+#    attract_display_loop:
+#      speed: 1
+#    attract_light_show: # just to show that two light shows can be called and run together
+#      speed: 4
+#    attract_light_show2:
+#      speed: 3
 
 sound_player: # plays the attract music
   mode_attract_started:
@@ -16,3 +16,34 @@ sound_player: # plays the attract music
       loops: -1 # loops the music indefintiely
       mode_end_action: stop
   request_to_start_game: startCallOuts
+
+track_player:
+  videoOn:
+    music:
+      action: pause
+      fade: 1 sec
+  videoOff:
+    music:
+      action: play
+      fade: 1 sec
+
+videos:
+  playCHvideo:
+    file: CHvideo.mp4
+#    height: 600
+#    width: 600
+#    volume: .5
+    events_when_played: videoOn
+    events_when_stopped: videoOff
+
+#slides:
+#  video_slide:
+#    - type: video
+#      video: playCHvideo
+#      end_behavior: stop
+#      control_events:
+#        - event: mode_attract_started
+#          action: play
+
+#slide_player:
+#  mode_attract_started: video_slide
