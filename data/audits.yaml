@@ -27,11 +27,11 @@ switches:
   s_dash_R: 62
   s_dtSling_L: 62
   s_dtSling_R: 33
-  s_dt_C: 244
+  s_dt_C: 247
   s_dt_G: 134
   s_dt_M: 155
-  s_dt_P: 227
-  s_dt_U: 252
+  s_dt_P: 229
+  s_dt_U: 259
   s_dt_U2: 145
   s_exit_shooter_lane: 450
   s_inLane_L: 119
@@ -65,6 +65,6 @@ switches:
   s_star_3: 321
   s_start: 59
   s_tilt: 41
-  s_trough1: 566
+  s_trough1: 568
   s_trough2: 366
   s_trough_jam: 2
