@@ -3,11 +3,16 @@
 
 hardware:
 #    platform: virtual_pinball
+hardware:
     platform: opp
+    driverboards: gen2
 
 opp:
-  ports: COM1
-    
+    ports: /dev/ttyACM0, /dev/ttyACM1
+    chains:
+        0: /dev/ttyACM1
+        1: /dev/ttyACM0
+
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
   - soulLanes
