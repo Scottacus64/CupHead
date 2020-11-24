@@ -11,133 +11,129 @@ virtual_platform_start_active_switches:
 
 switches:
   s_left_flipper:
-    number: 0
+    number: 0-0-1
     tags: left_flipper
   s_right_flipper:
-    number: 1
+    number: 0-0-2
     tags: right_flipper
   s_trough1:
-    number: 2
+    number: 32
     tags: trough
   s_trough2:
-    number: 3
+    number: 33
     tags: trough
   s_trough_jam:
-    number: 4
+    number: 34
     tags: trough
-  s_plunger:
-    number: 5
   s_start:
-    number: 6
+    number: 0-0-3
     tags: start
-  s_exit_shooter_lane:
-    number: 7
-    type: 'NC'
-    tags: playfield_active
   s_popBumper_1:
-    number: 8
+    number: 0-0-8
     tags: popBumperSw
   s_popBumper_2:
-    number: 9
+    number: 0-0-9
     tags: popBumperSw
   s_popBumper_3:
-    number: 10
+    number: 0-0-10
     tags: popBumperSw
   s_soul_S:
-    number: 11
+    number: 56
     tags: inLanesSw
   s_soul_O:
-    number: 12
+    number: 57
     tags: inLanesSw
   s_soul_U:
-    number: 13
+    number: 58
     tags: inLanesSw
   s_soul_L:
-    number: 14
+    number: 59
     tags: inLanesSw
   s_standUp_1:
-    number: 15
+    number: 0-0-11
     tags: standUp_LSw
   s_standUp_2:
-    number: 16
+    number: 1-0-1
     tags: standUp_LSw
   s_standUp_3:
-    number: 17
+    number: 1-0-2
     tags: standUp_LSw
   s_standUp_R:
-    number: 18
+    number: 1-0-3
   s_star_1:
-    number: 19
+    number: 0-0-21
     tags: starSw
   s_star_2:
-    number: 20
+    number: 53
     tags: starSw
   s_star_3:
-    number: 21
+    number: 45
     tags: starSw
   s_kicker:
-    number: 22
+    number: 44
   s_perdition:
-    number: 23
+    number: 43
     tags: playfield_active
   s_dt_C:
-    number: 24
+    number: 50
     tags: dtSw
   s_dt_U:
-    number: 25
+    number: 51
     tags: dtSw
   s_dt_P:
-    number: 26
+    number: 52
     tags: dtSw
   s_dt_M:
-    number: 27
+    number: 40
     tags: dtSw
   s_dt_U2:
-    number: 28
+    number: 41
     tags: dtSw
   s_dt_G:
-    number: 29
+    number: 42
     tags: dtSw
   s_dtSling_L:
-    number: 30
+    number: 1-0-8
     tags: dtSlingSw
   s_dtSling_R:
-    number: 31
+    number: 1-0-9
     tags: dtSlingSw
   s_dash_L:
-    number: 32
+    number: 1-0-10
     tags: dashSw
   s_dash_R:
-    number: 33
+    number: 1-0-11
     tags: dashSw
   s_midRight:
-    number: 34
+    number: 37
   s_sling_L:
-    number: 35
+    number: 0-0-16
     tags: slingSw
   s_sling_R:
-    number: 36
+    number: 0-0-17
     tags: slingSw
   s_outLane_L:
-    number: 37
+    number: 49
     tags: bottomLanesSw
   s_inLane_L:
-    number: 38
+    number: 48
     tags: bottomLanesSw
   s_outLane_R:
-    number: 39
+    number: 35
     tags: bottomLanesSw
   s_inLane_R:
-    number: 40
+    number: 36
     tags: bottomLanesSw
-  s_tilt:
-    number: 41
+  s_tilt_bob:
+    number: 0-0-18
     tags: tilt_warning
-  s_coin:
-    number: 42
   s_perdition_kicker:
-    number: 43
+    number: 60
   s_spinner:
-    number: 44
+    number: 0-0-19
   s_perdition_lane:
-    number: 45
+    number: 61
+  s_ball_tilt:
+    number: 0-0-20
+  s_slam_tilt:
+    number: 0-0-21
