@@ -3,9 +3,11 @@
 
 hardware:
 #    platform: virtual_pinball
-    platform: smart_virtual
+    platform: opp
 
-
+opp:
+  ports: COM1
+    
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
   - soulLanes
