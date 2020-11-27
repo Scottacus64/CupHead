@@ -14,7 +14,7 @@ switches:
     number: 0-0-1
     tags: left_flipper
   s_right_flipper:
-    number: 0-0-2
+    number: 1-0-1
     tags: right_flipper
   s_trough1:
     number: 0-0-32
@@ -53,7 +53,7 @@ switches:
     number: 0-0-11
     tags: standUp_LSw
   s_standUp_2:
-    number: 1-0-1
+    number: 0-0-1
     tags: standUp_LSw
   s_standUp_3:
     number: 1-0-2
@@ -96,10 +96,10 @@ switches:
     number: 1-0-9
     tags: dtSlingSw
   s_dash_L:
-    number: 1-0-10
+    number: 0-0-10
     tags: dashSw
   s_dash_R:
-    number: 1-0-11
+    number: 0-0-11
     tags: dashSw
   s_midRight:
     number: 0-0-37
