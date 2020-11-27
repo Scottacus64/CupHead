@@ -32,23 +32,23 @@ coils:
   c_sling_R:
     number: 1-0-5
   c_dt_reset_CUP:
-    number: 0-0-8
+    number: 1-0-8  ####
     default_pulse_ms: 100  # 60 will work
   c_dt_reset_MUG:
-    number: 0-0-9
+    number: 1-0-9  ####
     default_pulse_ms: 100  # 60 will work
   c_kicker:
-    number: 0-0-10
+    number: 1-0-10  ####
   c_perdition_kicker:
-    number: 0-0-11
+    number: 1-0-11  ####
   c_perdition_post_up:
-    number: 0-0-12
+    number: 1-0-12 ####
     default_pulse_ms: 100
   c_perdition_post_down:
-    number: 0-0-13
+    number: 1-0-13 #####
     default_pulse_ms: 100
   c_play_meter:
-    number: 0-0-14
+    number: 1-0-14 #####
 
 
 autofire_coils:

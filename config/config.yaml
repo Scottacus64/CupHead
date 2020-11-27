@@ -1,7 +1,7 @@
 #config_version=5
 #Cuphead Main Config
 
-hardware:
+#hardware:
 #    platform: virtual_pinball
 hardware:
     platform: opp
@@ -10,8 +10,8 @@ hardware:
 opp:
     ports: COM3, COM4
     chains:
-        0: COM3
-        1: COM4
+        0: COM4
+        1: COM3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
