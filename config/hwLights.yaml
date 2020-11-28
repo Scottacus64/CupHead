@@ -2,130 +2,8 @@
 #Cuphead Lights
 
 lights:
-  l_gi1:
-    number: 1-0-1
-    subtype: led
-    tags: gi
-  l_gi2:
-    number: 1-0-2
-    subtype: led
-    tags: gi
-  l_gi3:
-    number: 1-0-3
-    subtype: led
-    tags: gi
-  l_gi4:
-    number: 1-0-4
-    subtype: led
-    tags: gi
-  l_gi5:
-    number: 1-0-5
-    subtype: led
-    tags: gi
-  l_gi6:
-    number: 1-0-6
-    subtype: led
-    tags: gi
-  l_gi7:
-    number: 1-0-7
-    subtype: led
-    tags: gi
-  l_gi8:
-    number: 1-0-8
-    subtype: led
-    tags: gi
-  l_gi9:
-    number: 1-0-9
-    subtype: led
-    tags: gi
-  l_gi10:
-    number: 1-0-10
-    subtype: led
-    tags: gi
-  l_gi11:
-    number: 1-0-11
-    subtype: led
-    tags: gi
-  l_gi12:
-    number: 1-0-12
-    subtype: led
-    tags: gi
-  l_gi13:
-    number: 1-0-13
-    subtype: led
-    tags: gi
-  l_gi14:
-    number: 1-0-14
-    subtype: led
-    tags: gi
-  l_gi15:
-    number: 1-0-15
-    subtype: led
-    tags: gi
-  l_gi16:
-    number: 1-0-16
-    subtype: led
-    tags: gi
-  l_gi17:
-    number: 1-0-17
-    subtype: led
-    tags: gi
-  l_gi18:
-    number: 1-0-18
-    subtype: led
-    tags: gi
-  l_gi19:
-    number: 1-0-19
-    subtype: led
-    tags: gi
-  l_gi20:
-    number: 1-0-20
-    subtype: led
-    tags: gi
-  l_gi21:
-    number: 1-0-21
-    subtype: led
-    tags: gi
-  l_gi22:
-    number: 1-0-22
-    subtype: led
-    tags: gi
-  l_gi23:
-    number: 1-0-23
-    subtype: led
-    tags: gi
-  l_gi24:
-    number: 1-0-24
-    subtype: led
-    tags: gi
-  l_gi25:
-    number: 1-0-25
-    subtype: led
-    tags: gi
-  l_gi26:
-    number: 1-0-26
-    subtype: led
-    tags: gi
-  l_gi27:
-    number: 1-0-27
-    subtype: led
-    tags: gi
-  l_gi28:
-    number: 1-0-28
-    subtype: led
-    tags: gi
-  l_gi29:
-    number: 1-0-29
-    subtype: led
-    tags: gi
-  l_gi30:
-    number: 1-0-30
-    subtype: led
-    tags: gi
-  l_gi31:
-    number: 1-0-31
-    subtype: led
-    tags: gi
+
+# Board 0 Chain 0    
   l_soul_S:
     number: 0-0-1
     type: grb
@@ -356,3 +234,130 @@ lights:
     number: 0-0-49
     type: grb
     subtype: led
+
+# Board 1 Chain 1
+  l_gi1:
+    number: 1-0-1
+    subtype: led
+    tags: gi
+  l_gi2:
+    number: 1-0-2
+    subtype: led
+    tags: gi
+  l_gi3:
+    number: 1-0-3
+    subtype: led
+    tags: gi
+  l_gi4:
+    number: 1-0-4
+    subtype: led
+    tags: gi
+  l_gi5:
+    number: 1-0-5
+    subtype: led
+    tags: gi
+  l_gi6:
+    number: 1-0-6
+    subtype: led
+    tags: gi
+  l_gi7:
+    number: 1-0-7
+    subtype: led
+    tags: gi
+  l_gi8:
+    number: 1-0-8
+    subtype: led
+    tags: gi
+  l_gi9:
+    number: 1-0-9
+    subtype: led
+    tags: gi
+  l_gi10:
+    number: 1-0-10
+    subtype: led
+    tags: gi
+  l_gi11:
+    number: 1-0-11
+    subtype: led
+    tags: gi
+  l_gi12:
+    number: 1-0-12
+    subtype: led
+    tags: gi
+  l_gi13:
+    number: 1-0-13
+    subtype: led
+    tags: gi
+  l_gi14:
+    number: 1-0-14
+    subtype: led
+    tags: gi
+  l_gi15:
+    number: 1-0-15
+    subtype: led
+    tags: gi
+  l_gi16:
+    number: 1-0-16
+    subtype: led
+    tags: gi
+  l_gi17:
+    number: 1-0-17
+    subtype: led
+    tags: gi
+  l_gi18:
+    number: 1-0-18
+    subtype: led
+    tags: gi
+  l_gi19:
+    number: 1-0-19
+    subtype: led
+    tags: gi
+  l_gi20:
+    number: 1-0-20
+    subtype: led
+    tags: gi
+  l_gi21:
+    number: 1-0-21
+    subtype: led
+    tags: gi
+  l_gi22:
+    number: 1-0-22
+    subtype: led
+    tags: gi
+  l_gi23:
+    number: 1-0-23
+    subtype: led
+    tags: gi
+  l_gi24:
+    number: 1-0-24
+    subtype: led
+    tags: gi
+  l_gi25:
+    number: 1-0-25
+    subtype: led
+    tags: gi
+  l_gi26:
+    number: 1-0-26
+    subtype: led
+    tags: gi
+  l_gi27:
+    number: 1-0-27
+    subtype: led
+    tags: gi
+  l_gi28:
+    number: 1-0-28
+    subtype: led
+    tags: gi
+  l_gi29:
+    number: 1-0-29
+    subtype: led
+    tags: gi
+  l_gi30:
+    number: 1-0-30
+    subtype: led
+    tags: gi
+  l_gi31:
+    number: 1-0-31
+    subtype: led
+    tags: gi
+
