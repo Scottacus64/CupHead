@@ -1,16 +1,13 @@
 #config_version=5
-#Cuphead Coils
-
 coils:
-
-# Board 0 Chain 0
+  # Board 0 Chain 0
   c_flipper_left_main: # Autofire so switch must be on Board 0
     number: 0-0-0
     default_pulse_ms: 20
   c_flipper_left_hold: # Autofire so switch must be on Board 0
     number: 0-0-1
     allow_enable: true
- c_popBumper_1: # Autofire so switch must be on Board 0
+  c_popBumper_1: # Autofire so switch must be on Board 0
     number: 0-0-2
   c_popBumper_2: # Autofire so switch must be on Board 0
     number: 0-0-3
@@ -21,25 +18,24 @@ coils:
   c_dash_R:
     number: 0-0-6
   c_dt_reset_CUP:
-    number: 0-0-7  
+    number: 0-0-7
     default_pulse_ms: 100  # 60 will work
   c_dt_reset_MUG:
-    number: 0-0-8  
+    number: 0-0-8
     default_pulse_ms: 100  # 60 will work
   c_kicker:
-    number: 0-0-9  
+    number: 0-0-9
   c_perdition_kicker:
-    number: 0-0-10 
+    number: 0-0-10
   c_perdition_post_up:
-    number: 0-0-11 
+    number: 0-0-11
     default_pulse_ms: 100
   c_perdition_post_down:
-    number: 0-0-12 
+    number: 0-0-12
     default_pulse_ms: 100
   c_play_meter:
-    number: 0-0-13 
-
-# Board 1 Chain 1
+    number: 0-0-13
+   # Board 1 Chain 1
   c_flipper_right_main: # Autofire so switch must be on Board 1
     number: 1-0-0
     default_pulse_ms: 20

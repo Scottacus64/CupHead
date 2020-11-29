@@ -1,5 +1,5 @@
 #config_version=5
-# Cuphead Switches
+
 
 machine:
   balls_installed: 5
@@ -10,8 +10,7 @@ virtual_platform_start_active_switches:
   - s_trough2
 
 switches:
-
-#Board 0 Chain 0
+  # Board 0 Chain 0
   s_left_flipper:
     number: 0-0-1
     tags: left_flipper
@@ -43,19 +42,18 @@ switches:
     number: 0-0-18
     tags: dtSlingSw
   s_star_1:
-    number: 0-0-19 
+    number: 0-0-19
     tags: starSw
   s_spinner:
-    number: 0-0-24 
+    number: 0-0-24
   s_tilt_bob:
-    number: 0-0-25 
+    number: 0-0-25
     tags: tilt_warning
   s_ball_tilt:
-    number: 0-0-26  
+    number: 0-0-26
   s_slam_tilt:
     number: 0-0-27
-
-# Board 1 Chain 1
+  # Board 1 Chain 1
   s_right_flipper:
     number: 1-0-1
     tags: right_flipper
@@ -73,12 +71,8 @@ switches:
   s_sling_R:
     number: 1-0-10
     tags: slingSw
-
-
-  # number: 1-0-11 Remains Unused
-
-# Board 1 Switch Matrix (4x6)
-#Column 1
+  # number: 1-0-11 Remains Unused# Board 1 Switch Matrix (4x6)
+  # Column 1
   s_trough1:
     number: 1-0-32
     tags: trough
@@ -94,10 +88,9 @@ switches:
   s_inLane_R:
     number: 1-0-36
     tags: bottomLanesSw
-   s_midRight:
+  s_midRight:
     number: 1-0-37
-
-#Column 2      
+  # Column 2
   s_dt_M:
     number: 1-0-40
     tags: dtSw
@@ -113,10 +106,9 @@ switches:
   s_kicker:
     number: 1-0-44
   s_star_3:
-    number: -0-45
+    number: 1-0-45
     tags: starSw
-
-#Column 3
+  # Column 3
   s_inLane_L:
     number: 1-0-48
     tags: bottomLanesSw
@@ -135,8 +127,7 @@ switches:
   s_star_2:
     number: 1-0-53
     tags: starSw
-
-#Column 4
+  # Column 4
   s_soul_S:
     number: 1-0-56
     tags: inLanesSw
@@ -153,11 +144,3 @@ switches:
     number: 1-0-60
   s_perdition_lane:
     number: 1-0-61
-
-
-
-
-
-
-
- 
