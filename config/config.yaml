@@ -56,6 +56,17 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - hwCoils.yaml
   - sound.yaml
 
+window:
+  height: 1300
+  width: 1080
+  title: CupheadWindow
+  resizable: true
+  fullscreen: false
+  borderless: true
+  exit_on_escape: true
+  top: 1
+    # source_display: widow
+
 displays:
   window:
     width: 800
