@@ -91,25 +91,25 @@ slides:
         width: 1060
         height: 300
         x: 10
-        y: 10
+        y: 1350
         anchor_x: left
-        anchor_y: bottom
+        anchor_y: top
         source_display: upper
       - type: display
         width: 1060
         height: 600
         x: 10
-        y: 320
+        y: 1040
         anchor_x: left
-        anchor_y: bottom
+        anchor_y: top
         source_display: middle
       - type: display
         width: 1060
         height: 300
         x: 10
-        y: 930
+        y: 420
         anchor_x: left
-        anchor_y: bottom
+        anchor_y: top
         source_display: lower
 
 
