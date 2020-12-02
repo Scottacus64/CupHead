@@ -69,19 +69,55 @@ window:
 
 displays:
   window:
-    width: 800
-    height: 600
+    width: 1080
+    height: 1320
+  upper:
+    width: 1000
+    height: 300
+  middle:
+    width: 1000
+    height: 700
+  lower:
+    width: 1000
+    height: 300
+
 
 slides:
-  welcome_slide:
+  layout:
+    background_color: blue
     widgets:
+      - type: display
+        width: 990
+        height: 290
+        x: 10
+        y: 10
+        anchor_x: left
+        anchor_y: bottom
+        source_display: upper
+      - type: display
+        width: 990
+        height: 680
+        x: 10
+        y: 310
+        anchor_x: left
+        anchor_y: bottom
+        source_display: middlet
+      - type: display
+        width: 990
+        height: 290
+        x: 10
+        y: 1010
+        anchor_x: left
+        anchor_y: bottom
+        source_display: lower
       - type: text
-        text: PINBALL!
-        font_size: 50
-        color: blue
+        text: Split Screen Layout Example
+        y: 60
 
 slide_player:
-  init_done: welcome_slide
+  mc_ready:
+    layout:
+      target: window
 
 drop_targets: # this configs each switch to a drop target
   cup_C:
