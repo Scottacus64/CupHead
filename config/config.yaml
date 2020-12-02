@@ -1,6 +1,4 @@
 #config_version=5
-#Cuphead Main Config
-
 #hardware:
 #    platform: virtual_pinball
 hardware:
@@ -82,7 +80,6 @@ displays:
     width: 1060
     height: 350
 
-
 slides:
   layout:
     background_color: blue
@@ -111,6 +108,37 @@ slides:
         anchor_x: left
         anchor_y: top
         source_display: lower
+  awesome_slide:
+    widgets:
+    - type: text
+      text: Cuphead Pinball
+      font_size: 50
+    transition:
+      type: push
+      duration: 1s
+      direction: left
+  press_start:
+    widgets:
+    - type: Text
+      text: PRESS START
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: false
+    - type: Text
+      text: FREE PLAY
+      color: green
+      y: 10
+      anchor_y: bottom
+    transition:
+      type: move_in
+      duration: 1s
+      direction: right
 
 
 slide_player:
