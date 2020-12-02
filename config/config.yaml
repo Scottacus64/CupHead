@@ -57,28 +57,29 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - sound.yaml
 
 window:
-  height: 1300
   width: 1080
+  height: 1360
   title: CupheadWindow
   resizable: true
   fullscreen: false
   borderless: true
   exit_on_escape: true
-  top: 1
+  top: 0
+  left: 0
     # source_display: widow
 
 displays:
   window:
     width: 1080
-    height: 1320
+    height: 1360
   upper:
-    width: 1000
+    width: 1060
     height: 300
   middle:
-    width: 1000
-    height: 700
+    width: 1060
+    height: 600
   lower:
-    width: 1000
+    width: 1060
     height: 300
 
 
@@ -87,32 +88,30 @@ slides:
     background_color: blue
     widgets:
       - type: display
-        width: 990
-        height: 290
+        width: 1060
+        height: 300
         x: 10
         y: 10
         anchor_x: left
         anchor_y: bottom
         source_display: upper
       - type: display
-        width: 990
-        height: 680
+        width: 1060
+        height: 600
         x: 10
-        y: 310
+        y: 320
         anchor_x: left
         anchor_y: bottom
-        source_display: middlet
+        source_display: middle
       - type: display
-        width: 990
-        height: 290
+        width: 1060
+        height: 300
         x: 10
-        y: 1010
+        y: 930
         anchor_x: left
         anchor_y: bottom
         source_display: lower
-      - type: text
-        text: Split Screen Layout Example
-        y: 60
+
 
 slide_player:
   mc_ready:
