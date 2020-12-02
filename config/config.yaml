@@ -58,7 +58,7 @@ config: # for a cleaner config file these have all been spit out to their own fi
 
 window:
   width: 1080
-  height: 1360
+  height: 1300
   title: CupheadWindow
   resizable: true
   fullscreen: false
@@ -71,7 +71,7 @@ window:
 displays:
   window:
     width: 1080
-    height: 1360
+    height: 1300
   upper:
     width: 1060
     height: 300
@@ -80,7 +80,7 @@ displays:
     height: 600
   lower:
     width: 1060
-    height: 300
+    height: 350
 
 
 slides:
@@ -91,7 +91,7 @@ slides:
         width: 1060
         height: 300
         x: 10
-        y: 1350
+        y: 1290
         anchor_x: left
         anchor_y: top
         source_display: upper
@@ -99,15 +99,15 @@ slides:
         width: 1060
         height: 600
         x: 10
-        y: 1040
+        y: 980
         anchor_x: left
         anchor_y: top
         source_display: middle
       - type: display
         width: 1060
-        height: 300
+        height: 350
         x: 10
-        y: 420
+        y: 370
         anchor_x: left
         anchor_y: top
         source_display: lower

@@ -1,25 +1,5 @@
 #config_version=5
 slides:
-  base_slide: []
-slide_player:
-  single_player_ball_started: base_slide
-widgets:
-  base_score_widget:
+  base_slide:
     - type: text
-      text: (score)
-  base_level_widget:
-    - type: text
-      text: LVL (player|level)
-  base_ball_widget:
-    - type: text
-      text: BALL (ball)
-  source_display: lower
-widget_player:
-  # First event, before additional players have a chance to enter
-  game_started:
-    base_score_widget:
-      slide: base_slide
-    base_level_widget:
-      slide: base_slide
-    base_ball_widget:
-      slide: base_slide
+      text: Hi
