@@ -7,6 +7,7 @@
       - type: text
         text: Cuphead Pinball
         font_size: 50
+        source_display: upper
       transition:
          type: push
          duration: 1s
@@ -18,6 +19,7 @@
       widgets:
       - type: Text
         text: PRESS START
+        source_display: middle
         animations:
           pre_show_slide:
             - property: opacity
@@ -29,6 +31,7 @@
               repeat: false
       - type: Text
         text: FREE PLAY
+        source_display: middle
         color: green
         y: 10
         anchor_y: bottom
@@ -44,6 +47,7 @@
       - type: Text
         text: MISSION PINBALL
         color: red
+        source_display: lower
       transition:
          type: move_in
          duration: 1s
@@ -55,6 +59,7 @@
     - type: video
       video: playCHvideo
       end_behavior: stop
+      source_display: middle
 
 
 - duration: 3
@@ -65,9 +70,11 @@
         text: LAST GAME
         font_size: 50
         y: 60%
+        source_display: lower
       - type: text
         text: (machine|player1_score)
         number_grouping: true
         min_digits: 2
         font_size: 50
         y: 40%
+        source_display: lower
