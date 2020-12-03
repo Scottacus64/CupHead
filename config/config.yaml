@@ -79,11 +79,22 @@ displays:
   lower:
     width: 1060
     height: 350
+  overall:
+    width: 1080
+    height: 1300
 
 slides:
   layout:
     background_color: blue
     widgets:
+      - type: display
+        width: 1080
+        height: 1300
+        x: 10
+        y: 10
+        anchor_x: left
+        anchor_y: top
+        source_display: overall
       - type: display
         width: 1060
         height: 300
@@ -164,9 +175,14 @@ slides:
       min_digits: 2
       font_size: 50
       y: 40%
-  background:
+  reel_slide:
+    widgets:
     - type: image
-      image: backglass
+      image: reel
+  background_slide:
+    widgets:
+    - type: image
+      image: backdrop
 
 slide_player:
   mc_ready:

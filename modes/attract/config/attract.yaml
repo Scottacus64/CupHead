@@ -37,8 +37,10 @@ videos:
     events_when_stopped: videoOff
 
 images:
-  backglass:
+  backdrop:
     file: backdrop_star.png
+  reel:
+    file: reelPNGs.zip
 
 
 #  video_slide:
