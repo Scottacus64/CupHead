@@ -36,7 +36,11 @@ videos:
     events_when_played: videoOn
     events_when_stopped: videoOff
 
-#slides:
+images:
+  backglass:
+    file: backdrop_star.png
+
+
 #  video_slide:
 #    - type: video
 #      video: playCHvideo

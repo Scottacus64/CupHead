@@ -10,16 +10,22 @@
     press_start:
       target: middle
 
+- duration: 3
+  slides:
+    mission_pinball:
+      target: middle
 
-#- duration: 3
-#  mission_pinball:
-#    target: middle
+- duration: 3
+  slides:
+    background:
+      target: window
 
-#- duration: 6s
-#  video_slide:
-#    target: middle
+- duration: 6s
+  slides:
+    video_slide:
+      target: middle
 
-
-#- duration: 3
-#  last_game_score_slide:
-#    target: lower
+- duration: 3
+  slides:
+    last_game_score_slide:
+      target: lower

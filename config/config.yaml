@@ -139,7 +139,34 @@ slides:
       type: move_in
       duration: 1s
       direction: right
-
+  mission_pinball:
+    widgets:
+    - type: Text
+      text: MISSION PINBALL
+      color: red
+    transition:
+       type: move_in
+       duration: 1s
+       direction: top
+  video_slide:
+    - type: video
+      video: playCHvideo
+      end_behavior: stop
+  last_game_score_slide:
+    widgets:
+    - type: text
+      text: LAST GAME
+      font_size: 50
+      y: 60%
+    - type: text
+      text: (machine|player1_score)
+      number_grouping: true
+      min_digits: 2
+      font_size: 50
+      y: 40%
+  background:
+    - type: image
+      image: backglass
 
 slide_player:
   mc_ready:
