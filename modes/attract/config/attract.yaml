@@ -41,6 +41,8 @@ images:
     file: backdrop_star.png
   reel:
     file: reelPNGs.zip
+  rotate:
+    file: cupheadbackdrop.zip
 
 
 #  video_slide:

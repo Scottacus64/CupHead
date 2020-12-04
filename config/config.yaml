@@ -1,15 +1,15 @@
 #config_version=5
-#hardware:
-#    platform: virtual_pinball
 hardware:
-    platform: opp
-    driverboards: gen2
+    platform: virtual_pinball
+#hardware:
+#    platform: opp
+#    driverboards: gen2
 
-opp:
-    ports: COM3, COM4
-    chains:
-        0: COM4
-        1: COM3
+#opp:
+#    ports: COM3, COM4
+#    chains:
+#        0: COM4
+#        1: COM3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -32,6 +32,7 @@ player_vars: #these are player variables that can be seen by all modes
   bonus_multiplier:
     value_type: int
     initial_value: 1
+
   contracts:
     value_type: int
     initial_value: 0
@@ -71,54 +72,63 @@ displays:
     width: 1080
     height: 1300
   upper:
-    width: 1060
-    height: 300
+    width: 1040
+    height: 280
   middle:
-    width: 1060
-    height: 600
+    width: 1040
+    height: 580
   lower:
-    width: 1060
-    height: 350
+    width: 1040
+    height: 320
   overall:
     width: 1080
     height: 1300
+  reel_display:
+    width: 75
+    height: 100
 
 slides:
   layout:
     background_color: blue
     widgets:
-      - type: display
-        width: 1080
-        height: 1300
-        x: 10
-        y: 10
+      - type : display
+        width: 75
+        height: 100
+        x: 60
+        y: 200
         anchor_x: left
         anchor_y: top
-        source_display: overall
+        source_display: reel_display
       - type: display
-        width: 1060
-        height: 300
-        x: 10
-        y: 1290
+        width: 1040
+        height: 280
+        x: 20
+        y: 1270
         anchor_x: left
         anchor_y: top
         source_display: upper
       - type: display
-        width: 1060
-        height: 600
-        x: 10
-        y: 980
+        width: 1040
+        height: 580
+        x: 20
+        y: 940
         anchor_x: left
         anchor_y: top
         source_display: middle
       - type: display
-        width: 1060
-        height: 350
-        x: 10
-        y: 370
+        width: 1040
+        height: 320
+        x: 20
+        y: 340
         anchor_x: left
         anchor_y: top
         source_display: lower
+      - type: display
+        width: 1080
+        height: 1300
+#        anchor_x: left
+#        anchor_y: top
+        source_display: overall
   awesome_slide:
     widgets:
     - type: text
@@ -183,6 +193,10 @@ slides:
     widgets:
     - type: image
       image: backdrop
+  rotate_slide:
+    widgets:
+    - type: image
+      image: rotate
 
 slide_player:
   mc_ready:

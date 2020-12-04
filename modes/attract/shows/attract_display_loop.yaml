@@ -1,17 +1,22 @@
 #show_version=5
+- duration: 3
+  slides:
+    reel_slide:
+      target: reel_display
+      priority: 100
+
+- duration: 3s
+  slides:
+    rotate_slide:
+      target: overall
+      priority: 100
+      force: true
 
 - duration: 3s
   slides:
     awesome_slide:
       target: upper
       priority: 10
-
-- duration: 3s
-  slides:
-    background_slide:
-      target: overall
-      priority: 100
-      force: true
 
 - duration: 3s
   slides:
@@ -25,11 +30,7 @@
       target: middle
       priority: 10
 
-- duration: 3
-  slides:
-    reel_slide:
-      target: middle
-      priority: 100
+
 
 - duration: 6s
   slides:
