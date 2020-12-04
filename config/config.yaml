@@ -84,16 +84,16 @@ displays:
     width: 1080
     height: 1300
   reel_display:
-    width: 75
-    height: 100
+    width: 69
+    height: 65
 
 slides:
   layout:
     background_color: blue
     widgets:
       - type : display
-        width: 75
-        height: 100
+        width: 69
+        height: 65
         x: 60
         y: 200
         anchor_x: left
