@@ -30,8 +30,8 @@ track_player:
 videos:
   playCHvideo:
     file: CHvideo.mp4
-#    height: 600
-#    width: 600
+    height: 600
+    width: 1060
 #    volume: .5
     events_when_played: videoOn
     events_when_stopped: videoOff
@@ -43,6 +43,10 @@ images:
     file: reelPNGs.zip
   rotate:
     file: cupheadbackdrop.zip
+  logo:
+    file: logo.png
+    height: 280
+    width: 1040
 
 
 #  video_slide:

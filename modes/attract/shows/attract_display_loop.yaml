@@ -14,7 +14,7 @@
 
 - duration: 3s
   slides:
-    awesome_slide:
+    logo_slide:
       target: upper
       priority: 10
 

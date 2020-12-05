@@ -126,8 +126,6 @@ slides:
       - type: display
         width: 1080
         height: 1300
-#        anchor_x: left
-#        anchor_y: top
         source_display: overall
   awesome_slide:
     widgets:
@@ -185,6 +183,11 @@ slides:
       min_digits: 2
       font_size: 50
       y: 40%
+  logo_slide:
+    opacity: .5
+    widgets:
+    - type: image
+      image: logo
   reel_slide:
     widgets:
     - type: image

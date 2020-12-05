@@ -24,16 +24,16 @@ shots:
 switches:
   s_ball_tilt: 0
   s_coin: 0
-  s_dash_L: 313
-  s_dash_R: 62
+  s_dash_L: 317
+  s_dash_R: 63
   s_dtSling_L: 62
   s_dtSling_R: 33
   s_dt_C: 247
-  s_dt_G: 134
-  s_dt_M: 155
+  s_dt_G: 135
+  s_dt_M: 156
   s_dt_P: 229
   s_dt_U: 259
-  s_dt_U2: 145
+  s_dt_U2: 146
   s_exit_shooter_lane: 450
   s_inLane_L: 119
   s_inLane_R: 175
@@ -46,9 +46,9 @@ switches:
   s_perdition_kicker: 777
   s_perdition_lane: 449
   s_plunger: 990
-  s_popBumper_1: 371
-  s_popBumper_2: 821
-  s_popBumper_3: 876
+  s_popBumper_1: 373
+  s_popBumper_2: 823
+  s_popBumper_3: 878
   s_right_flipper: 956
   s_slam_tilt: 0
   s_sling_L: 202
