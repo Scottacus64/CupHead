@@ -72,17 +72,17 @@ displays:
     width: 1080
     height: 1300
   upper:
-    width: 1040
-    height: 280
-  middle:
-    width: 1040
-    height: 580
-  lower:
-    width: 1040
-    height: 320
-  overall:
     width: 1080
-    height: 1300
+    height: 300
+  middle:
+    width: 1080
+    height: 600
+  lower:
+    width: 1080
+    height: 400
+#  overall:
+#    width: 1080
+#    height: 1300
   reel_display:
     width: 69
     height: 65
@@ -100,33 +100,33 @@ slides:
         anchor_y: top
         source_display: reel_display
       - type: display
-        width: 1040
-        height: 280
-        x: 20
-        y: 1270
+        width: 1080
+        height: 300
+        x: 0
+        y: 1300
         anchor_x: left
         anchor_y: top
         source_display: upper
       - type: display
-        width: 1040
-        height: 580
-        x: 20
-        y: 940
+        width: 1080
+        height: 600
+        x: 0
+        y: 1000
         anchor_x: left
         anchor_y: top
         source_display: middle
       - type: display
-        width: 1040
-        height: 320
-        x: 20
-        y: 340
+        width: 1080
+        height: 400
+        x: 0
+        y: 400
         anchor_x: left
         anchor_y: top
         source_display: lower
-      - type: display
-        width: 1080
-        height: 1300
-        source_display: overall
+#      - type: display
+#        width: 1080
+#        height: 1300
+#        source_display: overall
   awesome_slide:
     widgets:
     - type: text
@@ -192,14 +192,14 @@ slides:
     widgets:
     - type: image
       image: reel
-  background_slide:
-    widgets:
-    - type: image
-      image: backdrop
-  rotate_slide:
-    widgets:
-    - type: image
-      image: rotate
+#  background_slide:
+#    widgets:
+#    - type: image
+#      image: backdrop
+#  rotate_slide:
+#    widgets:
+#    - type: image
+#      image: rotate
 
 slide_player:
   mc_ready:

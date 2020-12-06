@@ -117,64 +117,64 @@ videos:
     height: 600
     width: 1060
 #    volume: .5
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   calla:
     file: calla.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   capt:
     file: capt.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   hilda:
     file: hilda.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   peppi:
     file: peppi.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   ribbi:
     file: ribbi.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   robot:
     file: robot.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   root:
     file: root.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
   wally:
     file: wally.mp4
     height: 600
     width: 1060
-    events_when_played: videoOn
-    events_when_stopped: videoOff
+#    events_when_played: videoOn
+#    events_when_stopped: videoOff
 
 images:
-  backdrop:
-    file: backdrop_star.png
+#  backdrop:
+#    file: backdrop_star.png
   reel:
     file: reelPNGs.zip
-  rotate:
-    file: cupheadbackdrop.zip
+#  rotate:
+#    file: cupheadbackdrop.zip
   logo:
     file: logo.png
     height: 280
