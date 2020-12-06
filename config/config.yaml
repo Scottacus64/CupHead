@@ -169,7 +169,7 @@ slides:
        direction: top
   video_slide:
     - type: video
-      video: playCHvideo
+      video: robot
       end_behavior: stop
   last_game_score_slide:
     widgets:
@@ -205,6 +205,27 @@ slide_player:
   mc_ready:
     layout:
       target: window
+
+score_reels:
+  score_reel11:
+    coil_inc: c_reel_11
+    switch_0: reel0
+    switch_1: reel1
+    switch_2: reel2
+    switch_3: reel3
+    switch_4: reel4
+    switch_5: reel5
+    switch_6: reel6
+    switch_7: reel7
+    switch_8: reel8
+    switch_9: reel9
+    limit_hi: 9
+    limit_lo: 0
+
+score_reel_groups:
+  player1:
+    reels: score_reel11, None
+    tags: player1
 
 drop_targets: # this configs each switch to a drop target
   cup_C:

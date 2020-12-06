@@ -8,13 +8,13 @@ keyboard:
   p:
     switch: s_plunger
     toggle: true
-  2:
+  g:
     switch: s_trough2
     toggle: true
-  9:
+  h:
     switch: s_trough1
     toggle: true
-  1:
+  s:
     switch: s_start
   a:
     switch: s_exit_shooter_lane
@@ -30,3 +30,23 @@ keyboard:
     switch: s_coin
   i:
     switch: s_spinner
+  0:
+    switch: reel0
+  1:
+    switch: reel1
+  2:
+    switch: reel2
+  3:
+    switch: reel3
+  4:
+    switch: reel4
+  5:
+    switch: reel5
+  6:
+    switch: reel6
+  7:
+    switch: reel7
+  8:
+    switch: reel8
+  9:
+    switch: reel9

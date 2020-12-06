@@ -1,9 +1,9 @@
 #show_version=5
-- duration: 3
-  slides:
-    reel_slide:
-      target: reel_display
-      priority: 100
+#- duration: 3
+#  slides:
+#    reel_slide:
+#      target: reel_display
+#      priority: 100
 
 - duration: 3s
   slides:
@@ -30,13 +30,11 @@
       target: middle
       priority: 10
 
-
-
 - duration: 6s
   slides:
     video_slide:
       target: middle
-      priority: 10
+      priority: 100
 
 - duration: 3
   slides:

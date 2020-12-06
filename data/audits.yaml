@@ -22,6 +22,16 @@ shots:
   star2: 86
   star3: 107
 switches:
+  reel0: 0
+  reel1: 0
+  reel2: 0
+  reel3: 0
+  reel4: 0
+  reel5: 0
+  reel6: 0
+  reel7: 0
+  reel8: 0
+  reel9: 0
   s_ball_tilt: 0
   s_coin: 0
   s_dash_L: 317
@@ -46,7 +56,7 @@ switches:
   s_perdition_kicker: 777
   s_perdition_lane: 449
   s_plunger: 990
-  s_popBumper_1: 373
+  s_popBumper_1: 374
   s_popBumper_2: 823
   s_popBumper_3: 878
   s_right_flipper: 956
