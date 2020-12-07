@@ -3,8 +3,8 @@
 
 show_player:
   mode_attract_started:
-    attract_display_loop:
-      speed: 1
+#    attract_display_loop:
+#      speed: 1
     output1: # just to show that two light shows can be called and run together
       speed: 4
 #    attract_light_show2:
@@ -79,106 +79,88 @@ slides:
       image: reel89
       loops: 0
 
-slide_player:
-  sw_reel0_active:
-     90slide:
-       target: reel_display
-  sw_reel1_active:
-    01slide:
-      target: reel_display
-  sw_reel2_active:
-    12slide:
-      target: reel_display
-  sw_reel3_active:
-    23slide:
-      target: reel_display
-  sw_reel4_active:
-    34slide:
-      target: reel_display
-  sw_reel5_active:
-    45slide:
-      target: reel_display
-  sw_reel6_active:
-    56slide:
-      target: reel_display
-  sw_reel7_active:
-    67slide:
-      target: reel_display
-  sw_reel8_active:
-    78slide:
-      target: reel_display
-  sw_reel9_active:
-    89slide:
-      target: reel_display
+#slide_player:
+#  sw_reel0_active:
+#     90slide:
+#       target: reel_display
+#  sw_reel1_active:
+#    01slide:
+#      target: reel_display
+#  sw_reel2_active:
+#    12slide:
+#      target: reel_display
+#  sw_reel3_active:
+#    23slide:
+#      target: reel_display
+#  sw_reel4_active:
+#    34slide:
+#      target: reel_display
+#  sw_reel5_active:
+#    45slide:
+#      target: reel_display
+#  sw_reel6_active:
+#    56slide:
+#      target: reel_display
+#  sw_reel7_active:
+#    67slide:
+#      target: reel_display
+#  sw_reel8_active:
+#    78slide:
+#      target: reel_display
+#  sw_reel9_active:
+#    89slide:
+#      target: reel_display
 
 videos:
-  playCHvideo:
-    file: calla.mp4
-    height: 600
-    width: 1060
-#    volume: .5
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   calla:
     file: calla.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   capt:
     file: capt.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   hilda:
     file: hilda.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   peppi:
     file: peppi.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   ribbi:
     file: ribbi.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   robot:
     file: robot.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   root:
     file: root.mp4
     height: 600
     width: 1060
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
   wally:
     file: wally.mp4
     height: 600
     width: 1060
+#  playCHvideo:
+#    file: calla.mp4
+#    height: 600
+#    width: 1060
+#    volume: .5
 #    events_when_played: videoOn
 #    events_when_stopped: videoOff
 
 images:
-#  backdrop:
-#    file: backdrop_star.png
   reel:
     file: reelPNGs.zip
-#  rotate:
-#    file: cupheadbackdrop.zip
-  logo:
-    file: logo.png
-    height: 280
-    width: 1040
+  topper:
+    file: topper.zip
+  score:
+    file: score.png
+    height: 300
+    width: 1080
   reel01:
     file: 01.zip
   reel12:
@@ -209,5 +191,11 @@ images:
 #        - event: mode_attract_started
 #          action: play
 
-#slide_player:
-#  mode_attract_started: video_slide
+slide_player:
+  mode_attract_started:
+    video_slide:
+      target: middle
+    topper_slide:
+      target: upper
+    score_slide:
+      target: lower
