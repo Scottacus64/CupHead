@@ -67,6 +67,16 @@ widgets:
       image: knockout_image
       expire: 2s
       z: 10
+  dash_widget:
+    - type: image
+      image: dash_image
+      expire: 2s
+      z: 10
+      fps: 30
+      anchor_x: left
+      anchor_y: bottom
+      x: left
+      y: bottom + 150
 
 
 images:
@@ -80,6 +90,8 @@ images:
     width: 1080
   knockout_image:
     file: knockout.png
+  dash_image:
+    file: dash.zip
 
 
 slide_player:

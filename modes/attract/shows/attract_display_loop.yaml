@@ -25,7 +25,7 @@
 
 - duration: 6s
   widgets:
-    knockout_widget:
+    dash_widget:
       slide: video_slide
 
 
