@@ -60,20 +60,14 @@ videos:
     file: wally.mp4
     height: 600
     width: 1060
-#  playCHvideo:
-#    file: calla.mp4
-#    height: 600
-#    width: 1060
-#    volume: .5
-#    events_when_played: videoOn
-#    events_when_stopped: videoOff
 
 widgets:
   knockout_widget:
     - type: image
       image: knockout_image
       expire: 2s
-      
+      z: 10
+
 
 images:
   topper:

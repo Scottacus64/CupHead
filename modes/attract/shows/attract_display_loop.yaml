@@ -26,8 +26,7 @@
 - duration: 6s
   widgets:
     knockout_widget:
-      target: middle
-      priority: 10
+      slide: video_slide
 
 
 #- duration: 3s

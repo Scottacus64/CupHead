@@ -65,7 +65,6 @@ window:
   exit_on_escape: true
   top: 0
   left: 0
-    # source_display: widow
 
 displays:
   window:
@@ -80,12 +79,6 @@ displays:
   lower:
     width: 1080
     height: 300
-#  overall:
-#    width: 1080
-#    height: 1300
-#  reel_display:
-#    width: 69
-#    height: 65
 
 slides:
   layout:
@@ -120,6 +113,7 @@ slides:
     - type: video
       video: robot
       end_behavior: loop
+      z: 1
   score_slide:
     widgets:
     - type: image
@@ -138,66 +132,6 @@ slides:
     - type: image
       image: fast_run_image
       fps: 30
-#      - type: display
-#        width: 1080
-#        height: 1300
-#        source_display: overall
-#  awesome_slide:
-#    widgets:
-#    - type: text
-#      text: Cuphead Pinball
-#      font_size: 50
-#    transition:
-#      type: push
-#      duration: 1s
-#      direction: left
-#  press_start:
-#    widgets:
-#    - type: Text
-#      text: PRESS START
-#      animations:
-#        pre_show_slide:
-#          - property: opacity
-#            value: 0
-#            duration: .5s
-#          - property: opacity
-#            value: 1
-#            duration: .5s
-#            repeat: false
-#    - type: Text
-#      text: FREE PLAY
-#      color: green
-#      y: 10
-#      anchor_y: bottom
-#    transition:
-#      type: move_in
-#      duration: 1s
-#      direction: right
-#  mission_pinball:
-#    widgets:
-#    - type: Text
-#      text: MISSION PINBALL
-#      color: red
-#    transition:
-#       type: move_in
-#       duration: 1s
-#       direction: top
-#  last_game_score_slide:
-#    widgets:
-#    - type: text
-#      text: LAST GAME
-#      font_size: 50
-#      y: 60%
-#    - type: text
-#      text: (machine|player1_score)
-#      number_grouping: true
-#      min_digits: 2
-#      font_size: 50
-#      y: 40%
-#  reel_slide:
-#    widgets:
-#    - type: image
-#      image: reel
 
 slide_player:
   mc_ready:
