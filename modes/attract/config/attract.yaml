@@ -78,7 +78,6 @@ widgets:
       x: left
       y: bottom + 150
 
-
 images:
   topper:
     file: topper.zip
@@ -96,7 +95,7 @@ images:
 
 slide_player:
   mode_attract_started:
-    video_slide:
+    ribbi_slide:
       target: middle
 #    topper_slide:
 #      target: upper

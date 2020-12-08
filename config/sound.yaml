@@ -22,58 +22,69 @@ sounds:
     track: music
     volume: .5
     fade_out: 1S
-  base1:
-    file: cupMusic1.wav
+    events_when_played: attract_play
+  root_music:
+    file: root.wav
     track: music
     volume: .5
     fade_out: 1S
-  base2:
-    file: cupMusic2.wav
+    events_when_played: root_play
+  ribbi_music:
+    file: ribbi.wav
     track: music
     volume: .75
     fade_out: 1S
-  base3:
-    file: cupMusic3.wav
+    events_when_played: ribbi_play
+  hilda_music:
+    file: hilda.wav
     track: music
     volume: .75
     fade_out: 1S
-  base4:
-    file: cupMusic4.wav
+    events_when_played: hilda_play
+  cagney_music:
+    file: cagney.wav
     track: music
     volume: .75
     fade_out: 1S
-  base5:
-    file: cupMusic5.wav
+    events_when_played: cagney_play
+  beppi_music:
+    file: beppi.wav
     track: music
     volume: .75
     fade_out: 1S
-  base6:
-    file: cupMusic6.wav
+    events_when_played: beppi_play
+  wally_music:
+    file: wally.wav
     track: music
     volume: .75
     fade_out: 1S
-  base7:
-    file: cupMusic7.wav
+    events_when_played: wally_play
+  capt_music:
+    file: capt.wav
     track: music
     volume: .75
     fade_out: 1S
-  base8:
-    file: cupMusic8.wav
+    events_when_played: capt_play
+  calla_music:
+    file: calla.wav
     track: music
     volume: .75
     fade_out: 1S
-  base9:
-    file: cupMusic9.wav
+    events_when_played: calla_play
+  robot_music:
+    file: robot.wav
     track: music
     volume: .75
     fade_out: 1S
-  base10:
-    file: cupMusic10.wav
+    events_when_played: robot_play
+  train_music:
+    file: train.wav
     track: music
     volume: .75
     fade_out: 1S
+    events_when_played: train_play
   highScore:
-    file: cupHighScore.wav
+    file: aHighScore.wav
     track: music
     volume: .75
   callOut1:
@@ -265,16 +276,16 @@ sound_pools:
     type: random_force_all # play a random song but don't play one a second time until all have been played
     track: music
     sounds:
-      - base1
-      - base2
-      - base3
-      - base4
-      - base5
-      - base6
-      - base7
-      - base8
-      - base9
-      - base10
+      - beppi_music
+      - cagney_music
+      - calla_music
+      - capt_music
+      - hilda_music
+      - ribbi_music
+      - robot_music
+      - root_music
+      - train_music
+      - wally_music
   startCallOuts:
     type: random_force_all
     track: voice

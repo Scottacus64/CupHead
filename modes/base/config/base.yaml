@@ -198,28 +198,19 @@ sound_player:
 
 slide_player:
   mode_base_started:
-    widgets:
-      - type: text
-        text: (score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 100
-      - type: text
-        text: Player (player)
-        y: 10
-        x: 10
-        font_size: 30
-        anchor_x: left
-        anchor_y: bottom
-      - type: text
-        text: BALL (ball)
-        y: 10
-        x: right-10
-        anchor_x: right
-        anchor_y: bottom
-        font_size: 50
-      - type: text
-        text: Contracts (contracts)
-        font_size: 25
-        color: red
-        y: 60%
+    base_slide:
+      target: lower
+
+
+
+event_player:
+  beppi_play: beppi_slide
+  cagney_play: cagney_slide
+  calla_play: calla_slide
+  capt_play: capt_slide
+  hilda_play: hilda_slide
+  ribbi_play: ribbi_slide
+  robot_play: robot_slide
+  root_play: root_slide
+  train_play: train_slide
+  wally_play: wally_slide

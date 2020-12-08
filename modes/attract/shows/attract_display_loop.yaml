@@ -26,7 +26,7 @@
 - duration: 6s
   widgets:
     dash_widget:
-      slide: video_slide
+      target: middle
 
 
 #- duration: 3s

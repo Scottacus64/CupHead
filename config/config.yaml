@@ -108,12 +108,6 @@ slides:
         anchor_x: left
         anchor_y: top
         source_display: lower
-  video_slide:
-    widgets:
-    - type: video
-      video: robot
-      end_behavior: loop
-      z: 1
   score_slide:
     widgets:
     - type: image
@@ -132,6 +126,87 @@ slides:
     - type: image
       image: fast_run_image
       fps: 30
+  beppi_slide:
+    widgets:
+    - type: video
+      video: beppi
+      end_behavior: loop
+      z: 1
+  cagney_slide:
+    widgets:
+    - type: video
+      video: cagney
+      end_behavior: loop
+      z: 1
+  calla_slide:
+    widgets:
+    - type: video
+      video: calla
+      end_behavior: loop
+      z: 1
+  capt_slide:
+    widgets:
+    - type: video
+      video: capt
+      end_behavior: loop
+      z: 1
+  hilda_slide:
+    widgets:
+    - type: video
+      video: hilda
+      end_behavior: loop
+      z: 1
+  ribbi_slide:
+    widgets:
+    - type: video
+      video: ribbi
+      end_behavior: loop
+      z: 1
+  robot_slide:
+    widgets:
+    - type: video
+      video: robot
+      end_behavior: loop
+      z: 1
+  root_slide:
+    widgets:
+    - type: video
+      video: root
+      end_behavior: loop
+      z: 1
+  train_slide:
+    widgets:
+    - type: video
+      video: train
+      end_behavior: loop
+      z: 1
+  wally_slide:
+    widgets:
+    - type: video
+      video: wally
+      end_behavior: loop
+      z: 1
+  base_slide:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: Player (player)
+        y: 10
+        x: 10
+        font_size: 30
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
 
 slide_player:
   mc_ready:
