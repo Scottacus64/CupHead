@@ -1,4 +1,5 @@
 #show_version=5
+
 #- duration: 3
 #  slides:
 #    reel_slide:
@@ -12,31 +13,41 @@
 #      priority: 100
 #      force: true
 
-- duration: 3s
+- duration: 6s
   slides:
-    logo_slide:
-      target: upper
-      priority: 10
-
-- duration: 3s
-  slides:
-    press_start:
-      target: middle
-      priority: 1
-
-- duration: 3
-  slides:
-    mission_pinball:
+    knockout_slide:
       target: middle
       priority: 10
 
 - duration: 6s
   slides:
-    video_slide:
-      target: middle
-      priority: 100
+    topper_slide:
+      target: upper
 
-- duration: 3
+- duration: 6s
   slides:
-    last_game_score_slide:
-      target: lower
+    fast_run_slide:
+      target: upper
+
+#- duration: 3s
+#  slides:
+#    press_start:
+#      target: middle
+#      priority: 1
+
+#- duration: 3
+#  slides:
+#    mission_pinball:
+#      target: middle
+#      priority: 10
+
+#- duration: 6s
+#  slides:
+#    video_slide:
+#      target: middle
+#      priority: 100
+
+#- duration: 3
+#  slides:
+#    last_game_score_slide:
+#      target: lower

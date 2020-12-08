@@ -83,9 +83,9 @@ displays:
 #  overall:
 #    width: 1080
 #    height: 1300
-  reel_display:
-    width: 69
-    height: 65
+#  reel_display:
+#    width: 69
+#    height: 65
 
 slides:
   layout:
@@ -135,6 +135,16 @@ slides:
     widgets:
     - type: image
       image: topper
+  knockout_slide:
+    expire: 2s
+    widgets:
+    - type: image
+      image: knockout_image
+  fast_run_slide:
+    widgets:
+    - type: image
+      image: fast_run_image
+      fps: 30
 #      - type: display
 #        width: 1080
 #        height: 1300
@@ -191,7 +201,6 @@ slides:
 #      min_digits: 2
 #      font_size: 50
 #      y: 40%
-
 #  reel_slide:
 #    widgets:
 #    - type: image

@@ -3,8 +3,8 @@
 
 show_player:
   mode_attract_started:
-#    attract_display_loop:
-#      speed: 1
+    attract_display_loop:
+      speed: 1
     output1: # just to show that two light shows can be called and run together
       speed: 4
 #    attract_light_show2:
@@ -27,57 +27,60 @@ track_player:
       action: play
       fade: 1 sec
 
-slides:
-  90slide:
-    widgets:
-    - type: image
-      image: reel90
-      loops: 0
-  01slide:
-    widgets:
-    - type: image
-      image: reel01
-      loops: 0
-  12slide:
-    widgets:
-    - type: image
-      image: reel12
-      loops: 0
-  23slide:
-    widgets:
-    - type: image
-      image: reel23
-      loops: 0
-  34slide:
-    widgets:
-    - type: image
-      image: reel34
-      loops: 0
-  45slide:
-    widgets:
-    - type: image
-      image: reel45
-      loops: 0
-  56slide:
-   widgets:
-   - type: image
-     image: reel56
-     loops: 0
-  67slide:
-   widgets:
-   - type: image
-     image: reel67
-     loops: 0
-  78slide:
-    widgets:
-    - type: image
-      image: reel78
-      loops: 0
-  89slide:
-    widgets:
-    - type: image
-      image: reel89
-      loops: 0
+#slides:
+#  90slide:
+#    widgets:
+#    - type: image
+#      image: reel90
+#      loops: 0
+#  01slide:
+#    widgets:
+#    - type: image
+#      image: reel01
+#      loops: 0
+#  12slide:
+#    widgets:
+#    - type: image
+#      image: reel12
+#      loops: 0
+#  23slide:
+#    widgets:
+#    - type: image
+#      image: reel23
+#      loops: 0
+#  34slide:
+#    widgets:
+#    - type: image
+#      image: reel34
+#      loops: 0
+#  45slide:
+#    widgets:
+#    - type: image
+#      image: reel45
+#      loops: 0
+#  56slide:
+#   widgets:
+#   - type: image
+#     image: reel56
+#     loops: 0
+#  67slide:
+#   widgets:
+#   - type: image
+#     image: reel67
+#     loops: 0
+#  78slide:
+#    widgets:
+#    - type: image
+#      image: reel78
+#      loops: 0
+#  89slide:
+#    widgets:
+#    - type: image
+#      image: reel89
+#      loops: 0
+
+
+
 
 #slide_player:
 #  sw_reel0_active:
@@ -125,7 +128,7 @@ videos:
     height: 600
     width: 1060
   peppi:
-    file: peppi.mp4
+    file: beppi.mp4
     height: 600
     width: 1060
   ribbi:
@@ -153,34 +156,39 @@ videos:
 #    events_when_stopped: videoOff
 
 images:
-  reel:
-    file: reelPNGs.zip
   topper:
     file: topper.zip
+  fast_run_image:
+    file: topper2.zip
   score:
     file: score.png
     height: 300
     width: 1080
-  reel01:
-    file: 01.zip
-  reel12:
-    file: 12.zip
-  reel23:
-    file: 23.zip
-  reel34:
-    file: 34.zip
-  reel45:
-    file: 45.zip
-  reel56:
-    file: 56.zip
-  reel67:
-    file: 67.zip
-  reel78:
-    file: 78.zip
-  reel89:
-    file: 89.zip
-  reel90:
-    file: 90.zip
+  knockout_image:
+    file: knockout.png
+#  reel:
+#    file: reelPNGs.zip
+#  reel01:
+#    file: 01.zip
+#  reel12:
+#    file: 12.zip
+#  reel23:
+#    file: 23.zip
+#  reel34:
+#    file: 34.zip
+#  reel45:
+#    file: 45.zip
+#  reel56:
+#    file: 56.zip
+#  reel67:
+#    file: 67.zip
+#  reel78:
+#    file: 78.zip
+#  reel89:
+#    file: 89.zip
+#  reel90:
+#    file: 90.zip
+
 
 
 #  video_slide:
@@ -195,7 +203,7 @@ slide_player:
   mode_attract_started:
     video_slide:
       target: middle
-    topper_slide:
-      target: upper
+#    topper_slide:
+#      target: upper
     score_slide:
       target: lower
