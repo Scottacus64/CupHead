@@ -13,21 +13,22 @@
 #      priority: 100
 #      force: true
 
-- duration: 6s
-  slides:
-    knockout_slide:
-      target: middle
-      priority: 10
-
-- duration: 6s
+- duration: 3s
   slides:
     topper_slide:
       target: upper
 
-- duration: 6s
+- duration: 3s
   slides:
     fast_run_slide:
       target: upper
+
+- duration: 6s
+  widgets:
+    knockout_widget:
+      target: middle
+      priority: 10
+
 
 #- duration: 3s
 #  slides:

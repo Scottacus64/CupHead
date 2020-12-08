@@ -91,14 +91,6 @@ slides:
   layout:
     background_color: 000099
     widgets:
-#      - type : display
-#        width: 69
-#        height: 65
-#        x: 60
-#        y: 200
-#        anchor_x: left
-#        anchor_y: top
-#        source_display: reel_display
       - type: display
         width: 1080
         height: 300
@@ -124,6 +116,7 @@ slides:
         anchor_y: top
         source_display: lower
   video_slide:
+    widgets:
     - type: video
       video: robot
       end_behavior: loop

@@ -27,93 +27,6 @@ track_player:
       action: play
       fade: 1 sec
 
-#slides:
-#  90slide:
-#    widgets:
-#    - type: image
-#      image: reel90
-#      loops: 0
-#  01slide:
-#    widgets:
-#    - type: image
-#      image: reel01
-#      loops: 0
-#  12slide:
-#    widgets:
-#    - type: image
-#      image: reel12
-#      loops: 0
-#  23slide:
-#    widgets:
-#    - type: image
-#      image: reel23
-#      loops: 0
-#  34slide:
-#    widgets:
-#    - type: image
-#      image: reel34
-#      loops: 0
-#  45slide:
-#    widgets:
-#    - type: image
-#      image: reel45
-#      loops: 0
-#  56slide:
-#   widgets:
-#   - type: image
-#     image: reel56
-#     loops: 0
-#  67slide:
-#   widgets:
-#   - type: image
-#     image: reel67
-#     loops: 0
-#  78slide:
-#    widgets:
-#    - type: image
-#      image: reel78
-#      loops: 0
-#  89slide:
-#    widgets:
-#    - type: image
-#      image: reel89
-#      loops: 0
-
-
-
-
-#slide_player:
-#  sw_reel0_active:
-#     90slide:
-#       target: reel_display
-#  sw_reel1_active:
-#    01slide:
-#      target: reel_display
-#  sw_reel2_active:
-#    12slide:
-#      target: reel_display
-#  sw_reel3_active:
-#    23slide:
-#      target: reel_display
-#  sw_reel4_active:
-#    34slide:
-#      target: reel_display
-#  sw_reel5_active:
-#    45slide:
-#      target: reel_display
-#  sw_reel6_active:
-#    56slide:
-#      target: reel_display
-#  sw_reel7_active:
-#    67slide:
-#      target: reel_display
-#  sw_reel8_active:
-#    78slide:
-#      target: reel_display
-#  sw_reel9_active:
-#    89slide:
-#      target: reel_display
-
 videos:
   calla:
     file: calla.mp4
@@ -155,6 +68,13 @@ videos:
 #    events_when_played: videoOn
 #    events_when_stopped: videoOff
 
+widgets:
+  knockout_widget:
+    - type: image
+      image: knockout_image
+      expire: 2s
+      
+
 images:
   topper:
     file: topper.zip
@@ -166,38 +86,7 @@ images:
     width: 1080
   knockout_image:
     file: knockout.png
-#  reel:
-#    file: reelPNGs.zip
-#  reel01:
-#    file: 01.zip
-#  reel12:
-#    file: 12.zip
-#  reel23:
-#    file: 23.zip
-#  reel34:
-#    file: 34.zip
-#  reel45:
-#    file: 45.zip
-#  reel56:
-#    file: 56.zip
-#  reel67:
-#    file: 67.zip
-#  reel78:
-#    file: 78.zip
-#  reel89:
-#    file: 89.zip
-#  reel90:
-#    file: 90.zip
 
-
-
-#  video_slide:
-#    - type: video
-#      video: playCHvideo
-#      end_behavior: stop
-#      control_events:
-#        - event: mode_attract_started
-#          action: play
 
 slide_player:
   mode_attract_started:
