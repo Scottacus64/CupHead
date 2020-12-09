@@ -18,11 +18,6 @@
     topper_slide:
       target: upper
 
-- duration: 3s
-  slides:
-    fast_run_slide:
-      target: upper
-
 - duration: 6s
   widgets:
     dash_widget:

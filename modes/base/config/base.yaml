@@ -198,19 +198,37 @@ sound_player:
 
 slide_player:
   mode_base_started:
-    base_slide:
+    score_slide:
       target: lower
-
-
-
-event_player:
-  beppi_play: beppi_slide
-  cagney_play: cagney_slide
-  calla_play: calla_slide
-  capt_play: capt_slide
-  hilda_play: hilda_slide
-  ribbi_play: ribbi_slide
-  robot_play: robot_slide
-  root_play: root_slide
-  train_play: train_slide
-  wally_play: wally_slide
+    topper_slide:
+      target: upper
+  beppi_play:
+    beppi_slide:
+      target: middle
+  cagney_play:
+    cagney_slide:
+      target: middle
+  calla_play:
+    calla_slide:
+      target: middle
+  capt_play:
+    capt_slide:
+      target: middle
+  hilda_play:
+    hilda_slide:
+      target: middle
+  ribbi_play:
+    ribbi_slide:
+      target: middle
+  robot_play:
+    robot_slide:
+      target: middle
+  root_play:
+    root_slide:
+      target: middle
+  train_play:
+    train_slide:
+      target: middle
+  wally_play:
+    wally_slide:
+      target: middle
