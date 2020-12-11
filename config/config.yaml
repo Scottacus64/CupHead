@@ -214,89 +214,14 @@ slides:
       image: title_image
       z: 2
       fps: 30
-  a_beppi:
-    widgets:
-    - type: video
-      video: a_beppi
-      z: 10
-  a_cagney:
-    widgets:
-    - type: video
-      video: a_cagney
-      z: 10
-  a_calla:
-    widgets:
-    - type: video
-      video: a_calla
-      z: 10
-  a_capt:
-    widgets:
-    - type: video
-      video: a_capt
-      z: 10
-  a_hilda:
-    widgets:
-    - type: video
-      video: a_hilda
-      z: 10
-  a_ribbi:
-    widgets:
-    - type: video
-      video: a_ribbi
-      z: 10
-  a_robot:
-    widgets:
-    - type: video
-      video: a_robot
-      z: 10
-  a_root:
-    widgets:
-    - type: video
-      video: a_root
-      z: 10
-  a_train:
-    widgets:
-    - type: video
-      video: a_train
-      z: 10
-  a_wally:
-    widgets:
-    - type: video
-      video: a_wally
-      z: 10
-
-
   finger_slide:
     widgets:
     - type: image
-      image: start_backdrop_image
-      z: 1
-    - type: image
       image: finger_image
-      x: -1080
-      z: 10
-      anchor_x: left
-      animations:
-        show_slide:
-          - property: x
-            value: -1080
-            duration: .1s
-          - property: opacity
-            value: 1
-          - property: x
-            value: 0
-            duration: .25s
-          - property: x
-            value: 0
-            relative: true
-            duration: 2s
-          - property: x
-            value: 1080
-            duration: .25s
-          - property: opacity
-            value: 0
-            repeat: true
-            duration: .1s
+
+
+
+
 
 slide_player:
   mc_ready:
