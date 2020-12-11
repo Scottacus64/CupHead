@@ -235,97 +235,58 @@ slide_player:
 
 
 
-videos:
-  calla:
-    file: calla.mp4
-    height: 600
-    width: 1060
-  capt:
-    file: capt.mp4
-    height: 600
-    width: 1060
-  hilda:
-    file: hilda.mp4
-    height: 600
-    width: 1060
-  beppi:
-    file: beppi.mp4
-    height: 600
-    width: 1060
-  ribbi:
-    file: ribbi.mp4
-    height: 600
-    width: 1060
-  robot:
-    file: robot.mp4
-    height: 600
-    width: 1060
-  root:
-    file: root.mp4
-    height: 600
-    width: 1060
-  wally:
-    file: wally.mp4
-    height: 600
-    width: 1060
-  train:
-    file: train.mp4
-    height: 600
-    width: 1080
-  cagney:
-    file: cagney.mp4
-    height: 600
-    width: 1080
-
-images:
-  C_image:
-    file: C.png
-  cU_image:
-    file: cUp.png
-  P_image:
-    file: P.png
-  M_image:
-    file: M.png
-  mU_image:
-    file: mUg.png
-  G_image:
-    file: G.png
-  S_image:
-    file: S.png
-  O_image:
-    file: O.png
-  soU_image:
-    file: soUl.png
-  L_image:
-    file: L_png
 
 
-slides:
-  C_slide:
-    widgets:
-      type: image
-      image: C_image
-      z: 10
-      anchor_y: top
-      y: 1300
-      animations:
-        show_slide:
-        - property: y
-          value: 1300
-          duration: .1s
-        - property: opacity
-          value: 1
-        - property: y
-          value: 0
-          duration: .25s
-        - property: y
-          value: 0
-          relative: true
-          duration: 2s
-        - property: y
-          value: 1300
-          duration: .25s
-        - property: opacity
-          value: 0
-          repeat: true
-          duration: .1s
+
+#images:
+#  C_image:
+#    file: C.png
+#  cU_image:
+#    file: cUp.png
+#  P_image:
+#    file: P.png
+#  M_image:
+#    file: M.png
+#  mU_image:
+#    file: mUg.png
+#  G_image:
+#    file: G.png
+#  S_image:
+#    file: S.png
+#  O_image:
+#    file: O.png
+#  soU_image:
+#    file: soUl.png
+#  L_image:
+#    file: L_png
+
+
+#slides:
+#  C_slide:
+#    widgets:
+#      type: image
+#      image: C_image
+#      z: 10
+#      anchor_y: top
+#      y: 1300
+#      animations:
+#        show_slide:
+#        - property: y
+#          value: 1300
+#          duration: .1s
+#        - property: opacity
+#          value: 1
+#        - property: y
+#          value: 0
+#          duration: .25s
+#        - property: y
+#          value: 0
+#          relative: true
+#          duration: 2s
+#        - property: y
+#          value: 1300
+#          duration: .25s
+#        - property: opacity
+#          value: 0
+#          repeat: true
+#          duration: .1s

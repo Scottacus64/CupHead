@@ -27,50 +27,16 @@ track_player:
       action: play
       fade: 1 sec
 
+
 videos:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  a_beppi:
-    file: attr_beppi.mp4
+  beppi:
+    file: beppi.mp4
+    height: 600
+    width: 1060
+  cagney:
+    file: cagney.mp4
     height: 600
     width: 1080
-  a_cagney:
-    file: attr_cagney.mp4
-    height: 600
-    width: 1080
-  a_calla:
-    file: attr_calla.mp4
-    height: 600
-    width: 1080
-  a_capt:
-    file: attr_capt.mp4
-    height: 600
-    width: 1080
-  a_hilda:
-    file: attr_hilda.mp4
-    height: 600
-    width: 1080
-  a_ribbi:
-    file: attr_ribbi.mp4
-    height: 600
-    width: 1080
-  a_robot:
-    file: attr_robot.mp4
-    height: 600
-    width: 1080
-  a_root:
-    file: attr_root.mp4
-    height: 600
-    width: 1080
-  a_train:
-    file: attr_train.mp4
-    height: 600
-    width: 1080
-  a_wally:
-    file: attr_wally.mp4
-=======
-=======
->>>>>>> parent of c89d458... working attract with widgets!
   calla:
     file: calla.mp4
     height: 600
@@ -81,10 +47,6 @@ videos:
     width: 1060
   hilda:
     file: hilda.mp4
-    height: 600
-    width: 1060
-  beppi:
-    file: beppi.mp4
     height: 600
     width: 1060
   ribbi:
@@ -99,22 +61,54 @@ videos:
     file: root.mp4
     height: 600
     width: 1060
-  wally:
-    file: wally.mp4
-    height: 600
-    width: 1060
   train:
     file: train.mp4
     height: 600
     width: 1080
-  cagney:
-    file: cagney.mp4
-<<<<<<< HEAD
->>>>>>> parent of c89d458... working attract with widgets!
-=======
->>>>>>> parent of c89d458... working attract with widgets!
+  wally:
+    file: wally.mp4
+    height: 600
+    width: 1060
+  a_beppi:
+    file: attr_beppi.mp4
+    height: 600
+    width: 1060
+  a_cagney:
+    file: attr_cagney.mp4
     height: 600
     width: 1080
+  a_calla:
+    file: attr_calla.mp4
+    height: 600
+    width: 1060
+  a_capt:
+    file: attr_capt.mp4
+    height: 600
+    width: 1060
+  a_hilda:
+    file: attr_hilda.mp4
+    height: 600
+    width: 1060
+  a_ribbi:
+    file: attr_ribbi.mp4
+    height: 600
+    width: 1060
+  a_robot:
+    file: attr_robot.mp4
+    height: 600
+    width: 1060
+  a_root:
+    file: attr_root.mp4
+    height: 600
+    width: 1060
+  a_train:
+    file: attr_train.mp4
+    height: 600
+    width: 1080
+  a_wally:
+    file: attr_wally.mp4
+    height: 600
+    width: 1060
 
 widgets:
   knockout_widget:
