@@ -3,8 +3,8 @@
 
 show_player:
   mode_attract_started:
-    attract_display_loop:
-      speed: 1
+#    attract_display_loop:
+#      speed: 1
     output1: # just to show that two light shows can be called and run together
       speed: 4
 #    attract_light_show2:
@@ -28,6 +28,7 @@ track_player:
       fade: 1 sec
 
 videos:
+<<<<<<< HEAD
   a_beppi:
     file: attr_beppi.mp4
     height: 600
@@ -66,6 +67,46 @@ videos:
     width: 1080
   a_wally:
     file: attr_wally.mp4
+=======
+  calla:
+    file: calla.mp4
+    height: 600
+    width: 1060
+  capt:
+    file: capt.mp4
+    height: 600
+    width: 1060
+  hilda:
+    file: hilda.mp4
+    height: 600
+    width: 1060
+  beppi:
+    file: beppi.mp4
+    height: 600
+    width: 1060
+  ribbi:
+    file: ribbi.mp4
+    height: 600
+    width: 1060
+  robot:
+    file: robot.mp4
+    height: 600
+    width: 1060
+  root:
+    file: root.mp4
+    height: 600
+    width: 1060
+  wally:
+    file: wally.mp4
+    height: 600
+    width: 1060
+  train:
+    file: train.mp4
+    height: 600
+    width: 1080
+  cagney:
+    file: cagney.mp4
+>>>>>>> parent of c89d458... working attract with widgets!
     height: 600
     width: 1080
 
@@ -100,7 +141,7 @@ images:
   title_image:
     file: title.zip
   finger_image:
-    file: finger.png
+    file: finger.zip
   start_backdrop_image:
     file: start_backdrop.png
 
