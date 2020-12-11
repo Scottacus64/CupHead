@@ -112,6 +112,7 @@ slides:
     widgets:
     - type: image
       image: score
+      z: 100
   topper_slide:
     widgets:
     - type: image

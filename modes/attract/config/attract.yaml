@@ -28,46 +28,6 @@ track_player:
       fade: 1 sec
 
 videos:
-  calla:
-    file: calla.mp4
-    height: 600
-    width: 1060
-  capt:
-    file: capt.mp4
-    height: 600
-    width: 1060
-  hilda:
-    file: hilda.mp4
-    height: 600
-    width: 1060
-  beppi:
-    file: beppi.mp4
-    height: 600
-    width: 1060
-  ribbi:
-    file: ribbi.mp4
-    height: 600
-    width: 1060
-  robot:
-    file: robot.mp4
-    height: 600
-    width: 1060
-  root:
-    file: root.mp4
-    height: 600
-    width: 1060
-  wally:
-    file: wally.mp4
-    height: 600
-    width: 1060
-  train:
-    file: train.mp4
-    height: 600
-    width: 1080
-  cagney:
-    file: cagney.mp4
-    height: 600
-    width: 1080
   a_beppi:
     file: attr_beppi.mp4
     height: 600
