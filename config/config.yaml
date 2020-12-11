@@ -217,7 +217,35 @@ slides:
   finger_slide:
     widgets:
     - type: image
+      image: start_backdrop_image
+      z: 1
+    - type: image
       image: finger_image
+      x: -1080
+      z: 10
+      anchor_x: left
+      animations:
+        show_slide:
+          - property: x
+            value: -1080
+            duration: .1s
+          - property: opacity
+            value: 1
+          - property: x
+            value: 0
+            duration: .25s
+          - property: x
+            value: 0
+            relative: true
+            duration: 2s
+          - property: x
+            value: 1080
+            duration: .25s
+          - property: opacity
+            value: 0
+            duration: .1s
+            repeat: true
+
 
 
 

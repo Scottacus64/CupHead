@@ -29,46 +29,6 @@ track_player:
 
 
 videos:
-  beppi:
-    file: beppi.mp4
-    height: 600
-    width: 1060
-  cagney:
-    file: cagney.mp4
-    height: 600
-    width: 1080
-  calla:
-    file: calla.mp4
-    height: 600
-    width: 1060
-  capt:
-    file: capt.mp4
-    height: 600
-    width: 1060
-  hilda:
-    file: hilda.mp4
-    height: 600
-    width: 1060
-  ribbi:
-    file: ribbi.mp4
-    height: 600
-    width: 1060
-  robot:
-    file: robot.mp4
-    height: 600
-    width: 1060
-  root:
-    file: root.mp4
-    height: 600
-    width: 1060
-  train:
-    file: train.mp4
-    height: 600
-    width: 1080
-  wally:
-    file: wally.mp4
-    height: 600
-    width: 1060
   a_beppi:
     file: attr_beppi.mp4
     height: 600
@@ -141,7 +101,7 @@ images:
   title_image:
     file: title.zip
   finger_image:
-    file: finger.zip
+    file: finger.png
   start_backdrop_image:
     file: start_backdrop.png
 
