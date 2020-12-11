@@ -127,66 +127,6 @@ slides:
     - type: image
       image: fast_run_image
       fps: 30
-  beppi_slide:
-    widgets:
-    - type: video
-      video: beppi
-      end_behavior: loop
-      z: 10
-  cagney_slide:
-    widgets:
-    - type: video
-      video: cagney
-      end_behavior: loop
-      z: 10
-  calla_slide:
-    widgets:
-    - type: video
-      video: calla
-      end_behavior: loop
-      z: 10
-  capt_slide:
-    widgets:
-    - type: video
-      video: capt
-      end_behavior: loop
-      z: 10
-  hilda_slide:
-    widgets:
-    - type: video
-      video: hilda
-      end_behavior: loop
-      z: 10
-  ribbi_slide:
-    widgets:
-    - type: video
-      video: ribbi
-      end_behavior: loop
-      z: 10
-  robot_slide:
-    widgets:
-    - type: video
-      video: robot
-      end_behavior: loop
-      z: 10
-  root_slide:
-    widgets:
-    - type: video
-      video: root
-      end_behavior: loop
-      z: 1
-  train_slide:
-    widgets:
-    - type: video
-      video: train
-      end_behavior: loop
-      z: 10
-  wally_slide:
-    widgets:
-    - type: video
-      video: wally
-      end_behavior: loop
-      z: 10
   base_slide:
     widgets:
     - type: text
@@ -245,11 +185,6 @@ slides:
             value: 0
             duration: .1s
             repeat: true
-
-
-
-
-
 
 slide_player:
   mc_ready:

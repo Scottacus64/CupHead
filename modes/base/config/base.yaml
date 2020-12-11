@@ -233,16 +233,17 @@ slide_player:
     wally_slide:
       target: middle
 
+
 images:
   C_image:
     file: C.png
-  cU_image:
+  cUp_image:
     file: cUp.png
   P_image:
     file: P.png
   M_image:
     file: M.png
-  mU_image:
+  mUg_image:
     file: mUg.png
   G_image:
     file: G.png
@@ -250,7 +251,7 @@ images:
     file: S.png
   O_image:
     file: O.png
-  soU_image:
+  soUl_image:
     file: soUl.png
   L_image:
     file: L.png
@@ -297,31 +298,147 @@ videos:
     height: 600
     width: 1060
 
+slides:
+  beppi_slide:
+    widgets:
+    - type: video
+      video: beppi
+      end_behavior: loop
+      z: 10
+    - widget: C_widget
+  cagney_slide:
+    widgets:
+    - type: video
+      video: cagney
+      end_behavior: loop
+      z: 10
+    - widget: cUp_widget
+  calla_slide:
+    widgets:
+    - type: video
+      video: calla
+      end_behavior: loop
+      z: 10
+    - widget: P_widget
+  capt_slide:
+    widgets:
+    - type: video
+      video: capt
+      end_behavior: loop
+      z: 10
+    - widget: M_widget
+  hilda_slide:
+    widgets:
+    - type: video
+      video: hilda
+      end_behavior: loop
+      z: 10
+    - widget: mUg_widget
+  ribbi_slide:
+    widgets:
+    - type: video
+      video: ribbi
+      end_behavior: loop
+      z: 10
+    - widget: G_widget
+  robot_slide:
+    widgets:
+    - type: video
+      video: robot
+      end_behavior: loop
+      z: 10
+    - widget: G_widget
+  root_slide:
+    widgets:
+    - type: video
+      video: root
+      end_behavior: loop
+      z: 1
+    - widget: mUg_widget
+  train_slide:
+    widgets:
+    - type: video
+      video: train
+      end_behavior: loop
+      z: 10
+    - widget: M_widget
+  wally_slide:
+    widgets:
+    - type: video
+      video: wally
+      end_behavior: loop
+      z: 10
+    - widget: P_widget
+
+
 widgets:
   C_widget:
     - type: image
       image: C_image
       z: 50
       anchor_y: top
-      y: 1300
+      y: 0
       animations:
-        show_slide:
-        - property: y
-          value: 1300
-          duration: .1s
-        - property: opacity
-          value: 1
-        - property: y
-          value: 0
-          duration: .25s
-        - property: y
-          value: 0
-          relative: true
-          duration: 2s
-        - property: y
-          value: 1300
-          duration: .25s
-        - property: opacity
-          value: 0
-          duration: .1s
-          repeat: true
+        show_slide: cupmug
+  cUp_widget:
+    - type: image
+      image: cUp_image
+      z: 50
+      anchor_y: top
+      y: 0
+      animations:
+        show_slide: cupmug
+  P_widget:
+    - type: image
+      image: P_image
+      z: 50
+      anchor_y: top
+      y: 0
+      animations:
+        show_slide: cupmug
+  M_widget:
+    - type: image
+      image: M_image
+      z: 50
+      anchor_y: top
+      y: 0
+      animations:
+        show_slide: cupmug
+  mUg_widget:
+    - type: image
+      image: mUg_image
+      z: 50
+      anchor_y: top
+      y: 0
+      animations:
+        show_slide: cupmug
+  G_widget:
+    - type: image
+      image: G_image
+      z: 50
+      anchor_y: top
+      y: 0
+      animations:
+        show_slide: cupmug
+
+animations:
+  cupmug:
+  - property: y
+    value: 0
+    duration: .1s
+  - property: opacity
+    value: 1
+  - property: y
+    value: 450
+    duration: .1s
+  - property: y
+    value: 0
+    relative: true
+    duration: .75s
+  - property: y
+    value: 0
+    duration: .1s
+  - property: opacity
+    value: 0
+    duration: .1s
+    repeat: true
