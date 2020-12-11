@@ -29,6 +29,7 @@ track_player:
 
 videos:
 <<<<<<< HEAD
+<<<<<<< HEAD
   a_beppi:
     file: attr_beppi.mp4
     height: 600
@@ -68,6 +69,8 @@ videos:
   a_wally:
     file: attr_wally.mp4
 =======
+=======
+>>>>>>> parent of c89d458... working attract with widgets!
   calla:
     file: calla.mp4
     height: 600
@@ -106,6 +109,9 @@ videos:
     width: 1080
   cagney:
     file: cagney.mp4
+<<<<<<< HEAD
+>>>>>>> parent of c89d458... working attract with widgets!
+=======
 >>>>>>> parent of c89d458... working attract with widgets!
     height: 600
     width: 1080
