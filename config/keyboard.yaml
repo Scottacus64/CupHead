@@ -14,7 +14,7 @@ keyboard:
   h:
     switch: s_trough1
     toggle: true
-  s:
+  1:
     switch: s_start
   a:
     switch: s_exit_shooter_lane
@@ -27,26 +27,14 @@ keyboard:
   t:
     switch: s_tilt
   c:
-    switch: s_coin
+    switch: s_dt_C
   i:
     switch: s_spinner
-  0:
-    switch: reel0
-  1:
-    switch: reel1
-  2:
-    switch: reel2
-  3:
-    switch: reel3
-  4:
-    switch: reel4
-  5:
-    switch: reel5
-  6:
-    switch: reel6
-  7:
-    switch: reel7
-  8:
-    switch: reel8
-  9:
-    switch: reel9
+  s:
+    switch: s_soul_S
+  o:
+    switch: s_soul_O
+  u:
+    switch: s_soul_U
+  l:
+    switch: s_soul_L

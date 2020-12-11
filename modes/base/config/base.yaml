@@ -306,69 +306,159 @@ slides:
       end_behavior: loop
       z: 10
     - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   cagney_slide:
     widgets:
     - type: video
       video: cagney
       end_behavior: loop
       z: 10
+    - widget: C_widget
     - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   calla_slide:
     widgets:
     - type: video
       video: calla
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
     - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   capt_slide:
     widgets:
     - type: video
       video: capt
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
     - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   hilda_slide:
     widgets:
     - type: video
       video: hilda
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
     - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   ribbi_slide:
     widgets:
     - type: video
       video: ribbi
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
     - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   robot_slide:
     widgets:
     - type: video
       video: robot
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
     - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   root_slide:
     widgets:
     - type: video
       video: root
       end_behavior: loop
       z: 1
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
+    - widget: M_widget
     - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   train_slide:
     widgets:
     - type: video
       video: train
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
+    - widget: P_widget
     - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
   wally_slide:
     widgets:
     - type: video
       video: wally
       end_behavior: loop
       z: 10
+    - widget: C_widget
+    - widget: cUp_widget
     - widget: P_widget
+    - widget: M_widget
+    - widget: mUg_widget
+    - widget: G_widget
+    - widget: S_widget
+    - widget: O_widget
+    - widget: U_widget
+    - widget: L_widget
 
 
 widgets:
@@ -379,7 +469,7 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_C_active: cupmug
   cUp_widget:
     - type: image
       image: cUp_image
@@ -387,7 +477,7 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_U_active: cupmug
   P_widget:
     - type: image
       image: P_image
@@ -395,7 +485,7 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_P_active: cupmug
   M_widget:
     - type: image
       image: M_image
@@ -403,7 +493,7 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_M_active: cupmug
   mUg_widget:
     - type: image
       image: mUg_image
@@ -411,7 +501,7 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_U2_active: cupmug
   G_widget:
     - type: image
       image: G_image
@@ -419,15 +509,35 @@ widgets:
       anchor_y: top
       y: 0
       animations:
-        show_slide: cupmug
+        s_dt_G_active: cupmug
+  S_widget:
+    - type: image
+      image: S_image
+      z: 50
+      animations:
+        s_soul_S_active: soul_animation
+  O_widget:
+    - type: image
+      image: O_image
+      z: 50
+      animations:
+        s_soul_O_active: soul_animation
+  U_widget:
+    - type: image
+      image: soUl_image
+      z: 50
+      animations:
+        s_soul_U_active: soul_animation
+  L_widget:
+    - type: image
+      image: L_image
+      z: 50
+      animations:
+        s_soul_L_active: soul_animation
+
 
 animations:
   cupmug:
-  - property: y
-    value: 0
-    duration: .1s
-  - property: opacity
-    value: 1
   - property: y
     value: 450
     duration: .1s
@@ -438,7 +548,14 @@ animations:
   - property: y
     value: 0
     duration: .1s
+  soul_animation:
+  - property: opacity
+    value: 1
+    duration: .5s
   - property: opacity
     value: 0
+    relative: true
     duration: .1s
-    repeat: true
+  - property: opacity
+    value: 0
+    duration: .5s
