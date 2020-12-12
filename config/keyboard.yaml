@@ -24,18 +24,8 @@ keyboard:
     switch: s_popBumper_3
   t:
     switch: s_tilt
-  2:
+  c:
     switch: s_dt_C
-  3:
-    switch: s_dt_U
-  4:
-    switch: s_dt_P
-  5:
-    switch: s_dt_M
-  6:
-    switch: s_dt_U2
-  7:
-    switch: s_dt_G
   i:
     switch: s_spinner
   s:
@@ -46,7 +36,3 @@ keyboard:
     switch: s_soul_U
   l:
     switch: s_soul_L
-  d:
-    switch: s_dash_L
-  a:
-    switch: s_dash_R
