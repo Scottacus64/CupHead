@@ -122,11 +122,6 @@ slides:
     widgets:
     - type: image
       image: knockout_image
-  fast_run_slide:
-    widgets:
-    - type: image
-      image: fast_run_image
-      fps: 30
   base_slide:
     widgets:
     - type: text

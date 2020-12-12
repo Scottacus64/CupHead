@@ -3,8 +3,8 @@
 
 show_player:
   mode_attract_started:
-#    attract_display_loop:
-#      speed: 1
+    attract_display_loop:
+      speed: 1
     output1: # just to show that two light shows can be called and run together
       speed: 4
 #    attract_light_show2:
@@ -26,6 +26,58 @@ track_player:
     music:
       action: play
       fade: 1 sec
+
+slides:
+  a_beppi:
+    widgets:
+    - type: video
+      video: a_beppi
+      z: 10
+  a_cagney:
+    widgets:
+    - type: video
+      video: a_cagney
+      z: 10
+  a_calla:
+    widgets:
+    - type: video
+      video: a_calla
+      z: 10
+  a_capt:
+    widgets:
+    - type: video
+      video: a_capt
+      z: 10
+  a_hilda:
+    widgets:
+    - type: video
+      video: a_hilda
+      z: 10
+  a_ribbi:
+    widgets:
+    - type: video
+      video: a_ribbi
+      z: 10
+  a_robot:
+    widgets:
+    - type: video
+      video: a_robot
+      z: 10
+  a_root:
+    widgets:
+    - type: video
+      video: a_root
+      z: 10
+  a_train:
+    widgets:
+    - type: video
+      video: a_train
+      z: 10
+  a_wally:
+    widgets:
+    - type: video
+      video: a_wally
+      z: 10
 
 
 videos:
@@ -70,34 +122,11 @@ videos:
     height: 600
     width: 1060
 
-widgets:
-  knockout_widget:
-    - type: image
-      image: knockout_image
-      expire: 2s
-      z: 10
-  dash_widget:
-    - type: image
-      image: dash_image
-      expire: 2s
-      z: 10
-      fps: 30
-      anchor_x: left
-      anchor_y: bottom
-      x: left
-      y: bottom + 150
-
 images:
-  topper:
-    file: topper.zip
   score:
     file: score.png
     height: 300
     width: 1080
-  knockout_image:
-    file: knockout.png
-  dash_image:
-    file: dash.zip
   title_image:
     file: title.zip
   finger_image:
