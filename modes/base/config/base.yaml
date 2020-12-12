@@ -255,12 +255,6 @@ images:
     file: soUl.png
   L_image:
     file: L.png
-  topper:
-    file: CupheadTopper.png
-  knockout_image:
-    file: knockout.png
-  dash_image:
-    file: dash.png
 
 videos:
   beppi:
@@ -321,7 +315,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   cagney_slide:
     widgets:
     - type: video
@@ -338,7 +331,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   calla_slide:
     widgets:
     - type: video
@@ -355,7 +347,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   capt_slide:
     widgets:
     - type: video
@@ -372,7 +363,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   hilda_slide:
     widgets:
     - type: video
@@ -389,7 +379,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   ribbi_slide:
     widgets:
     - type: video
@@ -406,7 +395,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   robot_slide:
     widgets:
     - type: video
@@ -423,7 +411,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   root_slide:
     widgets:
     - type: video
@@ -440,7 +427,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   train_slide:
     widgets:
     - type: video
@@ -457,7 +443,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
   wally_slide:
     widgets:
     - type: video
@@ -474,7 +459,6 @@ slides:
     - widget: O_widget
     - widget: U_widget
     - widget: L_widget
-    - widget: dash_widget
 
 
 widgets:
@@ -530,44 +514,27 @@ widgets:
     - type: image
       image: S_image
       z: 50
-      opacity: 0
       animations:
         s_soul_S_active: soul_animation
   O_widget:
     - type: image
       image: O_image
       z: 50
-      opacity: 0
       animations:
         s_soul_O_active: soul_animation
   U_widget:
     - type: image
       image: soUl_image
       z: 50
-      opacity: 0
       animations:
         s_soul_U_active: soul_animation
   L_widget:
     - type: image
       image: L_image
       z: 50
-      opacity: 0
       animations:
         s_soul_L_active: soul_animation
-  knockout_widget:
-    - type: image
-      image: knockout_image
-      expire: 2s
-      z: 10
-  dash_widget:
-    - type: image
-      image: dash_image
-      anchor_x: right
-      x: 0
-      z: 100
-      animations:
-        s_dash_L_active: dasher
-        s_dash_R_active: dasher
+
 
 animations:
   cupmug:
@@ -592,23 +559,3 @@ animations:
   - property: opacity
     value: 0
     duration: .5s
-  dasher:
-  - property: x
-    value: 1080
-    duration: .25s
-  - property: x
-    value: 0
-    relative: true
-    duration: .75s
-  - property: x
-    value: 2160
-    duration: .25s
-  - property: opacity
-    value: 0
-    duration: .1s
-  - property: x
-    value: 0
-    duration: .1s
-  - property: opacity
-    value: 1
-    duration: .1s

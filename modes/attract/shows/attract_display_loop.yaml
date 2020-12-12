@@ -1,102 +1,24 @@
 #show_version=5
 
+#- duration: 3
+#  slides:
+#    reel_slide:
+#      target: reel_display
+#      priority: 100
+
+#- duration: 3s
+#  slides:
+#    rotate_slide:
+#      target: overall
+#      priority: 100
+#      force: true
 
 - duration: 3s
   slides:
-    title_slide:
-      target: middle
+    topper_slide:
+      target: upper
 
-- duration: 20s
-  slides:
-    a_beppi:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_cagney:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_calla:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_capt:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_hilda:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_ribbi:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_robot:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_root:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_train:
-      target: middle
-
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
-- duration: 20s
-  slides:
-    a_wally:
+- duration: 6s
+  widgets:
+    dash_widget:
       target: middle
