@@ -210,13 +210,13 @@ slide_player:
       target: middle
   calla_play:
     calla_slide:
-      target: middle
+     target: middle
   capt_play:
     capt_slide:
-      target: middle
+     target: middle
   hilda_play:
     hilda_slide:
-      target: middle
+     target: middle
   ribbi_play:
     ribbi_slide:
       target: middle
@@ -305,179 +305,229 @@ videos:
     width: 1060
 
 slides:
-  beppi_slide:
-    widgets:
+   beppi_slide:
+     widgets:
+     - type: video
+       video: beppi
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   cagney_slide:
+     widgets:
+     - type: video
+       video: cagney
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   calla_slide:
+     widgets:
+     - type: video
+       video: calla
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   capt_slide:
+     widgets:
+     - type: video
+       video: capt
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   hilda_slide:
+     widgets:
+     - type: video
+       video: hilda
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   ribbi_slide:
+     widgets:
+     - type: video
+       video: ribbi
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   robot_slide:
+     widgets:
+     - type: video
+       video: robot
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   root_slide:
+     widgets:
+     - type: video
+       video: root
+       end_behavior: loop
+       z: 1
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   train_slide:
+     widgets:
+     - type: video
+       video: train
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+   wally_slide:
+     widgets:
+     - type: video
+       video: wally
+       end_behavior: loop
+       z: 10
+     - widget: C_widget
+     - widget: cUp_widget
+     - widget: P_widget
+     - widget: M_widget
+     - widget: mUg_widget
+     - widget: G_widget
+     - widget: S_widget
+     - widget: O_widget
+     - widget: U_widget
+     - widget: L_widget
+     - widget: dash_widget
+
+
+widgets:
+  video_boss_beppi_music:
     - type: video
       video: beppi
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  cagney_slide:
-    widgets:
+  video_boss_cagney_music:
     - type: video
       video: cagney
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  calla_slide:
-    widgets:
+  video_boss_calla_music:
     - type: video
       video: calla
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  capt_slide:
-    widgets:
+  video_boss_capt_music:
     - type: video
       video: capt
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  hilda_slide:
-    widgets:
+  video_boss_hilda_music:
     - type: video
       video: hilda
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  ribbi_slide:
-    widgets:
+  video_boss_ribbi_music:
     - type: video
       video: ribbi
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  robot_slide:
-    widgets:
+  video_boss_robot_music:
     - type: video
       video: robot
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  root_slide:
-    widgets:
+  video_boss_root_music_music_music:
     - type: video
       video: root
       end_behavior: loop
-      z: 1
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  train_slide:
-    widgets:
+      z: 10
+  video_boss_train_music_music:
     - type: video
       video: train
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-  wally_slide:
-    widgets:
+  video_boss_wally_music:
     - type: video
       video: wally
       end_behavior: loop
       z: 10
-    - widget: C_widget
-    - widget: cUp_widget
-    - widget: P_widget
-    - widget: M_widget
-    - widget: mUg_widget
-    - widget: G_widget
-    - widget: S_widget
-    - widget: O_widget
-    - widget: U_widget
-    - widget: L_widget
-    - widget: dash_widget
-
-
-widgets:
   C_widget:
     - type: image
       image: C_image
