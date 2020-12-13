@@ -11,10 +11,10 @@ shots:
   outLaneL: 67
   outLaneR: 52
   perdition_lane: 449
-  soul_L: 150
-  soul_O: 120
-  soul_S: 118
-  soul_U: 144
+  soul_L: 153
+  soul_O: 123
+  soul_S: 121
+  soul_U: 147
   standUp1: 198
   standUp2: 199
   standUp3: 222
@@ -63,10 +63,10 @@ switches:
   s_slam_tilt: 0
   s_sling_L: 202
   s_sling_R: 159
-  s_soul_L: 150
-  s_soul_O: 120
-  s_soul_S: 118
-  s_soul_U: 144
+  s_soul_L: 153
+  s_soul_O: 123
+  s_soul_S: 121
+  s_soul_U: 147
   s_spinner: 923
   s_standUp_1: 243
   s_standUp_2: 226

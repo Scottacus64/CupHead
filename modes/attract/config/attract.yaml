@@ -88,16 +88,10 @@ widgets:
       y: bottom + 150
 
 images:
-  topper:
-    file: topper.zip
   score:
     file: score.png
     height: 300
     width: 1080
-  knockout_image:
-    file: knockout.png
-  dash_image:
-    file: dash.zip
   title_image:
     file: title.zip
   finger_image:

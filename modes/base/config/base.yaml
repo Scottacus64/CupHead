@@ -255,6 +255,12 @@ images:
     file: soUl.png
   L_image:
     file: L.png
+  dash_image:
+    file: dash.png
+  topper:
+    file: CupheadTopper.png
+  knockout_image:
+    file: knockout.png
 
 videos:
   beppi:
@@ -514,24 +520,28 @@ widgets:
     - type: image
       image: S_image
       z: 50
+      opacity: 0
       animations:
         s_soul_S_active: soul_animation
   O_widget:
     - type: image
       image: O_image
       z: 50
+      opacity: 0
       animations:
         s_soul_O_active: soul_animation
   U_widget:
     - type: image
       image: soUl_image
       z: 50
+      opacity: 0
       animations:
         s_soul_U_active: soul_animation
   L_widget:
     - type: image
       image: L_image
       z: 50
+      opacity: 0
       animations:
         s_soul_L_active: soul_animation
 
