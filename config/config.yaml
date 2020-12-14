@@ -2,14 +2,14 @@
 hardware:
     platform: virtual_pinball
 #hardware:
-#    platform: opp
+#    platform: opp # the playform is Open Pinball Platform
 #    driverboards: gen2
 
 #opp:
-#    ports: COM3, COM4
+#    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
 #    chains:
-#        0: COM4
-#        1: COM3
+#        0: COM4 # the zero board is on COM 4 and the..
+#        1: COM3 # one board is on COM 3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -28,7 +28,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - tilt
   - extraBall
 
-player_vars: #these are player variables that can be seen by all modes
+player_vars: # these are player variables that can be seen by all modes
   bonus_multiplier:
     value_type: int
     initial_value: 1
@@ -55,20 +55,20 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - hwCoils.yaml
   - sound.yaml
 
-window:
-  width: 1080
+window: # defines the area of the TV monitor that can be used for the backbox display
+  width: 1080 # aspect ratio of the window
   height: 1300
   title: CupheadWindow
   resizable: true
-  fullscreen: false
-  borderless: true
-  exit_on_escape: true
+  fullscreen: false # does not take up the entire TV display and...
+  borderless: true # has no "Windows 10" boarder around it
+  exit_on_escape: true # lets you exit mpf and mpf-mc with hitting escape
   top: 0
   left: 0
 
-displays:
+displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
-    width: 1080
+    width: 1080 # aspect ratios, all are full width
     height: 300
   middle:
     width: 1080
@@ -76,47 +76,53 @@ displays:
   lower:
     width: 1080
     height: 300
-  window:
+  window: # window itself must be included here so that the "layout" slide can be sent here
     width: 1080
     height: 1300
 
 slides:
-  layout:
-    background_color: 000099
-    widgets:
-      - type: display
-        width: 1080
-        height: 300
-        x: 0
-        y: 1300
-        anchor_x: left
-        anchor_y: top
-        source_display: upper
+  layout: # THIS IS THE MAIN SLIDE THAT DRIVES ALL OF CUPHEADS BACKBOX!!!!
+    background_color: 000099 # sets the background color to a mif bright blue
+    widgets: # these widgets are the...
+      - type: display # displays that are used to project slides for the backbox onto
+        width: 1080 # aspect ration all are full width but...
+        height: 300 # partial height so they stack but not set to final heigh of 350 to show a 
+        # blue border under the slide,  This will change to 350 when Adrian gets up borders
+        x: 0 # the display is set to the left of the window and the...
+        y: 1300 # very top of the window with the...
+        anchor_x: left # anchors set to the left...
+        anchor_y: top # and top
+        source_display: upper # the name of this display is UPPER
+        #...........................................................
       - type: display
         width: 1080
         height: 600
-        x: 0
-        y: 950
+        x: 0 # set to far left
+        y: 950 # set to 950 because the top display will be 350 when the border is added
         anchor_x: left
         anchor_y: top
         source_display: middle
+        #...........................................................
       - type: display
         width: 1080
         height: 300
-        x: 0
-        y: 300
+        x: 0 # set to far left
+        y: 300 # this will increas to 350 when the borders are added
         anchor_x: left
         anchor_y: top
         source_display: lower
+
   score_slide:
     widgets:
     - type: image
       image: score
       z: 100
+
   topper_slide:
     widgets:
     - type: image
       image: topper
+
   base_slide:
     widgets:
     - type: text
@@ -138,17 +144,14 @@ slides:
       anchor_x: right
       anchor_y: bottom
       font_size: 50
+
   title_slide:
     widgets:
     - type: image
       image: title_image
       z: 2
       fps: 30
-  background_slide:
-    widgets:
-    - type: image
-      image: film
-      z: 800
+
   finger_slide:
     widgets:
     - type: image
@@ -182,13 +185,12 @@ slides:
             repeat: true
 
 slide_player:
-  mc_ready:
-    layout:
-      target: window
+  mc_ready: # when the mc (Media Center) is ready start the...
+    layout: # layout slide on the..
+      target: window # ENTIRE Window
 
-score_reels:
+score_reels: # eventually the scroe reels will be defined here
   score_reel11:
-    coil_inc: c_reel_11
     switch_0: reel0
     switch_1: reel1
     switch_2: reel2
@@ -202,7 +204,7 @@ score_reels:
     limit_hi: 9
     limit_lo: 0
 
-score_reel_groups:
+score_reel_groups: # they will be grouped by player
   player1:
     reels: score_reel11, None
     tags: player1
@@ -226,10 +228,10 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     drop_targets: cup_C, cup_U, cup_P
     reset_coils: c_dt_reset_CUP
     reset_on_complete: 500ms
-    reset_events:
+    reset_events: # reset the drop targets on these events
       - drop_target_bank_cup_bank_down
-      - ball_starting
-      - machine_reset_phase_3
+      - ball_starting 
+      - machine_reset_phase_3 
   mug_bank:
     drop_targets: mug_M, mug_U, mug_G
     reset_coils: c_dt_reset_MUG
@@ -239,9 +241,9 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
       - ball_starting
       - machine_reset_phase_3
 
-game:
+game: # sets game parameters
   balls_per_game: 5
-  max_players: 4
+  max_players: 2
 
 
 #videos:

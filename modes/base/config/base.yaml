@@ -46,10 +46,10 @@ timers:
         event: startMBPost
 
 show_player:
-  mode_base_started: base_lighting
-  advance_lane{count==1}:
-    1_on: play
-    7_on: stop
+  mode_base_started: base_lighting # start the base lighting on start of the mode
+  advance_lane{count==1}: # these move the "dice" lights wth the spinner
+    1_on: play # plays the first show which turns on th elowermost light and turns..
+    7_on: stop # the dice off by stopping this show
   advance_lane{count==2}:
     2_on: play
     1_on: stop
@@ -79,9 +79,9 @@ show_player:
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
 
-shots:
-  knock_out:
-    switch: s_standUp_R
+shots: # this defines the shot...
+  knock_out: # knockout as being started by...
+    switch: s_standUp_R # hitting the right stand up target
 
 coil_player:  # this coil player controls the post that blocks entrance to the perdition lane
   s_trough1_active: c_perdition_post_down # drop on any ball end or if...
@@ -144,7 +144,7 @@ variable_player:
       int: 7 # equal 7
       action: set
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
-    score: 1 #then payout
+    score: 1000 # then payout
   s_star_1_active:
     score: 50
   s_star_2_active:
@@ -197,49 +197,21 @@ sound_player:
   s_star_3_active: stars
 
 slide_player:
-  mode_base_started:
+  mode_base_started: # when the game starts play these slides
     score_slide:
       target: lower
     topper_slide:
       target: upper
-  start_boss:
+
+  start_boss: # when the event player just below posts "start_boss" play the "boss_slide"
     boss_slide:
       target: middle
-  # beppi_play:
-  #   beppi_slide:
-  #     target: middle
-  # cagney_play:
-  #   cagney_slide:
-  #     target: middle
-  # calla_play:
-  #   calla_slide:
-  #    target: middle
-  # capt_play:
-  #   capt_slide:
-  #    target: middle
-  # hilda_play:
-  #   hilda_slide:
-  #    target: middle
-  # ribbi_play:
-  #   ribbi_slide:
-  #     target: middle
-  # robot_play:
-  #   robot_slide:
-  #     target: middle
-  # root_play:
-  #   root_slide:
-  #     target: middle
-  # train_play:
-  #   train_slide:
-  #     target: middle
-  # wally_play:
-  #   wally_slide:
-  #     target: middle
 
-event_player:
-  beppi_play:
-    start_boss:
-      bossname: beppi
+event_player: # this event player looks for the x_play event that is posted by the sound config
+  beppi_play: # if the sound pool randomized chose to play beppi's song it posts "beppi_play"
+    start_boss: # when "beppi_play" is posted this player posts "start_boss" with the...
+      bossname: beppi # kwarg pair of bossname = beppi, the boss slide has a widget that sees this
+                      # and will use that to choose to play the beppi video
   cagney_play:
     start_boss:
       bossname: cagney
@@ -268,22 +240,20 @@ event_player:
     start_boss:
       bossname: wally
 
-
-
 slides:
-   boss_slide:
-     widgets:
-     - widget: video_boss_(bossname)
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
+   boss_slide:  # this boss slide playes the videos of the various bosses in the background
+     widgets:                        # this list of widgets will...
+     - widget: video_boss_(bossname) # look for the kwarg bossname and use that to play the video.
+     - widget: C_widget              # These will play the widgets for in play animations,
+     - widget: cUp_widget            # widgets are used because only one slide can play at a time...
+     - widget: P_widget              # and slides must have opacity to be displayed so...
+     - widget: M_widget              # you can't play a slide over a slide and expect the slide...
+     - widget: mUg_widget            # that is behind to show through the transparten areas...
+     - widget: G_widget              # of the overlying slide.  For that reason widgets are used...
+     - widget: S_widget              # because they are put on slides which already have an opacity...
+     - widget: O_widget              # of 1 so the widget can be opaque where there are graphics...
+     - widget: U_widget              # to be displayed but transparent where there are not graphics...
+     - widget: L_widget              # so the underlying slide can show through
      - widget: dash_widget
      - widget: contract1_widget
      - widget: contract2_widget
@@ -295,283 +265,13 @@ slides:
      - widget: contract8_widget
      - widget: contract9_widget
      - widget: contract10_widget
-   # beppi_slide:
-   #   widgets:
-   #   - type: video
-   #     video: beppi
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # cagney_slide:
-   #   widgets:
-   #   - type: video
-   #     video: cagney
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # calla_slide:
-   #   widgets:
-   #   - type: video
-   #     video: calla
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # capt_slide:
-   #   widgets:
-   #   - type: video
-   #     video: capt
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # hilda_slide:
-   #   widgets:
-   #   - type: video
-   #     video: hilda
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # ribbi_slide:
-   #   widgets:
-   #   - type: video
-   #     video: ribbi
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # robot_slide:
-   #   widgets:
-   #   - type: video
-   #     video: robot
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # root_slide:
-   #   widgets:
-   #   - type: video
-   #     video: root
-   #     end_behavior: loop
-   #     z: 1
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # train_slide:
-   #   widgets:
-   #   - type: video
-   #     video: train
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-   # wally_slide:
-   #   widgets:
-   #   - type: video
-   #     video: wally
-   #     end_behavior: loop
-   #     z: 10
-   #   - widget: C_widget
-   #   - widget: cUp_widget
-   #   - widget: P_widget
-   #   - widget: M_widget
-   #   - widget: mUg_widget
-   #   - widget: G_widget
-   #   - widget: S_widget
-   #   - widget: O_widget
-   #   - widget: U_widget
-   #   - widget: L_widget
-   #   - widget: dash_widget
-   #   - widget: contract1_widget
-   #   - widget: contract2_widget
-   #   - widget: contract3_widget
-   #   - widget: contract4_widget
-   #   - widget: contract5_widget
-   #   - widget: contract6_widget
-   #   - widget: contract7_widget
-   #   - widget: contract8_widget
-   #   - widget: contract9_widget
-   #   - widget: contract10_widget
-
-widgets:
-  video_boss_beppi:
-    - type: video
-      video: beppi
-      end_behavior: loop
-      z: 10
+ 
+widgets: # these are the widgets that get displayed on the boss_slide
+  video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
+    - type: video # it is of the type video...
+      video: beppi # and the video name is "beppi" and it will...
+      end_behavior: loop # loop continuously with a...
+      z: 10 # z value of 10 which determines where it lies in the stack of widgets, bigger z's cover smaller z's
   video_boss_cagney:
     - type: video
       video: cagney
@@ -617,13 +317,14 @@ widgets:
       video: wally
       end_behavior: loop
       z: 10
-  contract1_widget:
-    - type: image
-      image: contract1_image
-      z: 90
-      opacity: 0
-      animations:
-        contract1_play: contract_animation
+
+  contract1_widget: # this contract widget will...
+    - type: image # display an image which is...
+      image: contract1_image # the "contract1_image" with a...
+      z: 90 # fairly large z value so that it covers lower z value widgets
+      opacity: 0 # it starts with an opacity of 0 because it is centered on the screen and otherwise would be seen
+      animations: # it has a 'named animation' called...
+        contract1_play: contract_animation #  "contract_animation" that will play when "contract1_play" is posted
   contract2_widget:
     - type: image
       image: contract2_image
@@ -687,14 +388,15 @@ widgets:
       opacity: 0
       animations:
         contract10_play: contract_animation
-  C_widget:
-    - type: image
-      image: C_image
-      z: 50
-      anchor_y: top
-      y: 0
-      animations:
-        s_dt_C_active: cupmug
+
+  C_widget: # these widgets are of the type...
+    - type: image # image with the image set to...
+      image: C_image # one of the drop targets with a...
+      z: 50 # intermediate z value with the..
+      anchor_y: top # top set as the anchor for referencing the animation and the...
+      y: 0 # y (top) is set to 0 so that it is off of the bottom of the screen. Does not need opacity of 0 because of this.
+      animations: # a "named animation" called...
+        s_dt_C_active: cupmug # "cupmug" will be played when the "C" drop target switch is activated
   cUp_widget:
     - type: image
       image: cUp_image
@@ -735,13 +437,14 @@ widgets:
       y: 0
       animations:
         s_dt_G_active: cupmug
-  S_widget:
+
+  S_widget: # This series of widgets are for the upper SOUL lanes
     - type: image
       image: S_image
-      z: 50
-      opacity: 0
-      animations:
-        s_soul_S_active: soul_animation
+      z: 50 # an intermediate z value to overlay the video but not contracts
+      opacity: 0 # starts with an opacity of 0 because it is in the center of the screen and would be seen otherwise
+      animations: # a "named animation" called...
+        s_soul_S_active: soul_animation # "soul_animtion" will be played when the S switch is active
   O_widget:
     - type: image
       image: O_image
@@ -763,79 +466,84 @@ widgets:
       opacity: 0
       animations:
         s_soul_L_active: soul_animation
-  knockout_widget:
+
+  knockout_widget: # playes the knockout image set when needed
     - type: image
       image: knockout_image
       expire: 2s
       z: 10
-  dash_widget:
+
+  dash_widget: # plays the dash slide
     - type: image
       image: dash_image
-      anchor_x: right
-      x: 0
-      z: 100
-      animations:
-        s_dash_L_active: dasher
-        s_dash_R_active: dasher
+      anchor_x: right # has a right anchor with a...
+      x: 0 # x (right) value of 0 so it sits off screen to the left of the video,  Does not need opacity of 0 because of this
+      z: 100 # has a very high z value so it will cover most any other widget
+      animations: # it has one animation called...
+        s_dash_L_active: dasher # "dasher" which playes when either the left Dash saucer or...
+        s_dash_R_active: dasher # the right Dash saucer is filled
 
-animations:
-  cupmug:
-  - property: y
-    value: 450
-    duration: .1s
-  - property: y
-    value: 0
-    relative: true
-    duration: .75s
-  - property: y
-    value: 0
-    duration: .1s
-  soul_animation:
-  - property: opacity
-    value: 1
-    duration: .5s
-  - property: opacity
-    value: 0
-    relative: true
-    duration: .1s
-  - property: opacity
-    value: 0
-    duration: .5s
-  contract_animation:
-  - property: opacity
-    value: 1
-    duration: .5s
-  - property: opacity
-    value: 0
-    relative: true
-    duration: 1s
-  - property: opacity
-    value: 0
-    duration: .5s
-  dasher:
-  - property: x
-    value: 1080
-    duration: .25s
-  - property: x
-    value: 0
-    relative: true
-    duration: .75s
-  - property: x
-    value: 2160
-    duration: .25s
-  - property: opacity
-    value: 0
-    duration: .1s
-  - property: x
-    value: 0
-    duration: .1s
-  - property: opacity
-    value: 1
-    duration: .1s
+animations: # these are the named animaitons for the base slide
+  cupmug: # this is the animation for the drop targets
+  - property: y # they start below the video slide and have their tops set at 0, just below the visible screen
+    value: 450 # this rises the widget up to a value of 450 [(0,0) is left lower corner] over...
+    duration: .1s # .1 seconds
+  - property: y # this will keep the y value at...
+    value: 0 # 0 with the...
+    relative: true # "relative" set to true so y stays at 450 for...
+    duration: .75s # .75 seconds
+  - property: y # the y is then...
+    value: 0 # dropped to 0 over...
+    duration: .1s # .1 seconds
 
-images:
+  soul_animation: # this is the animation for the SOUL top lanes
+  - property: opacity # the opacity starts at 0 so this makes the opacity...
+    value: 1 # 1 (solid) over...
+    duration: .5s # .5 seconds
+  - property: opacity # the opacity...
+    value: 0 # stays at 1...
+    relative: true # because "relative" is set to true for...
+    duration: .1s # .1 seconds
+  - property: opacity # the opacity then...
+    value: 0 # fades to 0 over...
+    duration: .5s # .5 seconds
+
+  contract_animation: # this is the animation for the Soul Contracts
+  - property: opacity # the opacity starts at 0 so this makes the opacity...
+    value: 1 # 1 (solid) over...
+    duration: .5s # .5 seconds
+  - property: opacity # the opacity...
+    value: 0 # stays at 1...
+    relative: true # because "relative" is set to true for...
+    duration: 1s # .1 seconds
+  - property: opacity # the opacity then...
+    value: 0 # fades to 0 over...
+    duration: .5 # .5 seconds
+
+  dasher: # this is the animation for the Dash saucers
+  - property: x # the right side of the widget is the reference edge so the widget...
+    value: 1080 # will sprint across the screen to the right edge (1080) over...
+    duration: .25s # a period of .25 seconds
+  - property: x # it stays there because the change...
+    value: 0 # in x is zero..
+    relative: true # relative to it's current position for a total of...
+    duration: .75s # .75 seconds
+  - property: x # the right edge then gets moved over...
+    value: 2160 # to double 1080 (2160) so the widget sprints right off screen over...
+    duration: .25s # .25 seconds
+  - property: opacity # because we need to get the widget back to the left we set the opacity...
+    value: 0 # to zero over...
+    duration: .1s # .1 seconds and then
+  - property: x #  slide the hidden widget back to off screen left which...
+    value: 0 # is and x of zero over...
+    duration: .1s # .1 seconds and then...
+  - property: opacity # the opacity is set...
+    value: 1 # back to solid (1) over...
+    duration: .1s # .1 seconds
+
+images: # all images used in widgets must be defined here, note that
   C_image:
-    file: C.png
+    file: C.png # they can be pngs with transparent backgrouds or...
   cUp_image:
     file: cUp.png
   P_image:
@@ -879,22 +587,22 @@ images:
   contract10_image:
     file: contract10.png
   mugman_image:
-    file: mugman.zip
-  cuphead_image:
-    file: cuphead.zip
-  knockout_image:
-    file: knockout.zip
-  perdition1_image:
-    file: perdition1.png
+    file: mugman.zip       # zip files with animation sequences.  MPF will unpack these
+  cuphead_image:           # zipped folders and play the sequence of pngs in order from
+    file: cuphead.zip      # first to last.  There must not be any files that are not
+  knockout_image:          # images in the folder so you cannot use files zipped on a
+    file: knockout.zip     # mac and you cannot zip a folder because that will put the 
+  perdition1_image:        # folder in the zip.  You must select all of the png images
+    file: perdition1.png   # and use 7 zip to zip only them.
   perdition2_image:
     file: perdition2.png
   perdition3_image:
     file: perdition3.png
 
-videos:
-  beppi:
-    file: beppi.mp4
-    height: 600
+videos: # all videos must be defined by name
+  beppi: # name of video
+    file: beppi.mp4 # file for the video
+    height: 600 # set the aspect ration to the size of the screen
     width: 1060
   cagney:
     file: cagney.mp4

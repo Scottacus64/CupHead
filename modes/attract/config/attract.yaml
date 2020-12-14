@@ -2,9 +2,9 @@
 #Cuphead Attract Mode
 
 show_player:
-  mode_attract_started:
-    attract_display_loop:
-      speed: 1
+  mode_attract_started: # when the mode begins...
+    attract_display_loop: # play the "attract_display_loop" with a...
+      speed: 1 # speed of 1
     output1: # just to show that two light shows can be called and run together
       speed: 4
 #    attract_light_show2:
@@ -15,19 +15,19 @@ sound_player: # plays the attract music
     attract:
       loops: -1 # loops the music indefintiely
       mode_end_action: stop
-  request_to_start_game: startCallOuts
+  request_to_start_game: startCallOuts # play the announcer voice when a player is added
 
 track_player:
-  videoOn:
+  videoOn: # if the event named "videoOn" is posted
     music:
-      action: pause
-      fade: 1 sec
-  videoOff:
+      action: pause # pause the music by..
+      fade: .25 sec # fading over .25 seconds
+  videoOff: # if the enven "videoOff" is posted
     music:
-      action: play
-      fade: 1 sec
+      action: play # play the music again by..
+      fade: .25 sec #fading in over .25 seconds
 
-slides:
+slides: # these are the attract video slides
   a_beppi:
     widgets:
     - type: video
@@ -80,11 +80,11 @@ slides:
       z: 10
 
 
-videos:
+videos: # the video names must be defined
   a_beppi:
     file: attr_beppi.mp4
-    height: 600
-    width: 1060
+    height: 600 # set the aspect ration
+    width: 1080
   a_cagney:
     file: attr_cagney.mp4
     height: 600
@@ -92,27 +92,27 @@ videos:
   a_calla:
     file: attr_calla.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_capt:
     file: attr_capt.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_hilda:
     file: attr_hilda.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_ribbi:
     file: attr_ribbi.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_robot:
     file: attr_robot.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_root:
     file: attr_root.mp4
     height: 600
-    width: 1060
+    width: 1080
   a_train:
     file: attr_train.mp4
     height: 600
@@ -120,9 +120,9 @@ videos:
   a_wally:
     file: attr_wally.mp4
     height: 600
-    width: 1060
+    width: 1080
 
-images:
+images: # images must be defined
   score:
     file: score.png
     height: 300
@@ -136,10 +136,10 @@ images:
   film:
     file: film.png
 
-slide_player:
-  mode_attract_started:
+slide_player: # this slide player will
+  mode_attract_started: # start these slides when the mode begins
     title_slide:
-      target: middle
+      target: middle # sets the destination display for the slides
     finger_slide:
       target: upper
     score_slide:

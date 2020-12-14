@@ -1,6 +1,7 @@
 #show_version=5
 
-
+# this display loop wii show the title slide ofr 3 seconds and then switch to a cut scene video for 20 seconds
+# all of this will loop continuously until a game is started
 - duration: 3s
   slides:
     title_slide:
