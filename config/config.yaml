@@ -67,9 +67,6 @@ window:
   left: 0
 
 displays:
-  window:
-    width: 1080
-    height: 1300
   upper:
     width: 1080
     height: 300
@@ -79,6 +76,9 @@ displays:
   lower:
     width: 1080
     height: 300
+  window:
+    width: 1080
+    height: 1300
 
 slides:
   layout:
@@ -117,11 +117,6 @@ slides:
     widgets:
     - type: image
       image: topper
-  knockout_slide:
-    expire: 2s
-    widgets:
-    - type: image
-      image: knockout_image
   base_slide:
     widgets:
     - type: text
@@ -149,6 +144,11 @@ slides:
       image: title_image
       z: 2
       fps: 30
+  background_slide:
+    widgets:
+    - type: image
+      image: film
+      z: 800
   finger_slide:
     widgets:
     - type: image

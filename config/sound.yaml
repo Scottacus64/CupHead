@@ -163,42 +163,52 @@ sounds:
     file: SoulMusic1.wav
     track: sfx
     volume: .75
+    events_when_played: contract1_play
   soul2:
     file: SoulMusic2.wav
     track: sfx
     volume: .75
+    events_when_played: contract2_play
   soul3:
     file: SoulMusic3.wav
     track: sfx
     volume: .75
+    events_when_played: contract3_play
   soul4:
     file: SoulMusic4.wav
     track: sfx
     volume: .75
+    events_when_played: contract4_play
   soul5:
     file: SoulMusic5.wav
     track: sfx
     volume: .75
+    events_when_played: contract5_play
   soul6:
     file: SoulMusic6.wav
     track: sfx
     volume: .75
+    events_when_played: contract6_play
   soul7:
     file: SoulMusic7.wav
     track: sfx
     volume: .75
+    events_when_played: contract7_play
   soul8:
     file: SoulMusic8.wav
     track: sfx
     volume: .75
+    events_when_played: contract8_play
   soul9:
     file: SoulMusic9.wav
     track: sfx
     volume: .75
+    events_when_played: contract9_play
   soul10:
     file: SoulMusic10.wav
     track: sfx
     volume: .75
+    events_when_played: contract10_play
   standUps:
     file: CHStandups.wav
     track: sfx

@@ -202,115 +202,78 @@ slide_player:
       target: lower
     topper_slide:
       target: upper
+  start_boss:
+    boss_slide:
+      target: middle
+  # beppi_play:
+  #   beppi_slide:
+  #     target: middle
+  # cagney_play:
+  #   cagney_slide:
+  #     target: middle
+  # calla_play:
+  #   calla_slide:
+  #    target: middle
+  # capt_play:
+  #   capt_slide:
+  #    target: middle
+  # hilda_play:
+  #   hilda_slide:
+  #    target: middle
+  # ribbi_play:
+  #   ribbi_slide:
+  #     target: middle
+  # robot_play:
+  #   robot_slide:
+  #     target: middle
+  # root_play:
+  #   root_slide:
+  #     target: middle
+  # train_play:
+  #   train_slide:
+  #     target: middle
+  # wally_play:
+  #   wally_slide:
+  #     target: middle
+
+event_player:
   beppi_play:
-    beppi_slide:
-      target: middle
+    start_boss:
+      bossname: beppi
   cagney_play:
-    cagney_slide:
-      target: middle
+    start_boss:
+      bossname: cagney
   calla_play:
-    calla_slide:
-     target: middle
+    start_boss:
+      bossname: calla
   capt_play:
-    capt_slide:
-     target: middle
+    start_boss:
+      bossname: capt
   hilda_play:
-    hilda_slide:
-     target: middle
+    start_boss:
+      bossname: hilda
   ribbi_play:
-    ribbi_slide:
-      target: middle
+    start_boss:
+      bossname: ribbi
   robot_play:
-    robot_slide:
-      target: middle
+    start_boss:
+      bossname: robot
   root_play:
-    root_slide:
-      target: middle
+    start_boss:
+      bossname: root
   train_play:
-    train_slide:
-      target: middle
+    start_boss:
+      bossname: train
   wally_play:
-    wally_slide:
-      target: middle
+    start_boss:
+      bossname: wally
 
 
-images:
-  C_image:
-    file: C.png
-  cUp_image:
-    file: cUp.png
-  P_image:
-    file: P.png
-  M_image:
-    file: M.png
-  mUg_image:
-    file: mUg.png
-  G_image:
-    file: G.png
-  S_image:
-    file: S.png
-  O_image:
-    file: O.png
-  soUl_image:
-    file: soUl.png
-  L_image:
-    file: L.png
-  topper:
-    file: CupheadTopper.png
-  knockout_image:
-    file: knockout.png
-  dash_image:
-    file: dash.png
-
-videos:
-  beppi:
-    file: beppi.mp4
-    height: 600
-    width: 1060
-  cagney:
-    file: cagney.mp4
-    height: 600
-    width: 1080
-  calla:
-    file: calla.mp4
-    height: 600
-    width: 1060
-  capt:
-    file: capt.mp4
-    height: 600
-    width: 1060
-  hilda:
-    file: hilda.mp4
-    height: 600
-    width: 1060
-  ribbi:
-    file: ribbi.mp4
-    height: 600
-    width: 1060
-  robot:
-    file: robot.mp4
-    height: 600
-    width: 1060
-  root:
-    file: root.mp4
-    height: 600
-    width: 1060
-  train:
-    file: train.mp4
-    height: 600
-    width: 1080
-  wally:
-    file: wally.mp4
-    height: 600
-    width: 1060
 
 slides:
-   beppi_slide:
+   boss_slide:
      widgets:
-     - type: video
-       video: beppi
-       end_behavior: loop
-       z: 10
+     - widget: video_boss_(bossname)
      - widget: C_widget
      - widget: cUp_widget
      - widget: P_widget
@@ -322,212 +285,408 @@ slides:
      - widget: U_widget
      - widget: L_widget
      - widget: dash_widget
-   cagney_slide:
-     widgets:
-     - type: video
-       video: cagney
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   calla_slide:
-     widgets:
-     - type: video
-       video: calla
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   capt_slide:
-     widgets:
-     - type: video
-       video: capt
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   hilda_slide:
-     widgets:
-     - type: video
-       video: hilda
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   ribbi_slide:
-     widgets:
-     - type: video
-       video: ribbi
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   robot_slide:
-     widgets:
-     - type: video
-       video: robot
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   root_slide:
-     widgets:
-     - type: video
-       video: root
-       end_behavior: loop
-       z: 1
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   train_slide:
-     widgets:
-     - type: video
-       video: train
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-   wally_slide:
-     widgets:
-     - type: video
-       video: wally
-       end_behavior: loop
-       z: 10
-     - widget: C_widget
-     - widget: cUp_widget
-     - widget: P_widget
-     - widget: M_widget
-     - widget: mUg_widget
-     - widget: G_widget
-     - widget: S_widget
-     - widget: O_widget
-     - widget: U_widget
-     - widget: L_widget
-     - widget: dash_widget
-
+     - widget: contract1_widget
+     - widget: contract2_widget
+     - widget: contract3_widget
+     - widget: contract4_widget
+     - widget: contract5_widget
+     - widget: contract6_widget
+     - widget: contract7_widget
+     - widget: contract8_widget
+     - widget: contract9_widget
+     - widget: contract10_widget
+   # beppi_slide:
+   #   widgets:
+   #   - type: video
+   #     video: beppi
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # cagney_slide:
+   #   widgets:
+   #   - type: video
+   #     video: cagney
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # calla_slide:
+   #   widgets:
+   #   - type: video
+   #     video: calla
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # capt_slide:
+   #   widgets:
+   #   - type: video
+   #     video: capt
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # hilda_slide:
+   #   widgets:
+   #   - type: video
+   #     video: hilda
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # ribbi_slide:
+   #   widgets:
+   #   - type: video
+   #     video: ribbi
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # robot_slide:
+   #   widgets:
+   #   - type: video
+   #     video: robot
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # root_slide:
+   #   widgets:
+   #   - type: video
+   #     video: root
+   #     end_behavior: loop
+   #     z: 1
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # train_slide:
+   #   widgets:
+   #   - type: video
+   #     video: train
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
+   # wally_slide:
+   #   widgets:
+   #   - type: video
+   #     video: wally
+   #     end_behavior: loop
+   #     z: 10
+   #   - widget: C_widget
+   #   - widget: cUp_widget
+   #   - widget: P_widget
+   #   - widget: M_widget
+   #   - widget: mUg_widget
+   #   - widget: G_widget
+   #   - widget: S_widget
+   #   - widget: O_widget
+   #   - widget: U_widget
+   #   - widget: L_widget
+   #   - widget: dash_widget
+   #   - widget: contract1_widget
+   #   - widget: contract2_widget
+   #   - widget: contract3_widget
+   #   - widget: contract4_widget
+   #   - widget: contract5_widget
+   #   - widget: contract6_widget
+   #   - widget: contract7_widget
+   #   - widget: contract8_widget
+   #   - widget: contract9_widget
+   #   - widget: contract10_widget
 
 widgets:
-  video_boss_beppi_music:
+  video_boss_beppi:
     - type: video
       video: beppi
       end_behavior: loop
       z: 10
-  video_boss_cagney_music:
+  video_boss_cagney:
     - type: video
       video: cagney
       end_behavior: loop
       z: 10
-  video_boss_calla_music:
+  video_boss_calla:
     - type: video
       video: calla
       end_behavior: loop
       z: 10
-  video_boss_capt_music:
+  video_boss_capt:
     - type: video
       video: capt
       end_behavior: loop
       z: 10
-  video_boss_hilda_music:
+  video_boss_hilda:
     - type: video
       video: hilda
       end_behavior: loop
       z: 10
-  video_boss_ribbi_music:
+  video_boss_ribbi:
     - type: video
       video: ribbi
       end_behavior: loop
       z: 10
-  video_boss_robot_music:
+  video_boss_robot:
     - type: video
       video: robot
       end_behavior: loop
       z: 10
-  video_boss_root_music_music_music:
+  video_boss_root:
     - type: video
       video: root
       end_behavior: loop
       z: 10
-  video_boss_train_music_music:
+  video_boss_train:
     - type: video
       video: train
       end_behavior: loop
       z: 10
-  video_boss_wally_music:
+  video_boss_wally:
     - type: video
       video: wally
       end_behavior: loop
       z: 10
+  contract1_widget:
+    - type: image
+      image: contract1_image
+      z: 90
+      opacity: 0
+      animations:
+        contract1_play: contract_animation
+  contract2_widget:
+    - type: image
+      image: contract2_image
+      z: 90
+      opacity: 0
+      animations:
+        contract2_play: contract_animation
+  contract3_widget:
+    - type: image
+      image: contract3_image
+      z: 90
+      opacity: 0
+      animations:
+        contract3_play: contract_animation
+  contract4_widget:
+    - type: image
+      image: contract4_image
+      z: 90
+      opacity: 0
+      animations:
+        contract4_play: contract_animation
+  contract5_widget:
+    - type: image
+      image: contract5_image
+      z: 90
+      opacity: 0
+      animations:
+        contract5_play: contract_animation
+  contract6_widget:
+    - type: image
+      image: contract6_image
+      z: 90
+      opacity: 0
+      animations:
+        contract6_play: contract_animation
+  contract7_widget:
+    - type: image
+      image: contract7_image
+      z: 90
+      opacity: 0
+      animations:
+        contract7_play: contract_animation
+  contract8_widget:
+    - type: image
+      image: contract8_image
+      z: 90
+      opacity: 0
+      animations:
+        contract8_play: contract_animation
+  contract9_widget:
+    - type: image
+      image: contract9_image
+      z: 90
+      opacity: 0
+      animations:
+        contract9_play: contract_animation
+  contract10_widget:
+    - type: image
+      image: contract10_image
+      z: 90
+      opacity: 0
+      animations:
+        contract10_play: contract_animation
   C_widget:
     - type: image
       image: C_image
@@ -642,6 +801,17 @@ animations:
   - property: opacity
     value: 0
     duration: .5s
+  contract_animation:
+  - property: opacity
+    value: 1
+    duration: .5s
+  - property: opacity
+    value: 0
+    relative: true
+    duration: 1s
+  - property: opacity
+    value: 0
+    duration: .5s
   dasher:
   - property: x
     value: 1080
@@ -662,3 +832,103 @@ animations:
   - property: opacity
     value: 1
     duration: .1s
+
+images:
+  C_image:
+    file: C.png
+  cUp_image:
+    file: cUp.png
+  P_image:
+    file: P.png
+  M_image:
+    file: M.png
+  mUg_image:
+    file: mUg.png
+  G_image:
+    file: G.png
+  S_image:
+    file: S.png
+  O_image:
+    file: O.png
+  soUl_image:
+    file: soUl.png
+  L_image:
+    file: L.png
+  topper:
+    file: CupheadTopper.png
+  dash_image:
+    file: dash.png
+  contract1_image:
+    file: contract1.png
+  contract2_image:
+    file: contract2.png
+  contract3_image:
+    file: contract3.png
+  contract4_image:
+    file: contract4.png
+  contract5_image:
+    file: contract5.png
+  contract6_image:
+    file: contract6.png
+  contract7_image:
+    file: contract7.png
+  contract8_image:
+    file: contract8.png
+  contract9_image:
+    file: contract9.png
+  contract10_image:
+    file: contract10.png
+  mugman_image:
+    file: mugman.zip
+  cuphead_image:
+    file: cuphead.zip
+  knockout_image:
+    file: knockout.zip
+  perdition1_image:
+    file: perdition1.png
+  perdition2_image:
+    file: perdition2.png
+  perdition3_image:
+    file: perdition3.png
+
+videos:
+  beppi:
+    file: beppi.mp4
+    height: 600
+    width: 1060
+  cagney:
+    file: cagney.mp4
+    height: 600
+    width: 1080
+  calla:
+    file: calla.mp4
+    height: 600
+    width: 1060
+  capt:
+    file: capt.mp4
+    height: 600
+    width: 1060
+  hilda:
+    file: hilda.mp4
+    height: 600
+    width: 1060
+  ribbi:
+    file: ribbi.mp4
+    height: 600
+    width: 1060
+  robot:
+    file: robot.mp4
+    height: 600
+    width: 1060
+  root:
+    file: root.mp4
+    height: 600
+    width: 1060
+  train:
+    file: train.mp4
+    height: 600
+    width: 1080
+  wally:
+    file: wally.mp4
+    height: 600
+    width: 1060

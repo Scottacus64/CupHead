@@ -133,6 +133,8 @@ images:
     file: finger.png
   start_backdrop_image:
     file: start_backdrop.png
+  film:
+    file: film.png
 
 slide_player:
   mode_attract_started:
