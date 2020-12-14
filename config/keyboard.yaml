@@ -36,17 +36,25 @@ keyboard:
     switch: s_soul_L
   2:
     switch: s_dt_C
+    toggle: true
   3:
     switch: s_dt_U
+    toggle: true
   4:
     switch: s_dt_P
+    toggle: true
   5:
     switch: s_dt_M
+    toggle: true
   6:
     switch: s_dt_U2
+    toggle: true
   7:
     switch: s_dt_G
+    toggle: true
   a:
     switch: s_dash_L
+    toggle: true
   d:
     switch: s_dash_R
+    toggle: true
