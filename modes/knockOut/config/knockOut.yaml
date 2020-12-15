@@ -33,7 +33,6 @@ variable_player:
   s_star_3_active:
     score: 450
 
-
 sequences:
   laneUp:
     events:

@@ -251,6 +251,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd1{current_player.number == 2}: mp1 # combines perdition entry 1 with player 2 to play MM's widgets
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
+  s_standUp_R_active: knockout # the knockout mode stops s-standup_R from triggering the slide so this is needed
 
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
@@ -285,6 +286,7 @@ slides:
      - widget: mm_perdition1_widget
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
+     - widget: knockout_widget
 
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
@@ -549,12 +551,6 @@ widgets: # these are the widgets that get displayed on the boss_slide
       animations:
         s_soul_L_active: soul_animation
 
-  knockout_widget: # playes the knockout image set when needed
-    - type: image
-      image: knockout_image
-      expire: 2s
-      z: 10
-
   dash_widget: # plays the dash slide
     - type: image
       image: dash_image
@@ -564,6 +560,14 @@ widgets: # these are the widgets that get displayed on the boss_slide
       animations: # it has one animation called...
         s_dash_L_active: dasher # "dasher" which playes when either the left Dash saucer or...
         s_dash_R_active: dasher # the right Dash saucer is filled
+  knockout_widget: # playes the knockout image set when needed
+    - type: image
+      image: knockout_image
+      z: 90
+      fps: 30
+      opacity: 0
+      animations:
+        knockout: contract_animation # won't trigger with s_standup_R by itslef
 
 animations: # these are the named animaitons for the base slide
   cupmug: # this is the animation for the drop targets
@@ -696,6 +700,7 @@ images: # all images used in widgets must be defined here, note that
     file: mm_perdition2.png
   mm_perdition3_image:
     file: mm_perdition3.png
+
 
 videos: # all videos must be defined by name
   beppi: # name of video

@@ -64,3 +64,5 @@ keyboard:
     switch: s_trough_jam
   n:
     switch: s_perdition
+  j:
+    switch: s_standUp_R
