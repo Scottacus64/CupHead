@@ -238,8 +238,9 @@ event_player: # this event player looks for the x_play event that is posted by t
   wally_play:
     start_boss:
       bossname: wally
-  s_trough_jam_active:
-    player_up_(number):
+  slide_boss_slide_active{current_player.number == 1}: player_up_1
+  slide_boss_slide_active{current_player.number == 2}: player_up_2
+
 
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
