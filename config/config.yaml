@@ -32,7 +32,9 @@ player_vars: # these are player variables that can be seen by all modes
   bonus_multiplier:
     value_type: int
     initial_value: 1
-
+  active_player:
+    value_type: int
+    initial_value: 1
   contracts:
     value_type: int
     initial_value: 0
@@ -86,7 +88,7 @@ slides:
     widgets: # these widgets are the...
       - type: display # displays that are used to project slides for the backbox onto
         width: 1080 # aspect ration all are full width but...
-        height: 300 # partial height so they stack but not set to final heigh of 350 to show a 
+        height: 300 # partial height so they stack but not set to final heigh of 350 to show a
         # blue border under the slide,  This will change to 350 when Adrian gets up borders
         x: 0 # the display is set to the left of the window and the...
         y: 1300 # very top of the window with the...
@@ -131,7 +133,7 @@ slides:
       min_digits: 2
       font_size: 100
     - type: text
-      text: Player (player)
+      text: Player (number)
       y: 10
       x: 10
       font_size: 30
@@ -189,26 +191,6 @@ slide_player:
     layout: # layout slide on the..
       target: window # ENTIRE Window
 
-score_reels: # eventually the scroe reels will be defined here
-  score_reel11:
-    switch_0: reel0
-    switch_1: reel1
-    switch_2: reel2
-    switch_3: reel3
-    switch_4: reel4
-    switch_5: reel5
-    switch_6: reel6
-    switch_7: reel7
-    switch_8: reel8
-    switch_9: reel9
-    limit_hi: 9
-    limit_lo: 0
-
-score_reel_groups: # they will be grouped by player
-  player1:
-    reels: score_reel11, None
-    tags: player1
-
 drop_targets: # this configs each switch to a drop target
   cup_C:
     switch: s_dt_C
@@ -230,8 +212,8 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     reset_on_complete: 500ms
     reset_events: # reset the drop targets on these events
       - drop_target_bank_cup_bank_down
-      - ball_starting 
-      - machine_reset_phase_3 
+      - ball_starting
+      - machine_reset_phase_3
   mug_bank:
     drop_targets: mug_M, mug_U, mug_G
     reset_coils: c_dt_reset_MUG

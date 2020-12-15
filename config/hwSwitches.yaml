@@ -53,6 +53,7 @@ switches:
     number: 0-0-26
   s_slam_tilt:
     number: 0-0-27
+
   # Board 1 Chain 1
   s_right_flipper:
     number: 1-0-1
@@ -71,7 +72,10 @@ switches:
   s_sling_R:
     number: 1-0-10
     tags: slingSw
-  # number: 1-0-11 Remains Unused# Board 1 Switch Matrix (4x6)
+  s_shooter_lane:
+    number: 1-0-11
+
+  # Board 1 Switch Matrix (4x6)
   # Column 1
   s_trough1:
     number: 1-0-32
@@ -90,6 +94,7 @@ switches:
     tags: bottomLanesSw
   s_midRight:
     number: 1-0-37
+
   # Column 2
   s_dt_M:
     number: 1-0-40
@@ -108,6 +113,7 @@ switches:
   s_star_3:
     number: 1-0-45
     tags: starSw
+
   # Column 3
   s_inLane_L:
     number: 1-0-48
@@ -127,6 +133,7 @@ switches:
   s_star_2:
     number: 1-0-53
     tags: starSw
+    
   # Column 4
   s_soul_S:
     number: 1-0-56
@@ -144,23 +151,3 @@ switches:
     number: 1-0-60
   s_perdition_lane:
     number: 1-0-61
-  reel0:
-    number:
-  reel1:
-    number:
-  reel2:
-    number:
-  reel3:
-    number:
-  reel4:
-    number:
-  reel5:
-    number:
-  reel6:
-    number:
-  reel7:
-    number:
-  reel8:
-    number:
-  reel9:
-    number:

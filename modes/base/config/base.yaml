@@ -211,8 +211,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   beppi_play: # if the sound pool randomized chose to play beppi's song it posts "beppi_play"
     start_boss: # when "beppi_play" is posted this player posts "start_boss" with the...
       bossname: beppi # kwarg pair of bossname = beppi, the boss slide has a widget that sees this
-                      # and will use that to choose to play the beppi video
-  cagney_play:
+  cagney_play:        # and will use that to choose to play the beppi video
     start_boss:
       bossname: cagney
   calla_play:
@@ -239,6 +238,8 @@ event_player: # this event player looks for the x_play event that is posted by t
   wally_play:
     start_boss:
       bossname: wally
+  s_trough_jam_active:
+    player_up_(number):
 
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
@@ -265,7 +266,9 @@ slides:
      - widget: contract8_widget
      - widget: contract9_widget
      - widget: contract10_widget
- 
+     - widget: player_1_widget
+     - widget: player_2_widget
+
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
     - type: video # it is of the type video...
@@ -317,6 +320,25 @@ widgets: # these are the widgets that get displayed on the boss_slide
       video: wally
       end_behavior: loop
       z: 10
+
+  player_1_widget: # widget for the boss slide that will display the player up image
+    - type: image
+      image: cuphead_up_image
+      opacity: 0
+      z: 100
+      fps: 30
+      animations:
+        player_up_1: player_up_animation
+        s_shooter_lane_active: remove_animation
+  player_2_widget:
+    - type: image
+      image: mugman_up_image
+      opacity: 0
+      z: 100
+      fps: 30
+      animations:
+        player_up_2: player_up_animation
+        s_shooter_lane_active: remove_animation
 
   contract1_widget: # this contract widget will...
     - type: image # display an image which is...
@@ -541,6 +563,16 @@ animations: # these are the named animaitons for the base slide
     value: 1 # back to solid (1) over...
     duration: .1s # .1 seconds
 
+  player_up_animation:
+  - property: opacity
+    value: 1
+    duration: .1 sec
+
+  remove_animation:
+  - property: opacity
+    value: 0
+    duration: .1s
+
 images: # all images used in widgets must be defined here, note that
   C_image:
     file: C.png # they can be pngs with transparent backgrouds or...
@@ -586,18 +618,24 @@ images: # all images used in widgets must be defined here, note that
     file: contract9.png
   contract10_image:
     file: contract10.png
-  mugman_image:
+  mugman_up_image:
     file: mugman.zip       # zip files with animation sequences.  MPF will unpack these
-  cuphead_image:           # zipped folders and play the sequence of pngs in order from
+  cuphead_up_image:           # zipped folders and play the sequence of pngs in order from
     file: cuphead.zip      # first to last.  There must not be any files that are not
   knockout_image:          # images in the folder so you cannot use files zipped on a
-    file: knockout.zip     # mac and you cannot zip a folder because that will put the 
-  perdition1_image:        # folder in the zip.  You must select all of the png images
-    file: perdition1.png   # and use 7 zip to zip only them.
-  perdition2_image:
-    file: perdition2.png
-  perdition3_image:
-    file: perdition3.png
+    file: knockout.zip     # mac and you cannot zip a folder because that will put the
+  ch_perdition1_image:        # folder in the zip.  You must select all of the png images
+    file: ch_perdition1.png   # and use 7 zip to zip only them.
+  ch_perdition2_image:
+    file: ch_perdition2.png
+  ch_perdition3_image:
+    file: ch_perdition3.png
+  mm_perdition1_image:
+    file: mm_perdition1.png
+  mm_perdition2_image:
+    file: mm_perdition2.png
+  mm_perdition3_image:
+    file: mm_perdition3.png
 
 videos: # all videos must be defined by name
   beppi: # name of video

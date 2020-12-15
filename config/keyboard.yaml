@@ -58,3 +58,7 @@ keyboard:
   d:
     switch: s_dash_R
     toggle: true
+  x:
+    switch: s_shooter_lane
+  v:
+    switch: s_trough_jam
