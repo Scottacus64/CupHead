@@ -11,10 +11,10 @@ shots:
   outLaneL: 67
   outLaneR: 52
   perdition_lane: 449
-  soul_L: 165
-  soul_O: 143
-  soul_S: 155
-  soul_U: 160
+  soul_L: 166
+  soul_O: 144
+  soul_S: 156
+  soul_U: 161
   standUp1: 198
   standUp2: 199
   standUp3: 222
@@ -38,12 +38,12 @@ switches:
   s_dash_R: 75
   s_dtSling_L: 62
   s_dtSling_R: 33
-  s_dt_C: 326
-  s_dt_G: 147
-  s_dt_M: 172
-  s_dt_P: 277
-  s_dt_U: 304
-  s_dt_U2: 159
+  s_dt_C: 344
+  s_dt_G: 154
+  s_dt_M: 185
+  s_dt_P: 298
+  s_dt_U: 324
+  s_dt_U2: 167
   s_exit_shooter_lane: 450
   s_inLane_L: 119
   s_inLane_R: 175
@@ -60,14 +60,14 @@ switches:
   s_popBumper_2: 823
   s_popBumper_3: 878
   s_right_flipper: 956
-  s_shooter_lane: 87
+  s_shooter_lane: 104
   s_slam_tilt: 0
   s_sling_L: 202
   s_sling_R: 159
-  s_soul_L: 165
-  s_soul_O: 143
-  s_soul_S: 155
-  s_soul_U: 160
+  s_soul_L: 166
+  s_soul_O: 144
+  s_soul_S: 156
+  s_soul_U: 161
   s_spinner: 923
   s_standUp_1: 243
   s_standUp_2: 226
@@ -76,9 +76,9 @@ switches:
   s_star_1: 161
   s_star_2: 179
   s_star_3: 321
-  s_start: 86
+  s_start: 99
   s_tilt: 41
   s_tilt_bob: 0
-  s_trough1: 569
-  s_trough2: 367
-  s_trough_jam: 50
+  s_trough1: 592
+  s_trough2: 372
+  s_trough_jam: 71
