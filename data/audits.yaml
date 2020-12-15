@@ -38,11 +38,11 @@ switches:
   s_dash_R: 75
   s_dtSling_L: 62
   s_dtSling_R: 33
-  s_dt_C: 344
+  s_dt_C: 347
   s_dt_G: 154
-  s_dt_M: 185
-  s_dt_P: 298
-  s_dt_U: 324
+  s_dt_M: 186
+  s_dt_P: 302
+  s_dt_U: 328
   s_dt_U2: 167
   s_exit_shooter_lane: 450
   s_inLane_L: 119
@@ -52,7 +52,7 @@ switches:
   s_midRight: 64
   s_outLane_L: 98
   s_outLane_R: 90
-  s_perdition: 1
+  s_perdition: 43
   s_perdition_kicker: 777
   s_perdition_lane: 449
   s_plunger: 990
@@ -60,7 +60,7 @@ switches:
   s_popBumper_2: 823
   s_popBumper_3: 878
   s_right_flipper: 956
-  s_shooter_lane: 104
+  s_shooter_lane: 119
   s_slam_tilt: 0
   s_sling_L: 202
   s_sling_R: 159
@@ -76,9 +76,9 @@ switches:
   s_star_1: 161
   s_star_2: 179
   s_star_3: 321
-  s_start: 99
+  s_start: 103
   s_tilt: 41
   s_tilt_bob: 0
-  s_trough1: 592
+  s_trough1: 595
   s_trough2: 372
   s_trough_jam: 71

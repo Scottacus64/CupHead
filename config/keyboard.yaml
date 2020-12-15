@@ -62,3 +62,5 @@ keyboard:
     switch: s_shooter_lane
   v:
     switch: s_trough_jam
+  n:
+    switch: s_perdition
