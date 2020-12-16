@@ -298,6 +298,11 @@ slides:
      - widget: reel_2_10_widget
      - widget: reel_2_100_widget
      - widget: reel_2_1k_widget
+     - widget: figure_1_widget
+     - widget: figure_2_widget
+     - widget: score_mask_widget
+     - widget: figure_1_active_widget
+     - widget: figure_2_active_widget
 
 
 
@@ -601,7 +606,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 375
@@ -616,7 +621,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 300
@@ -631,7 +636,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 225
@@ -654,7 +659,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 925
@@ -669,7 +674,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 850
@@ -684,7 +689,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
    - type: image
      image: reel_image
      auto_play: false
-     start_frame: 1
+     start_frame: 0
      anchor_x: left
      anchor_y: bottom
      x: 775
@@ -695,6 +700,67 @@ widgets: # these are the widgets that get displayed on the boss_slide
          - property: end_frame
            value: 0
            duration: 0
+
+  figure_1_widget:
+   - type: image
+     image: small_cuphead_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 50
+     y: 50
+     z: 80
+     animations:
+       mode_base_started: player_up_animation
+       player_up_1: remove_animation
+       player_turn_ended: player_up_animation
+  figure_1_active_widget:
+   - type: image
+     image: small_ch_image
+     anchor_x: left
+     anchor_y: bottom
+     opacity: 0
+     auto_play: true
+     x: 50
+     y: 50
+     z: 80
+     animations:
+       player_up_1: player_up_animation
+       player_turn_ended: remove_animation
+  figure_2_widget:
+   - type: image
+     image: small_mugman_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 575
+     y: 50
+     z: 80
+     animations:
+       mode_base_started: player_up_animation
+       player_up_2: remove_animation
+       player_turn_ended: player_up_animation
+  figure_2_active_widget:
+   - type: image
+     image: small_mm_image
+     anchor_x: left
+     anchor_y: bottom
+     auto_play: true
+     x: 575
+     y: 50
+     z: 80
+     opacity: 0
+     animations:
+       player_up_2: player_up_animation
+       player_turn_ended: remove_animation
+  score_mask_widget:
+   - type: image
+     image: score_mask_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 0
+     y: 0
+     z: 90
+
+
 
 animations: # these are the named animaitons for the base slide
   cupmug: # this is the animation for the drop targets
@@ -834,6 +900,16 @@ images: # all images used in widgets must be defined here, note that
     file: backdrop.png
   reel_0_image:
     file: reel0.png
+  small_ch_image:
+    file: cuphead_figure.zip
+  small_mm_image:
+    file: mugman_figure.zip
+  score_mask_image:
+    file: score_mask.png
+  small_cuphead_image:
+    file: small_cuphead.png
+  small_mugman_image:
+    file: small_mugman.png
 
 #image_templates:
 #  reels:
