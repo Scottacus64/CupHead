@@ -142,5 +142,5 @@ slide_player: # this slide player will
       target: middle # sets the destination display for the slides
     finger_slide:
       target: upper
-    score_slide:
+    bottom_slide:
       target: lower

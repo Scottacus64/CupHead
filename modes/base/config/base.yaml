@@ -287,6 +287,20 @@ slides:
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
      - widget: knockout_widget
+   score_slide:
+     widgets:
+     - widget: background_widget
+     - widget: reel_1_1_widget
+     - widget: reel_1_10_widget
+     - widget: reel_1_100_widget
+     - widget: reel_1_1k_widget
+     - widget: reel_2_1_widget
+     - widget: reel_2_10_widget
+     - widget: reel_2_100_widget
+     - widget: reel_2_1k_widget
+
+
+
 
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
@@ -560,6 +574,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       animations: # it has one animation called...
         s_dash_L_active: dasher # "dasher" which playes when either the left Dash saucer or...
         s_dash_R_active: dasher # the right Dash saucer is filled
+
   knockout_widget: # playes the knockout image set when needed
     - type: image
       image: knockout_image
@@ -568,6 +583,118 @@ widgets: # these are the widgets that get displayed on the boss_slide
       opacity: 0
       animations:
         knockout: contract_animation # won't trigger with s_standup_R by itslef
+
+  background_widget:
+    - type: image
+      image: backdrop_image
+      z: 10
+
+  reel_1_1_widget:
+   - type: image
+     image: reel_0_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 450
+     y: 100
+     z: 100
+  reel_1_10_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 375
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
+  reel_1_100_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 300
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
+  reel_1_1k_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 225
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
+  reel_2_1_widget:
+   - type: image
+     image: reel_0_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 1000
+     y: 100
+     z: 100
+  reel_2_10_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 925
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
+  reel_2_100_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 850
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
+  reel_2_1k_widget:
+   - type: image
+     image: reel_image
+     auto_play: false
+     start_frame: 1
+     anchor_x: left
+     anchor_y: bottom
+     x: 775
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: 0
+           duration: 0
 
 animations: # these are the named animaitons for the base slide
   cupmug: # this is the animation for the drop targets
@@ -700,6 +827,38 @@ images: # all images used in widgets must be defined here, note that
     file: mm_perdition2.png
   mm_perdition3_image:
     file: mm_perdition3.png
+  reel_image:  # can only have one image refer to a given png file
+    file: reels.zip
+#    image_template: reels
+  backdrop_image:
+    file: backdrop.png
+  reel_0_image:
+    file: reel0.png
+
+#image_templates:
+#  reels:
+#    load: preload
+#    frame_skips: # skip 4,5,6
+#      - from: 3
+#        to: 7
+#      - from: 9
+#        to: 13
+#      - from: 15
+#        to: 19
+#      - from: 21
+#        to: 25
+#      - from: 27
+#        to: 31
+#      - from: 33
+#        to: 37
+#      - from: 39
+#        to: 43
+#      - from: 45
+#        to: 49
+#      - from: 51
+#        to: 55
+#      - from: 57
+#        to: 1
 
 
 videos: # all videos must be defined by name

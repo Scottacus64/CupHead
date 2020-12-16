@@ -111,7 +111,7 @@ slides:
         anchor_y: top
         source_display: lower
 
-  score_slide:
+  bottom_slide:
     widgets:
     - type: image
       image: score
