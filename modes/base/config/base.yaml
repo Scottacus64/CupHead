@@ -359,7 +359,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       end_behavior: loop
       z: 10
 
-  ch_perdition1_widget:
+  ch_perdition1_widget: # these show the perdition cards on the main display
     - type: image
       image: ch_perdition1_image
       opacity: 0
@@ -589,14 +589,14 @@ widgets: # these are the widgets that get displayed on the boss_slide
       animations:
         knockout: contract_animation # won't trigger with s_standup_R by itslef
 
-  background_widget:
+  background_widget: # this is the background image for the score slide
     - type: image
       image: backdrop_image
       z: 10
 
-  reel_1_1_widget:
+  reel_1_1_widget: # these are the reel widgets for the score slide
    - type: image
-     image: reel_0_image
+     image: reel_0_image # this is a fixed 0 for the ones reel since the game can't score less than 10 points
      anchor_x: left
      anchor_y: bottom
      x: 450
@@ -604,7 +604,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      z: 100
   reel_1_10_widget:
    - type: image
-     image: reel_image
+     image: reel_image # this is the zip file image with all of the reel psotitions and transitions on it
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -613,10 +613,10 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 100
      z: 100
      animations:
-       score_reel_player_score_player1:
-         - property: end_frame
-           value: 0
-           duration: 0
+       score_reel_player_score_player1: # uses player 1's score to set the...
+         - property: end_frame # end frame to...
+           value: (10_frame) # the value of the 10's frame
+           duration: 0 # set's it immediately
   reel_1_100_widget:
    - type: image
      image: reel_image
@@ -630,7 +630,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: 0
+           value: (100_frame)
            duration: 0
   reel_1_1k_widget:
    - type: image
@@ -645,7 +645,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: 0
+           value: (1k_frame)
            duration: 0
   reel_2_1_widget:
    - type: image
@@ -666,9 +666,9 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 100
      z: 100
      animations:
-       score_reel_player_score_player1:
+       score_reel_player_score_player2:
          - property: end_frame
-           value: 0
+           value: (10_frame)
            duration: 0
   reel_2_100_widget:
    - type: image
@@ -681,9 +681,9 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 100
      z: 100
      animations:
-       score_reel_player_score_player1:
+       score_reel_player_score_player2:
          - property: end_frame
-           value: 0
+           value: (100_frame)
            duration: 0
   reel_2_1k_widget:
    - type: image
@@ -696,12 +696,12 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 100
      z: 100
      animations:
-       score_reel_player_score_player1:
+       score_reel_player_score_player2:
          - property: end_frame
-           value: 0
+           value: (1k_frame)
            duration: 0
 
-  figure_1_widget:
+  figure_1_widget: # this widget is for the cuphead static image
    - type: image
      image: small_cuphead_image
      anchor_x: left
@@ -710,10 +710,10 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 50
      z: 80
      animations:
-       mode_base_started: player_up_animation
-       player_up_1: remove_animation
-       player_turn_ended: player_up_animation
-  figure_1_active_widget:
+       mode_base_started: player_up_animation # start with the mode beginning
+       player_up_1: remove_animation # shut down with player 1 starting
+       player_turn_ended: player_up_animation # play again when the player 1 turn ends
+  figure_1_active_widget: # this is for the animated cuphead
    - type: image
      image: small_ch_image
      anchor_x: left
@@ -724,8 +724,8 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 50
      z: 80
      animations:
-       player_up_1: player_up_animation
-       player_turn_ended: remove_animation
+       player_up_1: player_up_animation # start up when player 1's turn begins
+       player_turn_ended: remove_animation # stop when the turn ends
   figure_2_widget:
    - type: image
      image: small_mugman_image
@@ -751,14 +751,14 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        player_up_2: player_up_animation
        player_turn_ended: remove_animation
-  score_mask_widget:
+  score_mask_widget: # this is a mask to make a black are behind the score reels and under the characters
    - type: image
      image: score_mask_image
      anchor_x: left
      anchor_y: bottom
      x: 0
      y: 0
-     z: 90
+     z: 90 # covers the character base (z=80) and behind the score reels (z=100)
 
 
 
@@ -820,12 +820,12 @@ animations: # these are the named animaitons for the base slide
     value: 1 # back to solid (1) over...
     duration: .1s # .1 seconds
 
-  player_up_animation:
+  player_up_animation: # general animation for showing a widget
   - property: opacity
     value: 1
     duration: .1 sec
 
-  remove_animation:
+  remove_animation: # general animation for hiding a widget
   - property: opacity
     value: 0
     duration: .1s
@@ -911,12 +911,12 @@ images: # all images used in widgets must be defined here, note that
   small_mugman_image:
     file: small_mugman.png
 
-#image_templates:
+#image_templates: # still to be implemented
 #  reels:
 #    load: preload
-#    frame_skips: # skip 4,5,6
-#      - from: 3
-#        to: 7
+#    frame_skips:
+#      - from: 3 # skips frames 4, 5, 6 and shows..
+#        to: 7   # frame 7
 #      - from: 9
 #        to: 13
 #      - from: 15
