@@ -79,6 +79,58 @@ slides: # these are the attract video slides
       video: a_wally
       z: 10
 
+  topper_slide:
+    widgets:
+    - type: image
+      image: topper_image
+
+  title_slide:
+    widgets:
+    - type: image
+      image: title_image
+      z: 2
+      fps: 30
+
+  bottom_slide:
+    widgets:
+    - widget: score_backdrop_widget
+    - widget: finger_widget
+
+widgets:
+  score_backdrop_widget:
+    - type: image
+      image: score_image
+      z: 10
+  finger_widget:
+    - type: image
+      image: finger_image
+      x: 0
+      z: 100
+      anchor_x: right
+      animations:
+        attract_play: finger_animation
+
+animations:
+  finger_animation:
+    - property: x
+      value: -1080
+      duration: 1
+    - property: opacity
+      value: 1
+    - property: x
+      value: 1080
+      duration: .25s
+    - property: x
+      value: 0
+      relative: true
+      duration: 2s
+    - property: x
+      value: 1080
+      duration: .25s
+    - property: opacity
+      value: 0
+      duration: 0
+      repeat: true
 
 videos: # the video names must be defined
   a_beppi:
@@ -123,24 +175,21 @@ videos: # the video names must be defined
     width: 1080
 
 images: # images must be defined
-  score:
+  score_image:
     file: score.png
-    height: 300
-    width: 1080
   title_image:
     file: title.zip
   finger_image:
     file: finger.png
-  start_backdrop_image:
-    file: start_backdrop.png
-  film:
-    file: film.png
+  topper_image:
+    file: topper.png
+
 
 slide_player: # this slide player will
   mode_attract_started: # start these slides when the mode begins
     title_slide:
       target: middle # sets the destination display for the slides
-    finger_slide:
+    topper_slide:
       target: upper
     bottom_slide:
       target: lower

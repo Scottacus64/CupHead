@@ -68,13 +68,13 @@ window: # defines the area of the TV monitor that can be used for the backbox di
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
     width: 1080 # aspect ratios, all are full width
-    height: 300
+    height: 350
   middle:
     width: 1080
     height: 600
   lower:
     width: 1080
-    height: 300
+    height: 350
   window: # window itself must be included here so that the "layout" slide can be sent here
     width: 1080
     height: 1300
@@ -85,7 +85,7 @@ slides:
     widgets: # these widgets are the...
       - type: display # displays that are used to project slides for the backbox onto
         width: 1080 # aspect ration all are full width but...
-        height: 300 # partial height so they stack but not set to final heigh of 350 to show a
+        height: 350 # partial height so they stack but not set to final heigh of 350 to show a
         # blue border under the slide,  This will change to 350 when Adrian gets up borders
         x: 0 # the display is set to the left of the window and the...
         y: 1300 # very top of the window with the...
@@ -104,84 +104,14 @@ slides:
         #...........................................................
       - type: display
         width: 1080
-        height: 300
+        height: 350
         x: 0 # set to far left
-        y: 300 # this will increas to 350 when the borders are added
+        y: 350 # this will increas to 350 when the borders are added
         anchor_x: left
         anchor_y: top
         source_display: lower
 
-  bottom_slide:
-    widgets:
-    - type: image
-      image: score
-      z: 100
 
-  topper_slide:
-    widgets:
-    - type: image
-      image: topper
-
-  base_slide:
-    widgets:
-    - type: text
-      text: (score)
-      number_grouping: true
-      min_digits: 2
-      font_size: 100
-    - type: text
-      text: Player (number)
-      y: 10
-      x: 10
-      font_size: 30
-      anchor_x: left
-      anchor_y: bottom
-    - type: text
-      text: BALL (ball)
-      y: 10
-      x: right-10
-      anchor_x: right
-      anchor_y: bottom
-      font_size: 50
-
-  title_slide:
-    widgets:
-    - type: image
-      image: title_image
-      z: 2
-      fps: 30
-
-  finger_slide:
-    widgets:
-    - type: image
-      image: start_backdrop_image
-      z: 1
-    - type: image
-      image: finger_image
-      x: -1080
-      z: 10
-      anchor_x: left
-      animations:
-        show_slide:
-          - property: x
-            value: -1080
-            duration: .1s
-          - property: opacity
-            value: 1
-          - property: x
-            value: 0
-            duration: .25s
-          - property: x
-            value: 0
-            relative: true
-            duration: 2s
-          - property: x
-            value: 1080
-            duration: .25s
-          - property: opacity
-            value: 0
-            duration: .1s
-            repeat: true
 
 slide_player:
   mc_ready: # when the mc (Media Center) is ready start the...

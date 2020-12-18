@@ -723,6 +723,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 50
      y: 50
      z: 80
+     fps: 30
      animations:
        player_up_1: player_up_animation # start up when player 1's turn begins
        player_turn_ended: remove_animation # stop when the turn ends
@@ -747,6 +748,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 575
      y: 50
      z: 80
+     fps: 30
      opacity: 0
      animations:
        player_up_2: player_up_animation
