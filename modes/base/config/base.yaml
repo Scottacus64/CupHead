@@ -297,10 +297,12 @@ slides:
      - widget: reel_1_10_widget
      - widget: reel_1_100_widget
      - widget: reel_1_1k_widget
+     - widget: reel_1_10k_widget
      - widget: reel_2_1_widget
      - widget: reel_2_10_widget
      - widget: reel_2_100_widget
      - widget: reel_2_1k_widget
+     - widget: reel_2_10k_widget
      - widget: figure_1_widget
      - widget: figure_2_widget
      - widget: score_mask_widget
@@ -607,7 +609,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      z: 100
   reel_1_10_widget:
    - type: image
-     image: reel_image # this is the zip file image with all of the reel psotitions and transitions on it
+     image: reel_1_4_image # this is the zip file image with all of the reel psotitions and transitions on it
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -618,11 +620,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1: # uses player 1's score to set the...
          - property: end_frame # end frame to...
-           value: (10_frame) # the value of the 10's frame
+           value: (4) #(3_frame) # the value of the 10's frame
            duration: 0 # set's it immediately
   reel_1_100_widget:
    - type: image
-     image: reel_image
+     image: reel_1_3_image
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -633,11 +635,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: (100_frame)
+           value: (3)
            duration: 0
   reel_1_1k_widget:
    - type: image
-     image: reel_image
+     image: reel_1_2_image
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -648,7 +650,22 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: (1k_frame)
+           value: (2)
+           duration: 0
+  reel_1_10k_widget:
+   - type: image
+     image: reel_1_1_image
+     auto_play: false
+     start_frame: 0
+     anchor_x: left
+     anchor_y: bottom
+     x: 150
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: (1)
            duration: 0
   reel_2_1_widget:
    - type: image
@@ -660,7 +677,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      z: 100
   reel_2_10_widget:
    - type: image
-     image: reel_image
+     image: reel_2_4_image
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -671,11 +688,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (10_frame)
+           value: (4)
            duration: 0
   reel_2_100_widget:
    - type: image
-     image: reel_image
+     image: reel_2_3_image
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -686,11 +703,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (100_frame)
+           value: (3)
            duration: 0
   reel_2_1k_widget:
    - type: image
-     image: reel_image
+     image: reel_2_2_image
      auto_play: false
      start_frame: 0
      anchor_x: left
@@ -701,7 +718,22 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (1k_frame)
+           value: (2)
+           duration: 0
+  reel_2_10k_widget:
+   - type: image
+     image: reel_2_1_image
+     auto_play: false
+     start_frame: 0
+     anchor_x: left
+     anchor_y: bottom
+     x: 700
+     y: 100
+     z: 100
+     animations:
+       score_reel_player_score_player2:
+         - property: end_frame
+           value: (1)
            duration: 0
 
   figure_1_widget: # this widget is for the cuphead static image
@@ -904,13 +936,35 @@ images: # all images used in widgets must be defined here, note that
     file: ch_perdition3.png
   mm_perdition1_image:
     file: mm_perdition1.png
+
   mm_perdition2_image:
     file: mm_perdition2.png
   mm_perdition3_image:
     file: mm_perdition3.png
-  reel_image:  # can only have one image refer to a given png file
-    file: reels.zip
-#    image_template: reels
+  reel_1_1_image:  # these are the score reels
+    file: reel11.zip
+    image_template: reels
+  reel_1_2_image:
+    file: reel12.zip
+    image_template: reels
+  reel_1_3_image:
+    file: reel13.zip
+    image_template: reels
+  reel_1_4_image:
+    file: reel14.zip
+    image_template: reels
+  reel_2_1_image:
+    file: reel21.zip
+    image_template: reels
+  reel_2_2_image:
+    file: reel22.zip
+    image_template: reels
+  reel_2_3_image:
+    file: reel23.zip
+    image_template: reels
+  reel_2_4_image:
+    file: reel24.zip
+    image_template: reels
   reel_0_image:
     file: reel0.png
   small_ch_image:

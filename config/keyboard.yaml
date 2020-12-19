@@ -5,6 +5,8 @@ keyboard:
     switch: s_left_flipper
   '/':
     switch: s_right_flipper
+  k:
+    switch: s_sling_L
   p:
     switch: s_plunger
     toggle: true
