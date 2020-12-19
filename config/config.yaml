@@ -81,12 +81,10 @@ displays: # VERY IMPORTANT these define three displays set into the "window"
 
 slides:
   layout: # THIS IS THE MAIN SLIDE THAT DRIVES ALL OF CUPHEADS BACKBOX!!!!
-    background_color: 000099 # sets the background color to a mif bright blue
     widgets: # these widgets are the...
       - type: display # displays that are used to project slides for the backbox onto
-        width: 1080 # aspect ration all are full width but...
-        height: 350 # partial height so they stack but not set to final heigh of 350 to show a
-        # blue border under the slide,  This will change to 350 when Adrian gets up borders
+        width: 1080 # aspect ration all are full width
+        height: 350
         x: 0 # the display is set to the left of the window and the...
         y: 1300 # very top of the window with the...
         anchor_x: left # anchors set to the left...
@@ -97,7 +95,7 @@ slides:
         width: 1080
         height: 600
         x: 0 # set to far left
-        y: 950 # set to 950 because the top display will be 350 when the border is added
+        y: 950
         anchor_x: left
         anchor_y: top
         source_display: middle
@@ -106,12 +104,28 @@ slides:
         width: 1080
         height: 350
         x: 0 # set to far left
-        y: 350 # this will increas to 350 when the borders are added
+        y: 350
         anchor_x: left
         anchor_y: top
         source_display: lower
+      - widget: player_added_widget
+
+widgets:
+  player_added_widget:
+  - type: text
+    text: PLAYER ADDED!
+    z: 110
+    font_name: aafia
+    font_size: 90
+    anchor_y: bottom
+    y: 375
+    opacity: 0
+    animations:
+      player_added: contract_animation
 
 
+sound_player:
+  player_added: stars
 
 slide_player:
   mc_ready: # when the mc (Media Center) is ready start the...
@@ -154,12 +168,30 @@ game: # sets game parameters
   balls_per_game: 5
   max_players: 2
 
-
-#videos:
-#    CHvideo:
-#    width: 100
-#    height: 70
-#    file: CHvideo.mp4
+image_templates:
+  reels:
+    load: preload
+    frame_skips:
+      - from: 3 # skips frames 4, 5, 6 and shows..
+        to: 7   # frame 7
+      - from: 9
+        to: 13
+      - from: 15
+        to: 19
+      - from: 21
+        to: 25
+      - from: 27
+        to: 31
+      - from: 33
+        to: 37
+      - from: 39
+        to: 43
+      - from: 45
+        to: 49
+      - from: 51
+        to: 55
+      - from: 57
+        to: 1
 
 
 #event_player:

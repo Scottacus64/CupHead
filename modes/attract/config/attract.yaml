@@ -114,8 +114,8 @@ widgets:
 animations:
   finger_animation:
     - property: x
-      value: -1080
-      duration: 1
+      value: 0
+      duration: 0
     - property: opacity
       value: 1
     - property: x
@@ -126,7 +126,7 @@ animations:
       relative: true
       duration: 2s
     - property: x
-      value: 1080
+      value: 2160
       duration: .25s
     - property: opacity
       value: 0

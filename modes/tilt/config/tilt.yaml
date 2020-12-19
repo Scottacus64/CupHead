@@ -33,9 +33,6 @@ slide_player:
       tbh_tilt_slide:
          action: remove
 
-sound_player:
-  player_added: stars
-
 slides:
   tbh_tilt_warning:
     widgets:

@@ -289,7 +289,6 @@ slides:
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
      - widget: knockout_widget
-     - widget: player_added_widget
 
    score_slide:
      widgets:
@@ -307,9 +306,7 @@ slides:
      - widget: score_mask_widget
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
-
-
-
+     - widget: ball_in_play_widget
 
 
 widgets: # these are the widgets that get displayed on the boss_slide
@@ -597,7 +594,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
 
   background_widget: # this is the background image for the score slide
     - type: image
-      image: backdrop_image
+      image: score_image
       z: 10
 
   reel_1_1_widget: # these are the reel widgets for the score slide
@@ -767,15 +764,15 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 0
      y: 0
      z: 90 # covers the character base (z=80) and behind the score reels (z=100)
-  player_added_widget:
-   - type: text
-     text: PLAYER ADDED!
-     z: 110
-     font_name: aafia
-     font_size: 70
-     opacity: 0
-     animations:
-       add_player_1: contract_animation
+  ball_in_play_widget:
+    - type: text
+      text: BALL IN PLAY (ball)
+      font_name: aafia
+      font_size: 38
+      anchor_y: top
+      y: 330
+      z: 150
+      opacity: 1
 
 
 
@@ -914,8 +911,6 @@ images: # all images used in widgets must be defined here, note that
   reel_image:  # can only have one image refer to a given png file
     file: reels.zip
 #    image_template: reels
-  backdrop_image:
-    file: backdrop.png
   reel_0_image:
     file: reel0.png
   small_ch_image:
@@ -932,32 +927,6 @@ images: # all images used in widgets must be defined here, note that
     file: player_1_added.png
   player_2_added_image:
     file: player_2_added.png
-
-#image_templates: # still to be implemented
-#  reels:
-#    load: preload
-#    frame_skips:
-#      - from: 3 # skips frames 4, 5, 6 and shows..
-#        to: 7   # frame 7
-#      - from: 9
-#        to: 13
-#      - from: 15
-#        to: 19
-#      - from: 21
-#        to: 25
-#      - from: 27
-#        to: 31
-#      - from: 33
-#        to: 37
-#      - from: 39
-#        to: 43
-#      - from: 45
-#        to: 49
-#      - from: 51
-#        to: 55
-#      - from: 57
-#        to: 1
-
 
 videos: # all videos must be defined by name
   beppi: # name of video
