@@ -33,11 +33,15 @@ slide_player:
       tbh_tilt_slide:
          action: remove
 
+sound_player:
+  player_added: stars
+
 slides:
   tbh_tilt_warning:
     widgets:
       - type: text
         text: YIKES!
+        font_name: Aafia
         color: red
         font_size: 100
     expire: 2s
@@ -45,6 +49,7 @@ slides:
     widgets:
       - type: text
         text: YIKES!
+        font_name: Aafia
         color: red
         font_size: 100
     expire: 2s
@@ -52,5 +57,6 @@ slides:
     widgets:
       - type: text
         text: TILT
+        font_name: Aafia
         color: red
         font_size: 100

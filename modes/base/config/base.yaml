@@ -195,6 +195,7 @@ sound_player:
   s_star_1_active: stars
   s_star_2_active: stars
   s_star_3_active: stars
+  player_added: stars
 
 slide_player:
   mode_base_started: # when the game starts play these slides
@@ -252,6 +253,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
   s_standUp_R_active: knockout # the knockout mode stops s-standup_R from triggering the slide so this is needed
+  player_added: add_player_1
 
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
@@ -278,8 +280,8 @@ slides:
      - widget: contract8_widget
      - widget: contract9_widget
      - widget: contract10_widget
-     - widget: player_1_widget
-     - widget: player_2_widget
+#     - widget: player_1_widget
+#     - widget: player_2_widget
      - widget: ch_perdition1_widget
      - widget: ch_perdition2_widget
      - widget: ch_perdition3_widget
@@ -287,6 +289,8 @@ slides:
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
      - widget: knockout_widget
+     - widget: player_added_widget
+
    score_slide:
      widgets:
      - widget: background_widget
@@ -303,6 +307,7 @@ slides:
      - widget: score_mask_widget
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
+
 
 
 
@@ -403,11 +408,12 @@ widgets: # these are the widgets that get displayed on the boss_slide
         mp3: contract_animation
 
   player_1_widget: # widget for the boss slide that will display the player up image
-    - type: image
-      image: cuphead_up_image
-      opacity: 0
+    - type: text
+      text: PLAYER 1 UP!
+      font_name: Aafia
+      font_size: 100
+      color: blue
       z: 100
-      fps: 30
       animations:
         player_up_1: player_up_animation
         s_shooter_lane_active: remove_animation
@@ -761,6 +767,16 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 0
      y: 0
      z: 90 # covers the character base (z=80) and behind the score reels (z=100)
+  player_added_widget:
+   - type: text
+     text: PLAYER ADDED!
+     z: 110
+     font_name: aafia
+     font_size: 70
+     opacity: 0
+     animations:
+       add_player_1: contract_animation
+
 
 
 
@@ -912,6 +928,10 @@ images: # all images used in widgets must be defined here, note that
     file: small_cuphead.png
   small_mugman_image:
     file: small_mugman.png
+  player_1_added_image:
+    file: player_1_added.png
+  player_2_added_image:
+    file: player_2_added.png
 
 #image_templates: # still to be implemented
 #  reels:
