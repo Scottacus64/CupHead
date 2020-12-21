@@ -19,11 +19,11 @@ keyboard:
   1:
     switch: s_start
   q:
-    switch: s_popBumper_1
+    switch: s_star_1
   w:
-    switch: s_popBumper_2
+    switch: s_star_2
   e:
-    switch: s_popBumper_3
+    switch: s_star_3
   t:
     switch: s_tilt
   i:
@@ -68,3 +68,33 @@ keyboard:
     switch: s_perdition
   j:
     switch: s_standUp_R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

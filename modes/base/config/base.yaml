@@ -44,6 +44,29 @@ timers:
     control_events:
       - action: start
         event: startMBPost
+  score_motor_500_timer:
+    direction: up
+    start_value: 1
+    end_value: 6
+    tick_interval: 100ms
+    debug: true
+    control_events:
+      - action: restart
+        event: s_standUp_R_active
+  score_motor_50_timer:
+    direction: up
+    start_value: 1
+    end_value: 6
+    tick_interval: 100ms
+    control_events:
+      - action: restart
+        event: s_midRight_active
+      - action: restart
+        event: s_star_1_active
+      - action: restart
+        event: s_star_2_active
+      - action: restart
+        event: s_star_3_active
 
 show_player:
   mode_base_started: base_lighting # start the base lighting on start of the mode
@@ -132,8 +155,8 @@ variable_player:
     score: 10
   s_sling_R_active:
     score: 10
-  knock_out_hit:
-    score: 500
+#  knock_out_hit:
+#    score: 500
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
     score: 1 # score 10 points per spinner spin
@@ -145,12 +168,12 @@ variable_player:
       action: set
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
-  s_star_1_active:
-    score: 50
-  s_star_2_active:
-    score: 50
-  s_star_3_active:
-    score: 50
+#  s_star_1_active:
+#    score: 50
+#  s_star_2_active:
+#    score: 50
+#  s_star_3_active:
+#    score: 50
   s_inLane_L_active:
     score: 50
   s_inLane_R_active:
@@ -161,7 +184,10 @@ variable_player:
     score: 100
   s_kicker_active:
     score: 1000  #+(1000*perdition_value)
-
+  timer_score_motor_500_timer_tick:
+    score: 100
+  timer_score_motor_50_timer_tick:
+    score: 10
 
 sound_player:
   mode_base_started: # when the mode starts...
@@ -614,6 +640,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 400
      y: 115
      z: 100
@@ -629,6 +656,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 340
      y: 115
      z: 100
@@ -644,6 +672,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 280
      y: 115
      z: 100
@@ -659,6 +688,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 220
      y: 115
      z: 100
@@ -682,6 +712,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 930
      y: 115
      z: 100
@@ -697,6 +728,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 870
      y: 115
      z: 100
@@ -712,6 +744,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 810
      y: 115
      z: 100
@@ -727,6 +760,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      start_frame: 0
      anchor_x: left
      anchor_y: bottom
+     fps: 100
      x: 750
      y: 115
      z: 100
@@ -1018,3 +1052,37 @@ videos: # all videos must be defined by name
     file: wally.mp4
     height: 600
     width: 1060
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #
