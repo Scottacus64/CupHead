@@ -113,7 +113,7 @@ slides:
 widgets:
   player_added_widget:
   - type: text
-    text: PLAYER ADDED!
+    text: PLAYER (player_added|num) ADDED!
     z: 110
     font_name: aafia
     font_size: 90
@@ -121,7 +121,7 @@ widgets:
     y: 375
     opacity: 0
     animations:
-      player_added: contract_animation
+      player_added: contract_animation # this shows that animations declared in one mode are available in any mode
 
 digital_score_reels:
   player_score:

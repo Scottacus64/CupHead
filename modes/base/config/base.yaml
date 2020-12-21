@@ -56,7 +56,7 @@ timers:
   score_motor_50_timer:
     direction: up
     start_value: 1
-    end_value: 6
+    end_value: 6 # if set to 5 will only score 40 not 50 with "timer_score_motor_50_timer_tick:" in the variable_player
     tick_interval: 100ms
     control_events:
       - action: restart
@@ -184,7 +184,7 @@ variable_player:
     score: 100
   s_kicker_active:
     score: 1000  #+(1000*perdition_value)
-  timer_score_motor_500_timer_tick:
+  timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
     score: 100
   timer_score_motor_50_timer_tick:
     score: 10
