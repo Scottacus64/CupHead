@@ -41,6 +41,17 @@ player_vars: # these are player variables that can be seen by all modes
   perdition_value:
     value_type: int
     initial_value: 0
+  can_play:
+    value_type: int
+    initial_value: 1
+
+counters:
+  can_play:
+    count_events: s_start_active
+    starting_count: 0
+    count_complete_value: 2
+    direction: up
+    events_when_hit: advance_can_play
 
 playfields:
   playfield:
@@ -113,7 +124,7 @@ slides:
 widgets:
   player_added_widget:
   - type: text
-    text: PLAYER (player_added|num) ADDED!
+    text: PLAYER (can_play) ADDED!
     z: 110
     font_name: aafia
     font_size: 90

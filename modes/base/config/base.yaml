@@ -188,6 +188,9 @@ variable_player:
     score: 100
   timer_score_motor_50_timer_tick:
     score: 10
+  advance_can_play:
+    can_play: 1
+
 
 sound_player:
   mode_base_started: # when the mode starts...
