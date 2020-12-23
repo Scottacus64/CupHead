@@ -38,7 +38,7 @@ switches:
   s_dash_R: 77
   s_dtSling_L: 62
   s_dtSling_R: 33
-  s_dt_C: 426
+  s_dt_C: 427
   s_dt_G: 180
   s_dt_M: 228
   s_dt_P: 364
@@ -73,12 +73,12 @@ switches:
   s_standUp_2: 226
   s_standUp_3: 248
   s_standUp_R: 404
-  s_star_1: 338
-  s_star_2: 273
-  s_star_3: 368
-  s_start: 222
+  s_star_1: 340
+  s_star_2: 277
+  s_star_3: 372
+  s_start: 225
   s_tilt: 41
-  s_tilt_bob: 0
+  s_tilt_bob: 15
   s_trough1: 670
   s_trough2: 372
   s_trough_jam: 71

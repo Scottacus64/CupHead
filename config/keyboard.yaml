@@ -25,7 +25,7 @@ keyboard:
   e:
     switch: s_star_3
   t:
-    switch: s_tilt
+    switch: s_tilt_bob
   i:
     switch: s_spinner
   s:

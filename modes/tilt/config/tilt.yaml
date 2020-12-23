@@ -7,24 +7,18 @@ tilt:
   settle_time: 5s
   multiple_hit_window: 1500ms
 
-slide_player:
-  _overwrite: true
-  tilt_warning_1: tilt_warning
-  tilt_warning_2: tilt_warning_2
-  tilt: tilt_slide
-  tilt_clear:
-    tilt_slide:
-         action: remove
 
 slides:
-  tilt_warning:
+  _overwrite: true   # this is important to overwrite the existing slides
+  tilt_warning_1:
     widgets:
       - type: text
         text: YIKES!
         font_name: Aafia
         color: red
         font_size: 100
-    expire: 2s
+    expire: 1s
+    source_display: upper
   tilt_warning_2:
     widgets:
       - type: text
@@ -32,11 +26,16 @@ slides:
         font_name: Aafia
         color: red
         font_size: 100
-    expire: 2s
-  tilt_slide:
+    expire: 1s
+    source_display: lower
+  tilt:
     widgets:
       - type: text
-        text: TILT
+        text: TILT!
         font_name: Aafia
         color: red
         font_size: 100
+        z: 900
+        opacity: 0
+    expire: 2s
+    source_display: middle
