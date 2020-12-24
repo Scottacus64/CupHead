@@ -230,6 +230,7 @@ sound_player:
   player_added: stars
 
 slide_player:
+  _overwrite: true
   mode_base_started: # when the game starts play these slides
     score_slide:
       target: lower
