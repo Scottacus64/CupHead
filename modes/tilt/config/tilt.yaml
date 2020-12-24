@@ -47,7 +47,7 @@ slides:
   tilt_warning_2:
     widgets:
       - type: text
-        text: YIKES!
+        text: YOWZA!
         font_name: Aafia
         color: red
         font_size: 100
@@ -55,7 +55,7 @@ slides:
   tilt:
     widgets:
       - type: text
-        text: TILT!
+        text: NOW YOU'VE DONE IT!
         font_name: Aafia
         color: red
         font_size: 100
@@ -72,3 +72,11 @@ slide_player:
   tilt:
     tilt:
       target: upper
+  tilt_clear:
+    tilt:
+      action: remove
+
+sound_player:
+  tilt_warning_1: perditionLock
+  tilt_warning_2: perditionLock
+  tilt: perditionLock
