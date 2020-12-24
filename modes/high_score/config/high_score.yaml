@@ -7,7 +7,7 @@ mode:
 high_score:
   _overwrite: true
   enter_initials_timeout: 60
-  award_slide_display_time: 4s
+  award_slide_display_time: 5s
   # define your high score categories and the awards
   categories: !!omap
     - score:
@@ -26,45 +26,61 @@ high_score:
       - DBM: 40000
       - BBC: 600
 
+sound_player:
+  mode_high_score_started:
+    attract:
+      mode_end_action: stop
+  s_left_flipper_active: dropTarget
+  s_right_flipper_active: dropTarget
+  s_start_active: spin
+  high_score_award_display:
+    specialAward:
+      action: play
+    attract:
+      action: stop
 # optional: change the slides (you can omit all the following)
 slide_player:
   _overwrite: true
-  high_score_enter_initials: high_score_enter_initials
-  high_score_award_display: high_score_award_display
+  high_score_enter_initials:
+    high_score_enter_initials:
+      target: middle
+  high_score_award_display:
+    high_score_award_display:
+      target: middle
 slides:
   _overwrite: true
   high_score_enter_initials:
     - type: text
-      font_size: 18
+      font_size: 50
+      font_name: Aafia
       text: PLAYER (player_num)
-      x: 105
-      y: 90
+      y: 400
     - type: text
-      font_size: 18
+      font_size: 50
+      font_name: Aafia
       text: (award)
-      x: 105
-      y: 70
+      y: 200
     - type: text_input
       initial_char: A
       dynamic_x: false
       key: high_score
-      font_size: 18
+      font_name: Aafia
+      font_size: 50
       max_chars: 3
-      x: 105
-      y: 20
-      shift_left_event: s_left_flipper
-      shift_right_event: s_right_flipper
-      select_event: s_start
+      y: 300
+      shift_left_event: s_left_flipper_active
+      shift_right_event: s_right_flipper_active
+      select_event: s_start_active
     - type: text
       text: '<       >'
-      font_size: 18
-      x: 105
-      y: 20
+      font_size: 50
+      font_name: Aafia
+      y: 100
     - type: text
       text: ''
       key: high_score
-      font_size: 18
-      x: 105
+      font_size: 50
+      font_name: Aafia
       y: 50
       animations:
         show_slide:
@@ -80,11 +96,9 @@ slides:
   high_score_award_display:
     - type: text
       text: (player_name)
-      font_size: 18
-      anchor_y: middle
-      anchor_x: middle
-      x: middle
-      y: middle
+      font_size: 50
+      font_name: Aafia
+      y: 200
       animations:
         show_slide:
           - property: opacity
@@ -96,13 +110,13 @@ slides:
             repeat: true
     - type: text
       text: (award)
-      font_size: 18
-      x: 105
-      y: 110
+      font_size: 50
+      font_name: Aafia
+      y: 300
     - type: text
       text: (value)
-      x: 105
-      y: 30
-      font_size: 20
+      y: 100
+      font_size: 50
+      font_name: Aafia
       number_grouping: true
       min_digits: 2

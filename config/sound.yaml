@@ -83,10 +83,6 @@ sounds:
     volume: .75
     fade_out: 1S
     events_when_played: train_play
-  highScore:
-    file: aHighScore.wav
-    track: music
-    volume: .75
   callOut1:
     file: CHballstart1.wav
     track: voice
