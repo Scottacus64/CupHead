@@ -73,12 +73,12 @@ switches:
   s_standUp_2: 226
   s_standUp_3: 248
   s_standUp_R: 404
-  s_star_1: 340
-  s_star_2: 277
-  s_star_3: 372
+  s_star_1: 346
+  s_star_2: 283
+  s_star_3: 376
   s_start: 225
   s_tilt: 41
-  s_tilt_bob: 15
-  s_trough1: 670
+  s_tilt_bob: 35
+  s_trough1: 673
   s_trough2: 372
   s_trough_jam: 71
