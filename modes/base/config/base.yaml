@@ -309,8 +309,6 @@ slides:
      - widget: contract8_widget
      - widget: contract9_widget
      - widget: contract10_widget
-#     - widget: player_1_widget
-#     - widget: player_2_widget
      - widget: ch_perdition1_widget
      - widget: ch_perdition2_widget
      - widget: ch_perdition3_widget
@@ -318,6 +316,9 @@ slides:
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
      - widget: knockout_widget
+     - widget: tilt_warning_1_widget
+     - widget: tilt_warning_2_widget
+     - widget: tilt_widget
 
    score_slide:
      widgets:
