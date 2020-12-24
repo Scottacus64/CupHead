@@ -341,6 +341,10 @@ slides:
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
 
+   hs_base_slide:
+     type: image
+     image: hs_base
+
 
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
@@ -1015,6 +1019,11 @@ images: # all images used in widgets must be defined here, note that
     file: player_1_added.png
   player_2_added_image:
     file: player_2_added.png
+  red_backdrop:
+    file: red_backdrop.png
+  hs_base:
+    file: hs_base.png
+
 
 videos: # all videos must be defined by name
   beppi: # name of video
