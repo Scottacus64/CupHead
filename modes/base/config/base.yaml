@@ -196,6 +196,9 @@ sound_player:
   mode_base_started: # when the mode starts...
     poolCupHeadBase: # select a song from the pool..
       loops: -1 # and loop it indefinitely
+  tilt:
+    poolCupHeadBase:
+      action: stop
   ball_drain{game.balls_in_play==1} : # when the ball drains...
     poolCupHeadBase:
       action: stop # stop playing the music
@@ -316,9 +319,6 @@ slides:
      - widget: mm_perdition2_widget
      - widget: mm_perdition3_widget
      - widget: knockout_widget
-     - widget: tilt_warning_1_widget
-     - widget: tilt_warning_2_widget
-     - widget: tilt_widget
 
    score_slide:
      widgets:
