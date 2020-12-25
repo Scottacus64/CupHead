@@ -7,7 +7,7 @@ shots:
   drain_hit: 9
   inLaneL: 87
   inLaneR: 99
-  knock_out: 411
+  knock_out: 415
   outLaneL: 67
   outLaneR: 52
   perdition_lane: 449
@@ -72,10 +72,10 @@ switches:
   s_standUp_1: 243
   s_standUp_2: 226
   s_standUp_3: 248
-  s_standUp_R: 416
-  s_star_1: 395
-  s_star_2: 330
-  s_star_3: 399
+  s_standUp_R: 420
+  s_star_1: 403
+  s_star_2: 333
+  s_star_3: 402
   s_start: 288
   s_tilt: 41
   s_tilt_bob: 98
