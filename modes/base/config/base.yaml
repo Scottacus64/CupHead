@@ -54,11 +54,11 @@ timers:
       - action: restart
         event: s_standUp_R_active
       - action: restart
-        event: s_star_1_active{current_player.star_multiplier == 10}
+        event: s_star_1_active{current_player.star_multiplier == 2}
       - action: restart
-        event: s_star_2_active{current_player.star_multiplier == 10}
+        event: s_star_2_active{current_player.star_multiplier == 2}
       - action: restart
-        event: s_star_3_active{current_player.star_multiplier == 10}
+        event: s_star_3_active{current_player.star_multiplier == 2}
   score_motor_50_timer:
     direction: up
     start_value: 1
@@ -295,7 +295,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   player_added: add_player_1
   knockout:
     star_multiplier:
-      int: 10
+      int: 2
       action: set
 
 
