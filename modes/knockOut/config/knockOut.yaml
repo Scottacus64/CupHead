@@ -26,10 +26,6 @@ timers:
         event: timer_knockOut_timer_complete
 
 event_player:
-  knock_out_hit:
-    star_multiplier:
-      int: 10
-      action: set
   timer_knockOutHurryUp_timer_complete:
     star_multiplier:
       int: 1

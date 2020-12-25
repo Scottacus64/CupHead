@@ -287,6 +287,11 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd3{current_player.number == 2}: mp3
   s_standUp_R_active: knockout # the knockout mode stops s-standup_R from triggering the slide so this is needed
   player_added: add_player_1
+  knockout:
+    star_multiplier:
+      int: 10
+      action: set
+
 
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
