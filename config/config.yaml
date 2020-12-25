@@ -45,6 +45,9 @@ player_vars: # these are player variables that can be seen by all modes
   can_play:
     value_type: int
     initial_value: 1
+  star_multiplier:
+    value_type: int
+    initial_value: 1
 
 counters:
   can_play:

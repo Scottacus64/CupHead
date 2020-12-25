@@ -25,13 +25,15 @@ timers:
       - action: start
         event: timer_knockOut_timer_complete
 
-variable_player:
-  s_star_1_active:
-    score: 450
-  s_star_2_active:
-    score: 450
-  s_star_3_active:
-    score: 450
+event_player:
+  knock_out_hit:
+    star_multiplier:
+      int: 10
+      action: set
+  timer_knockOutHurryUp_timer_complete:
+    star_multiplier:
+      int: 1
+      action: set
 
 sequences:
   laneUp:

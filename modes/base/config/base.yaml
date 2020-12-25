@@ -168,12 +168,12 @@ variable_player:
       action: set
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
-#  s_star_1_active:
-#    score: 50
-#  s_star_2_active:
-#    score: 50
-#  s_star_3_active:
-#    score: 50
+  s_star_1_active:
+    score: 50 * star_multiplier
+  s_star_2_active:
+    score: 50 * star_multiplier
+  s_star_3_active:
+    score: 50 * star_multiplier
   s_inLane_L_active:
     score: 50
   s_inLane_R_active:
