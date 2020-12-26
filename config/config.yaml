@@ -19,6 +19,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - dashLit
   - knockOut
   - inLanes
+  - inLanesLit
   - outLanes
   - cupSling
   - mugSling

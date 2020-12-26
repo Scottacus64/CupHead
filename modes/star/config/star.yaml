@@ -1,6 +1,6 @@
 #config_version=5
 
-mode:
+mode: #either this mode or knockout are active to score 50 or 500 for a rollover
   start_events:
     - ball_started
     - timer_knockOutHurryUp_timer_complete
