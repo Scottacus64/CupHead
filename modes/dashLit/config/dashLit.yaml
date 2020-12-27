@@ -10,18 +10,14 @@ shots:
   dash_R:
     switch: s_dash_R
 
-variable_player:
-  dash_L_hit:
-    score: 500 #
-  dash_R_hit:
-    score: 500
-
 event_player:
   dash_L_hit:
-    dash_complete
+    - dash_complete
+    - pay500
   dash_R_hit:
-    dash_complete
-
+    - dash_complete
+    - pay500
+    
 show_player:
   mode_dashLit_started:
     dashOn:

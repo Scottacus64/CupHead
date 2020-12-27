@@ -1,12 +1,12 @@
 #config_version=5
 
 mode:
-  start_events: 
+  start_events:
     - ball_starting # starts on a new ball
     - mode_inLanesLit_end # start this mode when both lanes have been lit and hit
   priority: 110
   stop_events: leftStars_complete # if the left stars are lit stop this mode
 
-variable_player:
+event_player:
   s_inLane_L_active: pay50
   s_inLane_R_active: pay50

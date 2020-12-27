@@ -167,12 +167,6 @@ variable_player:
       action: set
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
-
-  s_outLane_L_active:
-    score: 100
-  s_outLane_R_active:
-    score: 100
-
   s_kicker_active:
     score: 1000  #+(1000*perdition_value)
   timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
@@ -181,6 +175,10 @@ variable_player:
     score: 10
   advance_can_play:
     can_play: 1
+  pay1000:
+    score: 1000
+  pay100:
+    score: 100
 
 
 sound_player:

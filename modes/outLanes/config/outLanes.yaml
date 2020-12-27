@@ -1,39 +1,14 @@
 #config_version=5
 
 mode:
-  start_events: rightStar_complete
+  start_events:
+    - ball_started
+    - outLanes_complete
   priority: 150
-  stop_events: ball_drain, outLanes_complete
-
-shots:
-  outLaneL:
-    switch: s_outLane_L
-    show_tokens:
-      light: l_outLane_L
-    profile: outLanes
-  outLaneR:
-    switch: s_outLane_R
-    show_tokens:
-      light: l_outLane_R
-    profile: outLanes
-
-
-shot_groups:
-  outLanes:
-    shots: outLaneL, outLaneR
-    reset_events: mode_outLanes_end
-
-shot_profiles:
-  outLanes:
-    states:
-      - name: lit
-        show: on
-      - name: unlit
-        show: off
-    loop: false
+  stop_events: rightStar_complete
 
 variable_player:
-  outLaneL_lit_hit:
-    score: 900
-  outLaneR_lit_hit:
-    score: 900
+  s_outLane_L_active:
+    score: 100
+  s_outLane_R_active:
+    score: 100

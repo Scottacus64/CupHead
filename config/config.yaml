@@ -16,11 +16,13 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - soulLanes
   - bonus
   - standUps
+  - dash
   - dashLit
   - knockOut
   - inLanes
   - inLanesLit
   - outLanes
+  - outLanesLit
   - cupSling
   - mugSling
   - perdition
@@ -72,8 +74,8 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - sound.yaml
 
 window: # defines the area of the TV monitor that can be used for the backbox display
-  width: 1080 # aspect ratio of the window
-  height: 1300
+  width: 540 # 1080 # aspect ratio of the window
+  height: 650 # 1300
   title: CupheadWindow
   resizable: true
   fullscreen: false # does not take up the entire TV display and...
@@ -84,44 +86,44 @@ window: # defines the area of the TV monitor that can be used for the backbox di
 
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
-    width: 1080 # aspect ratios, all are full width
-    height: 350
+    width: 540 # 1080 # aspect ratios, all are full width
+    height: 175 # 350
   middle:
-    width: 1080
-    height: 600
+    width: 540 # 1080
+    height: 300 # 600
   lower:
-    width: 1080
-    height: 350
+    width: 540 # 1080
+    height: 175 # 350
   window: # window itself must be included here so that the "layout" slide can be sent here
-    width: 1080
-    height: 1300
+    width: 540 # 1080
+    height: 650 # 1300
 
 slides:
   layout: # THIS IS THE MAIN SLIDE THAT DRIVES ALL OF CUPHEADS BACKBOX!!!!
     widgets: # these widgets are the...
       - type: display # displays that are used to project slides for the backbox onto
-        width: 1080 # aspect ration all are full width
-        height: 350
+        width: 540 # 1080 # a540spect ration all are full width
+        height: 175 #350
         x: 0 # the display is set to the left of the window and the...
-        y: 1300 # very top of the window with the...
+        y: 650 # 1300 # very top of the window with the...
         anchor_x: left # anchors set to the left...
         anchor_y: top # and top
         source_display: upper # the name of this display is UPPER
         #...........................................................
       - type: display
-        width: 1080
-        height: 600
+        width: 540 # 1080
+        height: 300 # 600
         x: 0 # set to far left
-        y: 950
+        y: 475 # 950
         anchor_x: left
         anchor_y: top
         source_display: middle
         #...........................................................
       - type: display
-        width: 1080
-        height: 350
+        width: 540 # 1080
+        height: 175 # 350
         x: 0 # set to far left
-        y: 350
+        y: 175 # 350
         anchor_x: left
         anchor_y: top
         source_display: lower
@@ -211,30 +213,30 @@ game: # sets game parameters
   balls_per_game: 5
   max_players: 2
 
-image_templates:
-  reels:
-    load: preload
-    frame_skips:
-      - from: 3 # skips frames 4, 5, 6 and shows..
-        to: 7   # frame 7
-      - from: 9
-        to: 13
-      - from: 15
-        to: 19
-      - from: 21
-        to: 25
-      - from: 27
-        to: 31
-      - from: 33
-        to: 37
-      - from: 39
-        to: 43
-      - from: 45
-        to: 49
-      - from: 51
-        to: 55
-      - from: 57
-        to: 1
+#image_templates:
+#  reels:
+#    load: preload
+#    frame_skips:
+#      - from: 3 # skips frames 4, 5, 6 and shows..
+#        to: 7   # frame 7
+#      - from: 9
+#        to: 13
+#      - from: 15
+#        to: 19
+#      - from: 21
+#        to: 25
+#      - from: 27
+#        to: 31
+#      - from: 33
+#        to: 37
+#      - from: 39
+#        to: 43
+#      - from: 45
+#        to: 49
+#      - from: 51
+#        to: 55
+#      - from: 57
+#        to: 1
 
 
 #event_player:

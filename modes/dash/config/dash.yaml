@@ -1,0 +1,11 @@
+#config_version=5
+mode:
+  start_events:
+    - dash_complete
+    - ball_starting
+  stop_events: standUps_complete
+  priority: 110
+
+event_player:
+  s_dash_L_active: pay50
+  s_dash_R_active: pay50

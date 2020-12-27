@@ -30,10 +30,6 @@ accruals:
     disable_on_complete: False
 
 variable_player:
-  s_dash_L_active:
-    score: 50
-  s_dash_R_active:
-    score: 50
   standUp_1_hit:
     score: 10
   standUp_2_hit:
