@@ -3,9 +3,9 @@
 
 lights:
 
-# Board 0 Chain 0    
+# Board 0 Chain 0
   l_soul_L:
-    number: 0-0-1
+    number: 0-0-0
     type: grb
     subtype: led
     tags: soul_lanes
@@ -89,7 +89,7 @@ lights:
     type: grb
     subtype: led
 
- 
+
   l_bonus_5000:
     number: 0-0-17
     type: grb
@@ -121,7 +121,7 @@ lights:
     type: grb
     subtype: led
 
- l_bonus_6000:
+  l_bonus_6000:
     number: 0-0-23
     type: grb
     subtype: led
@@ -253,10 +253,10 @@ lights:
     type: grb
     subtype: led
 
-#  l_blueShooter:
- #   number: 0-0-41
-  #  type: grb
-   # subtype: led
+  l_blueShooter:
+    number: 0-0-48
+    type: grb
+    subtype: led
 
 # Board 1 Chain 1
   l_gi1:
@@ -383,4 +383,3 @@ lights:
     number: 1-0-31
     subtype: led
     tags: gi
-
