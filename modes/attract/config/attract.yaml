@@ -4,11 +4,11 @@
 show_player:
   mode_attract_started: # when the mode begins...
     attract_display_loop: # play the "attract_display_loop" with a...
-      speed: 1 # speed of 1
-    output1: # just to show that two light shows can be called and run together
+     speed: 1 # speed of 1
+#    output1: # just to show that two light shows can be called and run together
+#      speed: 4
+    attract_light_show2:
       speed: 4
-#    attract_light_show2:
-#      speed: 3
 
 sound_player: # plays the attract music
   mode_attract_started:

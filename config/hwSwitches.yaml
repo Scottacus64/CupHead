@@ -1,6 +1,5 @@
 #config_version=5
 
-
 machine:
   balls_installed: 5
   min_balls: 1
@@ -17,47 +16,43 @@ switches:
   s_start:
     number: 0-0-2
     tags: start
-  s_popBumper_1:
-    number: 0-0-3
-    tags: popBumperSw
-  s_popBumper_2:
-    number: 0-0-8
-    tags: popBumperSw
-  s_popBumper_3:
-    number: 0-0-9
-    tags: popBumperSw
-  s_standUp_1:
-    number: 0-0-10
-    tags: standUp_LSw
-  s_dash_L:
-    number: 0-0-11
-    tags: dashSw
-  s_dash_R:
-    number: 0-0-16
-    tags: dashSw
-  s_dtSling_L:
-    number: 0-0-17
-    tags: dtSlingSw
-  s_dtSling_R:
-    number: 0-0-18
-    tags: dtSlingSw
-  s_star_1:
-    number: 0-0-19
-    tags: starSw
-  s_spinner:
-    number: 0-0-24
   s_tilt_bob:
-    number: 0-0-25
+    number: 0-0-3
     tags: tilt_warning
   s_ball_tilt:
-    number: 0-0-26
+    number: 0-0-8
   s_slam_tilt:
-    number: 0-0-27
+    number: 0-0-9
+  s_right_flipper:
+    number: 0-0-10
+    tags: right_flipper
+
+  s_dash_L:
+    number: 0-0-16
+    tags: dashSw
+  s_dash_R:
+    number: 0-0-17
+    tags: dashSw
+  s_dtSling_L:
+    number: 0-0-18
+    tags: dtSlingSw
+  s_dtSling_R:
+    number: 0-0-19
+    tags: dtSlingSw
+  s_popBumper_1:
+    number: 0-0-24
+    tags: popBumperSw
+  s_popBumper_2:
+    number: 0-0-25
+    tags: popBumperSw
+  s_popBumper_3:
+    number: 0-0-26
+    tags: popBumperSw
 
   # Board 1 Chain 1
-  s_right_flipper:
+  s_standUp_1:
     number: 1-0-1
-    tags: right_flipper
+    tags: standUp_LSw
   s_standUp_2:
     number: 1-0-2
     tags: standUp_LSw
@@ -72,8 +67,6 @@ switches:
   s_sling_R:
     number: 1-0-10
     tags: slingSw
-  s_shooter_lane:
-    number: 1-0-11
 
   # Board 1 Switch Matrix (4x6)
   # Column 1
@@ -94,6 +87,8 @@ switches:
     tags: bottomLanesSw
   s_midRight:
     number: 1-0-37
+  s_spinner:
+    number: 1-0-38
 
   # Column 2
   s_dt_M:
@@ -113,6 +108,8 @@ switches:
   s_star_3:
     number: 1-0-45
     tags: starSw
+  s_perdition_kicker:
+    number: 1-0-46
 
   # Column 3
   s_inLane_L:
@@ -133,6 +130,9 @@ switches:
   s_star_2:
     number: 1-0-53
     tags: starSw
+  s_star_1:
+    number: 1-0-54
+    tags: starSw
 
   # Column 4
   s_soul_S:
@@ -151,6 +151,8 @@ switches:
     number: 1-0-60
   s_perdition_lane:
     number: 1-0-61
+  s_shooter_lane:
+    number: 1-0-62
 
 
 
@@ -178,4 +180,3 @@ switches:
 
 
     #
-    
