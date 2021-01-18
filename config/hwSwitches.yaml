@@ -48,6 +48,8 @@ switches:
   s_popBumper_3:
     number: 0-0-26
     tags: popBumperSw
+  s_spinner:
+    number: 0-0-27
 
   # Board 1 Chain 1
   s_standUp_1:
@@ -59,23 +61,28 @@ switches:
   s_standUp_3:
     number: 1-0-3
     tags: standUp_LSw
-  s_standUp_R:
+  s_EOS_L:
     number: 1-0-8
+    type: 'NC'
   s_sling_L:
     number: 1-0-9
     tags: slingSw
-  s_sling_R:
+  s_EOS_R:
     number: 1-0-10
+    type: 'NC'
+  s_sling_R:
+    number: 1-0-11
     tags: slingSw
 
   # Board 1 Switch Matrix (4x6)
   # Column 1
   s_trough1:
     number: 1-0-32
-    type: 'NC'
+#    type: 'NC'
     tags: trough
   s_trough2:
     number: 1-0-33
+#    type: 'NC'
     tags: trough
   s_trough_jam:
     number: 1-0-34
@@ -84,76 +91,100 @@ switches:
   s_inLane_R:
     number: 1-0-35
     tags: bottomLanesSw
+    type: 'NC'
   s_outLane_R:
     number: 1-0-36
     tags: bottomLanesSw
+    type: 'NC'
   s_midRight:
     number: 1-0-37
-  s_spinner:
+    type: 'NC'
+  s_standUp_R:
     number: 1-0-38
+    type: 'NC'
 
   # Column 2
   # 1-0-40 is empty
   s_star_3:
     number: 1-0-41
     tags: starSw
+    type: 'NC'
   s_perdition:
     number: 1-0-42
     tags: playfield_active
+    type: 'NC'
   s_dt_U2:
     number: 1-0-43
     tags: dtSw
+    type: 'NC'
   s_kicker:
     number: 1-0-44
+    type: 'NC'
   s_dt_G:
     number: 1-0-45
     tags: dtSw
+    type: 'NC'
   s_dt_M:
     number: 1-0-46
     tags: dtSw
+    type: 'NC'
 
   # Column 3
   s_inLane_L:
     number: 1-0-48
     tags: bottomLanesSw
+    type: 'NC'
   s_outLane_L:
     number: 1-0-49
     tags: bottomLanesSw
+    type: 'NC'
   s_dt_P:
     number: 1-0-50
     tags: dtSw
+    type: 'NC'
   s_dt_C:
     number: 1-0-51
     tags: dtSw
+    type: 'NC'
   s_dt_U:
     number: 1-0-52
     tags: dtSw
+    type: 'NC'
   s_star_2:
     number: 1-0-53
     tags: starSw
+    type: 'NC'
   s_star_1:
     number: 1-0-54
     tags: starSw
+    type: 'NC'
 
   # Column 4
   s_shooter_lane:
     number: 1-0-56
+    type: 'NC'
   s_perdition_lane:
     number: 1-0-57
+    type: 'NC'
   s_soul_U:
     number: 1-0-58
     tags: inLanesSw
+    type: 'NC'
   s_perdition_kicker:
     number: 1-0-59
+    type: 'NC'
   s_soul_L:
     number: 1-0-60
     tags: inLanesSw
+    type: 'NC'
   s_soul_O:
     number: 1-0-61
     tags: inLanesSw
+    type: 'NC'
   s_soul_S:
     number: 1-0-62
     tags: inLanesSw
+    type: 'NC'
 
 
 

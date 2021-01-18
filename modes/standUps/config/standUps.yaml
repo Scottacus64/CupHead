@@ -30,11 +30,11 @@ accruals:
     disable_on_complete: False
 
 variable_player:
-  standUp_1_hit:
+  s_standUp_1_active:
     score: 10
-  standUp_2_hit:
+  s_standUp_2_active:
     score: 10
-  standUp_3_hit:
+  s_standUp_3_active:
     score: 10
 
 show_player:

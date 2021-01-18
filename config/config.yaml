@@ -87,44 +87,44 @@ window: # defines the area of the TV monitor that can be used for the backbox di
 
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
-    width: 540 # 1080 # aspect ratios, all are full width
-    height: 175 # 350
+    width: 1080 #540 # 1080 aspect ratios, all are full width
+    height: 350 #175 # 350
   middle:
-    width: 540 # 1080
-    height: 300 # 600
+    width: 1080 #540 # 1080
+    height: 600 #300 # 600
   lower:
-    width: 540 # 1080
-    height: 175 # 350
+    width: 1080 #540 # 1080
+    height: 350 #175 # 350
   window: # window itself must be included here so that the "layout" slide can be sent here
-    width: 540 # 1080
-    height: 650 # 1300
+    width: 1080 #540 # 1080
+    height: 1300 #650 # 1300
 
 slides:
   layout: # THIS IS THE MAIN SLIDE THAT DRIVES ALL OF CUPHEADS BACKBOX!!!!
     widgets: # these widgets are the...
       - type: display # displays that are used to project slides for the backbox onto
-        width: 540 # 1080 # a540spect ration all are full width
-        height: 175 #350
+        width: 1080 #540 # 1080 # aspect ration all are full width
+        height: 350 #175 #350
         x: 0 # the display is set to the left of the window and the...
-        y: 650 # 1300 # very top of the window with the...
+        y: 1300 #650 # 1300 # very top of the window with the...
         anchor_x: left # anchors set to the left...
         anchor_y: top # and top
         source_display: upper # the name of this display is UPPER
         #...........................................................
       - type: display
-        width: 540 # 1080
-        height: 300 # 600
+        width: 1080 #540 # 1080
+        height: 600 #300 # 600
         x: 0 # set to far left
-        y: 475 # 950
+        y: 950 #475 # 950
         anchor_x: left
         anchor_y: top
         source_display: middle
         #...........................................................
       - type: display
-        width: 540 # 1080
-        height: 175 # 350
+        width: 1080 #540 # 1080
+        height: 350 #175 # 350
         x: 0 # set to far left
-        y: 175 # 350
+        y: 350 #175 # 350
         anchor_x: left
         anchor_y: top
         source_display: lower
