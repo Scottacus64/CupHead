@@ -26,12 +26,14 @@ switches:
     number: 0-0-10
     tags: right_flipper
 
-  s_dash_L:
+  s_dt_M:
     number: 0-0-16
-    tags: dashSw
-  s_dash_R:
+    tags: dtSw
+    type: 'NC'
+  s_dt_G:
     number: 0-0-17
-    tags: dashSw
+    tags: dtSw
+    type: 'NC'
   s_dtSling_L:
     number: 0-0-18
     tags: dtSlingSw
@@ -47,19 +49,24 @@ switches:
   s_popBumper_3:
     number: 0-0-26
     tags: popBumperSw
-  s_spinner:
+  s_dt_U2:
     number: 0-0-27
+    tags: dtSw
+    type: 'NC'
 
   # Board 1 Chain 1
-  s_standUp_1:
+  s_dt_U:
     number: 1-0-1
-    tags: standUp_LSw
-  s_standUp_2:
+    tags: dtSw
+    type: 'NC'
+  s_dt_P:
     number: 1-0-2
-    tags: standUp_LSw
-  s_standUp_3:
+    tags: dtSw
+    type: 'NC'
+  s_dt_C:
     number: 1-0-3
-    tags: standUp_LSw
+    tags: dtSw
+    type: 'NC'
   s_EOS_L:
     number: 1-0-8
     type: 'NC'
@@ -115,14 +122,15 @@ switches:
   s_standUp_R:
     number: 1-0-44
     type: 'NC'
-  s_dt_U:
+  s_standUp_3:
     number: 1-0-45
-    tags: dtSw
+    tags: standUp_LSw
     type: 'NC'
-  s_dt_U2:
+  s_dash_R:
     number: 1-0-46
-    tags: dtSw
     type: 'NC'
+    tags: dashSw
+
 
   # Column 3
   s_inLane_L:
@@ -145,14 +153,14 @@ switches:
     number: 1-0-52
     tags: starSw
     type: 'NC'
-  s_dt_C:
+  s_standUp_2:
     number: 1-0-53
-    tags: dtSw
+    tags: standUp_LSw
     type: 'NC'
-  s_dt_G:
+  s_spinner:
     number: 1-0-54
-    tags: dtSw
     type: 'NC'
+
 
 
   # Column 4
@@ -173,14 +181,15 @@ switches:
   s_perdition_kicker:
     number: 1-0-60
     type: 'NC'
-  s_dt_P:
+  s_standUp_1:
     number: 1-0-61
-    tags: dtSw
+    tags: standUp_LSw
     type: 'NC'
-  s_dt_M:
+  s_dash_L:
     number: 1-0-62
-    tags: dtSw
+    tags: dashSw
     type: 'NC'
+
 
 
 
