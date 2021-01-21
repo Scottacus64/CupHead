@@ -1,6 +1,7 @@
 #config_version=5
 coils:
   # Board 0 Chain 0
+  # A J7 plug
   c_play_meter:
     number: 0-0-0
   c_flipper_left_main: # Autofire so switch must be on Board 0
@@ -21,6 +22,7 @@ coils:
     number: 0-0-6
   c_popBumper_3: # Autofire so switch must be on Board 0
     number: 0-0-7
+  # B J8 plug
   c_dash_L:
     number: 0-0-8
   c_dash_R:
@@ -33,6 +35,7 @@ coils:
     default_pulse_ms: 100
 
    # Board 1 Chain 1
+   # C J9 plug
   c_dt_reset_CUP:
     number: 1-0-0
     default_pulse_ms: 100  # 60 will work
@@ -40,16 +43,16 @@ coils:
     number: 1-0-1
     default_pulse_ms: 100  # 60 will work
   c_trough_eject:
-    number: 1-0-3
+    number: 1-0-2
     default_pulse_ms: 20
   c_sling_L: # Autofire so switch must be on Board 1
-    number: 1-0-4
+    number: 1-0-3
   c_sling_R: # Autofire so switch must be on Board 1
-    number: 1-0-5
+    number: 1-0-4
   c_kicker:
-    number: 1-0-6
+    number: 1-0-5
   c_perdition_kicker:
-    number: 1-0-7
+    number: 1-0-6
 
 
 
@@ -92,10 +95,6 @@ ball_devices:
     eject_targets: playfield
     entrance_count_delay: 300ms
     debug: true
-  #bd_plunger:
-  #  ball_switches: s_plunger
-  #  entrance_count_delay: 300ms
-  #  mechanical_eject: true
   bd_kicker:
     ball_switches: s_kicker
     eject_coil: c_kicker
