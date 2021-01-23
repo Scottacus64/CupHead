@@ -7,8 +7,8 @@ mode:
 
 counters:
   perdition_entry:
-    count_events: s_perdition_active # increments every time the perdition kicker fires and ...
-    count_complete_value: 6 # is complete after three entries into berdition and ...
+    count_events: s_perdition_kicker_active # increments every time the perdition kicker fires and ...
+    count_complete_value: 3 # is complete after three entries into berdition and ...
     starting_count: 0 # startes at zero
     direction: up #  It counts up and ...
     persist_state: true # keeps it's count from ball to ball
@@ -24,13 +24,13 @@ show_player:
 sequences:
   multiballReady:
     events:
-      - advance_perdition{count==5}
+      - advance_perdition{count==3}
       - s_perdition_kicker_active
     events_when_complete: mbReady
     reset_on_complete: True
   startMB:
     events:
-      - advance_perdition{count==5}
+      - advance_perdition{count==3}
       - s_popBumper_3_active
     events_when_complete: startMBPost
     reset_on_complete: True
@@ -62,9 +62,9 @@ variable_player:
     score: 100
   advance_perdition{count==1}: # Upon the event "advance_perdition" if the player's perdition value is 0 then ...
     perdition_value: 1
-  advance_perdition{count==3}:
+  advance_perdition{count==2}:
     perdition_value: 1
-  advance_perdition{count==5}:
+  advance_perdition{count==3}:
     perdition_value: 1
   advance_perdition{count==6}:
     perdition_value:
