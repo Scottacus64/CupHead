@@ -3,12 +3,12 @@
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost # starts along side basae mode
   priority: 210
-  stop_events: ball_ended, advance_perdition{count==6} #ends on ball drained or multiball achieved (devil bumper)
+  stop_events: ball_ended, startMBPost #ends on ball drained or multiball achieved (devil bumper)
 
 counters:
   perdition_entry:
-    count_events: s_perdition_kicker_active # increments every time the perdition kicker fires and ...
-    count_complete_value: 3 # is complete after three entries into berdition and ...
+    count_events: s_perdition_kicker_active, startMBPost # increments every time the perdition kicker fires and ...
+    count_complete_value: 4 # is complete after three entries into berdition and then exit...
     starting_count: 0 # startes at zero
     direction: up #  It counts up and ...
     persist_state: true # keeps it's count from ball to ball
@@ -18,60 +18,58 @@ counters:
 
 show_player:
   advance_perdition{count==1}: perdition1on # first time show this
-  advance_perdition{count==3}: perdition2on
-  advance_perdition{count==5}: perdition3on, flashDevil
+  advance_perdition{count==2}: perdition2on
+  advance_perdition{count==3}: perdition3on, flashDevil
 
 sequences:
   multiballReady:
     events:
       - advance_perdition{count==3}
-      - s_perdition_kicker_active
+  #    - s_perdition_kicker_active
     events_when_complete: mbReady
     reset_on_complete: True
   startMB:
     events:
       - advance_perdition{count==3}
       - s_popBumper_3_active
-    events_when_complete: startMBPost
+    events_when_complete: startMBPost, advance_perdition
     reset_on_complete: True
 
-shots:
-  perdition_lane:
-    switch: s_perdition_lane
-    profile: perdition_lane_profile
+#shots:
+#  perdition_lane:
+#    switch: s_perdition_lane
+#    profile: perdition_lane_profile
 
-shot_profiles:
-  perdition_lane_profile:
-    states:
-      - name: initialState
-        show: perdition0
-      - name: firstEntry
-        show: perdition1on
-      - name: firstExit
-        show: perdition1on
-      - name: secondEntry
-        show: perdition2on
-      - name: secondExit
-        show: perdition2on
-      - name: thirdEntry
-        show: perdition3on
-    loop: True
+#shot_profiles:
+#  perdition_lane_profile:
+#    states:
+#      - name: initialState
+#        show: perdition0
+#      - name: firstEntry
+#        show: perdition1on
+#      - name: firstExit
+#        show: perdition1on
+#      - name: secondEntry
+#        show: perdition2on
+#      - name: secondExit
+#        show: perdition2on
+#      - name: thirdEntry
+#        show: perdition3on
+#    loop: True
 
 variable_player:
   s_perdition_kicker_active:
     score: 100
-  advance_perdition{count==1}: # Upon the event "advance_perdition" if the player's perdition value is 0 then ...
+  advance_perdition{count==1}: # Upon the event "advance_perdition" if the player's perdition value is 1 then ...
     perdition_value: 1
   advance_perdition{count==2}:
     perdition_value: 1
-  advance_perdition{count==3}:
-    perdition_value: 1
-  advance_perdition{count==6}:
-    perdition_value:
-      int: 0
-      action: set
+#  advance_perdition{count==3}:
+#    perdition_value: 1
+#  advance_perdition{count==3}:
+
 
 sound_player:
   advance_perdition{count==1}: perdition
-  advance_perdition{count==3}: perdition
-  advance_perdition{count==5}: perditionLock
+  advance_perdition{count==2}: perdition
+  advance_perdition{count==3}: perditionLock

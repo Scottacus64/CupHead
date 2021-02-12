@@ -4,7 +4,7 @@ mode:
   stop_events: bonusDone # end when the last bonus is paid out
 
 mode_settings:
-  display_delay_ms: 1100ms
+  display_delay_ms: 1300ms
   bonus_entries:
     - event: bonusPayout
       score: 0 #1000 * (current_player.bonus_multiplier + 1)

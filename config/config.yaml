@@ -1,16 +1,17 @@
 #config_version=5
-#hardware:
-#    platform: virtual_pinball
 
 hardware:
-    platform: opp # the playform is Open Pinball Platform
-    driverboards: gen2
+    platform: virtual_pinball
 
-opp:
-    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
-    chains:
-        0: COM4 # the zero board is on COM 4 and the..
-        1: COM3 # one board is on COM 3
+#hardware:
+#    platform: opp # the playform is Open Pinball Platform
+#    driverboards: gen2
+
+#opp:
+#    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
+#    chains:
+#        0: COM4 # the zero board is on COM 4 and the..
+#        1: COM3 # one board is on COM 3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -75,15 +76,15 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - sound.yaml
 
 window: # defines the area of the TV monitor that can be used for the backbox display
-  width: 1080 # aspect ratio of the window ... set to 540 for small test window
-  height: 1300 # ... set to 650 for small test window
+  width: 540 # aspect ratio of the window ... set to 540 for small test window
+  height: 650 # ... set to 650 for small test window
   title: CupheadWindow
   resizable: true
   fullscreen: false # does not take up the entire TV display and...
   borderless: true # has no "Windows 10" boarder around it
   exit_on_escape: true # lets you exit mpf and mpf-mc with hitting escape
   top: 0
-  left: 0
+  left: 2000
 
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
@@ -196,7 +197,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
   cup_bank:
     drop_targets: cup_C, cup_U, cup_P
     reset_coils: c_dt_reset_CUP
-    reset_on_complete: 500ms
+    reset_on_complete: 1s
     reset_events: # reset the drop targets on these events
       - drop_target_bank_cup_bank_down
       - ball_starting
@@ -204,7 +205,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
   mug_bank:
     drop_targets: mug_M, mug_U, mug_G
     reset_coils: c_dt_reset_MUG
-    reset_on_complete: 500ms
+    reset_on_complete: 1s
     reset_events:
       - drop_target_bank_mug_bank_down
       - ball_starting
