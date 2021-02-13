@@ -166,6 +166,7 @@ switches:
   # Column 4
   s_shooter_lane:
     number: 1-0-56
+    tags: playfield_active
 #    type: 'NC'
   s_perdition_lane:
     number: 1-0-57
