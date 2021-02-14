@@ -3,7 +3,7 @@
 
 - duration: 1
   lights:
-    gi: 'FFC58F'
+    gi: white #'FFC58F'
     l_soul_L: red
     l_soul_U: white
     l_soul_O: blue
@@ -40,7 +40,7 @@
 
 - duration: 1
   lights:
-#    gi: white
+    gi: blue
     l_soul_L: white
     l_soul_U: blue
     l_soul_O: yellow
@@ -84,7 +84,7 @@
 
 - duration: 1
   lights:
-#    gi: white
+    gi: white
     l_soul_L: blue
     l_soul_U: yellow
     l_soul_O: red
@@ -132,7 +132,7 @@
 
 - duration: 1
   lights:
-#    gi: white
+    gi: 'FFC58F'
     l_soul_L: yellow
     l_soul_U: red
     l_soul_O: white

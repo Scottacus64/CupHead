@@ -1,17 +1,17 @@
 #config_version=5
 
-hardware:
-    platform: virtual_pinball
-
 #hardware:
-#    platform: opp # the playform is Open Pinball Platform
-#    driverboards: gen2
+#    platform: virtual_pinball
 
-#opp:
-#    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
-#    chains:
-#        0: COM4 # the zero board is on COM 4 and the..
-#        1: COM3 # one board is on COM 3
+hardware:
+    platform: opp # the playform is Open Pinball Platform
+    driverboards: gen2
+
+opp:
+    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
+    chains:
+        0: COM4 # the zero board is on COM 4 and the..
+        1: COM3 # one board is on COM 3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -84,7 +84,7 @@ window: # defines the area of the TV monitor that can be used for the backbox di
   borderless: true # has no "Windows 10" boarder around it
   exit_on_escape: true # lets you exit mpf and mpf-mc with hitting escape
   top: 0
-  left: 2000
+  left: 0
 
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
