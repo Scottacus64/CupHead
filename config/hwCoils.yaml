@@ -62,10 +62,7 @@ coils:
     default_pulse_ms: 10
   c_perdition_kicker:
     number: 1-0-6
-    default_pulse_ms: 50
-
-
-
+    default_pulse_ms: 110
 
 autofire_coils:
   pop_bumper1:

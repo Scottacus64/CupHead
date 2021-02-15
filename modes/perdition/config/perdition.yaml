@@ -31,7 +31,7 @@ sequences:
   startMB:
     events:
       - advance_perdition{count==3}
-      - s_popBumper_3_active
+      - s_popBumper_2_active
     events_when_complete: startMBPost, advance_perdition
     reset_on_complete: True
 
