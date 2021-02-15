@@ -156,7 +156,7 @@ variable_player:
 #    score: 500
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
-    score: 1 # score 10 points per spinner spin
+    score: 10 # score 10 points per spinner spin
   advance_lane{count<7}: # if the advance_lane counter is less than 7..
     dice_pips: 1 #advance the player variable dice_pips by one so that it is not "7"
   advance_lane{count==7}: # if the advance_lane counter is 7 then set the..
