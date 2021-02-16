@@ -184,7 +184,7 @@ switches:
   s_perdition_kicker:
     number: 1-0-60
     type: 'NC'
-    ignore_window_ms: 100 # this will prevent multiple hits to the switch for more accurate counting
+    ignore_window_ms: 300 # this will prevent multiple hits to the switch for more accurate counting
   s_standUp_1:
     number: 1-0-61
     tags: standUp_LSw
