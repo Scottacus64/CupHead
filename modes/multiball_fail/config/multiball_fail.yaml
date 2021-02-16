@@ -1,7 +1,8 @@
 #config_version=5
 
 mode:
-  start_events: startMBPost   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
+  start_events: advance_perdition{count == 3}   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
+  priority: 240
   stop_events: devil_bumper_hit, ball_ended   # end if mutiball is achieved or 2nd ball drained
 
 
