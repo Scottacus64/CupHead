@@ -3,7 +3,7 @@
 mode:
   start_events: advance_perdition{count == 3}   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
   priority: 240
-  stop_events: s_popBumper_2_active, ball_ended   # end if mutiball is achieved or 2nd ball drained
+  stop_events: devil_bumper, ball_ended   # end if mutiball is achieved or 2nd ball drained
 
 
 queue_relay_player:
