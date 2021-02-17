@@ -3,13 +3,13 @@
 mode:
   start_events: advance_perdition{count == 3}   # a mode that gets the machine ready to payout multiball if the devil bumper is hit
   priority: 240
-  stop_events: devil_bumper, ball_ended   # end if mutiball is achieved or 2nd ball drained
+  stop_events: devil_bumper, ball_ended, advance_perdition{count == 4}   # end if mutiball is achieved or 2nd ball drained
 
 
 queue_relay_player:
   ball_ending:     # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
     post: eject_bd_perdition_kicker   # eject the captured ball and...
-    wait_for: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls==2}    # wait for it to drain
+    wait_for: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}    # wait for it to drain
 
 sound_player:
   eject_bd_perdition_kicker: perditionkicker
