@@ -28,9 +28,9 @@ high_score:
       - BBC: 600
 
 sound_player:
-  mode_high_score_started:
-    attract:
-      mode_end_action: stop
+#  mode_high_score_started:
+#    attract:
+#      mode_end_action: stop
   s_left_flipper_active: dropTarget
   s_right_flipper_active: dropTarget
   s_start_active: spin
