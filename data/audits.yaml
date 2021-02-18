@@ -3,7 +3,7 @@ player: {}
 shots:
   dash_L: 132
   dash_R: 16
-  devil_bumper: 175
+  devil_bumper: 195
   drain_hit: 9
   inLaneL: 105
   inLaneR: 113
@@ -11,12 +11,12 @@ shots:
   outLaneL: 75
   outLaneR: 60
   perdition_lane: 589
-  soul_L: 334
-  soul_O: 207
-  soul_S: 209
-  soul_U: 229
-  standUp1: 223
-  standUp2: 231
+  soul_L: 417
+  soul_O: 209
+  soul_S: 212
+  soul_U: 230
+  standUp1: 224
+  standUp2: 232
   standUp3: 258
   star1: 88
   star2: 86
@@ -32,55 +32,55 @@ switches:
   reel7: 45
   reel8: 45
   reel9: 45
-  s_EOS_L: 1160
-  s_EOS_R: 590
+  s_EOS_L: 1244
+  s_EOS_R: 608
   s_ball_tilt: 0
   s_coin: 0
-  s_dash_L: 561
-  s_dash_R: 206
-  s_dtSling_L: 118
-  s_dtSling_R: 95
-  s_dt_C: 699
-  s_dt_G: 278
-  s_dt_M: 351
-  s_dt_P: 624
-  s_dt_U: 682
-  s_dt_U2: 310
+  s_dash_L: 576
+  s_dash_R: 208
+  s_dtSling_L: 119
+  s_dtSling_R: 96
+  s_dt_C: 700
+  s_dt_G: 279
+  s_dt_M: 354
+  s_dt_P: 626
+  s_dt_U: 683
+  s_dt_U2: 313
   s_exit_shooter_lane: 450
-  s_inLane_L: 187
-  s_inLane_R: 255
-  s_kicker: 398
-  s_left_flipper: 1752
+  s_inLane_L: 190
+  s_inLane_R: 259
+  s_kicker: 404
+  s_left_flipper: 1801
   s_midRight: 89
-  s_outLane_L: 176
+  s_outLane_L: 178
   s_outLane_R: 125
   s_perdition: 101
   s_perdition_kicker: 1136
   s_perdition_lane: 716
   s_plunger: 990
-  s_popBumper_1: 754
-  s_popBumper_2: 1486
-  s_popBumper_3: 1490
-  s_right_flipper: 1929
-  s_shooter_lane: 408
+  s_popBumper_1: 780
+  s_popBumper_2: 1506
+  s_popBumper_3: 1497
+  s_right_flipper: 1950
+  s_shooter_lane: 410
   s_slam_tilt: 0
   s_sling_L: 423
-  s_sling_R: 293
-  s_soul_L: 334
-  s_soul_O: 207
-  s_soul_S: 209
-  s_soul_U: 229
-  s_spinner: 1438
-  s_standUp_1: 295
-  s_standUp_2: 296
+  s_sling_R: 294
+  s_soul_L: 417
+  s_soul_O: 209
+  s_soul_S: 212
+  s_soul_U: 230
+  s_spinner: 1464
+  s_standUp_1: 296
+  s_standUp_2: 297
   s_standUp_3: 319
   s_standUp_R: 822
-  s_star_1: 555
-  s_star_2: 509
+  s_star_1: 557
+  s_star_2: 514
   s_star_3: 524
   s_start: 315
   s_tilt: 41
   s_tilt_bob: 119
-  s_trough1: 1243
-  s_trough2: 799
+  s_trough1: 1250
+  s_trough2: 811
   s_trough_jam: 138
