@@ -32,7 +32,7 @@ switches:
   reel7: 45
   reel8: 45
   reel9: 45
-  s_EOS_L: 1343
+  s_EOS_L: 1349
   s_EOS_R: 623
   s_ball_tilt: 0
   s_coin: 0
@@ -52,17 +52,17 @@ switches:
   s_kicker: 412
   s_left_flipper: 1813
   s_midRight: 89
-  s_outLane_L: 181
+  s_outLane_L: 182
   s_outLane_R: 125
   s_perdition: 101
-  s_perdition_kicker: 1163
-  s_perdition_lane: 728
+  s_perdition_kicker: 1167
+  s_perdition_lane: 731
   s_plunger: 990
   s_popBumper_1: 823
   s_popBumper_2: 1537
-  s_popBumper_3: 1552
+  s_popBumper_3: 1553
   s_right_flipper: 1967
-  s_shooter_lane: 432
+  s_shooter_lane: 433
   s_slam_tilt: 0
   s_sling_L: 454
   s_sling_R: 312
@@ -81,6 +81,6 @@ switches:
   s_start: 315
   s_tilt: 41
   s_tilt_bob: 119
-  s_trough1: 1281
-  s_trough2: 838
+  s_trough1: 1286
+  s_trough2: 840
   s_trough_jam: 140
