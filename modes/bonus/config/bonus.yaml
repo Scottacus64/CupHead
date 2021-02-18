@@ -2,6 +2,7 @@
 
 mode:
   stop_events: bonusDone # end when the last bonus is paid out
+  use_wait_queue: true
 
 mode_settings:
   display_delay_ms: 1300ms
