@@ -22,7 +22,7 @@ sounds:
     track: music
     volume: .5
     fade_out: 1S
-    events_when_played: attract_play
+#    events_when_played: attract_play
   root_music:
     file: root.wav
     track: music
