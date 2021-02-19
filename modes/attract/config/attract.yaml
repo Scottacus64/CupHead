@@ -17,7 +17,6 @@ sound_player: # plays the attract music
       mode_end_action: stop
   request_to_start_game: startCallOuts # play the announcer voice when a player is added
 
-
 track_player:
   videoOn: # if the event named "videoOn" is posted
     music:
@@ -105,11 +104,11 @@ widgets:
   finger_widget:
     - type: image
       image: finger_image
-      x: 0
+      x: 1080
       z: 100
       anchor_x: right
       animations:
-        attract_play: finger_animation
+        slide_a_beppi_active: finger_animation
 
 animations:
   finger_animation:

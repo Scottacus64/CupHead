@@ -180,8 +180,6 @@ variable_player:
   timer_perditionPost_timer_complete:
     perdition_value: 0
 
-
-
 sound_player:
   mode_base_started: # when the mode starts...
     poolCupHeadBase: # select a song from the pool..

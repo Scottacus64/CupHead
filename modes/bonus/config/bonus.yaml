@@ -3,7 +3,12 @@
 mode:
   priority: 300
   stop_events: bonusDone # end when the last bonus is paid out
-  use_wait_queue: true
+#  use_wait_queue: true
+
+queue_relay_player:
+  mode_bonus_started:     # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
+    post: start_bonus_countdown   # eject the captured ball and...
+    wait_for: s_trough2_active # balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}    # wait for it to drain 
 
 mode_settings:
   display_delay_ms: 1300ms
@@ -21,7 +26,7 @@ timers:
     debug: true
     control_events:
       - action: start # start when ...
-        event: mode_bonus_started # the mode begins and ...
+        event: start_bonus_countdown # the mode begins and ...
       - action: stop # stop when ...
         event: bonusDone # the mode is done
 
