@@ -8,10 +8,10 @@ hardware:
     driverboards: gen2
 
 opp:
-    ports: COM3, COM4 # these are the COM ports on the Cobrapin board
+    ports: COM5, COM6 # these are the COM ports on the Cobrapin board
     chains:
-        0: COM4 # the zero board is on COM 4 and the..
-        1: COM3 # one board is on COM 3
+        0: COM5 # the zero board is on COM 4 and the..
+        1: COM6 # one board is on COM 3
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
