@@ -12,12 +12,21 @@ shots:
   outLaneR: 60
   perdition_lane: 589
   soul_L: 431
+<<<<<<< HEAD
   soul_O: 218
   soul_S: 227
   soul_U: 243
   standUp1: 228
   standUp2: 239
   standUp3: 263
+=======
+  soul_O: 217
+  soul_S: 220
+  soul_U: 240
+  standUp1: 225
+  standUp2: 234
+  standUp3: 261
+>>>>>>> e336fbb8c98676ed80b100c9076837f5e017e442
   star1: 88
   star2: 86
   star3: 107
@@ -32,6 +41,7 @@ switches:
   reel7: 45
   reel8: 45
   reel9: 45
+<<<<<<< HEAD
   s_EOS_L: 1681
   s_EOS_R: 739
   s_ball_tilt: 0
@@ -51,6 +61,27 @@ switches:
   s_inLane_R: 269
   s_kicker: 467
   s_left_flipper: 1925
+=======
+  s_EOS_L: 1452
+  s_EOS_R: 634
+  s_ball_tilt: 0
+  s_coin: 0
+  s_dash_L: 581
+  s_dash_R: 212
+  s_dtSling_L: 121
+  s_dtSling_R: 100
+  s_dt_C: 709
+  s_dt_G: 291
+  s_dt_M: 370
+  s_dt_P: 638
+  s_dt_U: 693
+  s_dt_U2: 326
+  s_exit_shooter_lane: 450
+  s_inLane_L: 195
+  s_inLane_R: 261
+  s_kicker: 420
+  s_left_flipper: 1824
+>>>>>>> e336fbb8c98676ed80b100c9076837f5e017e442
   s_midRight: 89
   s_outLane_L: 196
   s_outLane_R: 125
@@ -67,6 +98,7 @@ switches:
   s_sling_L: 503
   s_sling_R: 353
   s_soul_L: 431
+<<<<<<< HEAD
   s_soul_O: 218
   s_soul_S: 227
   s_soul_U: 243
@@ -77,10 +109,28 @@ switches:
   s_standUp_R: 822
   s_star_1: 567
   s_star_2: 521
+=======
+  s_soul_O: 217
+  s_soul_S: 220
+  s_soul_U: 240
+  s_spinner: 1501
+  s_standUp_1: 297
+  s_standUp_2: 299
+  s_standUp_3: 322
+  s_standUp_R: 822
+  s_star_1: 558
+  s_star_2: 515
+>>>>>>> e336fbb8c98676ed80b100c9076837f5e017e442
   s_star_3: 524
   s_start: 329
   s_tilt: 41
   s_tilt_bob: 119
+<<<<<<< HEAD
   s_trough1: 1356
   s_trough2: 918
   s_trough_jam: 146
+=======
+  s_trough1: 1322
+  s_trough2: 865
+  s_trough_jam: 142
+>>>>>>> e336fbb8c98676ed80b100c9076837f5e017e442
