@@ -4,3 +4,7 @@
 - duration: 1
   lights:
     gi: white
+
+- duration: 1
+  lights:
+    gi: blue 

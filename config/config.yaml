@@ -10,8 +10,9 @@ hardware:
 opp:
     ports: COM5, COM6 # these are the COM ports on the Cobrapin board
     chains:
-        0: COM5 # the zero board is on COM 4 and the..
-        1: COM6 # one board is on COM 3
+        0: COM5 # the zero board is on COM 5 and the..
+        1: COM6 # one board is on COM 6
+    debug: True
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -212,5 +213,5 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
       - machine_reset_phase_3
 
 game: # sets game parameters
-  balls_per_game: 5
+  balls_per_game: 2
   max_players: 2
