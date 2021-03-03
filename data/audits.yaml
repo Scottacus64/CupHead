@@ -1,117 +1,60 @@
-events: {}
-player: {}
+events:
+  game_ended: 0
+  game_started: 1
+player:
+  score:
+    average: 0
+    top: []
+    total: 0
 shots:
-<<<<<<< HEAD
-  dash_L: 3
-  dash_R: 3
-  devil_bumper: 59
-  soul_L: 37
-  soul_O: 94
-  soul_S: 50
-  soul_U: 84
-  standUp1: 10
-  standUp2: 13
-  standUp3: 12
+  soul_L: 1
+  soul_O: 2
+  soul_S: 1
+  soul_U: 4
 switches:
-  s_EOS_L: 68
-  s_EOS_R: 13
-  s_ball_tilt: 33
-  s_dash_L: 7
-  s_dash_R: 11
-  s_dtSling_L: 10
-  s_dtSling_R: 12
-  s_dt_C: 40
+  s_EOS_L: 0
+  s_EOS_R: 0
+  s_ball_tilt: 0
+  s_dash_L: 0
+  s_dash_R: 0
+  s_dtSling_L: 0
+  s_dtSling_R: 0
+  s_dt_C: 8
   s_dt_G: 0
   s_dt_M: 0
-  s_dt_P: 10
-  s_dt_U: 27
+  s_dt_P: 9
+  s_dt_U: 5
   s_dt_U2: 0
-  s_inLane_L: 7
-  s_inLane_R: 11
-  s_kicker: 11
-  s_left_flipper: 186
+  s_inLane_L: 0
+  s_inLane_R: 0
+  s_kicker: 0
+  s_left_flipper: 30
   s_midRight: 0
-  s_outLane_L: 2
-  s_outLane_R: 3
-  s_perdition_kicker: 19
-  s_perdition_lane: 1
-  s_popBumper_1: 21
-  s_popBumper_2: 62
-  s_popBumper_3: 24
-  s_right_flipper: 584
-  s_shooter_lane: 187
-  s_sling_L: 131
-  s_sling_R: 28
-  s_soul_L: 37
-  s_soul_O: 94
-  s_soul_S: 50
-  s_soul_U: 84
-  s_spinner: 368
-  s_standUp_1: 13
-  s_standUp_2: 15
-  s_standUp_3: 14
-  s_standUp_R: 0
-  s_star_1: 15
-  s_star_2: 6
-  s_star_3: 20
-  s_start: 8
-  s_tilt_bob: 8
-  s_trough1: 177
-  s_trough2: 68
-  s_trough_jam: 9
-=======
-  devil_bumper: 162
-  soul_O: 21
-  soul_S: 23
-  soul_U: 37
-  standUp1: 3
-  standUp2: 4
-  standUp3: 4
-switches:
-  s_EOS_L: 626
-  s_EOS_R: 244
-  s_ball_tilt: 0
-  s_dash_L: 62
-  s_dash_R: 14
-  s_dtSling_L: 13
-  s_dtSling_R: 18
-  s_dt_C: 15
-  s_dt_G: 10
-  s_dt_M: 20
-  s_dt_P: 19
-  s_dt_U: 22
-  s_dt_U2: 16
-  s_inLane_L: 16
-  s_inLane_R: 29
-  s_kicker: 71
-  s_left_flipper: 209
-  s_midRight: 0
-  s_outLane_L: 14
+  s_outLane_L: 0
   s_outLane_R: 0
-  s_perdition_kicker: 52
-  s_perdition_lane: 26
-  s_popBumper_1: 145
-  s_popBumper_2: 166
-  s_popBumper_3: 133
-  s_right_flipper: 264
-  s_shooter_lane: 60
-  s_sling_L: 93
-  s_sling_R: 71
-  s_soul_L: 0
-  s_soul_O: 21
-  s_soul_S: 23
-  s_soul_U: 37
-  s_spinner: 55
-  s_standUp_1: 3
-  s_standUp_2: 4
-  s_standUp_3: 4
+  s_perdition_kicker: 0
+  s_perdition_lane: 0
+  s_popBumper_1: 0
+  s_popBumper_2: 0
+  s_popBumper_3: 0
+  s_right_flipper: 36
+  s_shooter_lane: 8
+  s_sling_L: 8
+  s_sling_R: 0
+  s_soul_L: 1
+  s_soul_O: 2
+  s_soul_S: 1
+  s_soul_U: 4
+  s_spinner: 0
+  s_standUp_1: 0
+  s_standUp_2: 0
+  s_standUp_3: 0
   s_standUp_R: 0
-  s_star_1: 18
-  s_star_2: 21
+  s_star_1: 0
+  s_star_2: 0
   s_star_3: 0
-  s_start: 1
-  s_tilt_bob: 1
-  s_trough1: 93
-  s_trough2: 86
-  s_trough_jam: 15
->>>>>>> 4765c937283ec5296c97903fde80bb548eabdc9f
+  s_start: 2
+  s_tilt_bob: 0
+  s_trough1: 10
+  s_trough2: 0
+  s_trough_jam: 0

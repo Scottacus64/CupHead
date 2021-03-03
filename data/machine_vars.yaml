@@ -1,7 +1,6 @@
 player1_score:
   expire: null
-<<<<<<< HEAD
-  value: 8840
-=======
-  value: 21460
->>>>>>> 4765c937283ec5296c97903fde80bb548eabdc9f
+  value: 280
+player2_score:
+  expire: null
+  value: 100
