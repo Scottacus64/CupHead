@@ -6,12 +6,6 @@ player:
     average: 0
     top: []
     total: 0
-shots:
-<<<<<<< HEAD
-  soul_L: 1
-  soul_O: 2
-  soul_S: 1
-  soul_U: 4
 switches:
   s_EOS_L: 0
   s_EOS_R: 0
@@ -20,16 +14,16 @@ switches:
   s_dash_R: 0
   s_dtSling_L: 0
   s_dtSling_R: 0
-  s_dt_C: 8
+  s_dt_C: 3
   s_dt_G: 0
   s_dt_M: 0
-  s_dt_P: 9
-  s_dt_U: 5
+  s_dt_P: 3
+  s_dt_U: 3
   s_dt_U2: 0
   s_inLane_L: 0
   s_inLane_R: 0
   s_kicker: 0
-  s_left_flipper: 30
+  s_left_flipper: 0
   s_midRight: 0
   s_outLane_L: 0
   s_outLane_R: 0
@@ -38,14 +32,14 @@ switches:
   s_popBumper_1: 0
   s_popBumper_2: 0
   s_popBumper_3: 0
-  s_right_flipper: 36
-  s_shooter_lane: 8
-  s_sling_L: 8
+  s_right_flipper: 0
+  s_shooter_lane: 1
+  s_sling_L: 0
   s_sling_R: 0
-  s_soul_L: 1
-  s_soul_O: 2
-  s_soul_S: 1
-  s_soul_U: 4
+  s_soul_L: 0
+  s_soul_O: 0
+  s_soul_S: 0
+  s_soul_U: 0
   s_spinner: 0
   s_standUp_1: 0
   s_standUp_2: 0
@@ -54,63 +48,8 @@ switches:
   s_star_1: 0
   s_star_2: 0
   s_star_3: 0
-  s_start: 2
-  s_tilt_bob: 0
-  s_trough1: 10
-  s_trough2: 0
-=======
-  devil_bumper: 16
-  soul_O: 7
-  soul_S: 12
-  soul_U: 11
-  standUp1: 2
-  standUp2: 5
-  standUp3: 6
-switches:
-  s_EOS_L: 19
-  s_EOS_R: 2
-  s_ball_tilt: 2
-  s_dash_L: 0
-  s_dash_R: 1
-  s_dtSling_L: 0
-  s_dtSling_R: 2
-  s_dt_C: 0
-  s_dt_G: 0
-  s_dt_M: 0
-  s_dt_P: 0
-  s_dt_U: 0
-  s_dt_U2: 0
-  s_inLane_L: 1
-  s_inLane_R: 1
-  s_kicker: 25
-  s_left_flipper: 28
-  s_midRight: 0
-  s_outLane_L: 0
-  s_outLane_R: 0
-  s_perdition_kicker: 1
-  s_perdition_lane: 0
-  s_popBumper_1: 23
-  s_popBumper_2: 16
-  s_popBumper_3: 11
-  s_right_flipper: 27
-  s_shooter_lane: 24
-  s_sling_L: 15
-  s_sling_R: 7
-  s_soul_L: 0
-  s_soul_O: 7
-  s_soul_S: 12
-  s_soul_U: 11
-  s_spinner: 45
-  s_standUp_1: 2
-  s_standUp_2: 5
-  s_standUp_3: 6
-  s_standUp_R: 0
-  s_star_1: 4
-  s_star_2: 3
-  s_star_3: 3
   s_start: 0
-  s_tilt_bob: 1
-  s_trough1: 10
-  s_trough2: 6
->>>>>>> d556865a3de898ce678099c711556d4683119a0f
+  s_tilt_bob: 0
+  s_trough1: 1
+  s_trough2: 0
   s_trough_jam: 0
