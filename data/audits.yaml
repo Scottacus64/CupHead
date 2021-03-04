@@ -1,11 +1,14 @@
 events:
-  game_ended: 0
-  game_started: 1
+  game_ended: 3
+  game_started: 14
 player:
   score:
-    average: 0
-    top: []
-    total: 0
+    average: 26233.333333333332
+    top:
+    - 28800
+    - 27200
+    - 22700
+    total: 3
 switches:
   s_EOS_L: 0
   s_EOS_R: 0
@@ -14,12 +17,12 @@ switches:
   s_dash_R: 0
   s_dtSling_L: 0
   s_dtSling_R: 0
-  s_dt_C: 3
-  s_dt_G: 0
-  s_dt_M: 0
-  s_dt_P: 3
-  s_dt_U: 3
-  s_dt_U2: 0
+  s_dt_C: 76
+  s_dt_G: 41
+  s_dt_M: 42
+  s_dt_P: 70
+  s_dt_U: 80
+  s_dt_U2: 54
   s_inLane_L: 0
   s_inLane_R: 0
   s_kicker: 0
@@ -33,7 +36,7 @@ switches:
   s_popBumper_2: 0
   s_popBumper_3: 0
   s_right_flipper: 0
-  s_shooter_lane: 1
+  s_shooter_lane: 18
   s_sling_L: 0
   s_sling_R: 0
   s_soul_L: 0
@@ -50,6 +53,6 @@ switches:
   s_star_3: 0
   s_start: 0
   s_tilt_bob: 0
-  s_trough1: 1
+  s_trough1: 14
   s_trough2: 0
   s_trough_jam: 0
