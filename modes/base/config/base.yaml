@@ -8,7 +8,7 @@ mode:
 
 counters:
   bonus:
-    count_events: drop_target_bank_cup_bank_down, drop_target_bank_mug_bank_down # each bank gets its own counter
+    count_events: drop_target_bank_cup_bank_up, drop_target_bank_mug_bank_up # each bank gets its own counter
     events_when_hit: bank_done # when each back is done the event "bank_done" is posted
     starting_count: 0
     count_complete_value: 10 # set to 10 becasue there are 10 bonus lights
@@ -132,10 +132,8 @@ variable_player:
     score: 100
   s_dt_G_active:
     score: 100
-  drop_target_bank_cup_bank_down: # if the bank is dropped...
+  bank_done: # if the bank is raised...
     contracts: 1 # increment the counter contracts by one
-  drop_target_bank_mug_bank_down:
-    contracts: 1
   mode_base_started: # when the mode starts...
     contracts:
       int: 0 # put 0...
@@ -1064,37 +1062,3 @@ videos: # all videos must be defined by name
     file: wally.mp4
     height: 600
     width: 1060
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #
