@@ -67,7 +67,7 @@ timers:
         event: pay50
 
 show_player:
-  mode_base_started: base_lighting # start the base lighting on start of the mode
+  mode_base_started: base_lighting, 1_on # start the base lighting on start of the mode
   advance_lane{count==1}: # these move the "dice" lights wth the spinner
     1_on: play # plays the first show which turns on th elowermost light and turns..
     7_on: stop # the dice off by stopping this show
@@ -976,20 +976,28 @@ images: # all images used in widgets must be defined here, note that
 
   reel11_image:
     file: reel11.zip
+    persist_frame: true
   reel12_image:
     file: reel12.zip
+    persist_frame: true
   reel13_image:
     file: reel13.zip
+    persist_frame: true
   reel14_image:
     file: reel14.zip
+    persist_frame: true
   reel21_image:
     file: reel21.zip
+    persist_frame: true
   reel22_image:
     file: reel22.zip
+    persist_frame: true
   reel23_image:
     file: reel23.zip
+    persist_frame: true
   reel24_image:
     file: reel24.zip
+    persist_frame: true
 #    image_template: reels
   reel_0_image:
     file: reel0.png

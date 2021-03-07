@@ -3,9 +3,9 @@
 
 - duration: 1
   lights:
-    l_standUp_1: on
-    l_standUp_2: on
-    l_standUp_3: on
+    l_standUp_1: green
+    l_standUp_2: green
+    l_standUp_3: green
 - duration: 1
   lights:
     l_standUp_1: off

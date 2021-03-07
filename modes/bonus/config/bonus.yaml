@@ -33,6 +33,8 @@ timers:
         event: bonusDone # the mode is done
 
 event_player:
+  mode_bonus_started: start_bonus_countdown
+
   timer_bonusCountDown-tick{current_player.contracts==0}: # if the current player's contract value is zero ...
     - bonusDone # post the event bonusDone
   timer_bonusCountDown_tick{current_player.contracts>0}: # if the current player's contract value is greater than zero ...

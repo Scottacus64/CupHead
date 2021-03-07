@@ -1,7 +1,6 @@
 #show_version=5
 - time: 0
   lights:
-    l_blueShooter: '000000'
     l_bonus_2000: '000000'
     l_bonus_5000: 'EF0007'
     l_bonus_6000: '000000'
@@ -536,7 +535,6 @@
 
 - time: '+1'
   lights:
-    l_blueShooter: '040023'
     l_bonus_1000: '000000'
     l_bonus_2000: '03001B'
     l_bonus_6000: '1D00F5'
@@ -866,7 +864,6 @@
   lights:
     l_2x: 'B8004D'
     l_extraBall: 'B8004D'
-    l_blueShooter: 'B8004D'
     l_bonus_10000: 'B8004D'
     l_bonus_2000: 'B8004D'
     l_bonus_3000: '000000'
@@ -900,7 +897,6 @@
   lights:
     l_2x: '000000'
     l_extraBall: 'B10054'
-    l_blueShooter: 'B10054'
     l_bonus_1000: 'B10054'
     l_bonus_10000: 'B10054'
     l_bonus_2000: 'B10054'
@@ -937,7 +933,6 @@
   lights:
     l_4x: 'AB005B'
     l_extraBall: 'AB005B'
-    l_blueShooter: '000000'
     l_bonus_1000: 'AB005B'
     l_bonus_10000: '000000'
     l_bonus_2000: 'AB005B'
@@ -973,7 +968,6 @@
     l_3x: 'A40062'
     l_4x: 'A40062'
     l_extraBall: 'A40062'
-    l_blueShooter: 'A40062'
     l_bonus_1000: 'A40062'
     l_bonus_2000: '000000'
     l_bonus_4000: 'A40062'
@@ -1007,7 +1001,6 @@
     l_3x: '9E0069'
     l_4x: '9E0069'
     l_extraBall: '9E0069'
-    l_blueShooter: '000000'
     l_bonus_1000: '000000'
     l_bonus_4000: '9E0069'
     l_bonus_5000: '9E0069'
@@ -1065,7 +1058,6 @@
     l_2x: '910077'
     l_3x: '910077'
     l_4x: '910077'
-    l_blueShooter: '910077'
     l_bonus_1000: '910077'
     l_bonus_2000: '910077'
     l_bonus_3000: '910077'
@@ -1093,7 +1085,6 @@
     l_2x: '000000'
     l_3x: '000000'
     l_4x: '000000'
-    l_blueShooter: '000000'
     l_bonus_1000: '8B007E'
     l_bonus_2000: '8B007E'
     l_bonus_3000: '8B007E'
@@ -1160,7 +1151,6 @@
 - time: '+1'
   lights:
     l_4x: '770093'
-    l_blueShooter: '770093'
     l_bonus_10000: '770093'
     l_bonus_3000: '770093'
     l_bonus_4000: '770093'
@@ -1185,7 +1175,6 @@
 - time: '+1'
   lights:
     l_4x: '71009A'
-    l_blueShooter: '71009A'
     l_bonus_10000: '71009A'
     l_bonus_3000: '71009A'
     l_bonus_4000: '71009A'
@@ -1207,7 +1196,6 @@
   lights:
     l_3x: '6B00A1'
     l_4x: '6B00A1'
-    l_blueShooter: '000000'
     l_bonus_10000: '6B00A1'
     l_bonus_3000: '6B00A1'
     l_bonus_4000: '000000'
@@ -1246,7 +1234,6 @@
     l_2x: '5E00AF'
     l_3x: '5E00AF'
     l_4x: '000000'
-    l_blueShooter: '1C0035'
     l_bonus_2000: '5E00AF'
     l_bonus_3000: '5E00AF'
     l_bonus_5000: '5E00AF'
@@ -1267,7 +1254,6 @@
   lights:
     l_2x: '5700B6'
     l_3x: '000000'
-    l_blueShooter: '5700B6'
     l_bonus_10000: '5700B6'
     l_bonus_2000: '5700B6'
     l_bonus_3000: '000000'
@@ -1284,7 +1270,6 @@
 - time: '+1'
   lights:
     l_2x: '000000'
-    l_blueShooter: '000000'
     l_bonus_1000: '3C008C'
     l_bonus_10000: '5100BD'
     l_bonus_2000: '5100BD'
@@ -1304,7 +1289,6 @@
 - time: '+1'
   lights:
     l_4x: '4A00C4'
-    l_blueShooter: '4A00C4'
     l_bonus_1000: '4A00C4'
     l_bonus_10000: '000000'
     l_bonus_2000: '4A00C4'
@@ -1323,7 +1307,6 @@
   lights:
     l_3x: '4400CB'
     l_4x: '4400CB'
-    l_blueShooter: '4400CB'
     l_bonus_1000: '4400CB'
     l_bonus_2000: '000000'
     l_bonus_4000: '4400CB'
@@ -1340,7 +1323,6 @@
     l_2x: '3E00D2'
     l_3x: '3E00D2'
     l_4x: '3E00D2'
-    l_blueShooter: '000000'
     l_bonus_1000: '000000'
     l_bonus_3000: '3E00D2'
     l_bonus_4000: '3E00D2'
@@ -1357,7 +1339,6 @@
     l_2x: '3700D9'
     l_3x: '3700D9'
     l_4x: '000000'
-    l_blueShooter: '3700D9'
     l_bonus_3000: '3700D9'
     l_bonus_4000: '3700D9'
     l_bonus_7000: '3700D9'
@@ -1371,7 +1352,6 @@
   lights:
     l_2x: '3100E0'
     l_3x: '3100E0'
-    l_blueShooter: '000000'
     l_bonus_3000: '3100E0'
     l_bonus_4000: '3100E0'
     l_bonus_6000: '3100E0'

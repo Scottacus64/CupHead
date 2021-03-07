@@ -4,7 +4,11 @@
 - duration: 1
   lights:
     gi: white
+    l_popBumper_1: white
+    l_popBumper_2: white
+    l_popBumper_3: white
 
-- duration: 1
-  lights:
-    gi: blue 
+
+#- duration: 1
+#  lights:
+#    gi: blue

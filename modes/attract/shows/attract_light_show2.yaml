@@ -4,10 +4,10 @@
 - duration: 1
   lights:
     gi: red #'FFC58F'
-    l_soul_L: red
+    l_soul_L: white
     l_soul_U: white
-    l_soul_O: blue
-    l_soul_S: yellow
+    l_soul_O: white
+    l_soul_S: white
     l_lane_L_1: blue
     l_lane_L_2: orange
     l_lane_L_3: purple
@@ -42,9 +42,9 @@
   lights:
     gi: red
     l_soul_L: white
-    l_soul_U: blue
-    l_soul_O: yellow
-    l_soul_S: red
+    l_soul_U: white
+    l_soul_O: white
+    l_soul_S: white
     l_lane_L_2: blue
     l_lane_L_3: orange
     l_lane_L_4: purple
@@ -85,9 +85,9 @@
 - duration: 1
   lights:
     gi: 'FFC58F'
-    l_soul_L: blue
-    l_soul_U: yellow
-    l_soul_O: red
+    l_soul_L: white
+    l_soul_U: white
+    l_soul_O: white
     l_soul_S: white
     l_lane_L_3: blue
     l_lane_L_4: orange
@@ -133,10 +133,10 @@
 - duration: 1
   lights:
     gi: 'FFC58F'
-    l_soul_L: yellow
+    l_soul_L: red
     l_soul_U: red
-    l_soul_O: white
-    l_soul_S: blue
+    l_soul_O: red
+    l_soul_S: red
     l_lane_L_4: blue
     l_lane_L_5: orange
     l_lane_L_6: purple

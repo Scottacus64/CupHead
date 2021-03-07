@@ -28,9 +28,9 @@ high_score:
       - BBC: 600
 
 sound_player:
-#  mode_high_score_started:
-#    attract:
-#      mode_end_action: stop
+  high_score_enter_initials:
+    attract:
+      mode_end_action: stop
   s_left_flipper_active: dropTarget
   s_right_flipper_active: dropTarget
   s_start_active: spin
@@ -78,11 +78,22 @@ slides:
       dynamic_x: false
       key: high_score
       font_name: Aafia
-      font_size: 50
+      font_size: 100
       max_chars: 3
-      color: ebc249
+      color: yellow
       y: 300
       z: 100
+      animations:
+        show_slide:
+          - property: opacity
+            value: 1
+            duration: 0.3s
+            easing: in_out_quint
+          - property: opacity
+            value: 0
+            duration: 0.3s
+            repeat: true
+            easing: in_out_quint
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
@@ -96,7 +107,7 @@ slides:
     - type: text
       text: ''
       key: high_score
-      font_size: 50
+      font_size: 100
       font_name: Aafia
       color: black
       y: 50
