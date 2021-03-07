@@ -1,28 +1,24 @@
-#config_version=5
+#show_version=5
 
+- duration: 1
+  lights:
+    gi: off
+    inserts: off
 
 - duration: 1
   lights:
     l_soul_L: white
-
 
 - duration: 1
   lights:
     l_soul_L: white
     l_soul_U: white
-
-- duration: 1
-  lights:
-    l_soul_L: white
-    l_soul_U: white
-    l_soul_O: white
 
 - duration: 1
   lights:
     l_soul_L: white
     l_soul_U: white
     l_soul_O: white
-    l_soul_S: white
 
 - duration: 1
   lights:
@@ -30,7 +26,6 @@
     l_soul_U: white
     l_soul_O: white
     l_soul_S: white
-    l_lane_L_6: white
 
 - duration: 1
   lights:
@@ -39,7 +34,6 @@
     l_soul_O: white
     l_soul_S: white
     l_lane_L_6: white
-    l_lane_L_5: white
 
 - duration: 1
   lights:
@@ -49,7 +43,6 @@
     l_soul_S: white
     l_lane_L_6: white
     l_lane_L_5: white
-    l_star_1: white
 
 - duration: 1
   lights:
@@ -60,7 +53,6 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
 
 - duration: 1
   lights:
@@ -71,8 +63,7 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
 
 - duration: 1
   lights:
@@ -83,8 +74,20 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
+
+- duration: 1
+  lights:
+    l_soul_L: white
+    l_soul_U: white
+    l_soul_O: white
+    l_soul_S: white
+    l_lane_L_6: white
+    l_lane_L_5: white
+    l_star_1: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
 
 - duration: 1
@@ -96,25 +99,10 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
-    l_star_2: white
-    l_lane_L_2: white
-
-- duration: 1
-  lights:
-    l_soul_L: white
-    l_soul_U: white
-    l_soul_O: white
-    l_soul_S: white
-    l_lane_L_6: white
-    l_lane_L_5: white
-    l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
-    l_lane_L_1: white
 
 - duration: 1
   lights:
@@ -125,12 +113,11 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
 
 - duration: 1
   lights:
@@ -141,12 +128,28 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
+
+- duration: 1
+  lights:
+    l_soul_L: white
+    l_soul_U: white
+    l_soul_O: white
+    l_soul_S: white
+    l_lane_L_6: white
+    l_lane_L_5: white
+    l_star_1: white
+    l_lane_L_4: white
+    l_lane_L_3: white
+    l_star_2: white
+    l_lane_L_2: white
+    l_lane_L_1: white
+    l_dash_L: white
     l_outLane_L: white
 
 - duration: 1
@@ -158,12 +161,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
 
@@ -176,12 +179,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -195,12 +198,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -215,12 +218,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -236,12 +239,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -258,12 +261,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -281,12 +284,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -305,12 +308,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -330,12 +333,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -356,12 +359,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -383,12 +386,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -411,12 +414,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -440,12 +443,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -470,12 +473,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -501,12 +504,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -533,12 +536,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -566,12 +569,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -600,12 +603,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -635,12 +638,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -671,12 +674,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -708,12 +711,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -746,12 +749,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -785,12 +788,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -825,12 +828,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -866,12 +869,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -908,12 +911,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -951,12 +954,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -995,12 +998,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -1040,12 +1043,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -1086,12 +1089,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -1133,12 +1136,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -1181,12 +1184,12 @@
     l_lane_L_6: white
     l_lane_L_5: white
     l_star_1: white
-    l_lane_L_4:: white
-    l_lane_L_3:: white
+    l_lane_L_4: white
+    l_lane_L_3: white
     l_star_2: white
     l_lane_L_2: white
     l_lane_L_1: white
-    l_dash_L:: white
+    l_dash_L: white
     l_outLane_L: white
     l_inLane_L: white
     l_bonus_4000: white
@@ -1223,6 +1226,7 @@
 
 - duration: 1
   lights:
+    inserts: off
     l_gi0: white
 
 - duration: 1
@@ -1350,245 +1354,3 @@
     l_gi10: white
     l_gi11: white
     l_gi12: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-    l_gi19: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-    l_gi19: white
-    l_gi20: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-    l_gi19: white
-    l_gi20: white
-    l_gi21: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-    l_gi19: white
-    l_gi20: white
-    l_gi21: white
-    l_gi22: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
-    l_gi2: white
-    l_gi3: white
-    l_gi4: white
-    l_gi5: white
-    l_gi6: white
-    l_gi7: white
-    l_gi8: white
-    l_gi9: white
-    l_gi10: white
-    l_gi11: white
-    l_gi12: white
-    l_gi13: white
-    l_gi14: white
-    l_gi15: white
-    l_gi16: white
-    l_gi17: white
-    l_gi18: white
-    l_gi19: white
-    l_gi20: white
-    l_gi21: white
-    l_gi22: white
-    l_gi23: white

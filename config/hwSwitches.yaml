@@ -58,15 +58,15 @@ switches:
   s_dt_U:
     number: 1-0-1
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
   s_dt_P:
     number: 1-0-2
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
   s_dt_C:
     number: 1-0-3
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
   s_EOS_L:
     number: 1-0-8
     type: 'NC'
