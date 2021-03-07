@@ -7,8 +7,10 @@ show_player:
      speed: 1 # speed of 1
 #    output1: # just to show that two light shows can be called and run together
 #      speed: 4
-    attract_light_show2:
-      speed: 4
+#    attract_light_show2:
+#      speed: 4
+    LEDTest:
+      speed: 2
 
 sound_player: # plays the attract music
   mode_attract_started:
