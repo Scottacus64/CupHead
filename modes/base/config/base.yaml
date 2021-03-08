@@ -974,28 +974,28 @@ images: # all images used in widgets must be defined here, note that
 
   reel11_image:
     file: reel11.zip
-    persist_frame: true
+    frame_persist: true
   reel12_image:
     file: reel12.zip
-    persist_frame: true
+    frame_persist: true
   reel13_image:
     file: reel13.zip
-    persist_frame: true
+    frame_persist: true
   reel14_image:
     file: reel14.zip
-    persist_frame: true
+    frame_persist: true
   reel21_image:
     file: reel21.zip
-    persist_frame: true
+    frame_persist: true
   reel22_image:
     file: reel22.zip
-    persist_frame: true
+    frame_persist: true
   reel23_image:
     file: reel23.zip
-    persist_frame: true
+    frame_persist: true
   reel24_image:
     file: reel24.zip
-    persist_frame: true
+    frame_persist: true
 #    image_template: reels
   reel_0_image:
     file: reel0.png
