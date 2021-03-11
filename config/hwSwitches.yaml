@@ -29,11 +29,11 @@ switches:
   s_dt_M:
     number: 0-0-16
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
   s_dt_G:
     number: 0-0-17
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
   s_dtSling_L:
     number: 0-0-18
     tags: dtSlingSw, playfield_active
@@ -52,7 +52,7 @@ switches:
   s_dt_U2:
     number: 0-0-27
     tags: dtSw
-    type: 'NC'
+#    type: 'NC'
 
   # Board 1 Chain 1
   s_dt_U:

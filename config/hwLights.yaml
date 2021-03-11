@@ -8,22 +8,22 @@ lights:
     number: 1-0-0
     type: grb
     subtype: led
-    tags: inserts
+    tags: inserts, soul_lanes
   l_soul_U:
     number: 1-0-1
     type: grb
     subtype: led
-    tags: inserts
+    tags: inserts, soul_lanes
   l_soul_O:
     number: 1-0-2
     type: grb
     subtype: led
-    tags: inserts
+    tags: inserts, soul_lanes
   l_soul_S:
     number: 1-0-3
     type: grb
     subtype: led
-    tags: inserts
+    tags: inserts, soul_lanes
   l_lane_L_6:
     number: 1-0-4
     type: grb
