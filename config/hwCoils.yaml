@@ -1,4 +1,5 @@
 #config_version=5
+
 coils:
   # Board 0 Chain 0
   # A J7 plug

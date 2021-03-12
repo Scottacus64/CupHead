@@ -36,6 +36,11 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - high_score
   - star
 
+psus:
+  default:
+    voltage: 35
+    release_wait_ms: 50    # defaults to 10ms
+
 player_vars: # these are player variables that can be seen by all modes
   bonus_multiplier:
     value_type: int
