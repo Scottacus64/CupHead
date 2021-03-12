@@ -4,27 +4,19 @@ coils:
   # A J7 plug
   c_play_meter:
     number: 0-0-0
-  c_flipper_right_main: # Autofire so switch must be on Board 0
-    number: 0-0-1
-    default_pulse_ms: 20
-  c_flipper_right_hold: # Autofire so switch must be on Board 0
-    number: 0-0-2
-    allow_enable: true
-  c_flipper_left_main: # Autofire so switch must be on Board 0
-    number: 0-0-3
-    default_pulse_ms: 20
-  c_flipper_left_hold: # Autofire so switch must be on Board 1
-    number: 0-0-4
-    allow_enable: true
   c_popBumper_1: # Autofire so switch must be on Board 0
     number: 0-0-5
+    default_pulse_ms: 20
+  c_trough_eject:
+    number: 0-0-6
+    default_pulse_ms: 100
+  c_popBumper_3: # Autofire so switch must be on Board 0
+    number: 0-0-7
     default_pulse_ms: 20
   c_popBumper_2: # Autofire so switch must be on Board 0
     number: 0-0-15
     default_pulse_ms: 20
-  c_popBumper_3: # Autofire so switch must be on Board 0
-    number: 0-0-7
-    default_pulse_ms: 20
+
   # B J8 plug
   c_dash_L:
     number: 0-0-8
@@ -38,7 +30,12 @@ coils:
   c_perdition_post_up:
     number: 0-0-11
     default_pulse_ms: 100
-
+  c_sling_R: # Autofire so switch must be on Board 0
+    number: 0-0-13
+    default_pulse_ms: 100
+  c_sling_L: # Autofire so switch must be on Board 0
+    number: 0-0-14
+    default_pulse_ms: 100
 
    # Board 1 Chain 1
    # C J9 plug
@@ -48,21 +45,25 @@ coils:
   c_dt_reset_MUG:
     number: 1-0-1
     default_pulse_ms: 100  # 60 will work
-  c_trough_eject:
+  c_flipper_right_main: # Autofire so switch must be on Board 0
     number: 1-0-2
-    default_pulse_ms: 100
-  c_sling_L: # Autofire so switch must be on Board 1
+    default_pulse_ms: 20
+  c_flipper_right_hold: # Autofire so switch must be on Board 0
     number: 1-0-3
-    default_pulse_ms: 100
-  c_sling_R: # Autofire so switch must be on Board 1
-    number: 1-0-7
-    default_pulse_ms: 100
+    allow_enable: true
+  c_flipper_left_hold: # Autofire so switch must be on Board 1
+    number: 1-0-4
+    allow_enable: true
   c_kicker:
     number: 1-0-5
     default_pulse_ms: 9
   c_perdition_kicker:
     number: 1-0-6
     default_pulse_ms: 110
+  c_flipper_left_main: # Autofire so switch must be on Board 0
+    number: 1-0-7
+    default_pulse_ms: 20
+
 
 autofire_coils:
   pop_bumper1:

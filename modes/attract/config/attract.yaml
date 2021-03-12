@@ -10,7 +10,7 @@ show_player:
 #    attract_light_show2:
 #      speed: 4
     LEDTest:
-      speed: 3
+      speed: 6
 
 sound_player: # plays the attract music
   mode_attract_started:

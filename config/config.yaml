@@ -8,10 +8,10 @@ hardware:
     driverboards: gen2
 
 opp:
-    ports: COM5, COM6 # these are the COM ports on the Cobrapin board
+    ports: COM9, COM10 # these are the COM ports on the Cobrapin board
     chains:
-        0: COM5 # the zero board is on COM 5 and the..
-        1: COM6 # one board is on COM 6
+        0: COM9 # the zero board is on COM 5 and the..
+        1: COM10 # one board is on COM 6
     debug: True
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
@@ -95,7 +95,7 @@ displays: # VERY IMPORTANT these define three displays set into the "window"
     width: 1080 # 1080 aspect ratios, all are full width
     height: 350
   middle:
-    width: 1080
+    width: 1090
     height: 600
   lower:
     width: 1080

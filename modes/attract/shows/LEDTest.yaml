@@ -1224,15 +1224,22 @@
     l_standUp_1: white
     l_special7: white
 
+- duration: 4
+  lights:
+    inserts: red
+
+- duration: 4
+  lights:
+    inserts: green
+
+- duration: 4
+  lights:
+    inserts: blue
+
 - duration: 1
   lights:
     inserts: off
     l_gi0: white
-
-- duration: 1
-  lights:
-    l_gi0: white
-    l_gi1: white
 
 - duration: 1
   lights:
@@ -1354,3 +1361,257 @@
     l_gi10: white
     l_gi11: white
     l_gi12: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+    l_gi19: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+    l_gi19: white
+    l_gi20: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+    l_gi19: white
+    l_gi20: white
+    l_gi21: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+    l_gi19: white
+    l_gi20: white
+    l_gi21: white
+    l_gi22: white
+
+- duration: 1
+  lights:
+    l_gi0: white
+    l_gi1: white
+    l_gi2: white
+    l_gi3: white
+    l_gi4: white
+    l_gi5: white
+    l_gi6: white
+    l_gi7: white
+    l_gi8: white
+    l_gi9: white
+    l_gi10: white
+    l_gi11: white
+    l_gi12: white
+    l_gi13: white
+    l_gi14: white
+    l_gi15: white
+    l_gi16: white
+    l_gi17: white
+    l_gi18: white
+    l_gi19: white
+    l_gi20: white
+    l_gi21: white
+    l_gi22: white
+    l_gi23: white
+
+- duration: 4
+  lights:
+    gi: red
+
+- duration: 4
+  lights:
+    gi: green
+
+- duration: 4
+  lights:
+    gi: blue

@@ -11,29 +11,29 @@ virtual_platform_start_active_switches:
 switches:
   # Board 0 Chain 0
   s_left_flipper:
-    number: 0-0-11
+    number: 1-0-11
     tags: left_flipper
   s_start:
-    number: 0-0-2
+    number: 1-0-2
     tags: start
   s_tilt_bob:
-    number: 0-0-3
+    number: 1-0-3
     tags: tilt_warning
   s_ball_tilt:
-    number: 0-0-8
+    number: 1-0-9
 
   s_right_flipper:
-    number: 0-0-10
+    number: 1-0-10
     tags: right_flipper
 
   s_dt_M:
     number: 0-0-16
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
   s_dt_G:
     number: 0-0-17
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
   s_dtSling_L:
     number: 0-0-18
     tags: dtSlingSw, playfield_active
@@ -52,34 +52,34 @@ switches:
   s_dt_U2:
     number: 0-0-27
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
 
   # Board 1 Chain 1
   s_dt_U:
-    number: 1-0-1
+    number: 0-0-1
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
   s_dt_P:
-    number: 1-0-2
+    number: 0-0-2
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
   s_dt_C:
-    number: 1-0-3
+    number: 0-0-3
     tags: dtSw
-#    type: 'NC'
+    type: 'NC'
   s_EOS_L:
-    number: 1-0-8
+    number: 0-0-8
     type: 'NC'
 
   s_sling_L:
-    number: 1-0-9
+    number: 0-0-9
     tags: slingSw
   s_EOS_R:
-    number: 1-0-10
+    number: 0-0-10
     type: 'NC'
 
   s_sling_R:
-    number: 1-0-11
+    number: 0-0-11
     tags: slingSw
 
   # Board 1 Switch Matrix (4x6)
@@ -101,7 +101,7 @@ switches:
     tags: bottomLanesSw
     type: 'NC'
   s_inLane_R:
-    number: 1-0-36
+    number: 1-0-39
     tags: bottomLanesSw
     type: 'NC'
 
@@ -123,7 +123,7 @@ switches:
     number: 1-0-43
     type: 'NC'
   s_standUp_R:
-    number: 1-0-44
+    number: 1-0-47
     type: 'NC'
   s_standUp_3:
     number: 1-0-45
@@ -153,7 +153,7 @@ switches:
     tags: starSw, playfield_active
     type: 'NC'
   s_star_1:
-    number: 1-0-52
+    number: 1-0-55
     tags: starSw, playfield_active
     type: 'NC'
   s_standUp_2:
@@ -182,10 +182,10 @@ switches:
     type: 'NC'
   s_soul_O:
     number: 1-0-59
-    tags: inLanesSwe
+    tags: inLanesSw
     type: 'NC'
   s_perdition_kicker:
-    number: 1-0-60
+    number: 1-0-63
     type: 'NC'
     ignore_window_ms: 300 # this will prevent multiple hits to the switch for more accurate counting
   s_standUp_1:
