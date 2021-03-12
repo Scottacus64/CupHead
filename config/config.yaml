@@ -35,6 +35,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - extraBall
   - high_score
   - star
+  - zeroOut
 
 psus:
   default:
@@ -221,5 +222,5 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
       - machine_reset_phase_3
 
 game: # sets game parameters
-  balls_per_game: 5
+  balls_per_game: 2
   max_players: 2

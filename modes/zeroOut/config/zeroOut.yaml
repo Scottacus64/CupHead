@@ -1,0 +1,8 @@
+#config_version=5
+
+mode: #attempt to zero out digital score reels
+  start_events:
+    - zeroScores
+  priority: 120
+#  stop_events: game_started
+  code: zeroOut.ZeroOut

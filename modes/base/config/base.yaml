@@ -277,6 +277,7 @@ event_player: # this event player looks for the x_play event that is posted by t
     star_multiplier:
       int: 2
       action: set
+  slide_score_slide_active{players[0].score == 0}: zeroScores
 
 
 slides:
