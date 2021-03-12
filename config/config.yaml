@@ -39,7 +39,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
 psus:
   default:
     voltage: 35
-    release_wait_ms: 50    # defaults to 10ms
+    release_wait_ms: 100    # defaults to 10ms
 
 player_vars: # these are player variables that can be seen by all modes
   bonus_multiplier:
@@ -85,8 +85,8 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - sound.yaml
 
 window: # defines the area of the TV monitor that can be used for the backbox display
-  width: 1080 # aspect ratio of the window ... set to 540 for small test window
-  height: 1300 # ... set to 650 for small test window
+  width: 540 # aspect ratio of the window ... set to 540 for small test window
+  height: 650 # ... set to 650 for small test window
   title: CupheadWindow
   resizable: true
   fullscreen: false # does not take up the entire TV display and...
