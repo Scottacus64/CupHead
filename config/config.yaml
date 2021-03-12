@@ -95,7 +95,7 @@ displays: # VERY IMPORTANT these define three displays set into the "window"
     width: 1080 # 1080 aspect ratios, all are full width
     height: 350
   middle:
-    width: 1090
+    width: 1080
     height: 600
   lower:
     width: 1080
