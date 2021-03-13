@@ -2,4 +2,5 @@
 
 - duration: 1
   lights:
-    l_mug_sling: blue
+    gi: white
+    l_popBumper_3: white

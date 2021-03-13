@@ -10,12 +10,12 @@ shots:
     switch: s_outLane_L
     show_tokens:
       light: l_outLane_L
-    profile: outLanes
+    profile: outLaneL
   outLaneR:
     switch: s_outLane_R
     show_tokens:
       light: l_outLane_R
-    profile: outLanes
+    profile: outLaneR
 
 
 shot_groups:
@@ -24,10 +24,17 @@ shot_groups:
     reset_events: mode_outLanes_end
 
 shot_profiles:
-  outLanes:
+  outLaneL:
     states:
       - name: lit
-        show: on
+        show: outLaneLon
+      - name: unlit
+        show: off
+    loop: false
+  outLaneR:
+    states:
+      - name: lit
+        show: outLaneRon
       - name: unlit
         show: off
     loop: false

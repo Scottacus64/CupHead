@@ -1,0 +1,6 @@
+#show_version=5
+#Cuphead left Out lane mode lighting effects
+
+- duration: 1
+  lights:
+    l_outLane_L: red

@@ -1,6 +1,6 @@
 events:
   game_ended: 73
-  game_started: 174
+  game_started: 177
 player:
   score:
     average: 9630.609756097563
@@ -19,13 +19,13 @@ player:
 shots:
   dash_L: 9
   dash_R: 6
-  devil_bumper: 472
+  devil_bumper: 474
   inLaneL: 5
   inLaneR: 4
-  knock_out: 40
+  knock_out: 41
   outLaneL: 1
   outLaneR: 1
-  perdition_lane: 14
+  perdition_lane: 20
   soul_L: 75
   soul_O: 120
   soul_S: 100
@@ -41,12 +41,12 @@ switches:
   s_dash_R: 68
   s_dtSling_L: 60
   s_dtSling_R: 57
-  s_dt_C: 415
-  s_dt_G: 228
-  s_dt_M: 266
-  s_dt_P: 273
-  s_dt_U: 522
-  s_dt_U2: 234
+  s_dt_C: 417
+  s_dt_G: 229
+  s_dt_M: 267
+  s_dt_P: 275
+  s_dt_U: 525
+  s_dt_U2: 235
   s_inLane_L: 48
   s_inLane_R: 64
   s_kicker: 316
@@ -54,13 +54,13 @@ switches:
   s_midRight: 51
   s_outLane_L: 48
   s_outLane_R: 17
-  s_perdition_kicker: 122
+  s_perdition_kicker: 128
   s_perdition_lane: 48
   s_popBumper_1: 410
-  s_popBumper_2: 474
+  s_popBumper_2: 476
   s_popBumper_3: 418
   s_right_flipper: 562
-  s_shooter_lane: 462
+  s_shooter_lane: 463
   s_sling_L: 333
   s_sling_R: 195
   s_soul_L: 75
@@ -71,10 +71,10 @@ switches:
   s_standUp_1: 40
   s_standUp_2: 58
   s_standUp_3: 64
-  s_standUp_R: 40
-  s_star_1: 72
-  s_star_2: 70
-  s_star_3: 25
+  s_standUp_R: 41
+  s_star_1: 73
+  s_star_2: 71
+  s_star_3: 26
   s_start: 87
   s_tilt_bob: 1
   s_trough1: 419
