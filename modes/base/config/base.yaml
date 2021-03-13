@@ -65,6 +65,17 @@ timers:
         event: s_midRight_active
       - action: restart
         event: pay50
+  dropTargetCheck_timer:
+    direction: up
+    start_value: 0
+    end_value: 10
+    tick_interval: 100ms
+    debug: true
+    control_events:
+      - action: restart
+        event: drop_target_bank_cup_bank_down
+      - action: restart
+        event: drop_target_bank_mug_bank_down
 
 show_player:
   mode_base_started: base_lighting, 1_on # start the base lighting on start of the mode
@@ -278,6 +289,8 @@ event_player: # this event player looks for the x_play event that is posted by t
       int: 2
       action: set
   slide_score_slide_active{players[0].score == 0}: zeroScores
+  timer_dropTargetCheck_timer_complete{s_dt_M_active and s_dt_U2_active and s_dt_G_active}: resetAgain
+  timer_dropTargetCheck_timer_complete{s_dt_C_active and s_dt_U_active and s_dt_P_active}: resetAgain
 
 
 slides:

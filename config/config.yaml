@@ -37,6 +37,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - star
   - zeroOut
 
+
 psus:
   default:
     voltage: 35
@@ -210,6 +211,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     reset_on_complete: 500ms
     reset_events: # reset the drop targets on these events
 #      - drop_target_bank_cup_bank_down
+      - resetAgain
       - ball_starting
       - machine_reset_phase_3
   mug_bank:
@@ -218,6 +220,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     reset_on_complete: 500ms
     reset_events:
 #      - drop_target_bank_mug_bank_down
+      - resetAgain
       - ball_starting
       - machine_reset_phase_3
 

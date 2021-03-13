@@ -1,9 +1,9 @@
 events:
-  game_ended: 57
-  game_started: 134
+  game_ended: 58
+  game_started: 142
 player:
   score:
-    average: 9374.032258064517
+    average: 9268.095238095239
     top:
     - 86510
     - 84560
@@ -15,7 +15,7 @@ player:
     - 40040
     - 25370
     - 13270
-    total: 62
+    total: 63
 shots:
   dash_L: 9
   dash_R: 6
@@ -40,12 +40,12 @@ switches:
   s_dash_R: 68
   s_dtSling_L: 57
   s_dtSling_R: 53
-  s_dt_C: 288
-  s_dt_G: 146
-  s_dt_M: 181
-  s_dt_P: 156
-  s_dt_U: 390
-  s_dt_U2: 151
+  s_dt_C: 295
+  s_dt_G: 152
+  s_dt_M: 188
+  s_dt_P: 162
+  s_dt_U: 398
+  s_dt_U2: 157
   s_inLane_L: 45
   s_inLane_R: 59
   s_kicker: 291
@@ -59,9 +59,9 @@ switches:
   s_popBumper_2: 433
   s_popBumper_3: 372
   s_right_flipper: 530
-  s_shooter_lane: 423
-  s_sling_L: 318
-  s_sling_R: 174
+  s_shooter_lane: 424
+  s_sling_L: 322
+  s_sling_R: 182
   s_soul_L: 67
   s_soul_O: 118
   s_soul_S: 97
@@ -76,6 +76,6 @@ switches:
   s_star_3: 25
   s_start: 78
   s_tilt_bob: 1
-  s_trough1: 342
+  s_trough1: 344
   s_trough2: 307
   s_trough_jam: 27
