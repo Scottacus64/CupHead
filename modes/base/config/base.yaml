@@ -110,6 +110,7 @@ show_player:
   bank_done{count==8}: 8000_on
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
+  lastBall: lastBallx2
 
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
@@ -188,6 +189,9 @@ variable_player:
     score: 100
   timer_perditionPost_timer_complete:
     perdition_value: 0
+  lastBall:
+    bonus_multiplier: 1
+
 
 sound_player:
   mode_base_started: # when the mode starts...
@@ -270,6 +274,7 @@ event_player: # this event player looks for the x_play event that is posted by t
     start_boss:
       bossname: wally
 
+
   slide_boss_slide_active{current_player.number == 1}: player_up_1 # this combines the boss slide being played and player 1 active to play a player 1 up slide
   slide_boss_slide_active{current_player.number == 2}: player_up_2
 
@@ -290,7 +295,11 @@ event_player: # this event player looks for the x_play event that is posted by t
       action: set
   slide_score_slide_active{players[0].score == 0}: zeroScores
   timer_dropTargetCheck_timer_complete: resetAgain
-#  timer_dropTargetCheck_timer_complete{s_dt_C_active and s_dt_U_active and s_dt_P_active}: resetAgain
+  mode_base_started:
+    bonus_multiplier:
+      int: 0
+      action: set
+  mode_base_started{current_player.ball == 2}: lastBall
 
 
 slides:

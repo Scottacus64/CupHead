@@ -62,10 +62,7 @@ variable_player:
     score: 100
   s_soul_L_active:
     score: 100
-  mode_soulLanes_started:
-    bonus_multiplier:
-      int: 0
-      action: set
+
 
 sound_player:
     s_soul_S_active: soulLaneSound

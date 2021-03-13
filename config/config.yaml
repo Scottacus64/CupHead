@@ -17,7 +17,7 @@ opp:
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
   - soulLanes
-  - bonus
+  - bonusEndOfBall
   - standUps
   - dash
   - dashLit

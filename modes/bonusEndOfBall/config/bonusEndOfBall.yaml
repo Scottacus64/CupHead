@@ -2,8 +2,14 @@
 
 mode:
   priority: 300
-  stop_events: bonusDone # end when the last bonus is paid out
-#  use_wait_queue: true
+  start_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
+  stop_events: bonusPayoutDone # end when the last bonus is paid out
+  use_wait_queue: true
+
+queue_relay_player:
+  ball_ending:     # if multiball has failed because of a ball drain prior to hitting the "devil bumper"...
+    post: payOutBonus  # eject the captured ball and...
+    wait_for: bonusDone   # wait for it to drain
 
 mode_settings:
   display_delay_ms: 1300ms
@@ -28,9 +34,10 @@ timers:
         event: bonusDone # the mode is done
 
 event_player:
-  mode_bonus_started: start_bonus_countdown
+  payOutBonus: start_bonus_countdown
   timer_bonusCountDown-tick{current_player.contracts==0}: # if the current player's contract value is zero ...
     - bonusDone # post the event bonusDone
+  timer_bonusCountDown_complete: bonusDone
   timer_bonusCountDown_tick{current_player.contracts>0}: # if the current player's contract value is greater than zero ...
     - bonusPayout # pay out and...
     - light_done  # post the event light_done  mode_bonus_started: start_bonus_countdown
@@ -38,7 +45,7 @@ event_player:
 variable_player:
   timer_bonusCountDown_tick{current_player.contracts>0}:
     contracts: -1
-    score: 1000 * (current_player.bonus_multiplier + 1)
+    score: 1000 * (current_player.bonus_multiplier)
 
 sound_player:
   timer_bonusCountDown_tick: bonusPayout
@@ -54,16 +61,3 @@ show_player:
   light_done{current_player.contracts==7}: 8000_off
   light_done{current_player.contracts==8}: 9000_off
   light_done{current_player.contracts==9}: 10000_off
-
-#slide_player:
-#  mode_bonus_started:
-#  bonusPayout: bonusPayout_slide
-
-
-#slides:
-#  bonusPayout_slide:
-#    type: text
-#    text: Bonus Payout (contracts)
-#    font_size: 25
-#    color: blue
-#    y: 75%
