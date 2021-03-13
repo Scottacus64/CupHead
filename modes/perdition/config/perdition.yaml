@@ -7,7 +7,7 @@ mode:
 
 counters:
   perdition_entry:
-    count_events: s_perdition_kicker_active, startMBPost, eject_bd_perdition_kicker # increments every time the perdition kicker fires and ...
+    count_events: s_perdition_kicker_active, startMBPost #, eject_bd_perdition_kicker # increments every time the perdition kicker fires and ...
     count_complete_value: 4 # is complete after three entries into berdition and then exit...
     starting_count: 0 # startes at zero
     direction: up #  It counts up and ...
@@ -35,27 +35,23 @@ sequences:
     events_when_complete: startMBPost
     reset_on_complete: True
 
-#shots:
-#  perdition_lane:
-#    switch: s_perdition_lane
-#    profile: perdition_lane_profile
+shots:
+  perdition_lane:
+    switch: s_perdition_kicker
+    profile: perdition_lane_profile
 
-#shot_profiles:
-#  perdition_lane_profile:
-#    states:
-#      - name: initialState
-#        show: perdition0
-#      - name: firstEntry
-#        show: perdition1on
-#      - name: firstExit
-#        show: perdition1on
-#      - name: secondEntry
-#        show: perdition2on
-#      - name: secondExit
-#        show: perdition2on
-#      - name: thirdEntry
-#        show: perdition3on
-#    loop: True
+shot_profiles:
+  perdition_lane_profile:
+    states:
+      - name: initialState
+        show: perdition0
+      - name: firstEntry
+        show: perdition1on
+      - name: secondEntry
+        show: perdition2on
+      - name: thirdEntry
+        show: perdition3on
+    loop: True
 
 variable_player:
   s_perdition_kicker_active:
