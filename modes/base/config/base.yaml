@@ -95,7 +95,10 @@ timers:
 
 
 show_player:
-  mode_base_started: base_lighting, 1_on # start the base lighting on start of the mode
+  mode_base_started:
+    base_lighting: # start the base lighting on start of the mode
+      loops: 0
+    1_on: play
   advance_lane{count==1}: # these move the "dice" lights wth the spinner
     1_on: play # plays the first show which turns on th elowermost light and turns..
     7_on: stop # the dice off by stopping this show

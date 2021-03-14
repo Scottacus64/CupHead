@@ -21,7 +21,9 @@ multiballs:
     shoot_again: 2s
 
 show_player:
-  advance_perdition{count==3}: perdition_multiball_lights # light show for multiball
+  advance_perdition{count==3}:
+    perdition_multiball_lights: # light show for multiball
+      speed: 6
 
 sound_player:
   startMBPost: perditionKick
