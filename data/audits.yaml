@@ -1,6 +1,6 @@
 events:
   game_ended: 73
-  game_started: 211
+  game_started: 212
 player:
   score:
     average: 9630.609756097563
@@ -60,14 +60,14 @@ switches:
   s_popBumper_2: 476
   s_popBumper_3: 418
   s_right_flipper: 562
-  s_shooter_lane: 489
+  s_shooter_lane: 490
   s_sling_L: 333
   s_sling_R: 195
   s_soul_L: 75
   s_soul_O: 120
   s_soul_S: 101
   s_soul_U: 89
-  s_spinner: 1652
+  s_spinner: 1698
   s_standUp_1: 40
   s_standUp_2: 58
   s_standUp_3: 64

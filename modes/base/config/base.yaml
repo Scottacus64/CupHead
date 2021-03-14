@@ -128,7 +128,9 @@ show_player:
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
   lastBall: lastBallx2
-  special7Go: special7Flash
+  special7Go:
+    special7Flash:
+      speed: 2
   timer_special7_timer_complete: special7Off
 
 shots: # this defines the shot...
@@ -322,19 +324,11 @@ event_player: # this event player looks for the x_play event that is posted by t
      bonus_multiplier:
         int: 0
         action: set
-     special7Going:
-        int: 0
-        action: set
+#     special7Go:
+#        int: 0
+#        action: set
   mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
   timer_spinner_timer_complete{current_player.dice_pips==7}: special7Go # if the player rolls a 7, post special7Go
-#  special7Go: # if the special 7 flash award is active set the variable special7Going to 1
-#    player_flag:
-#      int: 1
-#      action: set
-#  timer_special7_timer_complete:
-#    player_flag:
-#      int: 0
-#      action: set
 
 
 slides:

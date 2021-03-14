@@ -3,3 +3,9 @@
 - duration: 1
   lights:
     gi: red
+    fade: 500ms
+
+- duration: 1
+  lights:
+    gi: orange
+    fade: 500ms
