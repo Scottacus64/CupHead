@@ -271,7 +271,7 @@ sounds:
   specialAward:
     file: CH7Special.wav
     track: sfx
-    volume: .75
+    volume: .99
   bonusPayout:
     file: CHBonus.wav
     track: sfx

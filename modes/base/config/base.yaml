@@ -98,8 +98,7 @@ timers:
 
 show_player:
   mode_base_started:
-    base_lighting: # start the base lighting on start of the mode
-      loops: 0
+    base_lighting: play # start the base lighting on start of the mode
     1_on: play
 
   advance_lane{count==1 and current_player.flag == 0}: # these move the "dice" lights wth the spinner
@@ -210,10 +209,10 @@ variable_player:
     dice_pips: # player variable dice_pips to...
       int: 1 # equal 7
       action: set
-  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
-    score: 6000 # payout 7000
-  timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
-    score: 1000 # then payout
+#  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
+#    score: 6000 # payout 7000
+#  timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
+#    score: 1000 # then payout
   s_kicker_active:
     score: 1000  #+(1000*perdition_value)
   timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
@@ -231,6 +230,7 @@ variable_player:
   lastBall:
     bonus_multiplier: 1
   special7Go:
+    score: 1000
     flag:
       int: 1
       action: set
@@ -239,6 +239,7 @@ variable_player:
       int: 0
       action: set
   sevens:
+    score: 7000
     flag:
       int: 0
       action: set
@@ -269,7 +270,7 @@ sound_player:
   bank_done{count==9}: soul9
   bank_done{count==10}: soul10
   mode_dashLit_started: dashLitStarted
-  timer_spinner_timer_complete{current_player.dice_pips==7}: roll7
+  special7Go: roll7
   advance_lane: spin
   knock_out_hit: knockOut
   sw_dtSw_active: dropTarget
@@ -279,7 +280,7 @@ sound_player:
   s_star_2_active: stars
   s_star_3_active: stars
   player_added: stars
-  special7Post: specialAward
+  sevens: specialAward
 
 slide_player:
   _overwrite: true
@@ -352,7 +353,7 @@ event_player: # this event player looks for the x_play event that is posted by t
       int: 0
       action: set
   mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
-  timer_spinner_timer_complete{current_player.dice_pips==7}: special7Go # if the player rolls a 7, post special7Go
+  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
 
