@@ -192,8 +192,11 @@ variable_player:
     dice_pips: # player variable dice_pips to...
       int: 1 # equal 7
       action: set
-  timer_spinner_timer_complete{current_player.dice_pips==7 and special7Going == 1}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
-    score: 7000 # payout 7000
+  special7Go:
+    flag: 1
+  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
+    score: 6000 # payout 7000
+    flag: -1
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
   s_kicker_active:
@@ -295,11 +298,8 @@ event_player: # this event player looks for the x_play event that is posted by t
   wally_play:
     start_boss:
       bossname: wally
-
-
   slide_boss_slide_active{current_player.number == 1}: player_up_1 # this combines the boss slide being played and player 1 active to play a player 1 up slide
   slide_boss_slide_active{current_player.number == 2}: player_up_2
-
   advance_perdition{count==1}: perd1 # defines first entry into perdition as perd1 this is needed...
   advance_perdition{count==2}: perd2 # because mpf doesn't seem to be able to accept two arguments...
   advance_perdition{count==3}: perd3 # with {}'s in them
@@ -319,19 +319,22 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_dropTargetCupCheck_timer_complete: resetCupAgain #this will reset the CUP dt's if not raised on the first try
   timer_dropTargetMugCheck_timer_complete: resetMugAgain
   mode_base_started: # sets the bonus multiplier to 0 on a new ball
-    bonus_multiplier:
-      int: 0
-      action: set
+     bonus_multiplier:
+        int: 0
+        action: set
+     special7Going:
+        int: 0
+        action: set
   mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
   timer_spinner_timer_complete{current_player.dice_pips==7}: special7Go # if the player rolls a 7, post special7Go
-  special7Go: # if the special 7 flash award is active set the variable special7Going to 1
-    special7Going:
-      int: 1
-      action: set
-  timer_special7_timer_complete:
-    special7Going:
-      int: 0
-      action: set
+#  special7Go: # if the special 7 flash award is active set the variable special7Going to 1
+#    player_flag:
+#      int: 1
+#      action: set
+#  timer_special7_timer_complete:
+#    player_flag:
+#      int: 0
+#      action: set
 
 
 slides:
