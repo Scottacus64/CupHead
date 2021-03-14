@@ -2,5 +2,5 @@
 
 - duration: 1
   lights:
-    gi: white
+    gi: FFFFFF%20
     l_popBumper_2: white
