@@ -35,6 +35,15 @@ timers:
     control_events:
       - action: restart
         event: s_spinner_active
+  special7_timer: #this timer will be active if a 7 is rolled and if another 7 is rolled while active, 7000 points are awarded
+    direction: up
+    start_value: 1
+    end_value: 12
+    tick_interval: 1s
+    debug: True
+    control_events:
+      - action: restart
+        event: special7Go
   perditionPost_timer: # this timer counts for 1 second after the perdition MB has started to trigger raising the perdition post
     direction: down
     start_value: 2
@@ -119,6 +128,8 @@ show_player:
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
   lastBall: lastBallx2
+  special7Go: special7Flash
+  timer_special7_timer_complete: special7Off
 
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
@@ -175,12 +186,14 @@ variable_player:
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
     score: 10 # score 10 points per spinner spin
-  advance_lane{count<7}: # if the advance_lane counter is less than 7..
+  advance_lane{count<8}: # if the advance_lane counter is less than 7..
     dice_pips: 1 #advance the player variable dice_pips by one so that it is not "7"
-  advance_lane{count==7}: # if the advance_lane counter is 7 then set the..
+  advance_lane{count==1}: # if the advance_lane counter is 7 then set the..
     dice_pips: # player variable dice_pips to...
-      int: 7 # equal 7
+      int: 1 # equal 7
       action: set
+  timer_spinner_timer_complete{current_player.dice_pips==7 and special7Going == 1}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
+    score: 7000 # payout 7000
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
   s_kicker_active:
@@ -237,6 +250,7 @@ sound_player:
   s_star_2_active: stars
   s_star_3_active: stars
   player_added: stars
+  special7Post: specialAward
 
 slide_player:
   _overwrite: true
@@ -301,14 +315,23 @@ event_player: # this event player looks for the x_play event that is posted by t
     star_multiplier:
       int: 2
       action: set
-  slide_score_slide_active{players[0].score == 0}: zeroScores
-  timer_dropTargetCupCheck_timer_complete: resetCupAgain
+  slide_score_slide_active{players[0].score == 0}: zeroScores #if player 1 is up and the score is 0 then call zeroScores which sets the digital score reels to 00000
+  timer_dropTargetCupCheck_timer_complete: resetCupAgain #this will reset the CUP dt's if not raised on the first try
   timer_dropTargetMugCheck_timer_complete: resetMugAgain
-  mode_base_started:
+  mode_base_started: # sets the bonus multiplier to 0 on a new ball
     bonus_multiplier:
       int: 0
       action: set
-  mode_base_started{current_player.ball == 2}: lastBall
+  mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
+  timer_spinner_timer_complete{current_player.dice_pips==7}: special7Go # if the player rolls a 7, post special7Go
+  special7Go: # if the special 7 flash award is active set the variable special7Going to 1
+    special7Going:
+      int: 1
+      action: set
+  timer_special7_timer_complete:
+    special7Going:
+      int: 0
+      action: set
 
 
 slides:

@@ -1,6 +1,6 @@
 events:
   game_ended: 73
-  game_started: 177
+  game_started: 190
 player:
   score:
     average: 9630.609756097563
@@ -25,7 +25,7 @@ shots:
   knock_out: 41
   outLaneL: 1
   outLaneR: 1
-  perdition_lane: 20
+  perdition_lane: 23
   soul_L: 75
   soul_O: 120
   soul_S: 100
@@ -54,20 +54,20 @@ switches:
   s_midRight: 51
   s_outLane_L: 48
   s_outLane_R: 17
-  s_perdition_kicker: 128
+  s_perdition_kicker: 131
   s_perdition_lane: 48
   s_popBumper_1: 410
   s_popBumper_2: 476
   s_popBumper_3: 418
   s_right_flipper: 562
-  s_shooter_lane: 463
+  s_shooter_lane: 473
   s_sling_L: 333
   s_sling_R: 195
   s_soul_L: 75
   s_soul_O: 120
   s_soul_S: 101
   s_soul_U: 89
-  s_spinner: 938
+  s_spinner: 1288
   s_standUp_1: 40
   s_standUp_2: 58
   s_standUp_3: 64

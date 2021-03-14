@@ -3,5 +3,8 @@
 
 - duration: 1
   lights:
-    l_lane_L_1: on
+    l_special7: white
+
+- duration: 1
+  lights:
     l_special7: off

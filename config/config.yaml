@@ -209,6 +209,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     drop_targets: cup_C, cup_U, cup_P
     reset_coils: c_dt_reset_CUP
     reset_on_complete: 500ms
+    reset_coil_max_wait_ms: 500ms
     reset_events: # reset the drop targets on these events
 #      - drop_target_bank_cup_bank_down
       - resetCupAgain
@@ -218,6 +219,7 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
     drop_targets: mug_M, mug_U, mug_G
     reset_coils: c_dt_reset_MUG
     reset_on_complete: 500ms
+    reset_coil_max_wait_ms: 500ms
     reset_events:
 #      - drop_target_bank_mug_bank_down
       - resetMugAgain
