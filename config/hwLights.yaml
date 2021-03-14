@@ -258,102 +258,126 @@ lights:
     number: 1-0-46
     subtype: led
     tags: gi
+    fade_ms: 500
 
   l_gi1:
     number: 1-0-48
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi2:
     number: 1-0-49
     subtype: led
     tags: gi
+    fade_ms: 500
 
   l_gi3:
     number: 1-0-51
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi4:
     number: 1-0-52
     subtype: led
     tags: gi
+    fade_ms: 500
 
   l_gi5:
     number: 1-0-54
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi6:
     number: 1-0-55
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi7:
     number: 1-0-56
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi8:
     number: 1-0-57
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi9:
     number:  1-0-58
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi10:
     number: 1-0-59
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi11:
     number: 1-0-60
     subtype: led
     tags: gi
+    fade_ms: 500
 
   l_gi12:
     number: 1-0-61
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi13:
     number: 1-0-62
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi14:
     number: 1-0-63
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi15:
     number: 1-0-64
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi16:
     number: 1-0-65
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi17:
     number: 1-0-66
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi18:
     number: 1-0-67
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi19:
     number: 1-0-68
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi20:
     number: 1-0-69
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi21:
     number: 1-0-70
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi22:
     number: 1-0-71
     subtype: led
     tags: gi
+    fade_ms: 500
   l_gi23:
     number: 1-0-72
     subtype: led
     tags: gi
+    fade_ms: 500
 
   l_dice:
     number: 1-0-75

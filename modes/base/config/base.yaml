@@ -44,6 +44,8 @@ timers:
     control_events:
       - action: restart
         event: special7Go
+      - action: stop
+        event: sevens
   perditionPost_timer: # this timer counts for 1 second after the perdition MB has started to trigger raising the perdition post
     direction: down
     start_value: 2
@@ -99,12 +101,14 @@ show_player:
     base_lighting: # start the base lighting on start of the mode
       loops: 0
     1_on: play
-  advance_lane{count==1}: # these move the "dice" lights wth the spinner
+
+  advance_lane{count==1 and current_player.flag == 0}: # these move the "dice" lights wth the spinner
     1_on: play # plays the first show which turns on th elowermost light and turns..
-    7_on: stop # the dice off by stopping this show
+    7_on: stop # the special7 off by stopping this show
   advance_lane{count==2}:
     2_on: play
     1_on: stop
+    1_only_on: stop
   advance_lane{count==3}:
     3_on: play
     2_on: stop
@@ -120,6 +124,8 @@ show_player:
   advance_lane{count==7}:
     7_on: play
     6_on: stop
+  advance_lane{count==1 and current_player.flag > 0}:
+    1_only_on: play
   bank_done{count==1}: 1000_on # if bank_done is posted and the count value is 1 then run the show 1000_on
   bank_done{count==2}: 2000_on
   bank_done{count==3}: 3000_on
@@ -132,9 +138,16 @@ show_player:
   bank_done{count==10}: 10000_on
   lastBall: lastBallx2
   special7Go:
+#  current_player.flag > 0:
     special7Flash:
       speed: 2
-  timer_special7_timer_complete: special7Off
+#  current_player.flag == 0:
+  special7End:
+    special7Flash: stop
+    7_on: stop
+  sevens:
+    special7Flash: stop
+    7_on: play
 
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
@@ -197,11 +210,8 @@ variable_player:
     dice_pips: # player variable dice_pips to...
       int: 1 # equal 7
       action: set
-  special7Go:
-    flag: 1
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
     score: 6000 # payout 7000
-    flag: -1
   timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
     score: 1000 # then payout
   s_kicker_active:
@@ -220,7 +230,18 @@ variable_player:
     perdition_value: 0
   lastBall:
     bonus_multiplier: 1
-
+  special7Go:
+    flag:
+      int: 1
+      action: set
+  special7End:
+    flag:
+      int: 0
+      action: set
+  sevens:
+    flag:
+      int: 0
+      action: set
 
 sound_player:
   mode_base_started: # when the mode starts...
@@ -324,14 +345,16 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_dropTargetCupCheck_timer_complete: resetCupAgain #this will reset the CUP dt's if not raised on the first try
   timer_dropTargetMugCheck_timer_complete: resetMugAgain
   mode_base_started: # sets the bonus multiplier to 0 on a new ball
-     bonus_multiplier:
-        int: 0
-        action: set
-#     special7Go:
-#        int: 0
-#        action: set
+    bonus_multiplier:
+      int: 0
+      action: set
+    flag:
+      int: 0
+      action: set
   mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
   timer_spinner_timer_complete{current_player.dice_pips==7}: special7Go # if the player rolls a 7, post special7Go
+  timer_special7_timer_complete: special7End # show that the timer is complete
+  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
 
 
 slides:
