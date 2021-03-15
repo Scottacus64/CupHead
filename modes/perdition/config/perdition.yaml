@@ -17,10 +17,20 @@ counters:
     disable_on_complete: false # will start up again after completion
 
 show_player:
-  advance_perdition{count==1}: perdition1on # first time show this
-  advance_perdition{count==2}: perdition2on
-  advance_perdition{count==3}: perdition3on, flashDevil
-  startMBPost: giOn
+  advance_perdition{count==1}:
+    perdition1on: play # first time show this
+    perdition0: stop
+  advance_perdition{count==2}:
+    perdition2on: play
+    perdition1On: stop
+  advance_perdition{count==3}:
+    perdition3on: play
+    flashDevil: play
+    perdition2on: stop
+  advance_perdition{count==4}:
+    giOn: play
+    perdition0: play
+    perdition3On: stop
 
 sequences:
   multiballReady:
@@ -36,23 +46,23 @@ sequences:
     events_when_complete: startMBPost
     reset_on_complete: True
 
-shots:
-  perdition_lane:
-    switch: s_perdition_kicker
-    profile: perdition_lane_profile
+#shots:
+#  perdition_lane:
+#    switch: s_perdition_kicker
+#    profile: perdition_lane_profile
 
-shot_profiles:
-  perdition_lane_profile:
-    states:
-      - name: initialState
-        show: perdition0
-      - name: firstEntry
-        show: perdition1on
-      - name: secondEntry
-        show: perdition2on
-      - name: thirdEntry
-        show: perdition3on
-    loop: True
+#shot_profiles:
+#  perdition_lane_profile:
+#    states:
+#      - name: initialState
+#        show: perdition0
+#      - name: firstEntry
+#        show: perdition1on
+#      - name: secondEntry
+#        show: perdition2on
+#      - name: thirdEntry
+#        show: perdition3on
+#    loop: True
 
 variable_player:
   s_perdition_kicker_active:
