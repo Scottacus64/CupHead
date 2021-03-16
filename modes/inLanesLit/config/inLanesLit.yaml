@@ -38,7 +38,3 @@ event_player:
   inLaneR_inLanes_lit_hit: pay500
   mode_bonusEndOfBall_started: resetLitInlanes
   inLanes_complete: resetLitInlanes
-
-
-#sound_player:
-#  inLanes_lit_hit: inLanesLit # play this sound for this mode

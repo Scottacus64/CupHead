@@ -26,7 +26,7 @@ shot_profiles:
   outLanes:  # the shot inlanes has two states
     states:
       - name: lit  # starts with lit with the lights turned...
-        show: on # on
+        show: outLaneOn
       - name: unlit # and ends with unlit with the lights turned...
         show: off #  off
     loop: false # don't loop back to lit

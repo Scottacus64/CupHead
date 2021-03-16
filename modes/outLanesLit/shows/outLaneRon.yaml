@@ -1,6 +1,0 @@
-#show_version=5
-#Cuphead Right Out lane mode lighting effects
-
-- duration: 1
-  lights:
-    l_outLane_R: blue

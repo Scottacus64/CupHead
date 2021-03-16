@@ -4,3 +4,4 @@
 - duration: 1
   lights:
     l_outLane_L: red
+    l_outLane_R: blue
