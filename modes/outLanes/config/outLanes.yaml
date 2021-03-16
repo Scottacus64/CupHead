@@ -3,7 +3,7 @@
 mode:
   start_events:
     - ball_started
-    - outLanes_complete
+    - resetLitOutLanes
   priority: 150
   stop_events: rightStar_complete
 

@@ -266,9 +266,3 @@ slide_player: # this slide player will
 #      target: lower
     score_slide_GameOver:
       target: lower
-    thank_you_slide1:
-      target: middle
-    thank_you_slide2:
-      target: middle
-    thank_you_slide3:
-      target: middle

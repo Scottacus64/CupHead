@@ -3,7 +3,7 @@
 mode:
   start_events:
     - ball_starting # starts on a new ball
-    - mode_inLanesLit_end # start this mode when both lanes have been lit and hit
+    - resetLitInlanes # start this mode when both lanes have been lit and hit
   priority: 110
   stop_events: leftStars_complete # if the left stars are lit stop this mode
 
