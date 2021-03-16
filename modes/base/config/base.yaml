@@ -135,7 +135,7 @@ show_player:
   bank_done{count==8}: 8000_on
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
-  lastBall: lastBallx2
+#  lastBall: lastBallx2
   special7Go:
 #  current_player.flag > 0:
     special7Flash:
@@ -227,8 +227,8 @@ variable_player:
     score: 100
   timer_perditionPost_timer_complete:
     perdition_value: 0
-  lastBall:
-    bonus_multiplier: 1
+#  lastBall:
+#    bonus_multiplier: 1
   special7Go:
     score: 1000
     flag:
@@ -352,7 +352,6 @@ event_player: # this event player looks for the x_play event that is posted by t
     flag:
       int: 0
       action: set
-  mode_base_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
@@ -410,6 +409,26 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
+
+   score_slide_GameOver:
+     widgets:
+     - widget: background_widget
+     - widget: reel_1_1_widget
+     - widget: reel_1_10_widget
+     - widget: reel_1_100_widget
+     - widget: reel_1_1k_widget
+     - widget: reel_1_10k_widget
+     - widget: reel_2_1_widget
+     - widget: reel_2_10_widget
+     - widget: reel_2_100_widget
+     - widget: reel_2_1k_widget
+     - widget: reel_2_10k_widget
+     - widget: figure_1_widget
+     - widget: figure_2_widget
+     - widget: score_mask_widget
+     - widget: figure_1_active_widget
+     - widget: figure_2_active_widget
+     - widget: Game_over_widget
 
    hs_base_slide:
      type: image
@@ -918,6 +937,16 @@ widgets: # these are the widgets that get displayed on the boss_slide
       y: 330
       z: 150
       opacity: 1
+  Game_over_widget:
+    - type: text
+      text: GAME OVER
+      font_name: aafia
+      font_size: 50
+      anchor_y: top
+      y: 330
+      z: 150
+      opacity: 1
+
 
 animations: # these are the named animaitons for the base slide
   cupmug: # this is the animation for the drop targets

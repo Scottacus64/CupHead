@@ -98,6 +98,21 @@ slides: # these are the attract video slides
     - widget: score_backdrop_widget
     - widget: finger_widget
 
+  thank_you_slide1:
+    background_color: 111AD3
+    widgets:
+    - widget: opp_widget
+
+  thank_you_slide2:
+    background_color: 111AD3
+    widgets:
+    - widget: mpf_widget
+
+  thank_you_slide3:
+    background_color: 111AD3
+    widgets:
+    - widget: cobrapin_widget
+
 widgets:
   score_backdrop_widget:
     - type: image
@@ -110,7 +125,55 @@ widgets:
       z: 100
       anchor_x: right
       animations:
-        slide_a_beppi_active: finger_animation
+        slide_title_slide_active: finger_animation
+  opp_widget:
+    - type: text
+      text: POWERED BY
+      font_name: aafia
+      font_size: 75
+      anchor_y: top
+      y: 590
+      z: 150
+      opacity: 1
+    - type: image
+      image: opp_image
+      anchor_x: left
+      anchor_y: bottom
+      x: 250
+      y: 50
+      z: 150
+  mpf_widget:
+    - type: text
+      text: POWERED BY
+      font_name: aafia
+      font_size: 75
+      anchor_y: top
+      y: 590
+      z: 150
+      opacity: 1
+    - type: image
+      image: mpf_image
+      anchor_x: left
+      anchor_y: bottom
+      x: 200
+      y: 10
+      z: 150
+  cobrapin_widget:
+    - type: text
+      text: POWERED BY
+      font_name: aafia
+      font_size: 75
+      anchor_y: top
+      y: 590
+      z: 150
+      opacity: 1
+    - type: image
+      image: cobrapin_image
+      anchor_x: left
+      anchor_y: bottom
+      x: 250
+      y: 50
+      z: 150
 
 animations:
   finger_animation:
@@ -185,6 +248,12 @@ images: # images must be defined
     file: finger.png
   topper_image:
     file: topper.png
+  opp_image:
+    file: opp.png
+  mpf_image:
+    file: mpf.png
+  cobrapin_image:
+    file: cobrapin.png
 
 
 slide_player: # this slide player will
@@ -193,5 +262,13 @@ slide_player: # this slide player will
       target: middle # sets the destination display for the slides
     topper_slide:
       target: upper
-    bottom_slide:
+#    bottom_slide:
+#      target: lower
+    score_slide_GameOver:
       target: lower
+    thank_you_slide1:
+      target: middle
+    thank_you_slide2:
+      target: middle
+    thank_you_slide3:
+      target: middle

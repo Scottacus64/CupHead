@@ -7,7 +7,7 @@ mode:
 
 counters:
   contarct_counter:
-    count_events: soul_lanes_complete
+    count_events: soul_lanes_complete, lastBall
     events_when_hit: soul_lanes_done # when the lanes are complete this goes up by one
     starting_count: 1
     direction: up
@@ -62,6 +62,9 @@ variable_player:
     score: 100
   s_soul_L_active:
     score: 100
+
+event_player:
+  mode_soulLanes_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
 
 
 sound_player:

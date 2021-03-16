@@ -6,98 +6,201 @@
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_beppi:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_cagney:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_calla:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide1:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide2:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide3:
+      target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_capt:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_hilda:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_ribbi:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide1:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide2:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide3:
+      target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_robot:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_root:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_train:
       target: middle
+    score_slide_GameOver:
+      target: lower
 
 - duration: 3s
   slides:
     title_slide:
       target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide1:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide2:
+      target: middle
+    bottom_slide:
+      target: lower
+
+- duration: 3s
+  slides:
+    thank_you_slide3:
+      target: middle
+    bottom_slide:
+      target: lower
 
 - duration: 20s
   slides:
     a_wally:
       target: middle
+    score_slide_GameOver:
+      target: lower
