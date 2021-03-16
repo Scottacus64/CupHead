@@ -94,7 +94,24 @@ timers:
     control_events:
       - action: restart
         event: drop_target_bank_mug_bank_down
-
+  kicker_saucer_debounce_timer:
+    direction: up
+    start_value: 0
+    end_value: 5
+    tick_interval: 100ms
+    debug: True
+    control_events:
+      - action: restart
+        event: s_kicker_active
+  knockOut_debounce_timer:
+    direction: up
+    start_value: 0
+    end_value: 10
+    tick_interval: 100ms
+    debug: True
+    control_events:
+      - action: restart
+        event: s_standUp_R_active
 
 show_player:
   mode_base_started:
@@ -198,8 +215,10 @@ variable_player:
     score: 10
   s_sling_R_active:
     score: 10
-#  knock_out_hit:
-#    score: 500
+  s_standUp_R_active:
+    knockoutDebounce:
+      int: 1
+      action: set
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
     score: 10 # score 10 points per spinner spin
@@ -209,12 +228,11 @@ variable_player:
     dice_pips: # player variable dice_pips to...
       int: 1 # equal 7
       action: set
-#  timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: #if a 7 is rolled during the 5 seconds after a 7 is rolled then...
-#    score: 6000 # payout 7000
-#  timer_spinner_timer_complete{current_player.dice_pips==7}: #if the dice light is on when the spinner stops
-#    score: 1000 # then payout
-  s_kicker_active:
-    score: 1000  #+(1000*perdition_value)
+  s_kicker_active{current_player.kickerDebounce == 0}:
+    score: 1000 + (1000 * current_player.perdition_value)  #+(1000*perdition_value)
+    kickerDebounce:
+      int: 1
+      action: set
   timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
     score: 100
   timer_score_motor_50_timer_tick:
@@ -225,10 +243,6 @@ variable_player:
     score: 1000
   pay100:
     score: 100
-  timer_perditionPost_timer_complete:
-    perdition_value: 0
-#  lastBall:
-#    bonus_multiplier: 1
   special7Go:
     score: 1000
     flag:
@@ -241,6 +255,14 @@ variable_player:
   sevens:
     score: 7000
     flag:
+      int: 0
+      action: set
+  timer_kicker_saucer_debounce_timer_complete:
+    kickerDebounce:
+      int: 0
+      action: set
+  timer_knockout_debounce_timer_complete:
+    knockoutDebounce:
       int: 0
       action: set
 

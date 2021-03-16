@@ -67,13 +67,12 @@ sequences:
 variable_player:
   s_perdition_kicker_active:
     score: 100
-  advance_perdition{count==1}: # Upon the event "advance_perdition" if the player's perdition value is 1 then ...
     perdition_value: 1
-  advance_perdition{count==2}:
-    perdition_value: 1
-  advance_perdition{count==3}:
-    perdition_value: 1
-#  advance_perdition{count==3}:
+  startMBPost:
+    perdition_value:
+      int: 0
+      action: set
+
 
 
 sound_player:
