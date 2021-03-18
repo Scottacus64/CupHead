@@ -32,7 +32,9 @@ timers:
         event: bonusDone # the mode is done
 
 event_player:
-  eject_bd_perdition_kicker : start_bonus_countdown
+  eject_bd_perdition_kicker :
+    - start_bonus_countdown
+    - mbFail
   timer_bonusCountDown-tick{current_player.contracts==0}: # if the current player's contract value is zero ...
     - bonusDone # post the event bonusDone
   timer_bonusCountDown_complete: bonusDone
