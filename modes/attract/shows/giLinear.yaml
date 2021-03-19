@@ -1,299 +1,299 @@
 #show_version=5
 
-- duration: 1
+- duration: 200ms
   lights:
     gi: off
     inserts: off
 
-- duration: 1
+- duration: 200ms
   lights:
     inserts: off
     l_gi0: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi1: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi2: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi3: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi4: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi5: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi6: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi7: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi8: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi9: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi10: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi11: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi12: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi13: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi14: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi15: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi16: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi17: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi18: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi19: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi20: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi21: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi22: blue
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi23: blue
 
 
-- duration: 1
+- duration: 200ms
   lights:
     inserts: off
     l_gi0: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi1: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi2: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi3: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi4: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi5: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi6: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi7: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi8: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi9: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi10: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi11: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi12: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi13: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi14: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi15: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi16: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi17: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi18: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi19: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi20: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi21: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi22: red
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi23: red
 
 
-- duration: 1
+- duration: 200ms
   lights:
     inserts: off
     l_gi0: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi1: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi2: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi3: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi4: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi5: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi6: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi7: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi8: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi9: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi10: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi11: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi12: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi13: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi14: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi15: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi16: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi17: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi18: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi19: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi20: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi21: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi22: yellow
 
-- duration: 1
+- duration: 200ms
   lights:
     l_gi23: yellow

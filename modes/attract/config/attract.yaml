@@ -1,23 +1,21 @@
 #config_version=5
 #Cuphead Attract Mode
 
-show_pools:
-  attractCH:
-    shows:
-      - giLinear
-      - insertsLinear
-    type: random
+#show_pools:
+#  attractCH:
+#    shows:
+#      - giLinear
+#      - insertsLinear
+
 
 show_player:
   mode_attract_started: # when the mode begins...
     attract_display_loop: # play the "attract_display_loop" with a...
      speed: 1 # speed of 1
     insertsLinear:
-      speed: 8
-      loops: -1
-
-#    giLinear:
-#      speed: 4
+      speed: 4
+  #  giLinear:
+  #    speed: 4
 
 sound_player: # plays the attract music
   mode_attract_started:

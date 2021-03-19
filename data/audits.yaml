@@ -1,9 +1,9 @@
 events:
-  game_ended: 99
-  game_started: 341
+  game_ended: 100
+  game_started: 343
 player:
   score:
-    average: 10872.500000000004
+    average: 10873.805309734518
     top:
     - 86510
     - 84560
@@ -15,17 +15,20 @@ player:
     - 47080
     - 46630
     - 41870
-    total: 112
+    total: 113
 shots:
   dash_L: 9
   dash_R: 7
-  devil_bumper: 555
+  devil_bumper: 568
   inLaneL: 54
   inLaneR: 76
   knock_out: 313
   outLaneL: 54
   outLaneR: 58
   perdition_lane: 74
+  shot_pop1: 4
+  shot_pop2: 12
+  shot_slingL: 4
   soul_L: 90
   soul_O: 135
   soul_S: 121
@@ -41,12 +44,12 @@ switches:
   s_dash_R: 70
   s_dtSling_L: 66
   s_dtSling_R: 78
-  s_dt_C: 513
-  s_dt_G: 322
-  s_dt_M: 360
-  s_dt_P: 373
-  s_dt_U: 627
-  s_dt_U2: 329
+  s_dt_C: 517
+  s_dt_G: 323
+  s_dt_M: 361
+  s_dt_P: 378
+  s_dt_U: 631
+  s_dt_U2: 330
   s_inLane_L: 114
   s_inLane_R: 164
   s_kicker: 489
@@ -54,14 +57,14 @@ switches:
   s_midRight: 60
   s_outLane_L: 133
   s_outLane_R: 104
-  s_perdition_kicker: 334
+  s_perdition_kicker: 344
   s_perdition_lane: 144
-  s_popBumper_1: 424
-  s_popBumper_2: 566
+  s_popBumper_1: 431
+  s_popBumper_2: 579
   s_popBumper_3: 446
   s_right_flipper: 619
-  s_shooter_lane: 551
-  s_sling_L: 408
+  s_shooter_lane: 554
+  s_sling_L: 412
   s_sling_R: 210
   s_soul_L: 90
   s_soul_O: 135
@@ -77,6 +80,6 @@ switches:
   s_star_3: 117
   s_start: 99
   s_tilt_bob: 1
-  s_trough1: 604
-  s_trough2: 495
+  s_trough1: 608
+  s_trough2: 497
   s_trough_jam: 50
