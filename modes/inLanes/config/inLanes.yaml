@@ -5,7 +5,7 @@ mode:
     - ball_starting # starts on a new ball
     - resetLitInlanes # start this mode when both lanes have been lit and hit
   priority: 110
-  stop_events: leftStars_complete # if the left stars are lit stop this mode
+  stop_events: leftStars_complete, mbFail # if the left stars are lit stop this mode
 
 event_player:
   s_inLane_L_active: pay50

@@ -181,7 +181,7 @@ shots: # this defines the shot...
 
 shot_groups:
   failedM:
-    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR
+    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out
     reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     disable_events: eject_bd_perdition_kicker

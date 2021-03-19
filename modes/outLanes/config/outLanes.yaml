@@ -5,7 +5,7 @@ mode:
     - ball_started
     - resetLitOutLanes
   priority: 150
-  stop_events: rightStar_complete
+  stop_events: rightStar_complete, mbFail
 
 variable_player:
   s_outLane_L_active:

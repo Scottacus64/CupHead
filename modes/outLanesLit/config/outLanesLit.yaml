@@ -3,7 +3,7 @@
 mode:
   start_events: rightStar_complete
   priority: 150
-  stop_events: resetLitOutLanes
+  stop_events: resetLitOutLanes, mbFail
 
 shots:
   outLaneL:

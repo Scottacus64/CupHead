@@ -3,7 +3,7 @@
 mode:
   start_events: knock_out_hit #starts when the knockout target is hit
   priority: 140
-  stop_events: timer_knockOutHurryUp_timer_complete
+  stop_events: timer_knockOutHurryUp_timer_complete, mbFail
 
 timers:
   knockOut_timer:

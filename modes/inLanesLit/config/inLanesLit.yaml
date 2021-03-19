@@ -3,7 +3,7 @@
 mode:
   start_events: leftStars_complete # if the left stars are lit start this mode
   priority: 150
-  stop_events: resetLitInlanes # end this mode when both lanes have been lit and hit
+  stop_events: resetLitInlanes, mbFail # end this mode when both lanes have been lit and hit
 
 shots:
   inLaneL:
