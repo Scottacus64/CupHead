@@ -178,10 +178,14 @@ shots: # this defines the shot...
     switch: s_sling_L
   shot_slingR:
     switch: s_sling_R
+  shot_midRight:
+    switch: s_midRight
+  shot_perditon:
+    switch: s_perdition
 
 shot_groups:
   failedM:
-    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out
+    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_midRight, shot_perditon
     reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     disable_events: eject_bd_perdition_kicker
@@ -223,9 +227,11 @@ variable_player:
     contracts:
       int: 0 # put 0...
       action: set # into contracts
-  s_midRight_active:
+#  s_midRight_active:
+  shot_midRight_hit:
     score: 50
-  s_perdition_active:
+#  s_perdition_active:
+  shot_perditon_hit:
     score: 100
   s_dtSling_L_active:
     score: 10
