@@ -182,10 +182,25 @@ shots: # this defines the shot...
     switch: s_midRight
   shot_perditon:
     switch: s_perdition
+  shot_inLaneL:
+    switch: s_inLane_L
+  shot_inLaneR:
+    switch: s_inLane_R
+  shot_outLaneL:
+    switch: s_outLane_L
+  shot_outLaneR:
+    switch: s_outLane_R
+  shot_star1:
+    switch: s_star_1
+  shot_star2:
+    switch: s_star_2
+  shot_star3:
+    switch: s_star_3
 
-shot_groups:
-  failedM:
-    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_midRight, shot_perditon
+
+shot_groups: # this shot group was made to give the ability to stop scoring on these switches upon a multiball fail
+  failedMB:
+    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_midRight, shot_perditon, shot_inLaneL, shot_inLaneR, shot_outLaneL, shot_outLaneR, shot_star1, shot_star2, shot_star3
     reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     disable_events: eject_bd_perdition_kicker
@@ -196,7 +211,7 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   timer_perditionPost_timer_complete: c_perdition_post_up  # put the post back up after the ball has exited
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
 
-variable_player:
+variable_player:  #_hit is for shots and _active is for switches
   bonus:
     int: 1
     action: set
@@ -305,10 +320,10 @@ sound_player:
     poolCupHeadBase:
       action: stop # stop playing the music
   ball_drain: drainHit
-  s_inLane_L_active: inLanes
-  s_inLane_R_active: inLanes
-  s_outLane_L_active: outLanes
-  s_outLane_R_active: outLanes
+  shot_inLaneL_hit: inLanes
+  shot_inLaneR_hit: inLanes
+  shot_outLaneL_hit: outLanes
+  shot_outLaneR_hit: outLanes
   bank_done{count==1}: soul1
   bank_done{count==2}: soul2
   bank_done{count==3}: soul3
@@ -326,9 +341,9 @@ sound_player:
   sw_dtSw_active: dropTarget
   s_kicker_active: kicker
   sw_dtSlingSw_active: dtSling
-  s_star_1_active: stars
-  s_star_2_active: stars
-  s_star_3_active: stars
+  shot_star1_hit: stars
+  shot_star2_hit: stars
+  shot_star3_hit: stars
   player_added: stars
   sevens: specialAward
 
