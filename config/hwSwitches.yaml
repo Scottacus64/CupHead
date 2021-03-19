@@ -36,10 +36,10 @@ switches:
     type: 'NC'
   s_dtSling_L:
     number: 0-0-18
-    tags: dtSlingSw, playfield_active
+    tags: dtSlingSw
   s_dtSling_R:
     number: 0-0-19
-    tags: dtSlingSw, playfield_active
+    tags: dtSlingSw
   s_popBumper_1:
     number: 0-0-24
     tags: popBumperSw
@@ -109,11 +109,10 @@ switches:
   # 1-0-40 is empty
   s_midRight:
     number: 1-0-40
-    tags: playfield_active
     type: 'NC'
   s_star_3:
     number: 1-0-41
-    tags: starSw, playfield_active
+    tags: starSw
     type: 'NC'
   s_soul_L:
     number: 1-0-42
@@ -152,11 +151,11 @@ switches:
     type: 'NC'
   s_star_2:
     number: 1-0-51
-    tags: starSw, playfield_active
+    tags: starSw
     type: 'NC'
   s_star_1:
     number: 1-0-55
-    tags: starSw, playfield_active
+    tags: starSw
     type: 'NC'
   s_standUp_2:
     number: 1-0-53
@@ -164,7 +163,6 @@ switches:
     type: 'NC'
   s_spinner:
     number: 1-0-54
-    tags: playfield_active
     type: 'NC'
 
 

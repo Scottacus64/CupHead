@@ -181,7 +181,7 @@ shots: # this defines the shot...
   shot_midRight:
     switch: s_midRight
   shot_perditon:
-    switch: s_perdition
+    switch: s_perdition_kicker
   shot_inLaneL:
     switch: s_inLane_L
   shot_inLaneR:
