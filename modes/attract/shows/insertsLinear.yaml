@@ -2,7 +2,7 @@
 
 - duration: 100ms
   lights:
-    gi: off
+    gi: FFFFFF%40
     inserts: off
 
 - duration: 100ms
@@ -871,9 +871,9 @@
   lights:
     l_gi23: yellow
 
--durattion: 200ms
-   lights:
-     gi: FFFFFF%40
+- duration: 200ms
+  lights:
+    gi: FFFFFF%40
 
 
 - duration: 200ms

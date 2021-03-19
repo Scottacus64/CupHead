@@ -168,6 +168,23 @@ show_player:
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
     switch: s_standUp_R # hitting the right stand up target
+  shot_pop1:
+    switch: s_popBumper_1
+  shot_pop2:
+    switch: s_popBumper_2
+  shot_pop3:
+    switch: s_popBumper_3
+  shot_slingL:
+    switch: s_sling_L
+  shot_slingR:
+    switch: s_sling_R
+
+shot_groups:
+  failedM:
+    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR
+    reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
+    enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
+    disable_events: eject_bd_perdition_kicker
 
 coil_player:  # this coil player controls the post that blocks entrance to the perdition lane
   s_trough1_active: c_perdition_post_down # drop on any ball end or if...
@@ -179,11 +196,14 @@ variable_player:
   bonus:
     int: 1
     action: set
-  s_popBumper_1_active:
+#  s_popBumper_1_active:
+  shot_pop1_hit:
     score: 100
-  s_popBumper_2_active:
+#  s_popBumper_2_active:
+  shot_pop2_hit:
     score: 100
-  s_popBumper_3_active:
+#  s_popBumper_3_active:
+  shot_pop3_hit:
     score: 100
   s_dt_C_active:
     score: 100
@@ -211,9 +231,11 @@ variable_player:
     score: 10
   s_dtSling_R_active:
     score: 10
-  s_sling_L_active:
+#  s_sling_L_active:
+  shot_slingL_hit:
     score: 10
-  s_sling_R_active:
+#  s_sling_R_active:
+  shot_slingR_hit:
     score: 10
   s_standUp_R_active:
     knockoutDebounce:
