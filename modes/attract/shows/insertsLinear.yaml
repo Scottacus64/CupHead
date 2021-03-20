@@ -875,1061 +875,1339 @@
   lights:
     gi: FFFFFF%40
 
+#.....................................................................
 
 - duration: 200ms
   lights:
-    l_lane_L_3: 'FF0000'
-    l_lane_L_4: 'FF0000'
+    l_lane_L_3: blue
+    l_lane_L_4: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_2: 'FF0000'
-    l_outLane_L: 'FF0000'
-    l_star_1: 'FF0000'
-    l_star_2: 'FF0000'
+    l_lane_L_2: blue
+    l_outLane_L: blue
+    l_star_1: blue
+    l_star_2: blue
 
 - duration: 200ms
   lights:
-    l_inLane_L: 'FF0000'
-    l_lane_L_1: 'FF0000'
-    l_lane_L_3: '000000'
-    l_lane_L_4: '000000'
-    l_lane_L_5: 'FF0000'
-    l_outLane_L: '000000'
-    l_star_1: '000000'
-    l_star_2: '000000'
+    l_inLane_L: blue
+    l_lane_L_1: blue
 
+    l_lane_L_5: blue
+
+- duration: 200ms
+  lights:
+    l_dash_L: blue
+    l_lane_L_6: blue
+
+- duration: 200ms
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_cup_sling: blue
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: blue
+    l_soul_S: blue
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: blue
+
+- duration: 200ms
+  lights:
+    l_bonus_1000: blue
+    l_bonus_2000: blue
+    l_bonus_3000: blue
+    l_bonus_4000: blue
+    l_bonus_5000: blue
+
+- duration: 200ms
+  lights:
+    l_soul_O: blue
+
+- duration: 200ms
+  lights:
+    l_2x: blue
+    l_3x: blue
+    l_4x: blue
+    l_popBumper_2: blue
+    l_soul_O: blue
+    l_special7: blue
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_soul_U: blue
+
+- duration: 200ms
+  lights:
+    l_bonus_10000: blue
+    l_bonus_6000: blue
+    l_bonus_7000: blue
+    l_bonus_8000: blue
+    l_bonus_9000: blue
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_popBumper_3: blue
+    l_soul_L: blue
+
+- duration: 200ms
+  lights:
+    l_mug_sling: blue
+    l_star_3: blue
+
+- duration: 200ms
+  lights:
+    l_perdition_1: blue
+
+- duration: 200ms
+  lights:
+    l_perdition_2: blue
+    l_perdition_3: blue
+
+- duration: 200ms
+  lights:
+    l_dash_R: blue
+    l_extraBall: blue
+    l_inLane_R: blue
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_outLane_R: blue
+
+- duration: 200ms
+
+
+
+
+#.....................................................................
+
+- duration: 200ms
+  lights:
+    l_lane_L_3: red
+    l_lane_L_4: red
+
+- duration: 200ms
+  lights:
+    l_lane_L_2: red
+    l_outLane_L: red
+    l_star_1: red
+    l_star_2: red
+
+- duration: 200ms
+  lights:
+    l_inLane_L: red
+    l_lane_L_1: red
+
+    l_lane_L_5: red
+
+- duration: 200ms
+  lights:
+    l_dash_L: red
+    l_lane_L_6: red
+
+- duration: 200ms
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_cup_sling: red
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: red
+    l_soul_S: red
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: red
+
+- duration: 200ms
+  lights:
+    l_bonus_1000: red
+    l_bonus_2000: red
+    l_bonus_3000: red
+    l_bonus_4000: red
+    l_bonus_5000: red
+
+- duration: 200ms
+  lights:
+    l_soul_O: red
+
+- duration: 200ms
+  lights:
+    l_2x: red
+    l_3x: red
+    l_4x: red
+    l_popBumper_2: red
+    l_soul_O: red
+    l_special7: red
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_soul_U: red
+
+- duration: 200ms
+  lights:
+    l_bonus_10000: red
+    l_bonus_6000: red
+    l_bonus_7000: red
+    l_bonus_8000: red
+    l_bonus_9000: red
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_popBumper_3: red
+    l_soul_L: red
+
+- duration: 200ms
+  lights:
+    l_mug_sling: red
+    l_star_3: red
+
+- duration: 200ms
+  lights:
+    l_perdition_1: red
+
+- duration: 200ms
+  lights:
+    l_perdition_2: red
+    l_perdition_3: red
+
+- duration: 200ms
+  lights:
+    l_dash_R: red
+    l_extraBall: red
+    l_inLane_R: red
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_outLane_R: red
+
+- duration: 200ms
+
+
+
+
+#..................................................
+
+- duration: 200ms
+  lights:
+    l_lane_L_3: yellow
+    l_lane_L_4: yellow
+
+- duration: 200ms
+  lights:
+    l_lane_L_2: yellow
+    l_outLane_L: yellow
+    l_star_1: yellow
+    l_star_2: yellow
+
+- duration: 200ms
+  lights:
+    l_inLane_L: yellow
+    l_lane_L_1: yellow
+
+    l_lane_L_5: yellow
+
+- duration: 200ms
+  lights:
+    l_dash_L: yellow
+    l_lane_L_6: yellow
+
+- duration: 200ms
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_cup_sling: yellow
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: yellow
+    l_soul_S: yellow
+
+- duration: 200ms
+  lights:
+    l_popBumper_1: yellow
+
+- duration: 200ms
+  lights:
+    l_bonus_1000: yellow
+    l_bonus_2000: yellow
+    l_bonus_3000: yellow
+    l_bonus_4000: yellow
+    l_bonus_5000: yellow
+
+- duration: 200ms
+  lights:
+    l_soul_O: yellow
+
+- duration: 200ms
+  lights:
+    l_2x: yellow
+    l_3x: yellow
+    l_4x: yellow
+    l_popBumper_2: yellow
+    l_soul_O: yellow
+    l_special7: yellow
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_soul_U: yellow
+
+- duration: 200ms
+  lights:
+    l_bonus_10000: yellow
+    l_bonus_6000: yellow
+    l_bonus_7000: yellow
+    l_bonus_8000: yellow
+    l_bonus_9000: yellow
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_popBumper_3: yellow
+    l_soul_L: yellow
+
+- duration: 200ms
+  lights:
+    l_mug_sling: yellow
+    l_star_3: yellow
+
+- duration: 200ms
+  lights:
+    l_perdition_1: yellow
+
+- duration: 200ms
+  lights:
+    l_perdition_2: yellow
+    l_perdition_3: yellow
+
+- duration: 200ms
+  lights:
+    l_dash_R: yellow
+    l_extraBall: yellow
+    l_inLane_R: yellow
+
+- duration: 200ms
+
+- duration: 200ms
+  lights:
+    l_outLane_R: yellow
+
+- duration: 200ms
+#.............................................................
+
+
+- duration: 2
+  lights:
+    inserts: blue
+
+- duration: 2
+  lights:
+    inserts: red
+
+- duration: 2
+  lights:
+    inserts: yellow
+
+
+- duration: 200ms
+  lights:
+    gi: off
+    inserts: off
+
+- duration: 200ms
+  lights:
+    inserts: off
+    l_gi0: blue
+
 - duration: 200ms
   lights:
-    l_dash_L: 'FF0000'
-    l_lane_L_1: '000000'
-    l_lane_L_2: '000000'
-    l_lane_L_5: '5D0000'
-    l_lane_L_6: 'FF0000'
+    l_gi1: blue
 
 - duration: 200ms
   lights:
-    l_dash_L: '000000'
-    l_inLane_L: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: '6D0000'
+    l_gi2: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
+    l_gi3: blue
 
 - duration: 200ms
   lights:
-    l_cup_sling: 'FF0000'
+    l_gi4: blue
 
 - duration: 200ms
   lights:
-    l_popBumper_1: 'FF0000'
-    l_soul_S: 'FF0000'
+    l_gi5: blue
 
 - duration: 200ms
   lights:
-    l_bonus_4000: 'BC0000'
-    l_bonus_5000: 'FF0000'
-    l_cup_sling: '000000'
-    l_popBumper_1: 'FA0000'
+    l_gi6: blue
 
 - duration: 200ms
   lights:
-    l_bonus_1000: 'FF0000'
-    l_bonus_2000: 'FF0000'
-    l_bonus_3000: 'FF0000'
-    l_bonus_4000: 'FF0000'
-    l_popBumper_1: '000000'
-    l_soul_S: '000000'
+    l_gi7: blue
 
 - duration: 200ms
   lights:
-    l_3x: 'FF0000'
-    l_bonus_2000: '530000'
-    l_bonus_3000: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_5000: '000000'
-    l_soul_O: 'FF0000'
+    l_gi8: blue
 
 - duration: 200ms
   lights:
-    l_2x: 'FF0000'
-    l_4x: 'FF0000'
-    l_bonus_1000: '000000'
-    l_bonus_2000: '000000'
-    l_popBumper_2: '530000'
-    l_soul_O: '630000'
-    l_special7: 'CF0000'
+    l_gi9: blue
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_popBumper_2: 'FF0000'
-    l_soul_O: '000000'
-    l_special7: 'FF0000'
+    l_gi10: blue
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_4x: '000000'
-    l_bonus_6000: 'FF0000'
-    l_bonus_7000: '620000'
-    l_popBumper_2: '000000'
-    l_soul_U: 'FF0000'
-    l_special7: '000000'
+    l_gi11: blue
 
 - duration: 200ms
   lights:
-    l_bonus_10000: 'FF0000'
-    l_bonus_7000: 'FF0000'
-    l_bonus_8000: 'FF0000'
-    l_bonus_9000: 'FF0000'
-    l_soul_U: '000000'
+    l_gi12: blue
 
 - duration: 200ms
   lights:
-    l_bonus_6000: '000000'
-    l_bonus_7000: '000000'
-    l_bonus_8000: '2D0000'
-    l_bonus_9000: 'F80000'
-    l_popBumper_3: 'E70000'
+    l_gi13: blue
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_8000: '000000'
-    l_bonus_9000: '000000'
-    l_mug_sling: 'ED0000'
-    l_popBumper_3: 'FF0000'
-    l_soul_L: 'FF0000'
+    l_gi14: blue
 
 - duration: 200ms
   lights:
-    l_mug_sling: 'FF0000'
-    l_popBumper_3: '000000'
-    l_soul_L: '000000'
-    l_star_3: 'FF0000'
+    l_gi15: blue
 
 - duration: 200ms
   lights:
-    l_mug_sling: '000000'
-    l_perdition_1: 'FF0000'
-    l_perdition_2: 'F80000'
-    l_star_3: '000000'
+    l_gi16: blue
 
 - duration: 200ms
   lights:
-    l_perdition_1: 'D40000'
-    l_perdition_2: 'FF0000'
-    l_perdition_3: 'FF0000'
+    l_gi17: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: 'FF0000'
-    l_extraBall: 'FF0000'
-    l_inLane_R: 'FF0000'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
+    l_gi18: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: '1A0000'
-    l_perdition_3: '000000'
+    l_gi19: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: '000000'
-    l_extraBall: '000000'
-    l_inLane_R: '000000'
-    l_outLane_R: 'FF0000'
+    l_gi20: blue
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+  lights:
+    l_gi21: blue
+
+- duration: 200ms
+  lights:
+    l_gi22: blue
+
+- duration: 200ms
+  lights:
+    l_gi23: blue
+
+
+- duration: 200ms
+  lights:
+    inserts: off
+    l_gi0: red
+
+- duration: 200ms
+  lights:
+    l_gi1: red
+
+- duration: 200ms
+  lights:
+    l_gi2: red
+
+- duration: 200ms
+  lights:
+    l_gi3: red
+
+- duration: 200ms
+  lights:
+    l_gi4: red
+
+- duration: 200ms
+  lights:
+    l_gi5: red
+
+- duration: 200ms
+  lights:
+    l_gi6: red
+
+- duration: 200ms
+  lights:
+    l_gi7: red
+
+- duration: 200ms
+  lights:
+    l_gi8: red
+
+- duration: 200ms
+  lights:
+    l_gi9: red
+
+- duration: 200ms
+  lights:
+    l_gi10: red
+
+- duration: 200ms
+  lights:
+    l_gi11: red
+
+- duration: 200ms
+  lights:
+    l_gi12: red
+
+- duration: 200ms
+  lights:
+    l_gi13: red
+
+- duration: 200ms
+  lights:
+    l_gi14: red
+
+- duration: 200ms
+  lights:
+    l_gi15: red
+
+- duration: 200ms
+  lights:
+    l_gi16: red
+
+- duration: 200ms
+  lights:
+    l_gi17: red
+
+- duration: 200ms
+  lights:
+    l_gi18: red
+
+- duration: 200ms
+  lights:
+    l_gi19: red
+
+- duration: 200ms
+  lights:
+    l_gi20: red
+
+- duration: 200ms
+  lights:
+    l_gi21: red
+
+- duration: 200ms
+  lights:
+    l_gi22: red
+
+- duration: 200ms
+  lights:
+    l_gi23: red
+
+
+- duration: 200ms
+  lights:
+    inserts: off
+    l_gi0: yellow
+
+- duration: 200ms
+  lights:
+    l_gi1: yellow
+
+- duration: 200ms
+  lights:
+    l_gi2: yellow
+
+- duration: 200ms
+  lights:
+    l_gi3: yellow
+
+- duration: 200ms
+  lights:
+    l_gi4: yellow
+
+- duration: 200ms
+  lights:
+    l_gi5: yellow
+
+- duration: 200ms
+  lights:
+    l_gi6: yellow
+
+- duration: 200ms
+  lights:
+    l_gi7: yellow
+
+- duration: 200ms
+  lights:
+    l_gi8: yellow
+
+- duration: 200ms
+  lights:
+    l_gi9: yellow
+
+- duration: 200ms
+  lights:
+    l_gi10: yellow
+
+- duration: 200ms
+  lights:
+    l_gi11: yellow
+
+- duration: 200ms
+  lights:
+    l_gi12: yellow
 
 - duration: 200ms
   lights:
-    l_outLane_R: '000000'
+    l_gi13: yellow
 
+- duration: 200ms
+  lights:
+    l_gi14: yellow
+
+- duration: 200ms
+  lights:
+    l_gi15: yellow
+
+- duration: 200ms
+  lights:
+    l_gi16: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_3: '0001FF'
-    l_lane_L_4: '0001FF'
+    l_gi17: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_2: '0001FF'
-    l_outLane_L: '0001FF'
-    l_star_1: '0001FF'
-    l_star_2: '0001FF'
+    l_gi18: yellow
 
 - duration: 200ms
   lights:
-    l_inLane_L: '0001FF'
-    l_lane_L_1: '0001FF'
-    l_lane_L_3: '000000'
-    l_lane_L_4: '000000'
-    l_lane_L_5: '0001FF'
-    l_outLane_L: '000000'
-    l_star_1: '000000'
-    l_star_2: '000000'
+    l_gi19: yellow
 
 - duration: 200ms
   lights:
-    l_dash_L: '0001FF'
-    l_lane_L_1: '000000'
-    l_lane_L_2: '000000'
-    l_lane_L_5: '00005D'
-    l_lane_L_6: '0001FF'
+    l_gi20: yellow
 
 - duration: 200ms
   lights:
-    l_dash_L: '000000'
-    l_inLane_L: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: '00006D'
+    l_gi21: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
+    l_gi22: yellow
 
 - duration: 200ms
   lights:
-    l_cup_sling: '0001FF'
+    l_gi23: yellow
 
 - duration: 200ms
   lights:
-    l_popBumper_1: '0001FF'
-    l_soul_S: '0001FF'
+    gi: FFFFFF%40
+
 
+#...............................................................
+
 - duration: 200ms
   lights:
-    l_bonus_4000: '0101BC'
-    l_bonus_5000: '0101FF'
-    l_cup_sling: '000000'
-    l_popBumper_1: '0101FA'
-    l_soul_S: '0101FF'
+    l_bonus_1000: blue
+    l_bonus_6000: blue
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_bonus_1000: '0101FF'
-    l_bonus_2000: '0101FF'
-    l_bonus_3000: '0101FF'
-    l_bonus_4000: '0101FF'
-    l_popBumper_1: '000000'
-    l_soul_S: '000000'
+    l_bonus_2000: blue
+    l_bonus_7000: blue
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_3x: '0101FF'
-    l_bonus_2000: '000053'
-    l_bonus_3000: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_5000: '000000'
-    l_soul_O: '0101FF'
+    l_2x: blue
 
 - duration: 200ms
   lights:
-    l_2x: '0101FF'
-    l_4x: '0101FF'
-    l_bonus_1000: '000000'
-    l_bonus_2000: '000000'
-    l_popBumper_2: '000053'
-    l_soul_O: '000063'
-    l_special7: '0101CF'
+    l_3x: blue
+    l_bonus_3000: blue
+    l_bonus_8000: blue
+    l_cup_sling: blue
+    l_mug_sling: blue
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_popBumper_2: '0101FF'
-    l_soul_O: '000000'
-    l_special7: '0101FF'
+    l_outLane_L: blue
+    l_outLane_R: blue
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_4x: '000000'
-    l_bonus_6000: '0101FF'
-    l_bonus_7000: '000062'
-    l_popBumper_2: '000000'
-    l_soul_U: '0101FF'
-    l_special7: '000000'
+    l_4x: blue
+    l_bonus_4000: blue
+    l_bonus_9000: blue
+
+- duration: 200ms
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_bonus_10000: '0101FF'
-    l_bonus_7000: '0101FF'
-    l_bonus_8000: '0101FF'
-    l_bonus_9000: '0101FF'
-    l_soul_U: '000000'
+    l_bonus_10000: blue
+    l_bonus_5000: blue
+    l_dash_L: blue
+    l_dash_R: blue
+
+- duration: 200ms
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_bonus_6000: '000000'
-    l_bonus_7000: '000000'
-    l_bonus_8000: '00002D'
-    l_bonus_9000: '0101F8'
-    l_popBumper_3: '0101E7'
+    l_lane_L_1: blue
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_8000: '000000'
-    l_bonus_9000: '000000'
-    l_mug_sling: '0101ED'
-    l_popBumper_3: '0101FF'
-    l_soul_L: '0101FF'
+    l_lane_L_2: blue
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_mug_sling: '0201FF'
-    l_popBumper_3: '000000'
-    l_soul_L: '000000'
-    l_star_3: '0201FF'
+    l_star_2: blue
 
 - duration: 200ms
   lights:
-    l_mug_sling: '000000'
-    l_perdition_1: '0201FF'
-    l_perdition_2: '0201F8'
-    l_star_3: '000000'
+    l_perdition_1: blue
+    l_popBumper_2: blue
+    l_star_3: blue
 
 - duration: 200ms
   lights:
-    l_perdition_1: '0201D4'
-    l_perdition_2: '0201FF'
-    l_perdition_3: '0201FF'
+    l_lane_L_3: blue
+    l_perdition_1: blue
+    l_perdition_2: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: '0201FF'
-    l_extraBall: '0201FF'
-    l_inLane_R: '0201FF'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
+    l_lane_L_4: blue
+    l_perdition_3: blue
+    l_popBumper_1: blue
+    l_popBumper_3: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: '00001A'
-    l_perdition_3: '000000'
+    l_popBumper_1: blue
+    l_popBumper_3: blue
 
 - duration: 200ms
   lights:
-    l_dash_R: '000000'
-    l_extraBall: '000000'
-    l_inLane_R: '000000'
-    l_outLane_R: '0201FF'
+    l_extraBall: blue
+    l_special7: blue
+    l_star_1: blue
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+  lights:
+    l_lane_L_5: blue
 
 - duration: 200ms
   lights:
-    l_outLane_R: '000000'
+    l_lane_L_6: blue
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_lane_L_3: 'FFFD00'
-    l_lane_L_4: 'FFFD00'
+    l_soul_L: blue
+    l_soul_O: blue
+    l_soul_S: blue
+    l_soul_U: blue
+
+- duration: 200ms
+
+
+
+
+#...............................................................................
 
 - duration: 200ms
   lights:
-    l_lane_L_2: 'FFFD00'
-    l_outLane_L: 'FFFD00'
-    l_star_1: 'FFFD00'
-    l_star_2: 'FFFD00'
+    l_bonus_1000: red
+    l_bonus_6000: red
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_inLane_L: 'FFFD00'
-    l_lane_L_1: 'FFFD00'
-    l_lane_L_3: '000000'
-    l_lane_L_4: '000000'
-    l_lane_L_5: 'FFFD00'
-    l_outLane_L: '000000'
-    l_star_1: '000000'
-    l_star_2: '000000'
+    l_bonus_2000: red
+    l_bonus_7000: red
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_dash_L: 'FFFD00'
-    l_lane_L_1: '000000'
-    l_lane_L_2: '000000'
-    l_lane_L_5: '5D5C00'
-    l_lane_L_6: 'FFFD00'
+    l_2x: red
 
 - duration: 200ms
   lights:
-    l_dash_L: '000000'
-    l_inLane_L: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: '6D6C00'
+    l_3x: red
+    l_bonus_3000: red
+    l_bonus_8000: red
+    l_cup_sling: red
+    l_mug_sling: red
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
+    l_outLane_L: red
+    l_outLane_R: red
 
 - duration: 200ms
   lights:
-    l_cup_sling: 'FFFD00'
+    l_4x: red
+    l_bonus_4000: red
+    l_bonus_9000: red
+
+- duration: 200ms
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_popBumper_1: 'FFFD00'
-    l_soul_S: 'FFFD00'
+    l_bonus_10000: red
+    l_bonus_5000: red
+    l_dash_L: red
+    l_dash_R: red
+
+- duration: 200ms
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_bonus_4000: 'BCBB00'
-    l_bonus_5000: 'FFFD00'
-    l_cup_sling: '000000'
-    l_popBumper_1: 'FAF800'
+    l_lane_L_1: red
 
 - duration: 200ms
   lights:
-    l_bonus_1000: 'FFFD00'
-    l_bonus_2000: 'FFFD00'
-    l_bonus_3000: 'FFFD00'
-    l_bonus_4000: 'FFFD00'
-    l_popBumper_1: '000000'
-    l_soul_S: '000000'
+    l_lane_L_2: red
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_3x: 'FFFD00'
-    l_bonus_2000: '535300'
-    l_bonus_3000: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_5000: '000000'
-    l_soul_O: 'FFFD00'
+    l_star_2: red
 
 - duration: 200ms
   lights:
-    l_2x: 'FFFD00'
-    l_4x: 'FFFD00'
-    l_bonus_1000: '000000'
-    l_bonus_2000: '000000'
-    l_popBumper_2: '535200'
-    l_soul_O: '636200'
-    l_special7: 'CFCE00'
+    l_perdition_1: red
+    l_popBumper_2: red
+    l_star_3: red
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_popBumper_2: 'FFFD00'
-    l_soul_O: '000000'
-    l_special7: 'FFFD00'
+    l_lane_L_3: red
+    l_perdition_1: red
+    l_perdition_2: red
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_4x: '000000'
-    l_bonus_6000: 'FFFD00'
-    l_bonus_7000: '626100'
-    l_popBumper_2: '000000'
-    l_soul_U: 'FFFD00'
-    l_special7: '000000'
+    l_lane_L_4: red
+    l_perdition_3: red
+    l_popBumper_1: red
+    l_popBumper_3: red
 
 - duration: 200ms
   lights:
-    l_bonus_10000: 'FFFD00'
-    l_bonus_7000: 'FFFD00'
-    l_bonus_8000: 'FFFD00'
-    l_bonus_9000: 'FFFD00'
-    l_soul_U: '000000'
+    l_popBumper_1: red
+    l_popBumper_3: red
 
 - duration: 200ms
   lights:
-    l_bonus_6000: '000000'
-    l_bonus_7000: '000000'
-    l_bonus_8000: '2D2D00'
-    l_bonus_9000: 'F8F600'
-    l_popBumper_3: 'E7E500'
+    l_extraBall: red
+    l_special7: red
+    l_star_1: red
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_8000: '000000'
-    l_bonus_9000: '000000'
-    l_mug_sling: 'EDEB00'
-    l_popBumper_3: 'FFFD00'
-    l_soul_L: 'FFFD00'
+    l_lane_L_5: red
 
 - duration: 200ms
   lights:
-    l_mug_sling: 'FFFD00'
-    l_popBumper_3: '000000'
-    l_soul_L: '000000'
-    l_star_3: 'FFFD00'
+    l_lane_L_6: red
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_mug_sling: '000000'
-    l_perdition_1: 'FFFD00'
-    l_perdition_2: 'F8F600'
-    l_star_3: '000000'
+    l_soul_L: red
+    l_soul_O: red
+    l_soul_S: red
+    l_soul_U: red
+
+- duration: 200ms
+
+
 
+#......................................................................
+
 - duration: 200ms
   lights:
-    l_perdition_1: 'D4D200'
-    l_perdition_2: 'FFFD00'
-    l_perdition_3: 'FFFD00'
+    l_bonus_1000: yellow
+    l_bonus_6000: yellow
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_dash_R: 'FFFD00'
-    l_extraBall: 'FFFD00'
-    l_inLane_R: 'FFFD00'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
+    l_bonus_2000: yellow
+    l_bonus_7000: yellow
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_dash_R: '1A1A00'
-    l_perdition_3: '000000'
+    l_2x: yellow
 
 - duration: 200ms
   lights:
-    l_dash_R: '000000'
-    l_extraBall: '000000'
-    l_inLane_R: '000000'
-    l_outLane_R: 'FFFD00'
+    l_3x: yellow
+    l_bonus_3000: yellow
+    l_bonus_8000: yellow
+    l_cup_sling: yellow
+    l_mug_sling: yellow
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+  lights:
+    l_outLane_L: yellow
+    l_outLane_R: yellow
 
 - duration: 200ms
   lights:
-    l_outLane_R: '000000'
+    l_4x: yellow
+    l_bonus_4000: yellow
+    l_bonus_9000: yellow
 
+- duration: 200ms
 
+- duration: 200ms
 
-#show_version=5
 - duration: 200ms
   lights:
-    l_bonus_1000: '0203FC'
-    l_bonus_6000: '0203FC'
+    l_bonus_10000: yellow
+    l_bonus_5000: yellow
+    l_dash_L: yellow
+    l_dash_R: yellow
+
+- duration: 200ms
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_bonus_1000: '000000'
-    l_bonus_6000: '000000'
+    l_lane_L_1: yellow
 
 - duration: 200ms
   lights:
-    l_bonus_2000: '0203FC'
-    l_bonus_7000: '0203FC'
+    l_lane_L_2: yellow
+
+- duration: 200ms
 
 - duration: 200ms
   lights:
-    l_bonus_2000: '000000'
-    l_bonus_7000: '000000'
+    l_star_2: yellow
 
 - duration: 200ms
   lights:
-    l_2x: '0203FC'
+    l_perdition_1: yellow
+    l_popBumper_2: yellow
+    l_star_3: yellow
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_3x: '0203FC'
-    l_bonus_3000: '0203FC'
-    l_bonus_8000: '0203FC'
-    l_cup_sling: '0203FC'
-    l_inLane_L: '000003'
-    l_inLane_R: '0203EB'
-    l_mug_sling: '0203FC'
+    l_lane_L_3: yellow
+    l_perdition_1: yellow
+    l_perdition_2: yellow
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_4x: '000013'
-    l_bonus_3000: '000000'
-    l_bonus_8000: '000000'
-    l_cup_sling: '000000'
-    l_inLane_L: '0102AD'
-    l_inLane_R: '000000'
-    l_mug_sling: '000000'
-    l_outLane_L: '0203FC'
-    l_outLane_R: '0203FC'
+    l_lane_L_4: yellow
+    l_perdition_3: yellow
+    l_popBumper_1: yellow
+    l_popBumper_3: yellow
 
 - duration: 200ms
   lights:
-    l_4x: '0102B3'
-    l_bonus_4000: '0203FC'
-    l_bonus_9000: '0203FC'
-    l_inLane_L: '000000'
-    l_outLane_L: '000000'
-    l_outLane_R: '000000'
+    l_popBumper_1: yellow
+    l_popBumper_3: yellow
 
 - duration: 200ms
   lights:
-    l_4x: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_9000: '000000'
+    l_extraBall: yellow
+    l_special7: yellow
+    l_star_1: yellow
 
 - duration: 200ms
   lights:
-    l_dash_R: '0203EF'
+    l_lane_L_5: yellow
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '0203FC'
-    l_bonus_5000: '0203FC'
-    l_dash_L: '0203FC'
-    l_dash_R: '000000'
+    l_lane_L_6: yellow
 
 - duration: 200ms
+
+- duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_5000: '000000'
-    l_dash_L: '000000'
+    l_soul_L: yellow
+    l_soul_O: yellow
+    l_soul_S: yellow
+    l_soul_U: yellow
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+
+#..............................................................
+
+
+- duration: 2
+  lights:
+    inserts: blue
 
+- duration: 2
+  lights:
+    inserts: red
+
+- duration: 2
+  lights:
+    inserts: yellow
+
+
 - duration: 200ms
   lights:
-    l_lane_L_1: '0203FD'
+    gi: off
+    inserts: off
 
 - duration: 200ms
   lights:
-    l_lane_L_1: '000000'
-    l_lane_L_2: '0203FD'
+    inserts: off
+    l_gi0: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_2: '000000'
+    l_gi1: blue
 
 - duration: 200ms
   lights:
-    l_star_2: '0203FD'
+    l_gi2: blue
 
 - duration: 200ms
   lights:
-    l_perdition_1: '0102B8'
-    l_popBumper_2: '0203FD'
-    l_star_2: '000000'
-    l_star_3: '0203FD'
+    l_gi3: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_3: '0203FD'
-    l_perdition_1: '0203F6'
-    l_perdition_2: '0203FD'
-    l_popBumper_2: '000000'
-    l_star_3: '000000'
+    l_gi4: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_3: '000000'
-    l_lane_L_4: '0203FD'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
-    l_perdition_3: '0203FD'
-    l_popBumper_1: '0203FA'
-    l_popBumper_3: '0203F1'
+    l_gi5: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_4: '000000'
-    l_perdition_3: '000000'
-    l_popBumper_1: '00001D'
-    l_popBumper_3: '01028E'
+    l_gi6: blue
 
 - duration: 200ms
   lights:
-    l_extraBall: '0203EB'
-    l_popBumper_1: '000000'
-    l_popBumper_3: '000000'
-    l_special7: '0203FD'
-    l_star_1: '0203FD'
+    l_gi7: blue
 
 - duration: 200ms
   lights:
-    l_extraBall: '01029B'
-    l_lane_L_5: '0203FD'
-    l_special7: '000000'
-    l_star_1: '000000'
+    l_gi8: blue
 
 - duration: 200ms
   lights:
-    l_extraBall: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: '0203FD'
+    l_gi9: blue
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
-    l_soul_U: '0203FD'
+    l_gi10: blue
 
 - duration: 200ms
   lights:
-    l_soul_L: '0203FD'
-    l_soul_O: '0203FD'
-    l_soul_S: '0203FD'
-    l_soul_U: '00013F'
+    l_gi11: blue
 
 - duration: 200ms
   lights:
-    l_soul_L: '000000'
-    l_soul_O: '000000'
-    l_soul_S: '000000'
-    l_soul_U: '000000'
+    l_gi12: blue
 
+- duration: 200ms
+  lights:
+    l_gi13: blue
 
+- duration: 200ms
+  lights:
+    l_gi14: blue
 
+- duration: 200ms
+  lights:
+    l_gi15: blue
 
 - duration: 200ms
   lights:
-    l_bonus_1000: 'FE0302'
-    l_bonus_6000: 'FE0302'
+    l_gi16: blue
 
 - duration: 200ms
   lights:
-    l_bonus_1000: '000000'
-    l_bonus_6000: '000000'
+    l_gi17: blue
 
 - duration: 200ms
   lights:
-    l_bonus_2000: 'FE0302'
-    l_bonus_7000: 'FE0302'
+    l_gi18: blue
 
 - duration: 200ms
   lights:
-    l_bonus_2000: '000000'
-    l_bonus_7000: '000000'
+    l_gi19: blue
 
 - duration: 200ms
   lights:
-    l_2x: 'FE0302'
+    l_gi20: blue
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_3x: 'FE0302'
-    l_bonus_3000: 'FE0302'
-    l_bonus_8000: 'FE0302'
-    l_cup_sling: 'FE0302'
-    l_inLane_L: '030000'
-    l_inLane_R: 'ED0302'
-    l_mug_sling: 'FE0302'
+    l_gi21: blue
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_4x: '130000'
-    l_bonus_3000: '000000'
-    l_bonus_8000: '000000'
-    l_cup_sling: '000000'
-    l_inLane_L: 'AF0201'
-    l_inLane_R: '000000'
-    l_mug_sling: '000000'
-    l_outLane_L: 'FE0302'
-    l_outLane_R: 'FE0302'
+    l_gi22: blue
 
 - duration: 200ms
   lights:
-    l_4x: 'B50201'
-    l_bonus_4000: 'FE0302'
-    l_bonus_9000: 'FE0302'
-    l_inLane_L: '000000'
-    l_outLane_L: '000000'
-    l_outLane_R: '000000'
+    l_gi23: blue
+
 
 - duration: 200ms
   lights:
-    l_4x: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_9000: '000000'
+    inserts: off
+    l_gi0: red
 
 - duration: 200ms
   lights:
-    l_dash_R: 'F10302'
+    l_gi1: red
 
 - duration: 200ms
   lights:
-    l_bonus_10000: 'FE0302'
-    l_bonus_5000: 'FE0302'
-    l_dash_L: 'FE0302'
-    l_dash_R: '000000'
+    l_gi2: red
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_5000: '000000'
-    l_dash_L: '000000'
+    l_gi3: red
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+  lights:
+    l_gi4: red
 
 - duration: 200ms
   lights:
-    l_lane_L_1: 'FE0302'
+    l_gi5: red
 
 - duration: 200ms
   lights:
-    l_lane_L_1: '000000'
-    l_lane_L_2: 'FE0302'
+    l_gi6: red
 
 - duration: 200ms
   lights:
-    l_lane_L_2: '000000'
+    l_gi7: red
 
 - duration: 200ms
   lights:
-    l_star_2: 'FE0302'
+    l_gi8: red
 
 - duration: 200ms
   lights:
-    l_perdition_1: 'B80201'
-    l_popBumper_2: 'FE0302'
-    l_star_2: '000000'
-    l_star_3: 'FE0302'
+    l_gi9: red
 
 - duration: 200ms
   lights:
-    l_lane_L_3: 'FE0302'
-    l_perdition_1: 'F70302'
-    l_perdition_2: 'FE0302'
-    l_popBumper_2: '000000'
-    l_star_3: '000000'
+    l_gi10: red
 
 - duration: 200ms
   lights:
-    l_lane_L_3: '000000'
-    l_lane_L_4: 'FE0302'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
-    l_perdition_3: 'FE0302'
-    l_popBumper_1: 'FA0302'
-    l_popBumper_3: 'F20302'
+    l_gi11: red
 
 - duration: 200ms
   lights:
-    l_lane_L_4: '000000'
-    l_perdition_3: '000000'
-    l_popBumper_1: '1D0000'
-    l_popBumper_3: '8F0201'
+    l_gi12: red
 
 - duration: 200ms
   lights:
-    l_extraBall: 'EC0302'
-    l_popBumper_1: '000000'
-    l_popBumper_3: '000000'
-    l_special7: 'FE0302'
-    l_star_1: 'FE0302'
+    l_gi13: red
 
 - duration: 200ms
   lights:
-    l_extraBall: '9C0201'
-    l_lane_L_5: 'FE0302'
-    l_special7: '000000'
-    l_star_1: '000000'
+    l_gi14: red
 
 - duration: 200ms
   lights:
-    l_extraBall: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: 'FE0302'
+    l_gi15: red
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
-    l_soul_U: 'FE0302'
+    l_gi16: red
 
 - duration: 200ms
   lights:
-    l_soul_L: 'FE0302'
-    l_soul_O: 'FE0302'
-    l_soul_S: 'FE0302'
-    l_soul_U: '3F0100'
+    l_gi17: red
 
 - duration: 200ms
   lights:
-    l_soul_L: '000000'
-    l_soul_O: '000000'
-    l_soul_S: '000000'
-    l_soul_U: '000000'
+    l_gi18: red
 
+- duration: 200ms
+  lights:
+    l_gi19: red
 
+- duration: 200ms
+  lights:
+    l_gi20: red
 
+- duration: 200ms
+  lights:
+    l_gi21: red
 
 - duration: 200ms
   lights:
-    l_bonus_1000: 'FBFB02'
-    l_bonus_6000: 'FBFB02'
+    l_gi22: red
 
 - duration: 200ms
   lights:
-    l_bonus_1000: '000000'
-    l_bonus_6000: '000000'
+    l_gi23: red
 
+
 - duration: 200ms
   lights:
-    l_bonus_2000: 'FBFB02'
-    l_bonus_7000: 'FBFB02'
+    inserts: off
+    l_gi0: yellow
 
 - duration: 200ms
   lights:
-    l_bonus_2000: '000000'
-    l_bonus_7000: '000000'
+    l_gi1: yellow
 
 - duration: 200ms
   lights:
-    l_2x: 'FBFB02'
+    l_gi2: yellow
 
 - duration: 200ms
   lights:
-    l_2x: '000000'
-    l_3x: 'FBFB02'
-    l_bonus_3000: 'FBFB02'
-    l_bonus_8000: 'FBFB02'
-    l_cup_sling: 'FBFB02'
-    l_inLane_L: '030300'
-    l_inLane_R: 'EAEA02'
-    l_mug_sling: 'FBFB02'
+    l_gi3: yellow
 
 - duration: 200ms
   lights:
-    l_3x: '000000'
-    l_4x: '131300'
-    l_bonus_3000: '000000'
-    l_bonus_8000: '000000'
-    l_cup_sling: '000000'
-    l_inLane_L: 'ADAD01'
-    l_inLane_R: '000000'
-    l_mug_sling: '000000'
-    l_outLane_L: 'FBFB02'
-    l_outLane_R: 'FBFB02'
+    l_gi4: yellow
 
 - duration: 200ms
   lights:
-    l_4x: 'B2B201'
-    l_bonus_4000: 'FBFB02'
-    l_bonus_9000: 'FBFB02'
-    l_inLane_L: '000000'
-    l_outLane_L: '000000'
-    l_outLane_R: '000000'
+    l_gi5: yellow
 
 - duration: 200ms
   lights:
-    l_4x: '000000'
-    l_bonus_4000: '000000'
-    l_bonus_9000: '000000'
+    l_gi6: yellow
 
 - duration: 200ms
   lights:
-    l_dash_R: 'EFEE02'
+    l_gi7: yellow
 
 - duration: 200ms
   lights:
-    l_bonus_10000: 'FCFB02'
-    l_bonus_5000: 'FCFB02'
-    l_dash_L: 'FCFB02'
-    l_dash_R: '000000'
+    l_gi8: yellow
 
 - duration: 200ms
   lights:
-    l_bonus_10000: '000000'
-    l_bonus_5000: '000000'
-    l_dash_L: '000000'
+    l_gi9: yellow
 
-#No change this frame - take another step
-#  lights:
 - duration: 200ms
+  lights:
+    l_gi10: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_1: 'FCFC02'
+    l_gi11: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_1: '000000'
-    l_lane_L_2: 'FCFC02'
+    l_gi12: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_2: '000000'
+    l_gi13: yellow
 
 - duration: 200ms
   lights:
-    l_star_2: 'FCFC02'
+    l_gi14: yellow
 
 - duration: 200ms
   lights:
-    l_perdition_1: 'B8B701'
-    l_popBumper_2: 'FDFC02'
-    l_star_2: '000000'
-    l_star_3: 'FDFC02'
+    l_gi15: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_3: 'FDFC02'
-    l_perdition_1: 'F6F502'
-    l_perdition_2: 'FDFC02'
-    l_popBumper_2: '000000'
-    l_star_3: '000000'
+    l_gi16: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_3: '000000'
-    l_lane_L_4: 'FDFC02'
-    l_perdition_1: '000000'
-    l_perdition_2: '000000'
-    l_perdition_3: 'FDFC02'
-    l_popBumper_1: 'FAF902'
-    l_popBumper_3: 'F1F002'
+    l_gi17: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_4: '000000'
-    l_perdition_3: '000000'
-    l_popBumper_1: '1D1D00'
-    l_popBumper_3: '8E8E01'
+    l_gi18: yellow
 
 - duration: 200ms
   lights:
-    l_extraBall: 'EBEA02'
-    l_popBumper_1: '000000'
-    l_popBumper_3: '000000'
-    l_special7: 'FDFC02'
-    l_star_1: 'FDFC02'
+    l_gi19: yellow
 
 - duration: 200ms
   lights:
-    l_extraBall: '9B9B01'
-    l_lane_L_5: 'FDFC02'
-    l_special7: '000000'
-    l_star_1: '000000'
+    l_gi20: yellow
 
 - duration: 200ms
   lights:
-    l_extraBall: '000000'
-    l_lane_L_5: '000000'
-    l_lane_L_6: 'FDFC02'
+    l_gi21: yellow
 
 - duration: 200ms
   lights:
-    l_lane_L_6: '000000'
-    l_soul_U: 'FDFC02'
+    l_gi22: yellow
 
 - duration: 200ms
   lights:
-    l_soul_L: 'FDFC02'
-    l_soul_O: 'FDFC02'
-    l_soul_S: 'FDFC02'
-    l_soul_U: '3F3F00'
+    l_gi23: yellow
 
 - duration: 200ms
   lights:
-    l_soul_L: '000000'
-    l_soul_O: '000000'
-    l_soul_S: '000000'
-    l_soul_U: '000000'
+    gi: FFFFFF%40
