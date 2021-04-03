@@ -31,6 +31,11 @@ show_player:
     giOn: play
     perdition0: play
     perdition3On: stop
+  ball_started{current_player.perdition_value == 1}:
+    perdition1on: play
+  ball_started{current_player.perdition_value == 2}:
+    perdition2on: play
+
 
 sequences:
   multiballReady:

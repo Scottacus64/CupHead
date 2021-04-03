@@ -64,7 +64,7 @@ variable_player:
     score: 100
 
 event_player:
-  mode_soulLanes_started{current_player.ball == 2}: lastBall # on last ball set bonus multiplier to 2
+  mode_soulLanes_started{current_player.ball == 5}: lastBall # on last ball set bonus multiplier to 2
 
 
 sound_player:

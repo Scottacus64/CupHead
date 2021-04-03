@@ -7,36 +7,36 @@ coils:
     number: 0-0-0
   c_popBumper_1: # Autofire so switch must be on Board 0
     number: 0-0-5
-    default_pulse_ms: 20
+    default_pulse_ms: 12
   c_trough_eject:
     number: 0-0-6
     default_pulse_ms: 100
   c_popBumper_3: # Autofire so switch must be on Board 0
     number: 0-0-7
-    default_pulse_ms: 20
+    default_pulse_ms: 12
   c_popBumper_2: # Autofire so switch must be on Board 0
     number: 0-0-15
-    default_pulse_ms: 20
+    default_pulse_ms: 12
 
   # B J8 plug
   c_dash_L:
     number: 0-0-8
-    default_pulse_ms: 100
+    default_pulse_ms: 12
   c_dash_R:
     number: 0-0-9
-    default_pulse_ms: 100
+    default_pulse_ms: 15
   c_perdition_post_down:
     number: 0-0-10
-    default_pulse_ms: 100
+    default_pulse_ms: 15
   c_perdition_post_up:
     number: 0-0-11
-    default_pulse_ms: 100
+    default_pulse_ms: 15
   c_sling_R: # Autofire so switch must be on Board 0
     number: 0-0-13
-    default_pulse_ms: 100
+    default_pulse_ms: 15
   c_sling_L: # Autofire so switch must be on Board 0
     number: 0-0-14
-    default_pulse_ms: 100
+    default_pulse_ms: 15
 
    # Board 1 Chain 1
    # C J9 plug
@@ -48,22 +48,24 @@ coils:
     default_pulse_ms: 100  # 60 will work
   c_flipper_right_main: # Autofire so switch must be on Board 0
     number: 1-0-2
-    default_pulse_ms: 20
+    default_pulse_ms: 10
   c_flipper_right_hold: # Autofire so switch must be on Board 0
     number: 1-0-3
+    default_hold_power: .5
     allow_enable: true
   c_flipper_left_hold: # Autofire so switch must be on Board 1
     number: 1-0-4
+    default_hold_power: .25
     allow_enable: true
   c_kicker:
     number: 1-0-5
-    default_pulse_ms: 9
+    default_pulse_ms: 6
   c_perdition_kicker:
     number: 1-0-6
-    default_pulse_ms: 110
+    default_pulse_ms: 13
   c_flipper_left_main: # Autofire so switch must be on Board 0
     number: 1-0-7
-    default_pulse_ms: 20
+    default_pulse_ms: 10
 
 
 autofire_coils:
@@ -99,14 +101,14 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
-    disable_events: mbFail
-    enable_events: ball_started, enableAfterFail
+    disable_events: mbFail, game_ending, mode_attract_started
+    enable_events: ball_started, enableAfterFail, machine_reset_phase_3
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    disable_events: mbFail
-    enable_events: ball_started, enableAfterFail
+    disable_events: mbFail, game_ending, mode_attract_started
+    enable_events: ball_started, enableAfterFail, machine_reset_phase_3
 
 ball_devices:
   bd_trough:

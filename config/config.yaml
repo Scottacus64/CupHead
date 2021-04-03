@@ -233,5 +233,5 @@ drop_target_banks: # this assigns the drop targets to their banks and sets param
       - machine_reset_phase_3
 
 game: # sets game parameters
-  balls_per_game: 2
+  balls_per_game: 5
   max_players: 2
