@@ -1,7 +1,7 @@
 #config_version=5
 
 mode:
-  start_events: knock_out_hit #starts when the knockout target is hit
+  start_events: knock_out_hit #starts when the knockout mid right roll oveer is hit
   priority: 140
   stop_events: timer_knockOutHurryUp_timer_complete, mbFail
 

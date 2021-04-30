@@ -103,15 +103,7 @@ timers:
     control_events:
       - action: restart
         event: s_kicker_active
-  knockOut_debounce_timer:
-    direction: up
-    start_value: 0
-    end_value: 10
-    tick_interval: 100ms
-    debug: True
-    control_events:
-      - action: restart
-        event: s_standUp_R_active
+
 
 show_player:
   mode_base_started:
@@ -167,7 +159,7 @@ show_player:
 
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
-    switch: s_standUp_R # hitting the right stand up target
+    switch:   s_midRight # hitting the right stand up target
   shot_pop1:
     switch: s_popBumper_1
   shot_pop2:
@@ -258,10 +250,6 @@ variable_player:  #_hit is for shots and _active is for switches
 #  s_sling_R_active:
   shot_slingR_hit:
     score: 10
-  s_standUp_R_active:
-    knockoutDebounce:
-      int: 1
-      action: set
   s_spinner_active: # if the spinner switch is active...
     spinner_rotations: 1 # add one to the player variable spinner_rotations and..
     score: 10 # score 10 points per spinner spin
@@ -302,10 +290,6 @@ variable_player:  #_hit is for shots and _active is for switches
       action: set
   timer_kicker_saucer_debounce_timer_complete:
     kickerDebounce:
-      int: 0
-      action: set
-  timer_knockout_debounce_timer_complete:
-    knockoutDebounce:
       int: 0
       action: set
 
@@ -401,7 +385,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd1{current_player.number == 2}: mp1 # combines perdition entry 1 with player 2 to play MM's widgets
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
-  s_standUp_R_active: knockout # the knockout mode stops s-standup_R from triggering the slide so this is needed
+  s_midRight_active: knockout # the knockout mode stops s-standup_R from triggering the slide so this is needed
   player_added: add_player_1
   knockout:
     star_multiplier:

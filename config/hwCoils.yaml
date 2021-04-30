@@ -46,6 +46,7 @@ coils:
   c_dt_reset_MUG:
     number: 1-0-1
     default_pulse_ms: 100  # 60 will work
+
   c_flipper_right_main: # Autofire so switch must be on Board 0
     number: 1-0-2
     default_pulse_ms: 15
@@ -53,19 +54,22 @@ coils:
     number: 1-0-3
     default_hold_power: .5
     allow_enable: true
+    
+  c_flipper_left_main: # Autofire so switch must be on Board 0
+    number: 1-0-7
+    default_pulse_ms: 15
   c_flipper_left_hold: # Autofire so switch must be on Board 1
     number: 1-0-4
     default_hold_power: .5
     allow_enable: true
+
   c_kicker:
     number: 1-0-5
     default_pulse_ms: 6
   c_perdition_kicker:
     number: 1-0-6
-    default_pulse_ms: 13
-  c_flipper_left_main: # Autofire so switch must be on Board 0
-    number: 1-0-7
     default_pulse_ms: 15
+
 
 
 autofire_coils:
