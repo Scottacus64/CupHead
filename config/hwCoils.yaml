@@ -33,10 +33,10 @@ coils:
     default_pulse_ms: 15
   c_sling_R: # Autofire so switch must be on Board 0
     number: 0-0-13
-    default_pulse_ms: 15
+    default_pulse_ms: 10
   c_sling_L: # Autofire so switch must be on Board 0
     number: 0-0-14
-    default_pulse_ms: 15
+    default_pulse_ms: 10
 
    # Board 1 Chain 1
    # C J9 plug
@@ -48,14 +48,14 @@ coils:
     default_pulse_ms: 100  # 60 will work
   c_flipper_right_main: # Autofire so switch must be on Board 0
     number: 1-0-2
-    default_pulse_ms: 10
+    default_pulse_ms: 15
   c_flipper_right_hold: # Autofire so switch must be on Board 0
     number: 1-0-3
     default_hold_power: .5
     allow_enable: true
   c_flipper_left_hold: # Autofire so switch must be on Board 1
     number: 1-0-4
-    default_hold_power: .25
+    default_hold_power: .5
     allow_enable: true
   c_kicker:
     number: 1-0-5
@@ -65,7 +65,7 @@ coils:
     default_pulse_ms: 13
   c_flipper_left_main: # Autofire so switch must be on Board 0
     number: 1-0-7
-    default_pulse_ms: 10
+    default_pulse_ms: 15
 
 
 autofire_coils:
@@ -116,7 +116,7 @@ ball_devices:
     eject_coil: c_trough_eject
     tags: trough, home, drain
     jam_switch: s_trough_jam
-    eject_coil_jam_pulse: 15ms
+    eject_coil_jam_pulse: 8ms
     eject_targets: playfield
     entrance_count_delay: 300ms
     debug: true

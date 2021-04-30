@@ -94,7 +94,7 @@ config: # for a cleaner config file these have all been spit out to their own fi
 
 window: # defines the area of the TV monitor that can be used for the backbox display
   width: 540 # aspect ratio of the window ... set to 540 for small test window
-  height: 650 # ... set to 650 for small test window
+  height: 600 # ... set to 650 for small test window
   title: CupheadWindow
   resizable: true
   fullscreen: false # does not take up the entire TV display and...
