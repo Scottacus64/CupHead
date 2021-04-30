@@ -1,0 +1,18 @@
+#config_version=5
+
+mode:
+  start_events: timer_perditionPost_timer_complete
+  stop_events:  s_trough1_active
+  priority: 210
+  restart_on_next_ball: true
+
+variable_player:
+  s_perdition_kicker_active:
+    perdition_value: 0
+
+event_player:
+  s_perdition_kicker_active: clearLane
+
+coil_player:
+  clearLane: c_perdition_post_down
+  s_perdition_kicker_active: c_perdition_kicker

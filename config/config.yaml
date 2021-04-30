@@ -30,6 +30,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - mugSling
   - perdition
   - perdition_multiball
+  - perditionClear
   - multiball_fail
   - tilt
   - extraBall

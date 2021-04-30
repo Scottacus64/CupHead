@@ -54,7 +54,7 @@ timers:
     debug: true
     control_events:
       - action: start
-        event: startMBPost
+        event: startMBPost, clearLane
   score_motor_500_timer: # this timer is for scoring 500 points, on each pulse the game scores 100 points on the score reels (*5)
     direction: up
     start_value: 1
@@ -172,7 +172,7 @@ shots: # this defines the shot...
     switch: s_sling_R
   shot_midRight:
     switch: s_midRight
-  shot_perditon:
+  shot_perdition:
     switch: s_perdition_kicker
   shot_inLaneL:
     switch: s_inLane_L
@@ -192,7 +192,7 @@ shots: # this defines the shot...
 
 shot_groups: # this shot group was made to give the ability to stop scoring on these switches upon a multiball fail
   failedMB:
-    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_midRight, shot_perditon, shot_inLaneL, shot_inLaneR, shot_outLaneL, shot_outLaneR, shot_star1, shot_star2, shot_star3
+    shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_midRight, shot_perdition, shot_inLaneL, shot_inLaneR, shot_outLaneL, shot_outLaneR, shot_star1, shot_star2, shot_star3
     reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     disable_events: eject_bd_perdition_kicker
@@ -238,7 +238,7 @@ variable_player:  #_hit is for shots and _active is for switches
   shot_midRight_hit:
     score: 50
 #  s_perdition_active:
-  shot_perditon_hit:
+  shot_perdition_hit:
     score: 100
   s_dtSling_L_active:
     score: 10
