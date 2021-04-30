@@ -54,7 +54,9 @@ timers:
     debug: true
     control_events:
       - action: start
-        event: startMBPost, clearLane
+        event: startMBPost
+      - action: restart
+        event: clearLane
   score_motor_500_timer: # this timer is for scoring 500 points, on each pulse the game scores 100 points on the score reels (*5)
     direction: up
     start_value: 1
