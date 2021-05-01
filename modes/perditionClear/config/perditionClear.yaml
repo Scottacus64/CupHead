@@ -11,6 +11,9 @@ variable_player:
     perdition_value:
       int: 0
       action: set
+    advance_perdition_value:
+      int: 0
+      action: set
 
 event_player:
   s_perdition_kicker_active: clearLane

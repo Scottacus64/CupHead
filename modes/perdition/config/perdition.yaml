@@ -1,9 +1,9 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting #, multiball_perdition_multiball_ball_lost # starts along side basae mode
+  start_events: ball_starting, s_trough1_active #, multiball_perdition_multiball_ball_lost # starts along side basae mode
   priority: 210
-#  stop_events: startMBPost #ball_ended, #ends on ball drained or multiball achieved (devil bumper)
+  stop_events: timer_perditionPost_timer_complete # startMBPost #ball_ended, #ends on ball drained or multiball achieved (devil bumper)
 
 counters:
   perdition_entry:
@@ -46,6 +46,7 @@ sequences:
   #    - s_perdition_kicker_active
     events_when_complete: mbReady
     reset_on_complete: True
+
   startMB:
     events:
       - advance_perdition{count==3}
