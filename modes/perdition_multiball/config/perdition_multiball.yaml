@@ -18,7 +18,7 @@ multiballs:
     ball_count: 2
     ball_locks: bd_perdition_kicker # this locks the ball and...
     start_events: startMBPost # this releases it (from the perdition mode)
-    shoot_again: 2s
+    shoot_again: 2s # if one multiball drains in less than 2 S give another ball
 
 show_player:
   advance_perdition{count==3}:
