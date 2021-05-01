@@ -18,3 +18,10 @@ event_player:
 coil_player:
   clearLane: c_perdition_post_down
   s_perdition_kicker_active: c_perdition_kicker
+
+show_player:
+  s_perdition_kicker_active:
+    perdition0: play
+    perdition1on: stop
+    perdition2on: stop
+    perdition3On: stop
