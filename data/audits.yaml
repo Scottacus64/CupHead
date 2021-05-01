@@ -1,6 +1,6 @@
 events:
   game_ended: 201
-  game_started: 509
+  game_started: 512
 player:
   score:
     average: 14364.14847161572
@@ -19,38 +19,38 @@ player:
 shots:
   dash_L: 21
   dash_R: 9
-  devil_bumper: 1840
+  devil_bumper: 1846
   inLaneL: 62
-  inLaneR: 84
-  knock_out: 544
+  inLaneR: 85
+  knock_out: 546
   outLaneL: 62
   outLaneR: 66
   perdition_lane: 74
   shot_inLaneL: 156
-  shot_inLaneR: 116
-  shot_midRight: 154
+  shot_inLaneR: 117
+  shot_midRight: 156
   shot_outLaneL: 159
   shot_outLaneR: 98
-  shot_perdition: 89
+  shot_perdition: 115
   shot_perditon: 186
-  shot_pop1: 1560
-  shot_pop2: 1284
-  shot_pop3: 1383
+  shot_pop1: 1567
+  shot_pop2: 1295
+  shot_pop3: 1402
   shot_slingL: 465
   shot_slingR: 400
-  shot_star1: 204
-  shot_star2: 298
-  shot_star3: 553
+  shot_star1: 205
+  shot_star2: 299
+  shot_star3: 561
   soul_L: 325
-  soul_O: 279
+  soul_O: 280
   soul_S: 386
   soul_U: 224
   standUp1: 104
   standUp2: 144
   standUp3: 124
 switches:
-  s_EOS_L: 6482
-  s_EOS_R: 2588
+  s_EOS_L: 6577
+  s_EOS_R: 2589
   s_ball_tilt: 2
   s_dash_L: 724
   s_dash_R: 446
@@ -61,25 +61,25 @@ switches:
   s_dt_M: 612
   s_dt_P: 584
   s_dt_U: 833
-  s_dt_U2: 530
+  s_dt_U2: 531
   s_inLane_L: 281
-  s_inLane_R: 286
+  s_inLane_R: 287
   s_kicker: 1649
   s_left_flipper: 2393
-  s_midRight: 216
+  s_midRight: 218
   s_outLane_L: 302
   s_outLane_R: 208
-  s_perdition_kicker: 847
-  s_perdition_lane: 461
-  s_popBumper_1: 2043
-  s_popBumper_2: 1894
-  s_popBumper_3: 1867
+  s_perdition_kicker: 881
+  s_perdition_lane: 490
+  s_popBumper_1: 2050
+  s_popBumper_2: 1905
+  s_popBumper_3: 1886
   s_right_flipper: 2773
   s_shooter_lane: 1309
   s_sling_L: 899
   s_sling_R: 617
   s_soul_L: 326
-  s_soul_O: 279
+  s_soul_O: 280
   s_soul_S: 387
   s_soul_U: 225
   s_spinner: 4051
@@ -87,11 +87,11 @@ switches:
   s_standUp_2: 174
   s_standUp_3: 143
   s_standUp_R: 1376
-  s_star_1: 359
-  s_star_2: 442
-  s_star_3: 688
+  s_star_1: 360
+  s_star_2: 443
+  s_star_3: 696
   s_start: 129
   s_tilt_bob: 110
-  s_trough1: 1391
-  s_trough2: 1540
+  s_trough1: 1408
+  s_trough2: 1555
   s_trough_jam: 101
