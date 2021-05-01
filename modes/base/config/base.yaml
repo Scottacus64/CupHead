@@ -294,6 +294,13 @@ variable_player:  #_hit is for shots and _active is for switches
     kickerDebounce:
       int: 0
       action: set
+  startMBPost:
+    perdition_value:
+      int: 0
+      action: set
+    advance_perdition_value:
+      int: 0
+      action: set
 
 sound_player:
   mode_base_started: # when the mode starts...
