@@ -27,7 +27,3 @@ show_player:
 
 sound_player:
   startMBPost: perditionKick
-
-shots: # this defines the shot...
-  devil_bumper: # devil bumper as having the switch...
-    switch: s_popBumper_2 # hit
