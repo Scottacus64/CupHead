@@ -208,7 +208,7 @@ variable_player:  #_hit is for shots and _active is for switches
     action: set
 #  s_popBumper_1_active:
   shot_pop1_hit:
-    score: 100
+    score: 90000
 #  s_popBumper_2_active:
   shot_pop2_hit:
     score: 100
