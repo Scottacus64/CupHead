@@ -925,24 +925,24 @@ widgets: # these are the widgets that get displayed on the boss_slide
 
   rollOver_1_widget:
     - type: text
-      text:  100,000
+      text:  ""
       font_name: aafia
       font_size: 38
       anchor_x: left
       anchor_y: top
-      y: 330
-      x: 300
+      y: 90
+      x: 290
       z: 150
       opacity: 1
   rollOver_2_widget:
     - type: text
-      text:  100,000
+      text:  ""
       font_name: aafia
       font_size: 38
       anchor_x: left
       anchor_y: top
-      y: 330
-      x: 600
+      y: 90
+      x: 810
       z: 150
       opacity: 1
 
