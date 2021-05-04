@@ -214,7 +214,7 @@ variable_player:  #_hit is for shots and _active is for switches
     score: 100
 #  s_popBumper_3_active:
   shot_pop3_hit:
-    score: 100
+    score: 60000
   s_dt_C_active:
     score: 100
   s_dt_U_active:
@@ -407,7 +407,6 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
 
-
 slides:
    boss_slide:  # this boss slide playes the videos of the various bosses in the background
      widgets:                        # this list of widgets will...
@@ -489,6 +488,39 @@ slides:
      type: image
      image: hs_base
 
+widget_player:
+    rollOver_1_100k:
+      rollOver_1_widget:
+        widget_settings:
+          text: "100,000"
+    rollOver_1_200k:
+      rollOver_1_widget:
+        widget_settings:
+          text: "200,000"
+    rollOver_1_300k:
+      rollOver_1_widget:
+        widget_settings:
+          text: "300,000"
+    rollOver_1_400k:
+      rollOver_1_widget:
+        widget_settings:
+          text: "Yowza!!"
+    rollOver_2_100k:
+      rollOver_2_widget:
+        widget_settings:
+          text: "100,000"
+    rollOver_2_200k:
+      rollOver_2_widget:
+        widget_settings:
+          text: "200,000"
+    rollOver_2_300k:
+      rollOver_2_widget:
+        widget_settings:
+          text: "300,000"
+    rollOver_2_400k:
+      rollOver_2_widget:
+        widget_settings:
+          text: "Yowza!!"
 
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played

@@ -1,44 +1,44 @@
 events:
-  game_ended: 207
-  game_started: 534
+  game_ended: 217
+  game_started: 564
 player:
   score:
-    average: 14777.8813559322
+    average: 28576.869918699187
     top:
+    - 420400
+    - 420260
+    - 420220
+    - 420200
+    - 420200
+    - 420150
+    - 420150
+    - 240250
+    - 240200
     - 209910
-    - 104470
-    - 86510
-    - 84560
-    - 67690
-    - 65000
-    - 58620
-    - 51670
-    - 51500
-    - 47790
-    total: 236
+    total: 246
 shots:
   dash_L: 21
   dash_R: 9
   devil_bumper: 1901
   inLaneL: 62
   inLaneR: 85
-  knock_out: 573
+  knock_out: 574
   outLaneL: 63
   outLaneR: 68
   perdition_lane: 74
-  shot_inLaneL: 169
-  shot_inLaneR: 128
+  shot_inLaneL: 176
+  shot_inLaneR: 152
   shot_midRight: 174
-  shot_outLaneL: 166
-  shot_outLaneR: 111
+  shot_outLaneL: 168
+  shot_outLaneR: 112
   shot_perdition: 181
   shot_perditon: 186
   shot_pop1: 1819
-  shot_pop2: 1473
-  shot_pop3: 1591
+  shot_pop2: 1492
+  shot_pop3: 1687
   shot_slingL: 525
-  shot_slingR: 438
-  shot_star1: 213
+  shot_slingR: 440
+  shot_star1: 216
   shot_star2: 306
   shot_star3: 635
   soul_L: 362
@@ -49,35 +49,35 @@ shots:
   standUp2: 151
   standUp3: 131
 switches:
-  s_EOS_L: 8429
-  s_EOS_R: 2862
+  s_EOS_L: 9030
+  s_EOS_R: 2871
   s_ball_tilt: 2
   s_dash_L: 755
   s_dash_R: 465
   s_dtSling_L: 140
   s_dtSling_R: 207
   s_dt_C: 715
-  s_dt_G: 511
-  s_dt_M: 634
+  s_dt_G: 512
+  s_dt_M: 638
   s_dt_P: 620
   s_dt_U: 863
   s_dt_U2: 550
-  s_inLane_L: 294
-  s_inLane_R: 298
-  s_kicker: 1722
-  s_left_flipper: 2668
-  s_midRight: 245
-  s_outLane_L: 309
-  s_outLane_R: 221
+  s_inLane_L: 302
+  s_inLane_R: 322
+  s_kicker: 1734
+  s_left_flipper: 2670
+  s_midRight: 246
+  s_outLane_L: 311
+  s_outLane_R: 222
   s_perdition_kicker: 982
   s_perdition_lane: 567
   s_popBumper_1: 2302
-  s_popBumper_2: 2084
-  s_popBumper_3: 2075
-  s_right_flipper: 3043
+  s_popBumper_2: 2103
+  s_popBumper_3: 2171
+  s_right_flipper: 3051
   s_shooter_lane: 1309
   s_sling_L: 960
-  s_sling_R: 655
+  s_sling_R: 657
   s_soul_L: 363
   s_soul_O: 288
   s_soul_S: 432
@@ -87,11 +87,11 @@ switches:
   s_standUp_2: 184
   s_standUp_3: 153
   s_standUp_R: 1376
-  s_star_1: 368
+  s_star_1: 371
   s_star_2: 450
   s_star_3: 771
-  s_start: 138
+  s_start: 179
   s_tilt_bob: 120
-  s_trough1: 1488
-  s_trough2: 1660
-  s_trough_jam: 102
+  s_trough1: 1557
+  s_trough2: 1792
+  s_trough_jam: 106

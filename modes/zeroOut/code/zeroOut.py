@@ -16,3 +16,4 @@ class ZeroOut(Mode):
       self.machine.events.post(event_name, **result)
       event_name = "score_reel_player_score_player2"
       self.machine.events.post(event_name, **result)
+      self.machine.events.post("rollOverClear")
