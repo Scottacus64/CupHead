@@ -1,5 +1,7 @@
 from mpf.core.mode import Mode
 
+# this is custom code that when called resets the score reels to 00000 for both players
+
 class ZeroOut(Mode):
 
   def mode_init(self):
