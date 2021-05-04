@@ -4,7 +4,7 @@
 mode:
   start_events: ball_starting
   priority: 100 # lowest pririty so other modes can take over
-  code: base.rollOver
+  code: base.Base
 #  stop_events: ball_will_end
 
 counters:
@@ -208,7 +208,7 @@ variable_player:  #_hit is for shots and _active is for switches
     action: set
 #  s_popBumper_1_active:
   shot_pop1_hit:
-    score: 90000
+    score: 100
 #  s_popBumper_2_active:
   shot_pop2_hit:
     score: 100

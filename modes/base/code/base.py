@@ -1,6 +1,6 @@
 from mpf.core.mode import Mode
 
-class rollOver(Mode):
+class Base(Mode):
 
   def rollOver_player1(self):
       if self.machine.game.player1.score >= 100000 and self.machine.game.player1.score < 200000 :
