@@ -164,7 +164,7 @@ widgets:
 
 digital_score_reels: # this shows the number fo digital score reels and which frame points to each digit (character) 0-9
   player_score:
-    reel_count: 6 #changed from 5 to 6 to see if roll overs can be prevented (ie if score goes to 6 digits the reels show the upper 5 digits 180100 shows as 18010 not 80100)
+    reel_count: 5 #changed from 5 to 6 to see if roll overs can be prevented (ie if score goes to 6 digits the reels show the upper 5 digits 180100 shows as 18010 not 80100)
     include_player_number: true
     frames:
       - character: 0

@@ -1,6 +1,6 @@
 events:
   game_ended: 207
-  game_started: 526
+  game_started: 534
 player:
   score:
     average: 14777.8813559322
@@ -34,34 +34,34 @@ shots:
   shot_perdition: 181
   shot_perditon: 186
   shot_pop1: 1819
-  shot_pop2: 1462
+  shot_pop2: 1473
   shot_pop3: 1591
   shot_slingL: 525
   shot_slingR: 438
   shot_star1: 213
   shot_star2: 306
   shot_star3: 635
-  soul_L: 357
+  soul_L: 362
   soul_O: 288
   soul_S: 431
-  soul_U: 233
+  soul_U: 265
   standUp1: 112
   standUp2: 151
   standUp3: 131
 switches:
-  s_EOS_L: 8388
+  s_EOS_L: 8429
   s_EOS_R: 2862
   s_ball_tilt: 2
   s_dash_L: 755
   s_dash_R: 465
   s_dtSling_L: 140
   s_dtSling_R: 207
-  s_dt_C: 714
-  s_dt_G: 509
-  s_dt_M: 633
-  s_dt_P: 619
-  s_dt_U: 862
-  s_dt_U2: 549
+  s_dt_C: 715
+  s_dt_G: 511
+  s_dt_M: 634
+  s_dt_P: 620
+  s_dt_U: 863
+  s_dt_U2: 550
   s_inLane_L: 294
   s_inLane_R: 298
   s_kicker: 1722
@@ -72,16 +72,16 @@ switches:
   s_perdition_kicker: 982
   s_perdition_lane: 567
   s_popBumper_1: 2302
-  s_popBumper_2: 2072
+  s_popBumper_2: 2084
   s_popBumper_3: 2075
   s_right_flipper: 3043
   s_shooter_lane: 1309
   s_sling_L: 960
   s_sling_R: 655
-  s_soul_L: 358
+  s_soul_L: 363
   s_soul_O: 288
   s_soul_S: 432
-  s_soul_U: 234
+  s_soul_U: 266
   s_spinner: 4141
   s_standUp_1: 138
   s_standUp_2: 184
@@ -90,8 +90,8 @@ switches:
   s_star_1: 368
   s_star_2: 450
   s_star_3: 771
-  s_start: 137
+  s_start: 138
   s_tilt_bob: 120
-  s_trough1: 1483
-  s_trough2: 1656
+  s_trough1: 1488
+  s_trough2: 1660
   s_trough_jam: 102
