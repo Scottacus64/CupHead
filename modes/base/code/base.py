@@ -24,7 +24,7 @@ class Base(Mode):
             self.machine.events.post('rollOver_1_300k')
         if self.player.number == 2:
             self.machine.events.post('rollOver_2_300k')
-    if self.player.score >= 400000 and self.player.score < 500000 :
+    if self.player.score >= 400000:
         if self.player.number == 1:
             self.machine.events.post('rollOver_1_400k')
         if self.player.number == 2:

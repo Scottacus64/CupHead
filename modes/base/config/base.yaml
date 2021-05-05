@@ -462,16 +462,6 @@ slides:
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
 
-     - widget: rollOver_1_100k_widget
-     - widget: rollOver_1_200k_widget
-     - widget: rollOver_1_300k_widget
-     - widget: rollOver_1_400k_widget
-
-     - widget: rollOver_2_100k_widget
-     - widget: rollOver_2_200k_widget
-     - widget: rollOver_2_300k_widget
-     - widget: rollOver_2_400k_widget
-
    score_slide_GameOver:
      widgets:
      - widget: background_widget
@@ -492,104 +482,51 @@ slides:
      - widget: figure_2_active_widget
      - widget: Game_over_widget
 
-     - widget: rollOver_1_100k_widget
-     - widget: rollOver_1_200k_widget
-     - widget: rollOver_1_300k_widget
-     - widget: rollOver_1_400k_widget
-
-     - widget: rollOver_2_100k_widget
-     - widget: rollOver_2_200k_widget
-     - widget: rollOver_2_300k_widget
-     - widget: rollOver_2_400k_widget
-
    hs_base_slide:
      type: image
      image: hs_base
 
 widget_player:
   rollOverClear:
-    rollOver_1_100k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_100k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_200k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_200k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_300k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_300k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_400k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_400k_widget:
-      widget_settings:
-        opacity: 0
-
+    rollOver_1_widget:
+      target: score_slide
+      text: ""
+    rollOver_2_widget:
+      target: score_slide
+      text: ""
   rollOver_1_100k:
-    rollOver_1_100k_widget:
-      widget_settings:
-        opacity: 1
-
-  rollOver_1_200k:
-    rollOver_1_100k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_200k_widget:
-      widget_settings:
-        opacity: 1
-
-  rollOver_1_300k:
-    rollOver_1_200k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_300k_widget:
-      widget_settings:
-        opacity: 1
-
-  rollOver_1_400k:
-    rollOver_1_300k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_1_400k_widget:
-      widget_settings:
-        opacity: 1
-
+    rollOver_1_widget:
+      target: score_slide
+      text: "100,000"
   rollOver_2_100k:
-    rollOver_2_100k_widget:
-      widget_settings:
-        opacity: 1
-
+    rollOver_2_widget:
+      target: score_slide
+      text: "100,000"
+  rollOver_1_200k:
+    rollOver_1_widget:
+      target: score_slide
+      text: "200,000"
   rollOver_2_200k:
-    rollOver_2_100k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_200k_widget:
-      widget_settings:
-        opacity: 1
-
+    rollOver_2_widget:
+      target: score_slide
+      text: "200,000"
+  rollOver_1_300k:
+    rollOver_1_widget:
+      target: score_slide
+      text: "300,000"
   rollOver_2_300k:
-    rollOver_2_200k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_300k_widget:
-      widget_settings:
-        opacity: 1
-
+    rollOver_2_widget:
+      target: score_slide
+      text: "300,000"
+  rollOver_1_400k:
+    rollOver_1_widget:
+      target: score_slide
+      text: "YOWZA!"
   rollOver_2_400k:
-    rollOver_2_300k_widget:
-      widget_settings:
-        opacity: 0
-    rollOver_2_400k_widget:
-      widget_settings:
-        opcity: 1
+    rollOver_2_widget:
+      target: score_slide
+      text: "YOWZA!"
+
 
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
@@ -1025,42 +962,9 @@ widgets: # these are the widgets that get displayed on the boss_slide
            value: (1)
            duration: 0
 
-  rollOver_1_100k_widget:
+  rollOver_1_widget:
     - type: text
-      text:  100,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 290
-      z: 150
-      opacity: 0
-  rollOver_1_200k_widget:
-    - type: text
-      text:  200,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 290
-      z: 150
-      opacity: 0
-  rollOver_1_300k_widget:
-    - type: text
-      text:  300,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 290
-      z: 150
-      opacity: 0
-  rollOver_1_400k_widget:
-    - type: text
-      text:  YOWZA!
+      text:  ""
       font_name: aafia
       font_size: 38
       anchor_x: left
@@ -1070,43 +974,9 @@ widgets: # these are the widgets that get displayed on the boss_slide
       z: 150
       opacity: 0
 
-
-  rollOver_2_100k_widget:
+  rollOver_2_widget:
     - type: text
-      text:  100,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 810
-      z: 150
-      opacity: 0
-  rollOver_2_200k_widget:
-    - type: text
-      text:  200,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 810
-      z: 150
-      opacity: 0
-  rollOver_2_300k_widget:
-    - type: text
-      text:  300,000
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 810
-      z: 150
-      opacity: 0
-  rollOver_2_400k_widget:
-    - type: text
-      text:  YOWZA!
+      text:  ""
       font_name: aafia
       font_size: 38
       anchor_x: left
