@@ -461,6 +461,8 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
+     - widget: rollOver_1_widget
+     - widget: rollOver_2_widget
 
    score_slide_GameOver:
      widgets:
