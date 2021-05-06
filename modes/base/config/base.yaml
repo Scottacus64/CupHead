@@ -489,43 +489,43 @@ slides:
 widget_player:
   rollOverClear:
     rollOver_1_widget:
-      target: score_slide
-      text: ""
+      widget_settings:
+        text: ""
     rollOver_2_widget:
-      target: score_slide
-      text: ""
+      widget_settings:
+        text: ""
   rollOver_1_100k:
     rollOver_1_widget:
-      target: score_slide
-      text: "100,000"
+      widget_settings:
+        text: "100,000"
   rollOver_2_100k:
     rollOver_2_widget:
-      target: score_slide
-      text: "100,000"
+      widget_settings:
+        text: "100,000"
   rollOver_1_200k:
     rollOver_1_widget:
-      target: score_slide
-      text: "200,000"
+      widget_settings:
+        text: "200,000"
   rollOver_2_200k:
     rollOver_2_widget:
-      target: score_slide
-      text: "200,000"
+      widget_settings:
+        text: "200,000"
   rollOver_1_300k:
     rollOver_1_widget:
-      target: score_slide
-      text: "300,000"
+      widget_settings:
+        text: "300,000"
   rollOver_2_300k:
     rollOver_2_widget:
-      target: score_slide
-      text: "300,000"
+      widget_settings:
+        text: "300,000"
   rollOver_1_400k:
     rollOver_1_widget:
-      target: score_slide
-      text: "YOWZA!"
+      widget_settings:
+        text: "YOWZA!"
   rollOver_2_400k:
     rollOver_2_widget:
-      target: score_slide
-      text: "YOWZA!"
+      widget_settings:
+        text: "YOWZA!"
 
 
 widgets: # these are the widgets that get displayed on the boss_slide
@@ -972,7 +972,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       y: 90
       x: 290
       z: 150
-      opacity: 0
+      opacity: 1
 
   rollOver_2_widget:
     - type: text
@@ -984,7 +984,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       y: 90
       x: 810
       z: 150
-      opacity: 0
+      opacity: 1
 
 
   figure_1_widget: # this widget is for the cuphead static image
