@@ -450,19 +450,19 @@ slides:
      - widget: reel_1_100_widget
      - widget: reel_1_1k_widget
      - widget: reel_1_10k_widget
+     - widget: reel_1_100k_widget
      - widget: reel_2_1_widget
      - widget: reel_2_10_widget
      - widget: reel_2_100_widget
      - widget: reel_2_1k_widget
      - widget: reel_2_10k_widget
+     - widget: reel_2_100k_widget
      - widget: figure_1_widget
      - widget: figure_2_widget
      - widget: score_mask_widget
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
-     - widget: rollOver_1_widget
-     - widget: rollOver_2_widget
 
    score_slide_GameOver:
      widgets:
@@ -472,11 +472,13 @@ slides:
      - widget: reel_1_100_widget
      - widget: reel_1_1k_widget
      - widget: reel_1_10k_widget
+     - widget: reel_1_100k_widget
      - widget: reel_2_1_widget
      - widget: reel_2_10_widget
      - widget: reel_2_100_widget
      - widget: reel_2_1k_widget
      - widget: reel_2_10k_widget
+     - widget: reel_2_100k_widget
      - widget: figure_1_widget
      - widget: figure_2_widget
      - widget: score_mask_widget
@@ -488,46 +490,6 @@ slides:
      type: image
      image: hs_base
 
-widget_player:
-  rollOverClear:
-    rollOver_1_widget:
-      widget_settings:
-        text: ""
-    rollOver_2_widget:
-      widget_settings:
-        text: ""
-  rollOver_1_100k:
-    rollOver_1_widget:
-      widget_settings:
-        text: "100,000"
-  rollOver_2_100k:
-    rollOver_2_widget:
-      widget_settings:
-        text: "100,000"
-  rollOver_1_200k:
-    rollOver_1_widget:
-      widget_settings:
-        text: "200,000"
-  rollOver_2_200k:
-    rollOver_2_widget:
-      widget_settings:
-        text: "200,000"
-  rollOver_1_300k:
-    rollOver_1_widget:
-      widget_settings:
-        text: "300,000"
-  rollOver_2_300k:
-    rollOver_2_widget:
-      widget_settings:
-        text: "300,000"
-  rollOver_1_400k:
-    rollOver_1_widget:
-      widget_settings:
-        text: "YOWZA!"
-  rollOver_2_400k:
-    rollOver_2_widget:
-      widget_settings:
-        text: "YOWZA!"
 
 
 widgets: # these are the widgets that get displayed on the boss_slide
@@ -890,6 +852,23 @@ widgets: # these are the widgets that get displayed on the boss_slide
          - property: end_frame
            value: (1)
            duration: 0
+  reel_1_100k_widget:
+   - type: image
+     image: reel10_image
+     auto_play: false
+     start_frame: 0
+     anchor_x: left
+     anchor_y: bottom
+     fps: 100
+     x: 220
+     y: 80
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: (1)
+           duration: 0
+
   reel_2_1_widget:
    - type: image
      image: reel_0_image
@@ -963,31 +942,22 @@ widgets: # these are the widgets that get displayed on the boss_slide
          - property: end_frame
            value: (1)
            duration: 0
-
-  rollOver_1_widget:
-    - type: text
-      text:  ""
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 290
-      z: 150
-      opacity: 1
-
-  rollOver_2_widget:
-    - type: text
-      text:  ""
-      font_name: aafia
-      font_size: 38
-      anchor_x: left
-      anchor_y: top
-      y: 90
-      x: 810
-      z: 150
-      opacity: 1
-
+  reel_2_100k_widget:
+   - type: image
+     image: reel20_image
+     auto_play: false
+     start_frame: 0
+     anchor_x: left
+     anchor_y: bottom
+     fps: 100
+     x: 750
+     y: 80
+     z: 100
+     animations:
+       score_reel_player_score_player1:
+         - property: end_frame
+           value: (1)
+           duration: 0
 
   figure_1_widget: # this widget is for the cuphead static image
    - type: image
@@ -1201,6 +1171,9 @@ images: # all images used in widgets must be defined here, note that
   mm_perdition3_image:
     file: mm_perdition3.png
 
+  reel10_image:
+    file: reel10.zip
+    frame_persist: true
   reel11_image:
     file: reel11.zip
     frame_persist: true
@@ -1212,6 +1185,9 @@ images: # all images used in widgets must be defined here, note that
     frame_persist: true
   reel14_image:
     file: reel14.zip
+    frame_persist: true
+  reel20_image:
+    file: reel20.zip
     frame_persist: true
   reel21_image:
     file: reel21.zip
