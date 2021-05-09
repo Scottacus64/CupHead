@@ -1,6 +1,6 @@
 events:
   game_ended: 219
-  game_started: 584
+  game_started: 588
 player:
   score:
     average: 31493.185483870966
@@ -35,7 +35,7 @@ shots:
   shot_perditon: 186
   shot_pop1: 1819
   shot_pop2: 1522
-  shot_pop3: 1769
+  shot_pop3: 1807
   shot_slingL: 532
   shot_slingR: 440
   shot_star1: 218
@@ -49,7 +49,7 @@ shots:
   standUp2: 151
   standUp3: 131
 switches:
-  s_EOS_L: 9337
+  s_EOS_L: 9389
   s_EOS_R: 2872
   s_ball_tilt: 2
   s_dash_L: 755
@@ -73,9 +73,9 @@ switches:
   s_perdition_lane: 567
   s_popBumper_1: 2302
   s_popBumper_2: 2133
-  s_popBumper_3: 2254
+  s_popBumper_3: 2292
   s_right_flipper: 3051
-  s_shooter_lane: 1309
+  s_shooter_lane: 1336
   s_sling_L: 967
   s_sling_R: 657
   s_soul_L: 363
@@ -90,8 +90,8 @@ switches:
   s_star_1: 373
   s_star_2: 450
   s_star_3: 771
-  s_start: 180
+  s_start: 182
   s_tilt_bob: 120
-  s_trough1: 1586
-  s_trough2: 1842
+  s_trough1: 1591
+  s_trough2: 1847
   s_trough_jam: 106

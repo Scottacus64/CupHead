@@ -490,8 +490,6 @@ slides:
      type: image
      image: hs_base
 
-
-
 widgets: # these are the widgets that get displayed on the boss_slide
   video_boss_beppi: # if the kwarg "beppi" has been passed as the "bossname" then this wiget is played
     - type: video # it is of the type video...
@@ -802,7 +800,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1: # uses player 1's score to set the...
          - property: end_frame # end frame to...
-           value: (4) #(3_frame) # the value of the 10's frame
+           value: (5) #(3_frame) # the value of the 10's frame
            duration: 0 # set's it immediately
   reel_1_100_widget:
    - type: image
@@ -818,7 +816,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: (3)
+           value: (4)
            duration: 0
   reel_1_1k_widget:
    - type: image
@@ -834,7 +832,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: (2)
+           value: (3)
            duration: 0
   reel_1_10k_widget:
    - type: image
@@ -850,7 +848,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player1:
          - property: end_frame
-           value: (1)
+           value: (2)
            duration: 0
   reel_1_100k_widget:
    - type: image
@@ -861,7 +859,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_y: bottom
      fps: 100
      x: 220
-     y: 80
+     y: 60
      z: 100
      animations:
        score_reel_player_score_player1:
@@ -891,7 +889,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (4)
+           value: (5)
            duration: 0
   reel_2_100_widget:
    - type: image
@@ -907,7 +905,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (3)
+           value: (4)
            duration: 0
   reel_2_1k_widget:
    - type: image
@@ -923,7 +921,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (2)
+           value: (3)
            duration: 0
 
   reel_2_10k_widget:
@@ -940,7 +938,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        score_reel_player_score_player2:
          - property: end_frame
-           value: (1)
+           value: (2)
            duration: 0
   reel_2_100k_widget:
    - type: image
@@ -951,10 +949,10 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_y: bottom
      fps: 100
      x: 750
-     y: 80
+     y: 60
      z: 100
      animations:
-       score_reel_player_score_player1:
+       score_reel_player_score_player2:
          - property: end_frame
            value: (1)
            duration: 0
