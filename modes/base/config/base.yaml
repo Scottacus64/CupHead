@@ -214,7 +214,7 @@ variable_player:  #_hit is for shots and _active is for switches
     score: 100
 #  s_popBumper_3_active:
   shot_pop3_hit:
-    score: 60000
+    score: 100
   s_dt_C_active:
     score: 100
   s_dt_U_active:
@@ -858,8 +858,8 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_x: left
      anchor_y: bottom
      fps: 100
-     x: 220
-     y: 60
+     x: 260 #220
+     y: 65
      z: 100
      animations:
        score_reel_player_score_player1:
@@ -948,8 +948,8 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_x: left
      anchor_y: bottom
      fps: 100
-     x: 750
-     y: 60
+     x: 790 #750
+     y: 65
      z: 100
      animations:
        score_reel_player_score_player2:

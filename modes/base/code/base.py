@@ -1,5 +1,5 @@
 from mpf.core.mode import Mode
-
+# on longer needed because of adding score reels for the roll overs
 class Base(Mode):
 
   def mode_init(self):
