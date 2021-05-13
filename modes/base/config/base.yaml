@@ -388,7 +388,8 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
   s_midRight_active: knockout # the knockout mode stopsmidRight from triggering the slide so this is needed
-  player_added: add_player_1
+  player_added{num==1}: add_player_1
+  player_added{num==2}: add_player_2
   knockout:
     star_multiplier:
       int: 2
@@ -596,11 +597,12 @@ widgets: # these are the widgets that get displayed on the boss_slide
         player_up_1: player_up_animation
         s_shooter_lane_active: remove_animation
   player_2_widget:
-    - type: image
-      image: mugman_up_image
-      opacity: 0
+    - type: text
+      text: PLAYER 2 UP!
+      font_name: Aafia
+      font_size: 100
+      color: blue
       z: 100
-      fps: 30
       animations:
         player_up_2: player_up_animation
         s_shooter_lane_active: remove_animation
