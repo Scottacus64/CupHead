@@ -176,7 +176,7 @@ widgets:
       image: cobrapin_image
       anchor_x: left
       anchor_y: bottom
-      x: 250
+      x: -60
       y: 50
       z: 150
 
