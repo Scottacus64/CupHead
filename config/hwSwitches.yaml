@@ -176,6 +176,7 @@ switches:
     number: 1-0-57
     tags: playfield_active
     type: 'NC'
+    ignore: 500ms
   s_soul_U:
     number: 1-0-58
     tags: inLanesSw
