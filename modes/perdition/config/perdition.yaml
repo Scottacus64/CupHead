@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting, s_trough1_active #, multiball_perdition_multiball_ball_lost # starts along side basae mode
-  priority: 210
+  priority: 230
   stop_events: timer_perditionPost_timer_complete # startMBPost #ball_ended, #ends on ball drained or multiball achieved (devil bumper)
 
 counters:

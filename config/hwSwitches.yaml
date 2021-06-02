@@ -172,11 +172,6 @@ switches:
     number: 1-0-56
     tags: playfield_active
     type: 'NC'
-  s_perdition_lane:
-    number: 1-0-57
-    tags: playfield_active
-    type: 'NC'
-    ignore: 500ms
   s_soul_U:
     number: 1-0-58
     tags: inLanesSw
@@ -188,7 +183,7 @@ switches:
   s_perdition_kicker:
     number: 1-0-63
     type: 'NC'
-    ignore_window_ms: 300 # this will prevent multiple hits to the switch for more accurate counting
+    ignore_window_ms: 400 ms # This will preventt multiple hits to the switch for more accurate counting
   s_standUp_1:
     number: 1-0-61
     tags: standUp_LSw
