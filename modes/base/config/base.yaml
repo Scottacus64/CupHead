@@ -131,7 +131,7 @@ ball_saves:
   ballOut:
     active_time: 10s
     hurry_up_time: 3s
-    timer_start_events: balldevice_bd_trough_ejecting_ball, startMBPost
+    timer_start_events: balldevice_bd_trough_ejecting_ball
     balls_to_save: 1
 
 show_player:
