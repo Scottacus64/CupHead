@@ -9,7 +9,6 @@ virtual_platform_start_active_switches:
   - s_trough2
 
 switches:
-  # Board 0 Chain 0
   s_left_flipper:
     number: 1-0-11
     tags: left_flipper
@@ -54,7 +53,6 @@ switches:
     tags: dtSw
     type: 'NC'
 
-  # Board 1 Chain 1
   s_dt_U:
     number: 0-0-1
     tags: dtSw
@@ -183,7 +181,7 @@ switches:
   s_perdition_kicker:
     number: 1-0-63
     type: 'NC'
-    ignore_window_ms: 400 ms # This will preventt multiple hits to the switch for more accurate counting
+    ignore_window_ms: 400 ms # This will prevent multiple hits to the switch for more accurate counting
   s_standUp_1:
     number: 1-0-61
     tags: standUp_LSw
