@@ -1,6 +1,6 @@
 events:
   game_ended: 249
-  game_started: 664
+  game_started: 672
 player:
   score:
     average: 29885.338078291814
@@ -22,76 +22,76 @@ shots:
   devil_bumper: 1901
   inLaneL: 63
   inLaneR: 85
-  knock_out: 663
+  knock_out: 666
   outLaneL: 75
   outLaneR: 74
   perdition_lane: 74
-  shot_inLaneL: 223
-  shot_inLaneR: 219
+  shot_inLaneL: 227
+  shot_inLaneR: 220
   shot_midRight: 174
-  shot_outLaneL: 217
+  shot_outLaneL: 219
   shot_outLaneR: 154
-  shot_perdition: 387
+  shot_perdition: 395
   shot_perditon: 186
-  shot_pop1: 2709
-  shot_pop2: 2137
-  shot_pop3: 2577
-  shot_slingL: 785
-  shot_slingR: 633
-  shot_star1: 241
-  shot_star2: 325
-  shot_star3: 912
-  soul_L: 463
-  soul_O: 338
-  soul_S: 635
-  soul_U: 318
+  shot_pop1: 2718
+  shot_pop2: 2162
+  shot_pop3: 2604
+  shot_slingL: 799
+  shot_slingR: 646
+  shot_star1: 242
+  shot_star2: 326
+  shot_star3: 932
+  soul_L: 465
+  soul_O: 340
+  soul_S: 638
+  soul_U: 319
   standUp1: 153
   standUp2: 201
   standUp3: 169
 switches:
-  s_EOS_L: 13189
-  s_EOS_R: 4038
+  s_EOS_L: 13254
+  s_EOS_R: 4071
   s_ball_tilt: 2
-  s_dash_L: 891
-  s_dash_R: 635
-  s_dtSling_L: 162
-  s_dtSling_R: 264
-  s_dt_C: 791
-  s_dt_G: 601
-  s_dt_M: 745
-  s_dt_P: 713
-  s_dt_U: 947
-  s_dt_U2: 649
-  s_inLane_L: 349
-  s_inLane_R: 392
-  s_kicker: 2026
-  s_left_flipper: 3590
-  s_midRight: 337
-  s_outLane_L: 360
+  s_dash_L: 1022
+  s_dash_R: 685
+  s_dtSling_L: 168
+  s_dtSling_R: 267
+  s_dt_C: 799
+  s_dt_G: 607
+  s_dt_M: 753
+  s_dt_P: 718
+  s_dt_U: 956
+  s_dt_U2: 652
+  s_inLane_L: 353
+  s_inLane_R: 393
+  s_kicker: 2037
+  s_left_flipper: 3623
+  s_midRight: 340
+  s_outLane_L: 362
   s_outLane_R: 264
-  s_perdition_kicker: 1319
+  s_perdition_kicker: 1336
   s_perdition_lane: 567
-  s_popBumper_1: 3195
-  s_popBumper_2: 2754
-  s_popBumper_3: 3064
-  s_right_flipper: 4136
-  s_shooter_lane: 2282
-  s_sling_L: 1223
-  s_sling_R: 850
-  s_soul_L: 464
-  s_soul_O: 338
-  s_soul_S: 637
-  s_soul_U: 319
-  s_spinner: 4535
+  s_popBumper_1: 3204
+  s_popBumper_2: 2779
+  s_popBumper_3: 3091
+  s_right_flipper: 4165
+  s_shooter_lane: 2300
+  s_sling_L: 1237
+  s_sling_R: 863
+  s_soul_L: 466
+  s_soul_O: 340
+  s_soul_S: 640
+  s_soul_U: 320
+  s_spinner: 4551
   s_standUp_1: 187
   s_standUp_2: 241
   s_standUp_3: 201
   s_standUp_R: 1376
-  s_star_1: 397
-  s_star_2: 470
-  s_star_3: 1052
+  s_star_1: 398
+  s_star_2: 471
+  s_star_3: 1072
   s_start: 203
   s_tilt_bob: 173
-  s_trough1: 1922
-  s_trough2: 2275
-  s_trough_jam: 142
+  s_trough1: 1936
+  s_trough2: 2287
+  s_trough_jam: 145
