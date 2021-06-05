@@ -109,25 +109,25 @@ ball_saves:
   ballOut:
     active_time: 10s
     hurry_up_time: 3s
-    timer_start_events: balldevice_bd_plunger_ejecting_ball
+    timer_start_events: balldevice_bd_trough_ejecting_ball
     balls_to_save: 1
 
 show_player:
-  ballOut_ball_save_timer_start:
+  ball_save_ballOut_timer_start:
     flash_color:
       key: ballOut
       speed: 2
       show_tokens:
         lights: l_shootAgain
         color: white
-  ballOut_ball_save_hurry_up:
+  ball_save_ballOut_hurry_up:
     flash_color:
       key: ballOut
       speed: 4
       show_tokens:
         lights: l_shootAgain
         color: white
-  ballOut_ball_save_disabled:
+  ball_save_ballOut_disabled:
     ballOut: stop
 
   mode_base_started:
