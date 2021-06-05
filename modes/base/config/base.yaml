@@ -58,24 +58,28 @@ timers:
         event: startMBPost
       - action: restart
         event: clearLane
-    postBlockUp_timer: # this timer counts for 1 second after the ball has been kicked out of perdition to trigger raising the perdition post
-      direction: down
-      start_value: 2
-      end_value: 0
-      tick_interval: 500ms
-      debug: true
-      control_events:
-        - action: start
-          event: eject_bd_perdition_kicker
-    postBlockDown_timer: # this timer counts for 1 second to lower the post
-      direction: down
-      start_value: 4
-      end_value: 0
-      tick_interval: 500ms
-      debug: true
-      control_events:
-        - action: start
-          event: timer_postBlockUp_timer_complete
+  postBlockUp_timer: # this timer counts for 1 second after the ball has been kicked out of perdition to trigger raising the perdition post
+    direction: down
+    start_value: 3
+    end_value: 0
+    tick_interval: 200ms
+    debug: true
+    control_events:
+      - action: start
+        event: balldevice_bd_perdition_kicker_ejecting_ball.01
+      - action: restart
+        event: balldevice_bd_perdition_kicker_ejecting_ball.02
+  postBlockDown_timer: # this timer counts for 1 second to lower the post
+    direction: down
+    start_value: 4
+    end_value: 0
+    tick_interval: 500ms
+    debug: true
+    control_events:
+      - action: start
+        event: timer_postBlockUp_timer_complete.01
+      - action: restart
+        event: timer_postBlockUp_timer_complete.02
   score_motor_500_timer: # this timer is for scoring 500 points, on each pulse the game scores 100 points on the score reels (*5)
     direction: up
     start_value: 1
@@ -373,8 +377,9 @@ sound_player:
   shot_star1_hit: stars
   shot_star2_hit: stars
   shot_star3_hit: stars
-  player_added: stars
-    priority: 2201
+  player_added:
+    stars:
+      priority: 600
   sevens: specialAward
 
 slide_player:
@@ -432,10 +437,12 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
   s_midRight_active: knockout # the knockout mode stopsmidRight from triggering the slide so this is needed
-  player_added{num==1}: add_player_1
-    priority: 2203
-  player_added{num==2}: add_player_2
-    priority: 2202
+  player_added{num==1}:
+    add_player_1:
+      priority: 510
+  player_added{num==2}:
+    add_player_2:
+      priority: 490
   knockout:
     star_multiplier:
       int: 2
