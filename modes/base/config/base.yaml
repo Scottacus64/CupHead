@@ -105,8 +105,31 @@ timers:
       - action: restart
         event: s_kicker_active
 
+ball_saves:
+  ballOut:
+    active_time: 10s
+    hurry_up_time: 3s
+    timer_start_events: balldevice_bd_plunger_ejecting_ball
+    balls_to_save: 1
 
 show_player:
+  ballOut_ball_save_timer_start:
+    flash_color:
+      key: ballOut
+      speed: 2
+      show_tokens:
+        lights: l_shootAgain
+        color: white
+  ballOut_ball_save_hurry_up:
+    flash_color:
+      key: ballOut
+      speed: 4
+      show_tokens:
+        lights: l_shootAgain
+        color: white
+  ballOut_ball_save_disabled:
+    ballOut: stop
+
   mode_base_started:
     base_lighting: play # start the base lighting on start of the mode
     1_on: play
