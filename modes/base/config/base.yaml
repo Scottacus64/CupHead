@@ -68,7 +68,8 @@ timers:
         - action: start
           event: eject_bd_perdition_kicker
     postBlockDown_timer: # this timer counts for 1 second to lower the post
-      start_value: 2
+      direction: down
+      start_value: 4
       end_value: 0
       tick_interval: 500ms
       debug: true
@@ -126,7 +127,7 @@ ball_saves:
   ballOut:
     active_time: 10s
     hurry_up_time: 3s
-    timer_start_events: balldevice_bd_trough_ejecting_ball
+    timer_start_events: balldevice_bd_trough_ejecting_ball, startMBPost
     balls_to_save: 1
 
 show_player:
