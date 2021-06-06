@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting, multiball_perdition_multiball_ball_lost # this will allow a second multiball opportunity after a ball drains
-  stop_events:  advance_perdition{count==4}, # the devil bumper is enabled after the third entry and will eject the locked ball and stop the mode
+#  stop_events:  advance_perdition{count==4} # the devil bumper is enabled after the third entry and will eject the locked ball and stop the mode
   priority: 200
   restart_on_next_ball: true
 
