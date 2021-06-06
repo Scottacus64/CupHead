@@ -66,9 +66,9 @@ timers:
     debug: true
     control_events:
       - action: start
-        event: balldevice_bd_perdition_kicker_ejecting_ball.01
+        event: perd1
       - action: restart
-        event: balldevice_bd_perdition_kicker_ejecting_ball.02
+        event: perd2
   postBlockDown_timer: # this timer counts for 1 second to lower the post
     direction: down
     start_value: 4

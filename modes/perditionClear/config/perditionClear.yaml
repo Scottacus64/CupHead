@@ -6,6 +6,19 @@ mode:
   priority: 210
   restart_on_next_ball: true
 
+timers:
+  settle_timer:
+    direction: down
+    start_value: 2
+    end_value: 0
+    tick_interval: 100ms
+    debug: true
+    control_events:
+      - action: start
+        event: s_perdition_kicker_active.2
+      - action: restart
+        event: s_perdition_kicker_active.3
+
 variable_player:
   s_perdition_kicker_active:
     perdition_value:
@@ -20,7 +33,7 @@ event_player:
 
 coil_player:
   clearLane: c_perdition_post_down
-  s_perdition_kicker_active: c_perdition_kicker
+  timer_settle_timer_complete: c_perdition_kicker
 
 show_player:
   s_perdition_kicker_active:
