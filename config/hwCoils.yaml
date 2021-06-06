@@ -123,6 +123,9 @@ ball_devices:
     eject_coil_jam_pulse: 100ms
     eject_targets: playfield
     entrance_count_delay: 300ms
+    confirm_eject_switch: s_shooter_lane
+    confirm_eject_type: switch
+    eject_timeouts: 500ms
     debug: true
   bd_kicker:
     ball_switches: s_kicker
