@@ -9,7 +9,7 @@ mode:
 timers:
   settle_timer:
     direction: down
-    start_value: 2
+    start_value: 4
     end_value: 0
     tick_interval: 100ms
     debug: true

@@ -66,9 +66,9 @@ timers:
     debug: true
     control_events:
       - action: start
-        event: perd1
+        event: timer_settleBall_timer_complete.01
       - action: restart
-        event: perd2
+        event: timer_settleBall_timer_complete.02
   postBlockDown_timer: # this timer counts for 1 second to lower the post
     direction: down
     start_value: 4
@@ -80,6 +80,27 @@ timers:
         event: timer_postBlockUp_timer_complete.01
       - action: restart
         event: timer_postBlockUp_timer_complete.02
+  settleBall_timer:
+    direction: down
+    start_value: 4
+    end_value: 0
+    tick_interval: 100ms
+    debug: true
+    control_events:
+      - action: start
+        event: perd1
+      - action: restart
+        event: perd2
+  perdMB_timer:
+    direction: up
+    start_value: 1
+    end_value: 10
+    tick_interval: 1S
+    control_events:
+      - action: start
+        event: startMBPost.2
+      - action: restart
+        event: startMBPost.3
   score_motor_500_timer: # this timer is for scoring 500 points, on each pulse the game scores 100 points on the score reels (*5)
     direction: up
     start_value: 1
@@ -202,6 +223,11 @@ show_player:
   sevens:
     special7Flash: stop
     7_on: play
+  timer_perdMB_timer_started:
+    hurryUp:
+      speed: 1
+  timer_perdMB_timer_complete:
+    hurryUp: stop
 
 shots: # this defines the shot...
   knock_out: # knockout as being started by...
