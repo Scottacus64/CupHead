@@ -54,8 +54,6 @@ timers:
     tick_interval: 500ms
     debug: true
     control_events:
-      - action: start
-        event: startMBPost
       - action: restart
         event: startMBPost
       - action: restart
@@ -65,12 +63,10 @@ timers:
     start_value: 3
     end_value: 0
     tick_interval: 220ms
-    debug: true
+    debug: True
     control_events:
-      - action: start
-        event: timer_settleBall_timer_complete.01
       - action: restart
-        event: timer_settleBall_timer_complete.02
+        event: timer_settleBall_timer_complete
   postBlockDown_timer: # this timer counts for 1 second to lower the post
     direction: down
     start_value: 4
@@ -78,10 +74,8 @@ timers:
     tick_interval: 500ms
     debug: true
     control_events:
-      - action: start
-        event: timer_postBlockUp_timer_complete.01
       - action: restart
-        event: timer_postBlockUp_timer_complete.02
+        event: timer_postBlockUp_timer_complete
   settleBall_timer:
     direction: down
     start_value: 4
@@ -89,7 +83,7 @@ timers:
     tick_interval: 100ms
     debug: true
     control_events:
-      - action: start
+      - action: restart
         event: perd1
       - action: restart
         event: perd2
