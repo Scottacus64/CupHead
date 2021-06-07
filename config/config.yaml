@@ -72,6 +72,9 @@ player_vars: # these are player variables that can be seen by all modes
   knockoutDebounce:
     value_type: int
     initial_value: 0
+  perditionBallSaveOn:
+    value_type: int
+    initial_value: 0
 
 counters:
   can_play:

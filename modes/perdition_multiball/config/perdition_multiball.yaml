@@ -1,8 +1,8 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting, multiball_perdition_multiball_ball_lost # this will allow a second multiball opportunity after a ball drains
-  stop_events:  advance_perdition{count==4} # the devil bumper is enabled after the third entry and will eject the locked ball and stop the mode
+  start_events: ball_starting #, multiball_perdition_multiball_ball_lost # this will allow a second multiball opportunity after a ball drains
+#  stop_events:  advance_perdition{count==4} # the devil bumper is enabled after the third entry and will eject the locked ball and stop the mode
   priority: 200
   restart_on_next_ball: true
 
@@ -17,9 +17,9 @@ multiballs:
   perdition_multiball:
     ball_count: 2
     ball_locks: bd_perdition_kicker # this locks the ball and...
-    start_events: startMBPost # this releases it (from the perdition mode)
+    start_events: startMBPost.1 # this releases it (from the perdition mode)
     shoot_again: 10s # if one multiball drains in less than 2 S give another ball
-#    reset_events: timer_perdMB_timer_complete, multiball_perdition_multiball_shoot_again_ended
+    reset_events: timer_perdMB_timer_complete, multiball_perdition_multiball_shoot_again_ended
 
 show_player:
   advance_perdition{count==3}:
