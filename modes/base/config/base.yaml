@@ -228,15 +228,8 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
 ###############################################################################################
 #                                 EVENT PLAYER                                                #
 ###############################################################################################
-event_player:
-  timer_perdMB_timer_started:
-    perditionBallSaveOn:
-      int: 1
-      action: set
- timer_perdMB_timer_complete:
-    perditionBallSaveOn:
-      int: 0
-      action: set
+#event_player:
+
 
 ###############################################################################################
 #                                  SHOW PLAYER                                                #
@@ -409,7 +402,15 @@ variable_player:  #_hit is for shots and _active is for switches
     perdition_value:
       int: 0
       action: set
-    advance_perdition_value:
+  advance_perdition_value:
+      int: 0
+      action: set
+  timer_perdMB_timer_started:
+    perditionBallSaveOn:
+      int: 1
+      action: set
+  timer_perdMB_timer_complete:
+    perditionBallSaveOn:
       int: 0
       action: set
 
