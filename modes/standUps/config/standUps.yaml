@@ -7,7 +7,7 @@ mode:
   priority: 120
   stop_events:
     - mode_dashLit_started
-    - ball_drain
+    - ball_drain{current_player.perditionBallSaveOn==0}
 
 shots:
   standUp1:

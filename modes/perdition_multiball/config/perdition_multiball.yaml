@@ -7,11 +7,13 @@ mode:
   restart_on_next_ball: true
 
 multiball_locks:
-  perdition_lock:
+  perditionLock:
+    debug: true
     enable_events: advance_perdition{count==3} # counter for three entries to saucer
     balls_to_lock: 1
     lock_devices: bd_perdition_kicker # saucer in perdition lane
-    reset_count_for_current_player_events: multiball_lock_perdition_lock_full
+    reset_count_for_current_player_events: advance_perdition{count==4}
+
 
 multiballs:
   perdition_multiball:
