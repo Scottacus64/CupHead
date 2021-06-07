@@ -7,33 +7,6 @@ tilt:
   settle_time: 5s
   multiple_hit_window: 1500ms
 
-
-#widgets:
-#  tilt_warning_1_widget:
-#    - type: text
-#      text: YIKES!
-#      font_name: Aafia
-#      font_size: 100
-#      color: red
-#      animations:
-#        tilt_warning_1: contract_animation
-#  tilt_warning_2_widget:
-#    - type: text
-#      text: YIKES!
-#      font_name: Aafia
-#      font_size: 100
-#      color: red
-#      animations:
-#        tilt_warning_2: contract_animation
-#  tilt_widget:
-#    - type: text
-#      text: TILT!
-#      font_name: Aafia
-#      font_size: 100
-#      color: red
-#      animations:
-#        tilt: contract_animation
-
 slides:
   _overwrite: true   # this is important to overwrite the existing slides
   tilt_warning_1:
@@ -61,6 +34,9 @@ slides:
         font_size: 250
     expire: 2s
 
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
 
 slide_player:
   tilt_warning_1:

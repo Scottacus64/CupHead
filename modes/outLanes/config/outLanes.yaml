@@ -1,5 +1,7 @@
 #config_version=5
 
+# Mode if out lanes are not lit
+
 mode:
   start_events:
     - ball_started

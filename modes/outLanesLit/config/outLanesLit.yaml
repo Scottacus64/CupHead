@@ -1,5 +1,7 @@
 #config_version=5
 
+# Mode if out lanes are lit
+
 mode:
   start_events: rightStar_complete
   priority: 150
@@ -42,5 +44,4 @@ variable_player:
       score: 1000
 
 event_player:
-#    mode_bonusEndOfBall_started: resetLitOutLanes
     outLanes_complete: resetLitOutLanes

@@ -1,5 +1,4 @@
 #config_version=5
-#Cuphead SOUL light mode
 
 mode:
   start_events: ball_started  #runs along side base mode
@@ -12,6 +11,10 @@ counters:
     starting_count: 1
     direction: up
     persist_state: false
+
+###############################################################################################
+#                                        SHOTS                                                #
+###############################################################################################
 
 shots:
   soul_S:
@@ -39,6 +42,10 @@ shot_groups:  # the shot group...
     reset_events:
       soul_lanes_lit_complete: 1s # this resests on the event soul_lanes_complete which means each shot has been hit
 
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
+
 variable_player:
   mode_soulLights_started:
     bonus_miltiplier:
@@ -65,7 +72,6 @@ variable_player:
 
 event_player:
   mode_soulLanes_started{current_player.ball == 5}: lastBall # on last ball set bonus multiplier to 2
-
 
 sound_player:
     s_soul_S_active: soulLaneSound

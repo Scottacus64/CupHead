@@ -1,5 +1,1 @@
 #config_version=5
-slides:
-  base_slide:
-    - type: text
-      text: Hi

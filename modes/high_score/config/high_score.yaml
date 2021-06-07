@@ -2,7 +2,7 @@
 
 mode:
   priority: 500
-  start_events: game_ending, start_high_score
+  start_events: start_high_score # , game_ending
   use_wait_queue: true
 
 high_score:
@@ -27,6 +27,10 @@ high_score:
       - DBM: 40000
       - BBC: 600
 
+###############################################################################################
+#                                  SOUND PLAYER                                               #
+###############################################################################################
+
 sound_player:
   high_score_enter_initials:
     attract:
@@ -39,7 +43,10 @@ sound_player:
       action: play
     attract:
       action: stop
-# optional: change the slides (you can omit all the following)
+
+###############################################################################################
+#                                  SLIDE PLAYER                                               #
+###############################################################################################
 slide_player:
   _overwrite: true
   high_score_enter_initials:
@@ -53,6 +60,10 @@ slide_player:
       target: upper
     hs_base_slide:
       target: lower
+
+###############################################################################################
+#                                        SLIDES                                               #
+###############################################################################################
 
 slides:
   _overwrite: true

@@ -1,8 +1,10 @@
 #config_version=5
 
+# This is a mode that continuously drops the perdition post and tries to clear the perdition lane for the multiball
+
 mode:
-  start_events: timer_perditionPost_timer_complete
-  stop_events:  s_trough1_active{current_player.perditionBallSaveOn==0}
+  start_events: timer_perditionPost_timer_complete # start with achieving the multiball
+  stop_events:  s_trough1_active{current_player.perditionBallSaveOn==0} # end when a ball drains and the ball saver has expired
   priority: 210
   restart_on_next_ball: true
 
@@ -18,6 +20,10 @@ timers:
         event: s_perdition_kicker_active.2
       - action: restart
         event: s_perdition_kicker_active.3
+
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
 
 variable_player:
   s_perdition_kicker_active:

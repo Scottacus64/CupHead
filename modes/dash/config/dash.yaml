@@ -1,4 +1,7 @@
 #config_version=5
+
+# Mode to pay out 50 for dash hits
+
 mode:
   start_events:
     - dash_complete

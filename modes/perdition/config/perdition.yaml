@@ -16,6 +16,39 @@ counters:
     reset_on_complete: true # resets upon completion and ...
     disable_on_complete: false # will start up again after completion
 
+sequences:
+  multiballReady:
+    events:
+      - advance_perdition{count==3}
+  #    - s_perdition_kicker_active
+    events_when_complete: mbReady
+    reset_on_complete: True
+
+  startMB:
+    events:
+      - advance_perdition{count==3}
+      - s_popBumper_2_active
+    events_when_complete: startMBPost
+    reset_on_complete: True
+
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
+
+variable_player:
+  s_perdition_kicker_active:
+    score: 100
+    perdition_value: 1
+  startMBPost:
+    perdition_value:
+      int: 0
+      action: set
+
+sound_player:
+  advance_perdition{count==1}: perdition
+  advance_perdition{count==2}: perdition
+  advance_perdition{count==3}: perditionLock
+
 show_player:
   advance_perdition{count==1}:
     perdition1on: play # first time show this
@@ -37,53 +70,3 @@ show_player:
     perdition1on: play
   ball_started{current_player.perdition_value == 2}:
     perdition2on: play
-
-
-sequences:
-  multiballReady:
-    events:
-      - advance_perdition{count==3}
-  #    - s_perdition_kicker_active
-    events_when_complete: mbReady
-    reset_on_complete: True
-
-  startMB:
-    events:
-      - advance_perdition{count==3}
-      - s_popBumper_2_active
-    events_when_complete: startMBPost
-    reset_on_complete: True
-
-#shots:
-#  perdition_lane:
-#    switch: s_perdition_kicker
-#    profile: perdition_lane_profile
-
-#shot_profiles:
-#  perdition_lane_profile:
-#    states:
-#      - name: initialState
-#        show: perdition0
-#      - name: firstEntry
-#        show: perdition1on
-#      - name: secondEntry
-#        show: perdition2on
-#      - name: thirdEntry
-#        show: perdition3on
-#    loop: True
-
-variable_player:
-  s_perdition_kicker_active:
-    score: 100
-    perdition_value: 1
-  startMBPost:
-    perdition_value:
-      int: 0
-      action: set
-
-
-
-sound_player:
-  advance_perdition{count==1}: perdition
-  advance_perdition{count==2}: perdition
-  advance_perdition{count==3}: perditionLock

@@ -1,5 +1,7 @@
 #config_version=5
 
+# Mode for paying out 500 for lit inlanes
+
 mode:
   start_events: leftStars_complete # if the left stars are lit start this mode
   priority: 150

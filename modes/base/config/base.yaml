@@ -70,12 +70,12 @@ timers:
     direction: down
     start_value: 3
     end_value: 0
-    tick_interval: 220ms
+    tick_interval: 260ms
     debug: True
     control_events:
       - action: restart
         event: timer_settleBall_timer_complete
-  postBlockDown_timer: # this timer counts for 1 second to lower the post
+  postBlockDown_timer: # this timer counts for 2 seconds to lower the post
     direction: down
     start_value: 4
     end_value: 0
@@ -140,15 +140,6 @@ timers:
     control_events:
       - action: restart
         event: drop_target_bank_mug_bank_down
-#  kicker_saucer_debounce_timer:
-#    direction: up
-#    start_value: 0
-#    end_value: 5
-#    tick_interval: 100ms
-#    debug: True
-#    control_events:
-#      - action: restart
-#        event: s_kicker_active
 
 ###############################################################################################
 #                                     SHOTS                                                   #
@@ -222,6 +213,7 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   startMBPost: c_perdition_post_down  # the perdition multiball is started
   timer_perditionPost_timer_complete: c_perdition_post_up  # put the post back up after the ball has exited
   timer_postBlockUp_timer_complete: c_perdition_post_up  # put the post back up to block the lane after a kick out
+  s_popBumper_3_active{current_player.perditionBallSaveOn==1}: c_perdition_post_up # raise post if pop bumper by perdition hit while MB just started
   timer_postBlockDown_timer_complete: c_perdition_post_down  # put the post down to unblock the lane
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
 

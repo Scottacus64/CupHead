@@ -8,10 +8,37 @@ virtual_platform_start_active_switches:
   - s_trough1
   - s_trough2
 
+###############################################################################################
+#                                 DIRECT SWITCHES                                             #
+###############################################################################################
+
 switches:
-  s_left_flipper:
-    number: 1-0-11
-    tags: left_flipper
+  s_dt_U:
+    number: 0-0-1
+    tags: dtSw
+    type: 'NC'
+  s_dt_P:
+    number: 0-0-2
+    tags: dtSw
+    type: 'NC'
+  s_dt_C:
+    number: 0-0-3
+    tags: dtSw
+    type: 'NC'
+  s_EOS_L:
+    number: 0-0-8
+    type: 'NC'
+  s_sling_L:
+    number: 0-0-9
+    tags: slingSw
+  s_EOS_R:
+    number: 0-0-10
+    type: 'NC'
+  s_sling_R:
+    number: 0-0-11
+    tags: slingSw
+
+
   s_start:
     number: 1-0-2
     tags: start
@@ -20,11 +47,12 @@ switches:
     tags: tilt_warning
   s_ball_tilt:
     number: 1-0-9
-
   s_right_flipper:
     number: 1-0-10
     tags: right_flipper
-
+  s_left_flipper:
+    number: 1-0-11
+    tags: left_flipper
   s_dt_M:
     number: 0-0-16
     tags: dtSw
@@ -53,39 +81,14 @@ switches:
     tags: dtSw
     type: 'NC'
 
-  s_dt_U:
-    number: 0-0-1
-    tags: dtSw
-    type: 'NC'
-  s_dt_P:
-    number: 0-0-2
-    tags: dtSw
-    type: 'NC'
-  s_dt_C:
-    number: 0-0-3
-    tags: dtSw
-    type: 'NC'
-  s_EOS_L:
-    number: 0-0-8
-    type: 'NC'
+###############################################################################################
+#                                 SWITCH MATRIX                                               #
+###############################################################################################
 
-  s_sling_L:
-    number: 0-0-9
-    tags: slingSw
-  s_EOS_R:
-    number: 0-0-10
-    type: 'NC'
-
-  s_sling_R:
-    number: 0-0-11
-    tags: slingSw
-
-  # Board 1 Switch Matrix (4x6)
   # Column 1
   s_trough1:
     number: 1-0-32
     tags: trough
-#    type: 'NC'
   s_trough2:
     number: 1-0-33
     tags: trough
@@ -93,7 +96,6 @@ switches:
   s_trough_jam:
     number: 1-0-34
     tags: trough
-#    type: 'NC'
   s_outLane_R:
     number: 1-0-35
     tags: bottomLanesSw
@@ -104,7 +106,6 @@ switches:
     type: 'NC'
 
   # Column 2
-  # 1-0-40 is empty
   s_midRight:
     number: 1-0-40
     type: 'NC'
@@ -120,10 +121,6 @@ switches:
     number: 1-0-43
     type: 'NC'
     ignore_window_ms: 750ms
-#  s_standUp_R:
-#    number: 1-0-47
-#    type: 'NC'
-#    ignore_window_ms: 500ms
   s_standUp_3:
     number: 1-0-45
     tags: standUp_LSw
@@ -132,7 +129,6 @@ switches:
     number: 1-0-46
     type: 'NC'
     tags: dashSw
-
 
   # Column 3
   s_inLane_L:
@@ -151,10 +147,6 @@ switches:
     number: 1-0-51
     tags: starSw
     type: 'NC'
-  s_star_1:
-    number: 1-0-55
-    tags: starSw
-    type: 'NC'
   s_standUp_2:
     number: 1-0-53
     tags: standUp_LSw
@@ -162,8 +154,10 @@ switches:
   s_spinner:
     number: 1-0-54
     type: 'NC'
-
-
+  s_star_1:
+    number: 1-0-55
+    tags: starSw
+    type: 'NC'
 
   # Column 4
   s_shooter_lane:
@@ -178,10 +172,6 @@ switches:
     number: 1-0-59
     tags: inLanesSw
     type: 'NC'
-  s_perdition_kicker:
-    number: 1-0-63
-    type: 'NC'
-    ignore_window_ms: 400 ms # This will prevent multiple hits to the switch for more accurate counting
   s_standUp_1:
     number: 1-0-61
     tags: standUp_LSw
@@ -190,6 +180,11 @@ switches:
     number: 1-0-62
     tags: dashSw
     type: 'NC'
+  s_perdition_kicker:
+    number: 1-0-63
+    type: 'NC'
+    ignore_window_ms: 400 ms # This will prevent multiple hits to the switch for more accurate counting
+
 
 
 

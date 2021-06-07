@@ -1,4 +1,7 @@
 #config_version=5
+
+# Mode to pay out 500 if the Dash lights are lit
+
 mode:
   start_events: standUps_complete
   stop_events: dash_complete
@@ -9,6 +12,10 @@ shots:
     switch: s_dash_L
   dash_R:
     switch: s_dash_R
+
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
 
 event_player:
   dash_L_hit:

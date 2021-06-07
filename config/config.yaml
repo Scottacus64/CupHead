@@ -7,9 +7,13 @@ hardware:
 opp:
     ports: COM9, COM10 # these are the COM ports on the Cobrapin board
     chains:
-        0: COM9 # the zero board is on COM 5 and the..
-        1: COM10 # one board is on COM 6
+        0: COM9 # the zero board is on COM 9 and the..
+        1: COM10 # one board is on COM 10
     debug: True
+
+###############################################################################################
+#                                    MODES                                                    #
+###############################################################################################
 
 modes: # for a mode to be seen by mpf it needs to be in this list otherwise it will be ignored
   - base
@@ -35,19 +39,27 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - star
   - zeroOut
 
+###############################################################################################
+#                               POWER SUPPLY SETTINGS                                         #
+###############################################################################################
+
 psus:
   default:
     voltage: 35
     release_wait_ms: 100    # defaults to 10ms
 
+###############################################################################################
+#                                PLAYER VARIABLES                                             #
+###############################################################################################
+
 player_vars: # these are player variables that can be seen by all modes
-  bonus_multiplier:
+  bonus_multiplier: #used to keep track of what the current bonus multiplier is
     value_type: int
     initial_value: 1
-  contracts:
+  contracts: # number of contracts collected
     value_type: int
     initial_value: 0
-  dice_pips:
+  dice_pips: # keeps track of which dice light is lit
     value_type: int
     initial_value: 0
   perdition_value:
@@ -56,21 +68,16 @@ player_vars: # these are player variables that can be seen by all modes
   can_play:
     value_type: int
     initial_value: 1
-#  star_multiplier:
-#    value_type: int
-#    initial_value: 1
   flag: # variable used with the dice roll to know if a seven has been rolled
     value_type: int
     initial_value: 0
-#  kickerDebounce:
-#    value_type: int
-#    initial_value: 0
-#  knockoutDebounce:
-#    value_type: int
-#    initial_value: 0
   perditionBallSaveOn: #variable to chack if perdition multiball ball save is active
     value_type: int
     initial_value: 0
+
+###############################################################################################
+#                                     COUNTERS                                                #
+###############################################################################################
 
 counters:
   can_play:
@@ -92,6 +99,10 @@ config: # for a cleaner config file these have all been spit out to their own fi
   - hwCoils.yaml
   - sound.yaml
 
+###############################################################################################
+#                                    WINDOW                                                   #
+###############################################################################################
+
 window: # defines the area of the TV monitor that can be used for the backbox display
   width: 540 #1080 # aspect ratio of the window ... set to 540 for small test window
   height: 650 #1300 # ... set to 650 for small test window
@@ -102,6 +113,10 @@ window: # defines the area of the TV monitor that can be used for the backbox di
   exit_on_escape: true # lets you exit mpf and mpf-mc with hitting escape
   top: 0
   left: 0
+
+###############################################################################################
+#                                     DISPLAYS                                                #
+###############################################################################################
 
 displays: # VERY IMPORTANT these define three displays set into the "window"
   upper:
@@ -116,6 +131,10 @@ displays: # VERY IMPORTANT these define three displays set into the "window"
   window: # window itself must be included here so that the "layout" slide can be sent here
     width: 1080
     height: 1300
+
+###############################################################################################
+#                                       SLIDES                                                #
+###############################################################################################
 
 slides:
   layout: # THIS IS THE MAIN SLIDE THAT DRIVES ALL OF CUPHEADS BACKBOX!!!!
@@ -148,6 +167,10 @@ slides:
         source_display: lower
       - widget: player_added_widget
 
+###############################################################################################
+#                                      WIDGETS                                                #
+###############################################################################################
+
 widgets:
   player_added_widget:
   - type: text
@@ -160,6 +183,10 @@ widgets:
     opacity: 0
     animations:
       player_added: contract_animation # this shows that animations declared in one mode are available in any mode
+
+###############################################################################################
+#                                DIGITAL SCORE REELS                                          #
+###############################################################################################
 
 digital_score_reels: # this shows the number fo digital score reels and which frame points to each digit (character) 0-9
   player_score:
@@ -187,6 +214,9 @@ digital_score_reels: # this shows the number fo digital score reels and which fr
       - character: 9
         frame: 55
 
+###############################################################################################
+#                                      PLAYERS                                                #
+###############################################################################################
 
 sound_player:
   player_added: stars
@@ -195,6 +225,10 @@ slide_player:
   mc_ready: # when the mc (Media Center) is ready start the...
     layout: # layout slide on the..
       target: window # ENTIRE Window
+
+###############################################################################################
+#                                  DROP TARGETS                                               #
+###############################################################################################
 
 drop_targets: # this configs each switch to a drop target
   cup_C:

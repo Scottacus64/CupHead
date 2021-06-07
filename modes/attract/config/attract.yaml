@@ -1,12 +1,9 @@
 #config_version=5
 #Cuphead Attract Mode
 
-#show_pools:
-#  attractCH:
-#    shows:
-#      - giLinear
-#      - insertsLinear
-
+###############################################################################################
+#                                       PLAYERS                                               #
+###############################################################################################
 
 show_player:
   mode_attract_started: # when the mode begins...
@@ -14,8 +11,6 @@ show_player:
      speed: 1 # speed of 1
     insertsLinear:
       speed: 4
-  #  giLinear:
-  #    speed: 4
 
 sound_player: # plays the attract music
   mode_attract_started:
@@ -33,6 +28,10 @@ track_player:
     music:
       action: play # play the music again by..
       fade: .25 sec #fading in over .25 seconds
+
+###############################################################################################
+#                                       SLIDES                                                #
+###############################################################################################
 
 slides: # these are the attract video slides
   a_beppi:
@@ -85,38 +84,36 @@ slides: # these are the attract video slides
     - type: video
       video: a_wally
       z: 10
-
   topper_slide:
     widgets:
     - type: image
       image: topper_image
-
   title_slide:
     widgets:
     - type: image
       image: title_image
       z: 2
       fps: 30
-
   bottom_slide:
     widgets:
     - widget: score_backdrop_widget
     - widget: finger_widget
-
   thank_you_slide1:
     background_color: 111AD3
     widgets:
     - widget: opp_widget
-
   thank_you_slide2:
     background_color: 111AD3
     widgets:
     - widget: mpf_widget
-
   thank_you_slide3:
     background_color: 111AD3
     widgets:
     - widget: cobrapin_widget
+
+###############################################################################################
+#                                      WIDGETS                                                #
+###############################################################################################
 
 widgets:
   score_backdrop_widget:
@@ -202,6 +199,10 @@ animations:
       duration: 0
       repeat: true
 
+###############################################################################################
+#                                       VIDEOS                                                #
+###############################################################################################
+
 videos: # the video names must be defined
   a_beppi:
     file: attr_beppi.mp4
@@ -244,6 +245,10 @@ videos: # the video names must be defined
     height: 600
     width: 1080
 
+###############################################################################################
+#                                       IMAGES                                                #
+###############################################################################################
+
 images: # images must be defined
   score_image:
     file: score.png
@@ -260,6 +265,9 @@ images: # images must be defined
   cobrapin_image:
     file: cobrapin.png
 
+###############################################################################################
+#                                  SLIDE PLAYER                                               #
+###############################################################################################
 
 slide_player: # this slide player will
   mode_attract_started: # start these slides when the mode begins
@@ -267,7 +275,5 @@ slide_player: # this slide player will
       target: middle # sets the destination display for the slides
     topper_slide:
       target: upper
-#    bottom_slide:
-#      target: lower
     score_slide_GameOver:
       target: lower

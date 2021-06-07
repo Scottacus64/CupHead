@@ -1,5 +1,9 @@
 #config_version=5
 
+###############################################################################################
+#                                         COILS                                               #
+###############################################################################################
+
 coils:
   # Board 0 Chain 0
   # A J7 plug
@@ -70,7 +74,9 @@ coils:
     number: 1-0-6
     default_pulse_ms: 16
 
-
+###############################################################################################
+#                                  AUTOFIRE COILS                                             #
+###############################################################################################
 
 autofire_coils:
   pop_bumper1:
@@ -99,20 +105,27 @@ autofire_coils:
     disable_events: mbFail
     enable_events: ball_started, enableAfterFail
 
+###############################################################################################
+#                                    FLIPPERS                                                 #
+###############################################################################################
 
 flippers:
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
-    disable_events: mbFail, game_ending, mode_attract_started
+    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started
     enable_events: ball_started, enableAfterFail, machine_reset_phase_3
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    disable_events: mbFail, game_ending, mode_attract_started
+    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started
     enable_events: ball_started, enableAfterFail, machine_reset_phase_3
+
+###############################################################################################
+#                                 BALL DEVICES                                                #
+###############################################################################################
 
 ball_devices:
   bd_trough:
@@ -136,7 +149,6 @@ ball_devices:
     ball_switches: s_perdition_kicker
     eject_coil: c_perdition_kicker
     eject_targets: playfield
-#    eject_timeouts: 1S
     eject_events: eject_bd_perdition_kicker
   bd_dash_L:
     ball_switches: s_dash_L
