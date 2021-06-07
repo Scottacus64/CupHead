@@ -140,15 +140,15 @@ timers:
     control_events:
       - action: restart
         event: drop_target_bank_mug_bank_down
-  kicker_saucer_debounce_timer:
-    direction: up
-    start_value: 0
-    end_value: 5
-    tick_interval: 100ms
-    debug: True
-    control_events:
-      - action: restart
-        event: s_kicker_active
+#  kicker_saucer_debounce_timer:
+#    direction: up
+#    start_value: 0
+#    end_value: 5
+#    tick_interval: 100ms
+#    debug: True
+#    control_events:
+#      - action: restart
+#        event: s_kicker_active
 
 ###############################################################################################
 #                                     SHOTS                                                   #
@@ -224,12 +224,6 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   timer_postBlockUp_timer_complete: c_perdition_post_up  # put the post back up to block the lane after a kick out
   timer_postBlockDown_timer_complete: c_perdition_post_down  # put the post down to unblock the lane
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
-
-###############################################################################################
-#                                 EVENT PLAYER                                                #
-###############################################################################################
-#event_player:
-
 
 ###############################################################################################
 #                                  SHOW PLAYER                                                #
@@ -365,11 +359,11 @@ variable_player:  #_hit is for shots and _active is for switches
     dice_pips: # player variable dice_pips to...
       int: 1 # equal 7
       action: set
-  s_kicker_active{current_player.kickerDebounce == 0}:
+  s_kicker_active:  # {current_player.kickerDebounce == 0}:
     score: 100 + (100 * current_player.perdition_value)  #+(100*perdition_value)
-    kickerDebounce:
-      int: 1
-      action: set
+#    kickerDebounce:
+#      int: 1
+#      action: set
   timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
     score: 100
   timer_score_motor_50_timer_tick:
@@ -394,10 +388,10 @@ variable_player:  #_hit is for shots and _active is for switches
     flag:
       int: 0
       action: set
-  timer_kicker_saucer_debounce_timer_complete:
-    kickerDebounce:
-      int: 0
-      action: set
+#  timer_kicker_saucer_debounce_timer_complete:
+#    kickerDebounce:
+#      int: 0
+#      action: set
   startMBPost:
     perdition_value:
       int: 0
@@ -523,10 +517,10 @@ event_player: # this event player looks for the x_play event that is posted by t
   player_added{num==2}:
     add_player_2:
       priority: 490
-  knockout:
-    star_multiplier:
-      int: 2
-      action: set
+#  knockout:
+#    star_multiplier:
+#      int: 2
+#      action: set
   slide_score_slide_active{players[0].score == 0}:
     - zeroScores #if player 1 is up and the score is 0 then call zeroScores which sets the digital score reels to 00000
     - rollOverClear
@@ -914,7 +908,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       fps: 30
       opacity: 0
       animations:
-        knockout: contract_animation # won't trigger with s_standup_R by itslef
+        knockout: contract_animation # won't trigger with knockout switch by itself
 
   background_widget: # this is the background image for the score slide
     - type: image

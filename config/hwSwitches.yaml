@@ -120,10 +120,10 @@ switches:
     number: 1-0-43
     type: 'NC'
     ignore_window_ms: 750ms
-  s_standUp_R:
-    number: 1-0-47
-    type: 'NC'
-    ignore_window_ms: 500ms
+#  s_standUp_R:
+#    number: 1-0-47
+#    type: 'NC'
+#    ignore_window_ms: 500ms
   s_standUp_3:
     number: 1-0-45
     tags: standUp_LSw

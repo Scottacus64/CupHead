@@ -26,10 +26,10 @@ timers:
         event: timer_knockOut_timer_complete
 
 event_player:
-  timer_knockOutHurryUp_timer_complete:
-    star_multiplier:
-      int: 1
-      action: set
+#  timer_knockOutHurryUp_timer_complete:
+#    star_multiplier:
+#      int: 1
+#      action: set
   s_star_1_active: pay500
   s_star_2_active: pay500
   s_star_3_active: pay500
