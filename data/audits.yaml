@@ -1,6 +1,6 @@
 events:
   game_ended: 250
-  game_started: 735
+  game_started: 742
 player:
   score:
     average: 29802.836879432623
@@ -22,25 +22,25 @@ shots:
   devil_bumper: 1901
   inLaneL: 63
   inLaneR: 85
-  knock_out: 688
+  knock_out: 692
   outLaneL: 76
   outLaneR: 74
   perdition_lane: 74
-  shot_inLaneL: 228
+  shot_inLaneL: 229
   shot_inLaneR: 224
   shot_midRight: 174
   shot_outLaneL: 221
   shot_outLaneR: 154
-  shot_perdition: 623
+  shot_perdition: 645
   shot_perditon: 186
-  shot_pop1: 2762
-  shot_pop2: 2270
-  shot_pop3: 2796
-  shot_slingL: 810
-  shot_slingR: 654
-  shot_star1: 253
-  shot_star2: 327
-  shot_star3: 1052
+  shot_pop1: 2765
+  shot_pop2: 2278
+  shot_pop3: 2811
+  shot_slingL: 811
+  shot_slingR: 655
+  shot_star1: 254
+  shot_star2: 328
+  shot_star3: 1070
   soul_L: 477
   soul_O: 341
   soul_S: 648
@@ -49,35 +49,35 @@ shots:
   standUp2: 201
   standUp3: 169
 switches:
-  s_EOS_L: 13399
+  s_EOS_L: 13436
   s_EOS_R: 4100
   s_ball_tilt: 2
   s_dash_L: 1026
   s_dash_R: 691
   s_dtSling_L: 169
-  s_dtSling_R: 269
-  s_dt_C: 803
+  s_dtSling_R: 270
+  s_dt_C: 804
   s_dt_G: 617
-  s_dt_M: 759
-  s_dt_P: 721
+  s_dt_M: 760
+  s_dt_P: 722
   s_dt_U: 961
-  s_dt_U2: 656
-  s_inLane_L: 354
+  s_dt_U2: 657
+  s_inLane_L: 355
   s_inLane_R: 397
-  s_kicker: 2062
-  s_left_flipper: 3646
-  s_midRight: 366
+  s_kicker: 2072
+  s_left_flipper: 3653
+  s_midRight: 370
   s_outLane_L: 364
   s_outLane_R: 264
-  s_perdition_kicker: 1713
+  s_perdition_kicker: 1763
   s_perdition_lane: 567
-  s_popBumper_1: 3248
-  s_popBumper_2: 2887
-  s_popBumper_3: 3283
-  s_right_flipper: 4200
-  s_shooter_lane: 2316
-  s_sling_L: 1248
-  s_sling_R: 871
+  s_popBumper_1: 3251
+  s_popBumper_2: 2895
+  s_popBumper_3: 3298
+  s_right_flipper: 4204
+  s_shooter_lane: 2320
+  s_sling_L: 1249
+  s_sling_R: 872
   s_soul_L: 478
   s_soul_O: 341
   s_soul_S: 650
@@ -87,11 +87,11 @@ switches:
   s_standUp_2: 241
   s_standUp_3: 201
   s_standUp_R: 1376
-  s_star_1: 409
-  s_star_2: 472
-  s_star_3: 1195
+  s_star_1: 410
+  s_star_2: 473
+  s_star_3: 1213
   s_start: 217
   s_tilt_bob: 173
-  s_trough1: 2103
-  s_trough2: 2381
-  s_trough_jam: 157
+  s_trough1: 2132
+  s_trough2: 2396
+  s_trough_jam: 159
