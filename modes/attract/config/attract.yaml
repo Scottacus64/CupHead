@@ -125,14 +125,14 @@ slides: # these are the attract video slides
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score1_name)
+      text: (machine|score1_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score1.value)
+      text: (machine|score1_value)
       color: yellow
       y: 200
       z: 100
@@ -150,14 +150,14 @@ slides: # these are the attract video slides
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score2_name)
+      text: (machine|score2_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score2.value)
+      text: (machine|score2.value)
       color: yellow
       y: 200
       z: 75
@@ -225,14 +225,14 @@ slides: # these are the attract video slides
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score5_name)
+      text: (machine|score5_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine.score5.value)
+      text: (machine|score5_value)
       color: yellow
       y: 200
       z: 75
