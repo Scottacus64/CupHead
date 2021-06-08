@@ -4,10 +4,35 @@
 # all of this will loop continuously until a game is started
 - duration: 3s
   slides:
-    title_slide:
+    highScore1_slide:
       target: middle
     bottom_slide:
       target: lower
+
+- duration: 3s
+  slides:
+    highScore2_slide:
+      target: middle
+
+- duration: 3s
+  slides:
+    highScore3_slide:
+      target: middle
+
+- duration: 3s
+  slides:
+    highScore4_slide:
+      target: middle
+
+- duration: 3s
+  slides:
+    highScore5_slide:
+      target: middle
+
+- duration: 3s
+  slides:
+    title_slide:
+      target: middle
 
 - duration: 20s
   slides:

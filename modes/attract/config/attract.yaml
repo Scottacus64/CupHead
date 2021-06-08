@@ -88,7 +88,7 @@ slides: # these are the attract video slides
     widgets:
     - type: image
       image: topper_image
-  title_slide:
+ title_slide:
     widgets:
     - type: image
       image: title_image
@@ -110,6 +110,121 @@ slides: # these are the attract video slides
     background_color: 111AD3
     widgets:
     - widget: cobrapin_widget
+  highScore1_slide:
+    widgets:
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (machine_var_score1_name)
+      color: black
+      y: 100
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score1_value)
+      color: black
+      y: 200
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score1_award)
+      color: black
+      y: 300
+      z: 100
+  highScore2_slide:
+    widgets:
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (machine_var_score2_name)
+      color: black
+      y: 100
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score2_value)
+      color: black
+      y: 200
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score2_award)
+      color: black
+      y: 300
+      z: 100
+  highScore3_slide:
+    widgets:
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (machine_var_score3_name)
+      color: black
+      y: 100
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score3_value)
+      color: black
+      y: 200
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score3_award)
+      color: black
+      y: 300
+      z: 100
+  highScore4_slide:
+    widgets:
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (machine_var_score4_name)
+      color: black
+      y: 100
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score4_value)
+      color: black
+      y: 200
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score4_award)
+      color: black
+      y: 300
+      z: 100
+  highScore5_slide:
+    widgets:
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (machine_var_score5_name)
+      color: black
+      y: 100
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score5_value)
+      color: black
+      y: 200
+      z: 100
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (achine_var_score5_award)
+      color: black
+      y: 300
+      z: 100
 
 ###############################################################################################
 #                                      WIDGETS                                                #
