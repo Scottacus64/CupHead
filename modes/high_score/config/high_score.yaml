@@ -47,6 +47,7 @@ sound_player:
 ###############################################################################################
 #                                  SLIDE PLAYER                                               #
 ###############################################################################################
+
 slide_player:
   _overwrite: true
   high_score_enter_initials:
@@ -70,20 +71,7 @@ slides:
   high_score_enter_initials:
     - type: image
       image: red_backdrop
-    - type: text
-      font_size: 50
-      font_name: Aafia
-      color: black
-      text: PLAYER (player_num)
-      z: 100
-      y: 400
-    - type: text
-      font_size: 50
-      font_name: Aafia
-      text: (award)
-      color: black
-      z: 100
-      y: 200
+
     - type: text_input
       initial_char: A
       dynamic_x: false
@@ -91,8 +79,8 @@ slides:
       font_name: Aafia
       font_size: 100
       max_chars: 3
-      color: yellow
-      y: 300
+      color: black
+      y: 50
       z: 100
       animations:
         show_slide:
@@ -108,6 +96,7 @@ slides:
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
+
     - type: text
       text: '<       >'
       font_size: 50
@@ -115,13 +104,22 @@ slides:
       font_name: Aafia
       y: 100
       z: 100
+
+    - type: text
+      font_size: 50
+      font_name: Aafia
+      text: (award)
+      color: black
+      y: 200
+      z: 100
+
     - type: text
       text: ''
       key: high_score
       font_size: 100
       font_name: Aafia
-      color: black
-      y: 50
+      color: yellow
+      y: 300
       z: 100
       animations:
         show_slide:
@@ -135,14 +133,32 @@ slides:
             repeat: true
             easing: in_out_quint
 
-  high_score_award_display:
-    - type: image
-      image: red_backdrop
     - type: text
-      text: (player_name)
       font_size: 50
       font_name: Aafia
       color: black
+      text: PLAYER (player_num)
+      y: 400
+      z: 100
+
+
+  high_score_award_display:
+    - type: image
+      image: red_backdrop
+
+    - type: text
+      text: (award)
+      font_size: 100
+      font_name: Aafia
+      color: yellow
+      y: 300
+      z: 100
+
+    - type: text
+      text: (player_name)
+      font_size: 100
+      font_name: Aafia
+      color: yellow
       y: 200
       z: 100
       animations:
@@ -154,19 +170,17 @@ slides:
             value: 0
             duration: 0.05s
             repeat: true
-    - type: text
-      text: (award)
-      font_size: 50
-      font_name: Aafia
-      color: black
-      y: 300
-      z: 100
+
     - type: text
       text: (value)
       y: 100
       z: 100
-      font_size: 50
+      font_size: 100
       font_name: Aafia
-      color: black
+      color: yellow
       number_grouping: true
       min_digits: 2
+
+   hs_base_slide:
+     type: image
+     image: hs_base

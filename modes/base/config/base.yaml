@@ -380,10 +380,6 @@ variable_player:  #_hit is for shots and _active is for switches
     flag:
       int: 0
       action: set
-#  timer_kicker_saucer_debounce_timer_complete:
-#    kickerDebounce:
-#      int: 0
-#      action: set
   startMBPost:
     perdition_value:
       int: 0
@@ -460,6 +456,10 @@ slide_player:
     boss_slide:
       target: middle
 
+###############################################################################################
+#                                 EVENT PLAYER                                                #
+###############################################################################################
+
 event_player: # this event player looks for the x_play event that is posted by the sound config
   beppi_play: # if the sound pool randomized chose to play beppi's song it posts "beppi_play"
     start_boss: # when "beppi_play" is posted this player posts "start_boss" with the...
@@ -509,10 +509,6 @@ event_player: # this event player looks for the x_play event that is posted by t
   player_added{num==2}:
     add_player_2:
       priority: 490
-#  knockout:
-#    star_multiplier:
-#      int: 2
-#      action: set
   slide_score_slide_active{players[0].score == 0}:
     - zeroScores #if player 1 is up and the score is 0 then call zeroScores which sets the digital score reels to 00000
     - rollOverClear
@@ -609,10 +605,6 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: Game_over_widget
-
-   hs_base_slide:
-     type: image
-     image: hs_base
 
 ###############################################################################################
 #                                     WIDGETS                                                 #
