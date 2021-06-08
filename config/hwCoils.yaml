@@ -25,10 +25,10 @@ coils:
   # B J8 plug
   c_dash_L:
     number: 0-0-8
-    default_pulse_ms: 15
+    default_pulse_ms: 17
   c_dash_R:
     number: 0-0-9
-    default_pulse_ms: 17
+    default_pulse_ms: 20
   c_perdition_post_down:
     number: 0-0-10
     default_pulse_ms: 15
