@@ -120,22 +120,22 @@ slides: # these are the attract video slides
       font_name: Aafia
       text: MASTER OF CROCKERY
       color: yellow
-      y: 200
-      z: 100
+      y: 400
+      z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine_var_score1_value)
+      text: (machine.score1_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: MASTER OF CROCKERY
+      text: (machine.score1.value)
       color: yellow
-      y: 400
-      z: 75
+      y: 200
+      z: 100
   highScore2_slide:
     widgets:
     - type: image
@@ -145,21 +145,21 @@ slides: # these are the attract video slides
       font_name: Aafia
       text: CUP BEARER
       color: yellow
-      y: 200
+      y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine_var_score2_value)
+      text: (machine.score2_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: CUP BEARER
+      text: (machine.score2.value)
       color: yellow
-      y: 400
+      y: 200
       z: 75
   highScore3_slide:
     widgets:
@@ -170,21 +170,21 @@ slides: # these are the attract video slides
       font_name: Aafia
       text: STANLEY CUP
       color: yellow
-      y: 200
-      z: 75
-    - type: text
-      font_size: 75
-      font_name: Aafia
-      text: (machine_var_score3_value)
-      color: yellow
-      y: 30
-      z: 75
-    - type: text
-      font_size: 75
-      font_name: Aafia
-      text: STANLEY CUP
-      color: yellow
       y: 400
+      z: 75
+    - type: text
+      font_size: 75
+      font_name: Aafia
+      text: (machine.score3_name)
+      color: yellow
+      y: 300
+      z: 75
+    - type: text
+      font_size: 75
+      font_name: Aafia
+      text: (machine.score3.value)
+      color: yellow
+      y: 200
       z: 75
   highScore4_slide:
     widgets:
@@ -195,21 +195,21 @@ slides: # these are the attract video slides
       font_name: Aafia
       text: LOVING CUP
       color: yellow
-      y: 200
+      y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine_var_score4_value)
+      text: (machine.score4_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: LOVING CUP
+      text: (machine.score4.value)
       color: yellow
-      y: 400
+      y: 200
       z: 75
   highScore5_slide:
     widgets:
@@ -218,24 +218,26 @@ slides: # these are the attract video slides
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine_var_score5_name)
+      text: TEA CUP
       color: yellow
-      y: 200
+      y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: (machine_var_score5_value)
+      text: (machine.score5_name)
       color: yellow
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
-      text: TEA CUP
+      text: (machine.score5.value)
       color: yellow
-      y: 400
+      y: 200
       z: 75
+
+
 
 ###############################################################################################
 #                                      WIDGETS                                                #
