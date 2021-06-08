@@ -11,12 +11,12 @@ high_score:
   award_slide_display_time: 5s
   # define your high score categories and the awards
   categories: !!omap
-     score:
-        - 1: GRAND CHAMPION
-        - 2: HIGH SCORE 1
-        - 3: HIGH SCORE 2
-        - 4: HIGH SCORE 3
-        - 5: HIGH SCORE 4
+     - score:
+        - GRAND CHAMPION
+        - HIGH SCORE 1
+        - HIGH SCORE 2
+        - HIGH SCORE 3
+        - HIGH SCORE 4
 
   # set the defaults
   defaults:
