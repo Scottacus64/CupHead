@@ -68,13 +68,8 @@ slide_player:
 ###############################################################################################
 
 slides:
-  _overwrite: true
-
-###############################################################################################
-#                                 HIGH SCORE ENTRY                                            #
-###############################################################################################
-
-  high_score_enter_initials:
+ _overwrite: true
+ high_score_enter_initials:
     - type: image
       image: red_backdrop
 
@@ -140,7 +135,7 @@ slides:
 #                               HIGH SCORE DISPLAY                                            #
 ###############################################################################################
 
-  high_score_award_display:
+ high_score_award_display:
     - type: image
       image: red_backdrop
 
@@ -179,6 +174,6 @@ slides:
       number_grouping: true
       min_digits: 2
 
-   hs_base_slide:
+ hs_base_slide:
      type: image
      image: hs_base
