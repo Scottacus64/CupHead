@@ -18,9 +18,6 @@ mode_settings:
       score: 0
       player_score_entry: current_player.contracts
 
-event_player:
-  ball_ending: multiballFail
-
 timers:
   failBonusCountDown:
     start_value: current_player.contracts # start with the current number of contracts collected and ...
@@ -48,6 +45,7 @@ event_player:
   timer_bonusCountDown_tick{current_player.contracts>0}: # if the current player's contract value is greater than zero ...
     - bonusPayout # pay out and...
     - light_done  # post the event light_done  mode_bonus_started: start_bonus_countdown
+  ball_ending: multiballFail
 
 variable_player:
   timer_failBonusCountDown_tick{current_player.contracts>0}:
