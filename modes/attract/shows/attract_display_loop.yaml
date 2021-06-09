@@ -34,11 +34,6 @@
     highScore5_slide:
       target: middle
 
-- duration: 3s
-  slides:
-    title_slide:
-      target: middle
-
 - duration: 20s
   slides:
     a_beppi:
@@ -146,24 +141,29 @@
 
 - duration: 3s
   slides:
-    thank_you_slide1:
+    highScore1_slide:
       target: middle
-    bottom_slide:
-      target: lower
 
 - duration: 3s
   slides:
-    thank_you_slide2:
+    highScore2_slide:
       target: middle
-    bottom_slide:
-      target: lower
 
 - duration: 3s
   slides:
-    thank_you_slide3:
+    highScore3_slide:
       target: middle
-    bottom_slide:
-      target: lower
+
+- duration: 3s
+  slides:
+    highScore4_slide:
+      target: middle
+
+- duration: 3s
+  slides:
+    highScore5_slide:
+      target: middle
+- duration: 3s
 
 - duration: 20s
   slides:
