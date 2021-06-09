@@ -32,6 +32,7 @@ modes: # for a mode to be seen by mpf it needs to be in this list otherwise it w
   - perdition
   - perdition_multiball
   - perditionClear
+  - perditionFailClear
   - multiball_fail
   - tilt
   - extraBall

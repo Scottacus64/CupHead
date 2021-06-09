@@ -12,7 +12,6 @@ queue_relay_player:
     wait_for: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2 and bonusPayoutDone}    # wait for it to drain
 
 mode_settings:
-#  display_delay_ms: 1300ms
   bonus_entries:
     - event: bonusPayout
       score: 0
@@ -33,6 +32,17 @@ timers:
         event: start_bonus_countdown # the mode begins and ...
       - action: stop # stop when ...
         event: bonusDone # the mode is done
+  failPostUp_timer:
+    direction: down
+    start_value: 2
+    end_value: 0
+    tick_interval: 500ms
+    debug: true
+    control_events:
+      - action: restart
+        event: multiballFail
+      - action: restart
+        event: clearLane
 
 ###############################################################################################
 #                                      PLAYERS                                                #
