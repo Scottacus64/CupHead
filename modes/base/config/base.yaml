@@ -430,7 +430,7 @@ sound_player:
   shot_star1_hit: stars
   shot_star2_hit: stars
   shot_star3_hit: stars
-  player_added:
+  player_added.1:
     stars:
       priority: 600
   sevens: specialAward
@@ -498,10 +498,10 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
   s_midRight_active: knockout # the knockout mode stopsmidRight from triggering the slide so this is needed
-  player_added{num==1}:
+  player_added.2{num==1}:
     add_player_1:
       priority: 510
-  player_added{num==2}:
+  player_added.3{num==2}:
     add_player_2:
       priority: 490
   slide_score_slide_active{players[0].score == 0}:
