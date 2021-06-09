@@ -8,7 +8,7 @@ mode:
 high_score:
   _overwrite: true
   enter_initials_timeout: 60
-  award_slide_display_time: 6
+  award_slide_display_time: 6S
 
   # define your high score categories and the awards
   categories: !!omap

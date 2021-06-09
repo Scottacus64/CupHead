@@ -336,10 +336,8 @@ variable_player:  #_hit is for shots and _active is for switches
     score: 10
   s_dtSling_R_active:
     score: 10
-#  s_sling_L_active:
   shot_slingL_hit:
     score: 10
-#  s_sling_R_active:
   shot_slingR_hit:
     score: 10
   s_spinner_active: # if the spinner switch is active...
@@ -353,9 +351,6 @@ variable_player:  #_hit is for shots and _active is for switches
       action: set
   s_kicker_active:  # {current_player.kickerDebounce == 0}:
     score: 100 + (100 * current_player.perdition_value)  #+(100*perdition_value)
-#    kickerDebounce:
-#      int: 1
-#      action: set
   timer_score_motor_500_timer_tick: # must be set to this to not miss the first 100 if not on the first ball (ie score 400)
     score: 100
   timer_score_motor_50_timer_tick:
