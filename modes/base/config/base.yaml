@@ -216,7 +216,7 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   s_popBumper_3_active{current_player.perditionBallSaveOn==1}: c_perdition_post_up # raise post if pop bumper by perdition hit while MB just started
   timer_postBlockDown_timer_complete: c_perdition_post_down  # put the post down to unblock the lane
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
-
+  timer_failPostUp_timer_complete: c_perdition_post_up
 ###############################################################################################
 #                                  SHOW PLAYER                                                #
 ###############################################################################################
