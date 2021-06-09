@@ -39,7 +39,7 @@ timers:
       - action: restart
         event: multiballFail
       - action: restart
-        event: clearLane
+        event: clearLane.2
 
 ###############################################################################################
 #                                      PLAYERS                                                #

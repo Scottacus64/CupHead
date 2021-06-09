@@ -5,7 +5,7 @@
 mode:
   start_events: timer_perditionPost_timer_complete # start with achieving the multiball
   stop_events:  s_trough1_active{current_player.perditionBallSaveOn==0} # end when a ball drains and the ball saver has expired
-  priority: 210
+  priority: 220
   restart_on_next_ball: true
 
 timers:
@@ -35,7 +35,7 @@ variable_player:
       action: set
 
 event_player:
-  s_perdition_kicker_active: clearLane
+  s_perdition_kicker_active: clearLane.3
 
 coil_player:
   clearLane: c_perdition_post_down
