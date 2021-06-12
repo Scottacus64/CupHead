@@ -16,8 +16,6 @@ timers:
     tick_interval: 100ms
     debug: true
     control_events:
-      - action: start
-        event: s_perdition_kicker_active.2
       - action: restart
         event: s_perdition_kicker_active.3
 

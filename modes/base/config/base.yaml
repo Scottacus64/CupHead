@@ -66,7 +66,7 @@ timers:
         event: startMBPost
       - action: restart
         event: clearLane
-  postBlockUp_timer: # this timer counts for 1 second after the ball has been kicked out of perdition to trigger raising the perdition post
+  postBlockUp_timer: # this timer counts for 780ms after the ball has been kicked out of perdition to trigger raising the perdition post
     direction: down
     start_value: 3
     end_value: 0
@@ -84,7 +84,8 @@ timers:
     control_events:
       - action: restart
         event: timer_postBlockUp_timer_complete
-  settleBall_timer:
+
+  settleBall_timer: # this timer lets a ball settle in the saucer before kicking to get a good kick every time
     direction: down
     start_value: 4
     end_value: 0
@@ -95,7 +96,8 @@ timers:
         event: perd1
       - action: restart
         event: perd2
-  perdMB_timer:
+
+  perdMB_timer: # this timer starts and ends the HurryUp show for the shoot again light
     direction: up
     start_value: 1
     end_value: 10
