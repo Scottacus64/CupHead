@@ -85,8 +85,9 @@ timers:
     debug: true
     control_events:
       - action: restart
-        event: timer_postBlockUp_timer_complete
-
+        event: timer_postBlockUp_timer_complete{advance_perdition==1}
+      - action: restart
+        event: timer_postBlockUp_timer_complete{advance_perdition==2}
   perdMB_timer: # this timer starts and ends the HurryUp show for the shoot again light
     direction: up
     start_value: 1
