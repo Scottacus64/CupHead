@@ -7,7 +7,12 @@ mode:
 
 counters:
   perdition_entry:
-    count_events: s_perdition_kicker_active, startMBPost, multiballFail # increments every time the perdition kicker fires, start or fail of MB and ...
+    count_events: # increments every time the perdition kicker fires, start or fail of MB and ...
+      - s_perdition_kicker_active{current_player.perdition_value == 0}
+      - s_perdition_kicker_active{current_player.perdition_value == 1}
+      - s_perdition_kicker_active{current_player.perdition_value == 2}
+      - startMBPost
+      - multiballFail
     count_complete_value: 4 # is complete after three entries into berdition and then exit...
     starting_count: 0 # startes at zero
     direction: up #  It counts up and ...

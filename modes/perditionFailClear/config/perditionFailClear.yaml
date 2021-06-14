@@ -37,7 +37,7 @@ event_player:
 
 coil_player:
   clearLane: c_perdition_post_down
-  timer_settle_timer_complete: c_perdition_kicker
+  timer_settleFail_timer_complete: c_perdition_kicker
 
 show_player:
   s_perdition_kicker_active:
