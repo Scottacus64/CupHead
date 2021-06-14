@@ -74,7 +74,9 @@ timers:
     debug: True
     control_events:
       - action: restart
-        event: timer_settleBall_timer_complete
+        event: perd1
+      - action: restart
+        event: perd2
   postBlockDown_timer: # this timer counts for 2 seconds to lower the post
     direction: down
     start_value: 4
@@ -84,18 +86,6 @@ timers:
     control_events:
       - action: restart
         event: timer_postBlockUp_timer_complete
-
-  settleBall_timer: # this timer lets a ball settle in the saucer before kicking to get a good kick every time
-    direction: down
-    start_value: 4
-    end_value: 0
-    tick_interval: 100ms
-    debug: true
-    control_events:
-      - action: restart
-        event: perd1
-      - action: restart
-        event: perd2
 
   perdMB_timer: # this timer starts and ends the HurryUp show for the shoot again light
     direction: up
