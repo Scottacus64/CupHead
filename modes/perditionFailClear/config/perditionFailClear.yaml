@@ -11,13 +11,13 @@ mode:
 timers:
   settleFail_timer:
     direction: down
-    start_value: 4
+    start_value: 3
     end_value: 0
     tick_interval: 100ms
     debug: true
     control_events:
       - action: restart
-        event: s_perdition_kicker_active.3
+        event: s_perdition_kicker_active
 
 ###############################################################################################
 #                                      PLAYERS                                                #
