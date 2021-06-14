@@ -85,9 +85,7 @@ timers:
     debug: true
     control_events:
       - action: restart
-        event: timer_postBlockUp_timer_complete{advance_perdition==1}
-      - action: restart
-        event: timer_postBlockUp_timer_complete{advance_perdition==2}
+        event: timer_postBlockUp_timer_complete
   perdMB_timer: # this timer starts and ends the HurryUp show for the shoot again light
     direction: up
     start_value: 1
@@ -207,7 +205,8 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   timer_perditionPost_timer_complete: c_perdition_post_up  # put the post back up after the ball has exited
   timer_postBlockUp_timer_complete: c_perdition_post_up  # put the post back up to block the lane after a kick out
   s_popBumper_3_active{current_player.perditionBallSaveOn==1}: c_perdition_post_up # raise post if pop bumper by perdition hit while MB just started
-  timer_postBlockDown_timer_complete: c_perdition_post_down  # put the post down to unblock the lane
+  timer_postBlockDown_timer_complete{current_player.perdition_value==1}: c_perdition_post_down  # put the post down to unblock the lane
+  timer_postBlockDown_timer_complete{current_player.perdition_value==2}: c_perdition_post_down
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
   timer_failPostUp_timer_complete: c_perdition_post_up
 ###############################################################################################
@@ -512,7 +511,6 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
-
 ###############################################################################################
 #                                       SLIDES                                                #
 ###############################################################################################
