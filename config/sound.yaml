@@ -280,7 +280,18 @@ sounds:
     file: CHBonus.wav
     track: sfx
     volume: .75
-
+  cupMugSlings:
+    file: CHBounce.wav
+    track: sfx
+    volume: .75
+  ballRelease:
+    file: CHBallRelease.wav
+    track: sfx
+    volume: .75
+  plunger:
+    file: CHPlunger.wav
+    track: sfx
+    volume: .75
 ###############################################################################################
 #                                 SOUND POOLS                                                 #
 ###############################################################################################

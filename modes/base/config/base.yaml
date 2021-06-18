@@ -418,7 +418,8 @@ sound_player:
   knock_out_hit: knockOut
   sw_dtSw_active: dropTarget
   s_kicker_active: kicker
-  sw_dtSlingSw_active: dtSling
+  s_dtSling_L_active: dtSling
+  s_dtSling_R_active: dtSling
   shot_star1_hit: stars
   shot_star2_hit: stars
   shot_star3_hit: stars
@@ -426,6 +427,8 @@ sound_player:
     stars:
       priority: 600
   sevens: specialAward
+  s_shooter_lane_active: ballRelease
+  s_shooter_lane_inactive: plunger
 
 ###############################################################################################
 #                                 SLIDE PLAYER                                                #
