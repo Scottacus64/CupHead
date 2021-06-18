@@ -11,6 +11,7 @@ counters:
       - s_perdition_kicker_active{current_player.perdition_value == 0}
       - s_perdition_kicker_active{current_player.perdition_value == 1}
       - s_perdition_kicker_active{current_player.perdition_value == 2}
+      - s_perdition_kicker_active{current_player.perdition_value == 3}
       - startMBPost
       - multiballFail
     count_complete_value: 4 # is complete after three entries into berdition and then exit...
