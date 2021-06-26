@@ -66,9 +66,9 @@ timers:
         event: startMBPost
       - action: restart
         event: clearLane
-  postBlockUp_timer: # this timer counts for 780ms after the ball has been kicked out of perdition to trigger raising the perdition post
+  postBlockUp_timer: # this timer counts for 1250ms after the ball has been kicked out of perdition to trigger raising the perdition post
     direction: down
-    start_value: 4
+    start_value: 5
     end_value: 0
     tick_interval: 250ms
     debug: True
