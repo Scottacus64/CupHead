@@ -71,7 +71,7 @@ slides:
  _overwrite: true
  high_score_enter_initials:
     - type: image
-      image: red_backdrop
+      image: backdrop
 
     - type: text_input
       initial_char: A
@@ -137,11 +137,11 @@ slides:
 
  high_score_award_display:
     - type: image
-      image: red_backdrop
+      image: backdrop
 
     - type: text
       text: (award)
-      font_size: 100
+      font_size: 50
       font_name: Aafia
       color: yellow
       y: 300
