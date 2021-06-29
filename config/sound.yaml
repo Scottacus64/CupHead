@@ -256,10 +256,6 @@ sounds:
     file: CHdt.wav
     track: sfx
     volume: .75
-  dtSling:
-    file: CHdtSling.wav
-    track: sfx
-    volume: .75
   kicker:
     file: CHkicker.wav
     track: sfx
@@ -281,17 +277,17 @@ sounds:
     track: sfx
     volume: .75
   cupMugSlings:
-    file: CHBounce.wav
+    file: CHDTSling.wav
     track: sfx
     volume: .75
   ballRelease:
-    file: CHBallRelease.wav
+    file: CHPlungerPull.wav
     track: sfx
     volume: .75
   plunger:
-    file: CHPlunger.wav
+    file: CHBallRelease.wav
     track: sfx
-    volume: .75
+    volume: 1
 ###############################################################################################
 #                                 SOUND POOLS                                                 #
 ###############################################################################################

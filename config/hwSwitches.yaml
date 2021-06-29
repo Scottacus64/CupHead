@@ -163,6 +163,7 @@ switches:
   s_shooter_lane:
     number: 1-0-56
     tags: playfield_active
+    ignore_window_ms: 600 ms
     type: 'NC'
   s_soul_U:
     number: 1-0-58
