@@ -184,7 +184,37 @@ widgets:
     opacity: 0
     animations:
       player_added: contract_animation # this shows that animations declared in one mode are available in any mode
-
+  score_mask_no_players_widget: # this is a mask to make a black are behind the score reels and under the characters
+   - type: image
+     image: score_mask_no_players_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 0
+     y: 0
+     z: 90 # covers the character base (z=80) and behind the score reels (z=100)
+     animations:
+       add_player_1: remove_animation
+  score_mask_one_player_widget: # this is a mask to make a black are behind the score reels and under the characters
+   - type: image
+     image: score_mask_one_player_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 0
+     y: 0
+     z: 100 # covers the character base (z=80) and behind the score reels (z=100)
+     animations:
+       add_player_1: player_up_animation # start with the mode beginning
+       add_player_2: remove_animation
+  score_mask_widget: # this is a mask to make a black are behind the score reels and under the characters
+   - type: image
+     image: score_mask_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 0
+     y: 0
+     z: 110 # covers the character base (z=80) and behind the score reels (z=100)
+     animations:
+       add_player_2: player_up_animation # start with the mode beginning
 ###############################################################################################
 #                                DIGITAL SCORE REELS                                          #
 ###############################################################################################
