@@ -1,6 +1,6 @@
 events:
   game_ended: 271
-  game_started: 822
+  game_started: 826
 player:
   score:
     average: 28402.954545454544
@@ -27,30 +27,30 @@ shots:
   outLaneR: 77
   perdition_lane: 74
   shot_inLaneL: 259
-  shot_inLaneR: 248
+  shot_inLaneR: 249
   shot_midRight: 174
   shot_outLaneL: 253
   shot_outLaneR: 171
-  shot_perdition: 880
+  shot_perdition: 921
   shot_perditon: 186
-  shot_pop1: 3289
-  shot_pop2: 2828
-  shot_pop3: 3351
+  shot_pop1: 3292
+  shot_pop2: 2840
+  shot_pop3: 3364
   shot_slingL: 1022
   shot_slingR: 899
-  shot_star1: 305
-  shot_star2: 356
-  shot_star3: 1305
+  shot_star1: 308
+  shot_star2: 357
+  shot_star3: 1311
   soul_L: 559
   soul_O: 381
   soul_S: 771
-  soul_U: 367
+  soul_U: 368
   standUp1: 198
   standUp2: 249
   standUp3: 222
 switches:
-  s_EOS_L: 15277
-  s_EOS_R: 4103
+  s_EOS_L: 15287
+  s_EOS_R: 4127
   s_ball_tilt: 2
   s_dash_L: 1124
   s_dash_R: 767
@@ -63,35 +63,35 @@ switches:
   s_dt_U: 1044
   s_dt_U2: 715
   s_inLane_L: 385
-  s_inLane_R: 422
-  s_kicker: 2280
+  s_inLane_R: 423
+  s_kicker: 2283
   s_left_flipper: 4606
-  s_midRight: 449
+  s_midRight: 450
   s_outLane_L: 396
   s_outLane_R: 281
-  s_perdition_kicker: 2183
+  s_perdition_kicker: 2249
   s_perdition_lane: 567
-  s_popBumper_1: 3784
-  s_popBumper_2: 3462
-  s_popBumper_3: 3854
+  s_popBumper_1: 3787
+  s_popBumper_2: 3474
+  s_popBumper_3: 3867
   s_right_flipper: 5300
-  s_shooter_lane: 2613
+  s_shooter_lane: 2657
   s_sling_L: 1463
   s_sling_R: 1120
   s_soul_L: 560
   s_soul_O: 381
   s_soul_S: 773
-  s_soul_U: 369
-  s_spinner: 4851
+  s_soul_U: 370
+  s_spinner: 4853
   s_standUp_1: 244
   s_standUp_2: 312
   s_standUp_3: 275
   s_standUp_R: 1376
-  s_star_1: 462
-  s_star_2: 502
-  s_star_3: 1461
-  s_start: 269
+  s_star_1: 465
+  s_star_2: 503
+  s_star_3: 1468
+  s_start: 270
   s_tilt_bob: 282
-  s_trough1: 2548
-  s_trough2: 2790
-  s_trough_jam: 196
+  s_trough1: 2595
+  s_trough2: 2817
+  s_trough_jam: 198
