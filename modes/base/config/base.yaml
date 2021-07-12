@@ -1078,12 +1078,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      image: small_cuphead_image
      anchor_x: left
      anchor_y: bottom
-     opacity: 82
      x: 50
      y: 50
      z: 80
      animations:
-       mode_base_started: player_up_animation # start with the mode beginning
+       mode_base_started: player_grey_animation # start with the mode beginning
        add_player_1: remove_animation # shut down with player 1 starting
   figure_1_widget: # this widget is for the cuphead static image
    - type: image
@@ -1116,12 +1115,11 @@ widgets: # these are the widgets that get displayed on the boss_slide
      image: small_mugman_image
      anchor_x: left
      anchor_y: bottom
-     opacity: 82
      x: 575
      y: 50
      z: 80
      animations:
-       mode_base_started: player_up_animation # start with the mode beginning
+       mode_base_started: player_grey_animation # start with the mode beginning
        add_player_2: remove_animation # shut down with player 1 starting
   figure_2_widget:
    - type: image
@@ -1237,6 +1235,11 @@ animations: # these are the named animaitons for the base slide
   - property: opacity # the opacity is set...
     value: 1 # back to solid (1) over...
     duration: .1s # .1 seconds
+
+  player_grey_animation:
+  - property: opacity
+    value: .75
+    duration: .1 sec
 
   player_up_animation: # general animation for showing a widget
   - property: opacity
