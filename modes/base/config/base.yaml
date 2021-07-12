@@ -375,6 +375,9 @@ variable_player:  #_hit is for shots and _active is for switches
       int: 0
       action: set
  multiballFail:
+    perdition_value:
+      int: 0
+      action: set
     advance_perdition_value:
       int: 0
       action: set
