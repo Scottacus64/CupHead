@@ -516,6 +516,9 @@ event_player: # this event player looks for the x_play event that is posted by t
     bonus_multiplier:
       int: 0
       action: set
+    current_player_bonus_multiplier:
+      int: 1
+      action: set
     flag:
       int: 0
       action: set
