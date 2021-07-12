@@ -183,6 +183,7 @@ ball_saves:
     hurry_up_time: 3s
     timer_start_events: balldevice_bd_trough_ejecting_ball
     balls_to_save: 1
+    disable_events: s_trough2_active{s_shooter_lane_active}
 
 ###############################################################################################
 #                         _____ __                                                            #
@@ -558,7 +559,7 @@ slides:
      - widget: mm_perdition3_widget
      - widget: knockout_widget
 
-   score_slide:
+   score_slide:                   # NOTE a slide must have a widget assigned here to be able to play that widget
      widgets:
      - widget: background_widget
      - widget: reel_1_1_widget
@@ -575,7 +576,7 @@ slides:
      - widget: reel_2_100k_widget
      - widget: figure_1_widget
      - widget: figure_2_widget
-     - widget: score_mask_no_players_widget
+     - widget: score_mask_widget
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
@@ -597,7 +598,7 @@ slides:
      - widget: reel_2_100k_widget
      - widget: figure_1_widget
      - widget: figure_2_widget
-     - widget: score_mask_no_players_widget
+     - widget: score_mask_widget
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: Game_over_widget
@@ -1147,7 +1148,16 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        player_up_2: player_up_animation
        player_turn_ended: remove_animation
-
+  score_mask_widget: # this is a mask to make a black are behind the score reels and under the characters
+   - type: image
+     image: score_mask_image
+     anchor_x: left
+     anchor_y: bottom
+     x: 0
+     y: 0
+     z: 110 # covers the character base (z=80) and behind the score reels (z=100)
+     animations:
+       add_player_2: player_up_animation # start with the mode beginning
   ball_in_play_widget:
     - type: text
       text: BALL IN PLAY (ball)
@@ -1350,10 +1360,6 @@ images: # all images used in widgets must be defined here, note that
     file: cuphead_figure.zip
   small_mm_image:
     file: mugman_figure.zip
-  score_mask_no_players_image:
-    file: score_mask_no_players.png
-  score_mask_one_player_image:
-    file: score_mask_1_player.png
   score_mask_image:
     file: score_mask.png
   small_cuphead_image:
