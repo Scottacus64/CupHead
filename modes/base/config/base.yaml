@@ -374,6 +374,10 @@ variable_player:  #_hit is for shots and _active is for switches
     advance_perdition_value:
       int: 0
       action: set
+ multiballFail:
+    advance_perdition_value:
+      int: 0
+      action: set
   timer_perdMB_timer_started:
     perditionBallSaveOn:
       int: 1
