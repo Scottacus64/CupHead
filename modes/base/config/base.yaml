@@ -505,7 +505,7 @@ event_player: # this event player looks for the x_play event that is posted by t
       priority: 510
   player_added.3{num==2}:
     add_player_2:
-      priority: 490
+      priority: 550
   slide_score_slide_active{players[0].score == 0}:
     - zeroScores #if player 1 is up and the score is 0 then call zeroScores which sets the digital score reels to 00000
     - rollOverClear
@@ -1073,7 +1073,18 @@ widgets: # these are the widgets that get displayed on the boss_slide
          - property: end_frame
            value: (1)
            duration: 0
-
+  figure_1_grey_widget:
+   - type: image
+     image: small_cuphead_image
+     anchor_x: left
+     anchor_y: bottom
+     opacity: 82
+     x: 50
+     y: 50
+     z: 80
+     animations:
+       mode_base_started: player_up_animation # start with the mode beginning
+       add_player_1: remove_animation # shut down with player 1 starting
   figure_1_widget: # this widget is for the cuphead static image
    - type: image
      image: small_cuphead_image
@@ -1083,7 +1094,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 50
      z: 80
      animations:
-       mode_base_started: player_up_animation # start with the mode beginning
+       add_player_1: player_up_animation # start with the mode beginning
        player_up_1: remove_animation # shut down with player 1 starting
        player_turn_ended: player_up_animation # play again when the player 1 turn ends
   figure_1_active_widget: # this is for the animated cuphead
@@ -1100,6 +1111,18 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        player_up_1: player_up_animation # start up when player 1's turn begins
        player_turn_ended: remove_animation # stop when the turn ends
+  figure_2_grey_widget:
+   - type: image
+     image: small_mugman_image
+     anchor_x: left
+     anchor_y: bottom
+     opacity: 82
+     x: 575
+     y: 50
+     z: 80
+     animations:
+       mode_base_started: player_up_animation # start with the mode beginning
+       add_player_2: remove_animation # shut down with player 1 starting
   figure_2_widget:
    - type: image
      image: small_mugman_image
@@ -1109,7 +1132,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      y: 50
      z: 80
      animations:
-       mode_base_started: player_up_animation
+       add_player_2: player_up_animation
        player_up_2: remove_animation
        player_turn_ended: player_up_animation
   figure_2_active_widget:
