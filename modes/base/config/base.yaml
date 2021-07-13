@@ -537,7 +537,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
-  
+
 ###############################################################################################
 #                                       SLIDES                                                #
 ###############################################################################################
@@ -596,8 +596,6 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
-     - widget: figure_1_grey_widget
-     - widget: figure_2_grey_widget
 
    score_slide_GameOver:
      widgets:
@@ -620,8 +618,6 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: Game_over_widget
-     - widget: figure_1_grey_widget
-     - widget: figure_2_grey_widget
 
 ###############################################################################################
 #                                     WIDGETS                                                 #
@@ -1094,17 +1090,6 @@ widgets: # these are the widgets that get displayed on the boss_slide
          - property: end_frame
            value: (1)
            duration: 0
-  figure_1_grey_widget:
-   - type: image
-     image: small_cuphead_image
-     anchor_x: left
-     anchor_y: bottom
-     x: 50
-     y: 50
-     z: 70
-     animations:
-       mode_base_started: player_grey_animation # start with the mode beginning
-       add_player_1: remove_animation # shut down with player 1 starting
   figure_1_widget: # this widget is for the cuphead static image
    - type: image
      image: small_cuphead_image
@@ -1131,17 +1116,6 @@ widgets: # these are the widgets that get displayed on the boss_slide
      animations:
        player_up_1: player_up_animation # start up when player 1's turn begins
        player_turn_ended: remove_animation # stop when the turn ends
-  figure_2_grey_widget:
-   - type: image
-     image: small_mugman_image
-     anchor_x: left
-     anchor_y: bottom
-     x: 575
-     y: 50
-     z: 70
-     animations:
-       mode_base_started: player_grey_animation # start with the mode beginning
-       add_player_2: remove_animation # shut down with player 1 starting
   figure_2_widget:
    - type: image
      image: small_mugman_image
