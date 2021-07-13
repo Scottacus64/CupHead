@@ -212,6 +212,7 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   timer_failPostUp_timer_complete: c_perdition_post_up
   advance_perdition{current_player.perdition_value==1}: c_perdition_post_down
   advance_perdition{current_player.perdition_value==2}: c_perdition_post_down
+
 ###############################################################################################
 #                                  SHOW PLAYER                                                #
 ###############################################################################################
@@ -272,7 +273,6 @@ show_player:
   bank_done{count==8}: 8000_on
   bank_done{count==9}: 9000_on
   bank_done{count==10}: 10000_on
-#  lastBall: lastBallx2
   special7Go:
 #  current_player.flag > 0:
     special7Flash:
@@ -537,6 +537,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected
+  
 ###############################################################################################
 #                                       SLIDES                                                #
 ###############################################################################################

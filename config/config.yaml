@@ -92,6 +92,11 @@ playfields:
   playfield:
     tags: default
     default_source_device: bd_trough # bd_plunger
+#    enable_ball_search: true
+#    ball_search_timeout: 20s
+#    ball_search_wait_after_iteration: 10s
+#    ball_search_interval: 250ms
+
 
 config: # for a cleaner config file these have all been spit out to their own files
   - keyboard.yaml
