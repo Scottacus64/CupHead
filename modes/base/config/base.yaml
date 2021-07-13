@@ -397,9 +397,9 @@ variable_player:  #_hit is for shots and _active is for switches
     current_player_bonus_multiplier:
       action: set
       int: 1
-#    flag:
-#      int: 0
-#      action: set
+    flag:
+      action: set
+      int: 0
 
 ###############################################################################################
 #                                 SOUND PLAYER                                                #
@@ -593,6 +593,8 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
+     - widget: figure_1_grey_widget
+     - widget: figure_2_grey_widget
 
    score_slide_GameOver:
      widgets:
@@ -615,6 +617,8 @@ slides:
      - widget: figure_1_active_widget
      - widget: figure_2_active_widget
      - widget: Game_over_widget
+     - widget: figure_1_grey_widget
+     - widget: figure_2_grey_widget
 
 ###############################################################################################
 #                                     WIDGETS                                                 #
@@ -1094,7 +1098,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_y: bottom
      x: 50
      y: 50
-     z: 80
+     z: 70
      animations:
        mode_base_started: player_grey_animation # start with the mode beginning
        add_player_1: remove_animation # shut down with player 1 starting
@@ -1131,7 +1135,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
      anchor_y: bottom
      x: 575
      y: 50
-     z: 80
+     z: 70
      animations:
        mode_base_started: player_grey_animation # start with the mode beginning
        add_player_2: remove_animation # shut down with player 1 starting
