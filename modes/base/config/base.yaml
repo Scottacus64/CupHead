@@ -210,6 +210,8 @@ coil_player:  # this coil player controls the post that blocks entrance to the p
   timer_postBlockDown_timer_complete{current_player.perdition_value==2}: c_perdition_post_down
   mbReady: c_perdition_post_up # put the post up if the multiball is ready to keep the active ball out of the perdition lane
   timer_failPostUp_timer_complete: c_perdition_post_up
+  advance_perdition{current_player.perdition_value==1}: c_perdition_post_down
+  advance_perdition{current_player.perdition_value==2}: c_perdition_post_down
 ###############################################################################################
 #                                  SHOW PLAYER                                                #
 ###############################################################################################
