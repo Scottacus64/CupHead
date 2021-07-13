@@ -5,7 +5,7 @@ mode:
   start_events: ball_starting
   priority: 100 # lowest pririty so other modes can take over
   code: base.Base
-#  stop_events: ball_will_end
+
 
 ###############################################################################################
 #                                     COUNTERS                                                #
@@ -390,6 +390,16 @@ variable_player:  #_hit is for shots and _active is for switches
     perditionBallSaveOn:
       int: 0
       action: set
+  mode_bonusEndOfBall_stopped: # sets the bonus multiplier to 0 on a new ball
+    bonus_multiplier:
+      action: set
+      int: 1
+    current_player_bonus_multiplier:
+      action: set
+      int: 1
+#    flag:
+#      int: 0
+#      action: set
 
 ###############################################################################################
 #                                 SOUND PLAYER                                                #
@@ -512,16 +522,16 @@ event_player: # this event player looks for the x_play event that is posted by t
     - rollOverClear
   timer_dropTargetCupCheck_timer_complete: resetCupAgain #this will reset the CUP dt's if not raised on the first try
   timer_dropTargetMugCheck_timer_complete: resetMugAgain
-  mode_base_started: # sets the bonus multiplier to 0 on a new ball
+  mode_bonusEndOfBall_stopped: # sets the bonus multiplier to 0 on a new ball
     bonus_multiplier:
-      int: 0
       action: set
+      int: 0
     current_player_bonus_multiplier:
-      int: 1
       action: set
-    flag:
       int: 0
-      action: set
+#    flag:
+#      int: 0
+#      action: set
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag == 0}: special7Go # if the player rolls a 7, post special7Go
   timer_special7_timer_complete: special7End # show that the timer is complete
   timer_spinner_timer_complete{current_player.dice_pips==7 and current_player.flag > 0}: sevens # post sevens to show that 7000 has been collected

@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting, s_trough1_active{current_player.perditionBallSaveOn==0} # start on a new ball or if the trough is hit with the ball save off
-  stop_events: timer_perdMB_timer_complete, multiball_perdition_multiball_shoot_again_ended  # stop the mode if the mb ball save is expired or the lighting timer for the ball save is ended
+  stop_events: timer_perdMB_timer_complete, multiball_perdition_multiball_shoot_again_ended, multiball_perdition_multiball_shoot_again  # stop the mode if the mb ball save is expired or the lighting timer for the ball save is ended
   priority: 200
   restart_on_next_ball: true
 
