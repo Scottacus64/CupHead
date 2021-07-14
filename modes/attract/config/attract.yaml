@@ -95,10 +95,33 @@ slides: # these are the attract video slides
       image: title_image
       z: 2
       fps: 30
-  bottom_slide:
+
+  bottom_slide: # Note the bottom slide is used for th finger animation so it only has the backdrop and finger
     widgets:
     - widget: score_backdrop_widget
     - widget: finger_widget
+  score_slide_GameOver:  # Tge game over silde has all the elements of the in game score slide plus "Game Over"
+    widgets:
+    - widget: background_widget
+    - widget: reel_1_1_widget
+    - widget: reel_1_10_widget
+    - widget: reel_1_100_widget
+    - widget: reel_1_1k_widget
+    - widget: reel_1_10k_widget
+    - widget: reel_1_100k_widget
+    - widget: reel_2_1_widget
+    - widget: reel_2_10_widget
+    - widget: reel_2_100_widget
+    - widget: reel_2_1k_widget
+    - widget: reel_2_10k_widget
+    - widget: reel_2_100k_widget
+    - widget: figure_1_widget
+    - widget: figure_2_widget
+    - widget: score_mask_widget
+    - widget: figure_1_active_widget
+    - widget: figure_2_active_widget
+    - widget: Game_over_widget
+
   thank_you_slide1:
     background_color: 111AD3
     widgets:
@@ -112,137 +135,130 @@ slides: # these are the attract video slides
     widgets:
     - widget: cobrapin_widget
   highScore1_slide:
+    background_color: 111AD3
     widgets:
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: MASTER OF
-      color: yellow
+      color: F6BE28
       y: 450
       z: 75
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: CROCKERY
-      color: yellow
+      color: F6BE28
       y: 350
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score1_name)
-      color: yellow
+      color: F6BE28
       y: 250
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score1_value)
-      color: yellow
+      color: F6BE28
       y: 150
       z: 100
   highScore2_slide:
+    background_color: 111AD3
     widgets:
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: CUP BEARER
-      color: yellow
+      color: F6BE28
       y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score2_name)
-      color: yellow
+      color: F6BE28
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score2_value)
-      color: yellow
+      color: F6BE28
       y: 200
       z: 75
   highScore3_slide:
+    background_color: 111AD3
     widgets:
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: STANLEY CUP
-      color: yellow
+      color: F6BE28
       y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score3_name)
-      color: yellow
+      color: F6BE28
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score3_value)
-      color: yellow
+      color: F6BE28
       y: 200
       z: 75
   highScore4_slide:
+    background_color: 111AD3
     widgets:
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: LOVING CUP
-      color: yellow
+      color: F6BE28
       y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score4_name)
-      color: yellow
+      color: F6BE28
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score4_value)
-      color: yellow
+      color: F6BE28
       y: 200
       z: 75
   highScore5_slide:
+    background_color: 111AD3
     widgets:
-    - type: image
-      image: backdrop
     - type: text
       font_size: 75
       font_name: Aafia
       text: TEA CUP
-      color: yellow
+      color: F6BE28
       y: 400
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score5_name)
-      color: yellow
+      color: F6BE28
       y: 300
       z: 75
     - type: text
       font_size: 75
       font_name: Aafia
       text: (machine|score5_value)
-      color: yellow
+      color: F6BE28
       y: 200
       z: 75
 

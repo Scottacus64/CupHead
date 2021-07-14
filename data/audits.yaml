@@ -1,9 +1,9 @@
 events:
-  game_ended: 272
-  game_started: 844
+  game_ended: 0
+  game_started: 1
 player:
   score:
-    average: 28361.003236245953
+    average: 28269.516129032258
     top:
     - 420400
     - 420260
@@ -15,7 +15,7 @@ player:
     - 420150
     - 360200
     - 240250
-    total: 309
+    total: 310
 shots:
   dash_L: 31
   dash_R: 16
@@ -38,9 +38,9 @@ shots:
   shot_pop3: 3399
   shot_slingL: 1029
   shot_slingR: 904
-  shot_star1: 308
-  shot_star2: 357
-  shot_star3: 1335
+  shot_star1: 369
+  shot_star2: 425
+  shot_star3: 1386
   soul_L: 619
   soul_O: 434
   soul_S: 829
@@ -56,11 +56,11 @@ switches:
   s_dash_R: 767
   s_dtSling_L: 208
   s_dtSling_R: 350
-  s_dt_C: 902
+  s_dt_C: 903
   s_dt_G: 692
   s_dt_M: 844
   s_dt_P: 820
-  s_dt_U: 1074
+  s_dt_U: 1075
   s_dt_U2: 730
   s_inLane_L: 385
   s_inLane_R: 423
@@ -75,7 +75,7 @@ switches:
   s_popBumper_2: 3501
   s_popBumper_3: 3902
   s_right_flipper: 5306
-  s_shooter_lane: 2746
+  s_shooter_lane: 2882
   s_sling_L: 1470
   s_sling_R: 1126
   s_soul_L: 620
@@ -87,11 +87,11 @@ switches:
   s_standUp_2: 312
   s_standUp_3: 275
   s_standUp_R: 1376
-  s_star_1: 465
-  s_star_2: 503
-  s_star_3: 1492
-  s_start: 271
+  s_star_1: 526
+  s_star_2: 571
+  s_star_3: 1543
+  s_start: 300
   s_tilt_bob: 282
-  s_trough1: 2697
+  s_trough1: 2789
   s_trough2: 2906
   s_trough_jam: 205

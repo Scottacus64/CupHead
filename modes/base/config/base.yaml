@@ -30,6 +30,16 @@ counters:
     reset_on_complete: true
     disable_on_complete: false
 
+accruals:
+  greyFigure1:
+    events:
+      - player_up_2{current_player.can_play == 1}
+    events_when_complete: greyOff1
+  greyFigure2:
+    events:
+      - player_up_1{current_player.can_play == 2}
+    events_when_complete: greyOff2
+
 ###############################################################################################
 #                                     TIMERS                                                  #
 ###############################################################################################
@@ -597,27 +607,6 @@ slides:
      - widget: figure_2_active_widget
      - widget: ball_in_play_widget
 
-   score_slide_GameOver:
-     widgets:
-     - widget: background_widget
-     - widget: reel_1_1_widget
-     - widget: reel_1_10_widget
-     - widget: reel_1_100_widget
-     - widget: reel_1_1k_widget
-     - widget: reel_1_10k_widget
-     - widget: reel_1_100k_widget
-     - widget: reel_2_1_widget
-     - widget: reel_2_10_widget
-     - widget: reel_2_100_widget
-     - widget: reel_2_1k_widget
-     - widget: reel_2_10k_widget
-     - widget: reel_2_100k_widget
-     - widget: figure_1_widget
-     - widget: figure_2_widget
-     - widget: score_mask_widget
-     - widget: figure_1_active_widget
-     - widget: figure_2_active_widget
-     - widget: Game_over_widget
 
 ###############################################################################################
 #                                     WIDGETS                                                 #
@@ -724,7 +713,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       font_name: Aafia
       font_size: 100
       color: blue
-      z: 100
+      z: 80
       animations:
         player_up_1: player_up_animation
         s_shooter_lane_active: remove_animation
@@ -734,7 +723,7 @@ widgets: # these are the widgets that get displayed on the boss_slide
       font_name: Aafia
       font_size: 100
       color: blue
-      z: 100
+      z: 80
       animations:
         player_up_2: player_up_animation
         s_shooter_lane_active: remove_animation
@@ -1098,10 +1087,13 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 50
      y: 50
      z: 80
+     opacity: .5
      animations:
        add_player_1: player_up_animation # start with the mode beginning
        player_up_1: remove_animation # shut down with player 1 starting
        player_turn_ended: player_up_animation # play again when the player 1 turn ends
+       greyOff1: player_up_animation
+       slide_score_slide_GameOver_active: player_up_animation
   figure_1_active_widget: # this is for the animated cuphead
    - type: image
      image: small_ch_image
@@ -1124,10 +1116,13 @@ widgets: # these are the widgets that get displayed on the boss_slide
      x: 575
      y: 50
      z: 80
+     opacity: .5
      animations:
        add_player_2: player_up_animation
        player_up_2: remove_animation
-       player_turn_ended: player_up_animation
+       player_turn_ended: player_up_animation # play again when the player 1 turn ends
+       greyOff2: player_up_animation
+       slide_score_slide_GameOver_active: player_up_animation
   figure_2_active_widget:
    - type: image
      image: small_mm_image
@@ -1233,15 +1228,10 @@ animations: # these are the named animaitons for the base slide
     value: 1 # back to solid (1) over...
     duration: .1s # .1 seconds
 
-  player_grey_animation:
-  - property: opacity
-    value: .5
-    duration: .1 sec
-
   player_up_animation: # general animation for showing a widget
   - property: opacity
     value: 1
-    duration: .1 sec
+#    duration: .1 sec
 
   remove_animation: # general animation for hiding a widget
   - property: opacity
