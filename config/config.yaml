@@ -173,6 +173,7 @@ slides:
         source_display: lower
       - widget: player_added_widget
 
+
 ###############################################################################################
 #                                      WIDGETS                                                #
 ###############################################################################################
@@ -182,14 +183,14 @@ widgets:
   - type: text
     text: PLAYER (can_play) ADDED!
     z: 110
+    color: F6BE28
     font_name: aafia
     font_size: 90
     anchor_y: bottom
-    y: 375
+    y: 230
     opacity: 0
     animations:
       player_added: contract_animation # this shows that animations declared in one mode are available in any mode
-
 
 ###############################################################################################
 #                                DIGITAL SCORE REELS                                          #

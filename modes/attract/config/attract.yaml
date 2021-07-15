@@ -100,6 +100,8 @@ slides: # these are the attract video slides
     widgets:
     - widget: score_backdrop_widget
     - widget: finger_widget
+    - widget: playerAddedBackground_widget
+    
   score_slide_GameOver:  # Tge game over silde has all the elements of the in game score slide plus "Game Over"
     widgets:
     - widget: background_widget
@@ -329,6 +331,17 @@ widgets:
       x: -60
       y: 50
       z: 150
+  playerAddedBackground_widget:
+   - type: image
+     image: playerAddedBackground_image
+     anchor_x: left
+     anchor_y: bottom
+     y: 0
+     x: 0
+     z: 100
+     opacity: 0
+     animations:
+       player_added: contract_animation
 
 animations:
   finger_animation:
@@ -417,6 +430,7 @@ images: # images must be defined
     file: mpf.png
   cobrapin_image:
     file: cobrapin.png
+
 
 ###############################################################################################
 #                                  SLIDE PLAYER                                               #
