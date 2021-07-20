@@ -3,7 +3,7 @@
 mode:
   start_events: ball_starting, s_trough1_active{current_player.perditionBallSaveOn==0} #, multiball_perdition_multiball_ball_lost # starts along side basae mode
   priority: 230
-  stop_events: timer_perditionPost_timer_complete, mbFail #ends on ball drained, multiball achieved (devil bumper) or multiball failed
+  stop_events: timer_perditionPost_timer_started, mbFail #ends on ball drained, multiball achieved (devil bumper) or multiball failed
 
 counters:
   perdition_entry:

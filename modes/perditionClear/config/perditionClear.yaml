@@ -3,7 +3,7 @@
 # This is a mode that continuously drops the perdition post and tries to clear the perdition lane for the multiball
 
 mode:
-  start_events: timer_perditionPost_timer_complete # start with achieving the multiball
+  start_events: timer_perditionPost_timer_started # start with achieving the multiball
   stop_events: mbFail, s_trough1_active{current_player.perditionBallSaveOn==0} # end when a ball drains and the ball saver has expired
   priority: 220
   restart_on_next_ball: true
