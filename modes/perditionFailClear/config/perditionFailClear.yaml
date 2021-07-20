@@ -4,7 +4,7 @@
 
 mode:
   start_events: mbFail # start with achieving the multiball
-  stop_events:  balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}  # end when both balls drain
+  stop_events:  startMBPost, balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}  # end when both balls drain
   priority: 240
   restart_on_next_ball: true
 

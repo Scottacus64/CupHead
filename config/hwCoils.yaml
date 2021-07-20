@@ -114,13 +114,13 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
-    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started
+    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started, tilt
     enable_events: ball_started, enableAfterFail, machine_reset_phase_3
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started
+    disable_events: mbFail, game_ending, mode_attract_started, mode_high_score_started, tilt
     enable_events: ball_started, enableAfterFail, machine_reset_phase_3
 
 ###############################################################################################
