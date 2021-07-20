@@ -181,7 +181,7 @@ shot_groups: # this shot group was made to give the ability to stop scoring on t
     shots: shot_pop1, shot_pop2, shot_pop3, shot_slingL, shot_slingR, knock_out, shot_perdition, shot_inLaneL, shot_inLaneR, shot_outLaneL, shot_outLaneR, shot_star1, shot_star2, shot_star3
     reset_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
     enable_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2}
-    disable_events: eject_bd_perdition_kicker
+    disable_events: eject_bd_perdition_kicker # posted by multiballFail Mode when a multiball is failed
 
 ###############################################################################################
 #                                   BALL SAVES                                                #
@@ -193,7 +193,7 @@ ball_saves:
     hurry_up_time: 3s
     timer_start_events: balldevice_bd_trough_ejecting_ball
     balls_to_save: 1
-    disable_events: s_trough2_active{s_shooter_lane_active}
+    disable_events: s_trough2_active{s_shooter_lane_active}, mbFail, startMBPost
 
 ###############################################################################################
 #                         _____ __                                                            #
@@ -298,6 +298,10 @@ show_player:
     hurryUpMB:
       speed: 1
   timer_perdMB_timer_complete:
+    hurryUpMB: stop
+  mbFail:
+    hurryUpMB: stop
+  startMBPost:
     hurryUpMB: stop
 
 ###############################################################################################
