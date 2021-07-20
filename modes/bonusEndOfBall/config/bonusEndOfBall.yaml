@@ -3,7 +3,7 @@
 mode:
   priority: 90
   start_events: balldevice_bd_trough_ball_count_changed{device.ball_devices.bd_trough.balls == 2} # starts if both balls are in the trough
-  stop_events: bonusPayoutDone # end when the last bonus is paid out
+  stop_events: bonusPayoutDone, mbFail # end when the last bonus is paid out
   use_wait_queue: true
 
 queue_relay_player:
