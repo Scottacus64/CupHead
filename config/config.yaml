@@ -68,25 +68,13 @@ player_vars: # these are player variables that can be seen by all modes
     initial_value: 0
   can_play:
     value_type: int
-    initial_value: 1
+    initial_value: 0
   flag: # variable used with the dice roll to know if a seven has been rolled
     value_type: int
     initial_value: 0
   perditionBallSaveOn: #variable to chack if perdition multiball ball save is active
     value_type: int
     initial_value: 0
-
-###############################################################################################
-#                                     COUNTERS                                                #
-###############################################################################################
-
-counters:
-  can_play:
-    count_events: s_start_active
-    starting_count: 0
-    count_complete_value: 2
-    direction: up
-    events_when_hit: advance_can_play
 
 playfields:
   playfield:
@@ -96,7 +84,6 @@ playfields:
 #    ball_search_timeout: 20s
 #    ball_search_wait_after_iteration: 10s
 #    ball_search_interval: 250ms
-
 
 config: # for a cleaner config file these have all been spit out to their own files
   - keyboard.yaml
@@ -171,17 +158,30 @@ slides:
         anchor_x: left
         anchor_y: top
         source_display: lower
-      - widget: player_added_widget
+      - widget: player_added_widget_2
+      - widget: player_added_widget_1
 
+event_player:
+  player_added.2{num==1}:
+    add_player_1:
+      priority: 510
+  player_added.3{num==2}:
+    add_player_2:
+      priority: 550
 
 ###############################################################################################
 #                                      WIDGETS                                                #
 ###############################################################################################
 
+widget_player:
+  add_player_1: player_added_widget_1
+  add_player_2: player_added_widget_2
+
+
 widgets:
-  player_added_widget:
+  player_added_widget_1:
   - type: text
-    text: PLAYER (can_play) ADDED!
+    text: PLAYER 1 ADDED!
     z: 110
     color: F6BE28
     font_name: aafia
@@ -190,7 +190,22 @@ widgets:
     y: 230
     opacity: 0
     animations:
-      player_added: contract_animation # this shows that animations declared in one mode are available in any mode
+      add_player_1: contract_animation # this shows that animations declared in one mode are available in any mode
+      add_player_2: remove_animation
+
+
+  player_added_widget_2:
+  - type: text
+    text: PLAYER 2 ADDED!
+    z: 110
+    color: F6BE28
+    font_name: aafia
+    font_size: 90
+    anchor_y: bottom
+    y: 230
+    opacity: 0
+    animations:
+      add_player_2: contract_animation # this shows that animations declared in one mode are available in any mode
 
 ###############################################################################################
 #                                DIGITAL SCORE REELS                                          #

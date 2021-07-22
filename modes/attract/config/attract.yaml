@@ -15,19 +15,26 @@ show_player:
 sound_player: # plays the attract music
   mode_attract_started:
     attract:
-      loops: -1 # loops the music indefintiely
+      loops: 0 # loops the music once
       mode_end_action: stop
   request_to_start_game: startCallOuts # play the announcer voice when a player is added
-
-track_player:
-  videoOn: # if the event named "videoOn" is posted
-    music:
-      action: pause # pause the music by..
-      fade: .25 sec # fading over .25 seconds
-  videoOff: # if the enven "videoOff" is posted
-    music:
-      action: play # play the music again by..
-      fade: .25 sec #fading in over .25 seconds
+  s_left_flipper_active:
+    attract:
+      loops: 0 # loops the music once
+      max_queue_time: 100ms
+      mode_end_action: stop
+  s_right_flipper_active:
+    attract:
+      action: stop
+#track_player:
+#  videoOn: # if the event named "videoOn" is posted
+#    music:
+#      action: pause # pause the music by..
+#      fade: .25 sec # fading over .25 seconds
+#  videoOff: # if the enven "videoOff" is posted
+#    music:
+#      action: play # play the music again by..
+#      fade: .25 sec #fading in over .25 seconds
 
 ###############################################################################################
 #                                       SLIDES                                                #
@@ -89,6 +96,7 @@ slides: # these are the attract video slides
     widgets:
     - type: image
       image: topper_image
+
   title_slide:
     widgets:
     - type: image
@@ -96,12 +104,14 @@ slides: # these are the attract video slides
       z: 2
       fps: 30
 
-  bottom_slide: # Note the bottom slide is used for th finger animation so it only has the backdrop and finger
+  bottom_slide: # Note the bottom slide is used for the finger animation so it only has the backdrop and finger
     widgets:
     - widget: score_backdrop_widget
     - widget: finger_widget
     - widget: playerAddedBackground_widget
-    
+    - widget: soundPaused_widget
+    - widget: soundStarted_widget
+
   score_slide_GameOver:  # Tge game over silde has all the elements of the in game score slide plus "Game Over"
     widgets:
     - widget: background_widget
@@ -123,6 +133,8 @@ slides: # these are the attract video slides
     - widget: figure_1_active_widget
     - widget: figure_2_active_widget
     - widget: Game_over_widget
+    - widget: soundPaused_widget
+    - widget: soundStarted_widget
 
   thank_you_slide1:
     background_color: 111AD3
@@ -342,6 +354,28 @@ widgets:
      opacity: 0
      animations:
        player_added: contract_animation
+  soundPaused_widget:
+   - type: text
+     text: ATTRACT MUSIC ON
+     font_name: aafia
+     font_size: 75
+     anchor_y: bottom
+     y: 200
+     z: 160
+     opacity: 0
+     animations:
+       s_left_flipper_active: contract_animation
+  soundStarted_widget:
+  - type: text
+    text: ATTRACT MUSIC OFF
+    font_name: aafia
+    font_size: 75
+    anchor_y: bottom
+    y: 200
+    z: 160
+    opacity: 0
+    animations:
+      s_right_flipper_active: contract_animation
 
 animations:
   finger_animation:

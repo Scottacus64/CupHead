@@ -30,15 +30,15 @@ counters:
     reset_on_complete: true
     disable_on_complete: false
 
-accruals:
-  greyFigure1:
-    events:
-      - player_added{current_player.can_play == 1}
-    events_when_complete: greyOff1
-  greyFigure2:
-    events:
-      - player_added{current_player.can_play == 2}
-    events_when_complete: greyOff2
+#accruals:
+#  greyFigure1:
+#    events:
+#      - player_added{current_player.can_play == 1}
+#    events_when_complete: greyOff1
+#  greyFigure2:
+#    events:
+#      - player_added{current_player.can_play == 2}
+#    events_when_complete: greyOff2
 
 ###############################################################################################
 #                                     TIMERS                                                  #
@@ -365,7 +365,7 @@ variable_player:  #_hit is for shots and _active is for switches
     score: 100
   timer_score_motor_50_timer_tick:
     score: 10
-  advance_can_play:
+  player_added:
     can_play: 1
   pay1000:
     score: 1000
@@ -429,7 +429,7 @@ sound_player:
   tilt:
     poolCupHeadBase:
       action: stop
-  ball_drain{game.balls_in_play==1} : # when the ball drains...
+  mode_base_will_stop: # when ball drains and no ball save is available # ball_drain{game.balls_in_play==1} : # when the ball drains...
     poolCupHeadBase:
       action: stop # stop playing the music
   ball_drain: drainHit
@@ -528,12 +528,7 @@ event_player: # this event player looks for the x_play event that is posted by t
   perd2{current_player.number == 2}: mp2
   perd3{current_player.number == 2}: mp3
   s_midRight_active: knockout # the knockout mode stopsmidRight from triggering the slide so this is needed
-  player_added.2{num==1}:
-    add_player_1:
-      priority: 510
-  player_added.3{num==2}:
-    add_player_2:
-      priority: 550
+
   slide_score_slide_active{players[0].score == 0}:
     - zeroScores #if player 1 is up and the score is 0 then call zeroScores which sets the digital score reels to 00000
     - rollOverClear
